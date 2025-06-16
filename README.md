@@ -1,5 +1,15 @@
 # FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents
 
+![](img/fig1v1_page_1.png)
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2506.01520"><img src="https://img.shields.io/badge/arXiv-2506.01520-B31B1B.svg" alt="arXiv"></a>
+  &nbsp;
+  <a href="https://formfactory-ai.github.io/#demo-video" target="_blank"><img src="https://img.shields.io/badge/Demo-Video-orange.svg" alt="Video Demo"></a>
+  &nbsp;
+  <a href="https://formfactory-ai.github.io" target="_blank"><img src="https://img.shields.io/badge/Project_Page-Website-blue.svg" alt="Project Page"></a>
+</p>
+
 ## 📖 Overview
 Online form filling is one of the most common—yet most labor-intensive—daily tasks. Traditional automation tools are usually rule-based scripts that struggle with complex and ever-changing web layouts. With the recent rise of Multimodal Large Language Models (**MLLMs**), researchers have begun to explore vision-language agents capable of "one-click" form completion. However, current models still fall short in layout understanding and field–value alignment.
 
