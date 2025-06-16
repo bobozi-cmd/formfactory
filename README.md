@@ -75,6 +75,11 @@ formfactory/
 
 ---
 
+## 🧪 Evaluation
+
+![](img/systemoverview_page_1.png)
+---
+
 ## 📄 License
 This project is released under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
@@ -82,17 +87,4 @@ This project is released under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 🔗 Citation
 If you use FormFactory in your research, please cite:
-```bibtex
-@misc{li2025formfactoryinteractivebenchmarkingsuite,
-  title        = {FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents},
-  author       = {Bobo Li and Yuheng Wang and Hao Fei and Juncheng Li and Wei Ji and Mong-Li Lee and Wynne Hsu},
-  year         = {2025},
-  eprint       = {2506.01520},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CL},
-  url          = {https://arxiv.org/abs/2506.01520}
-}
 ```
-
-Happy research, and let's push multimodal form-filling agents forward together!
-
