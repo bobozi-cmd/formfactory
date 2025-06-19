@@ -78,7 +78,26 @@ formfactory/
 ## 🧪 Evaluation
 
 ![](img/systemoverview_page_1.png)
+
+```bash
+# 📁 Navigate to evaluation directory
+cd eval
+
+# 🔄 Process data with model API
+python batch_processor.py A11 json --filename Art_Exhibition_Submission_Form
+
+# 📊 Evaluate model performance  
+python evaluator.py --batch
+
+# 📋 View detailed evaluation report
+cat evaluation_results/batch_evaluation_*_report.txt
+```
+
 ---
+
+> [!NOTE]
+>
+> Complete your API call in `model_call.py`, and customize your evaluation in `evaluator.py`
 
 ## 📄 License
 This project is released under the **MIT License** – see the [LICENSE](LICENSE) file for details.
