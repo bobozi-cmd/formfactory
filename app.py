@@ -139,6 +139,7 @@ def grant_application_form():
         })
     return render_template('A12.html')
 
+# NOTE: not use
 @app.route('/academic-research/student-registration', methods=['GET', 'POST'])
 def student_registration():
     if request.method == 'POST':
@@ -154,6 +155,9 @@ def student_registration():
 def paper_submission():
     if request.method == 'POST':
         data = request.form.to_dict()
+        keywords = data["keywords"].split(',')
+        data["keywords"] = keywords
+        
         save_submission_to_json('A14.html', data)
         return jsonify({
             "message": "Paper Submission Successful!",
@@ -179,6 +183,13 @@ def course_registration():
 def scholarship_application():
     if request.method == 'POST':
         data = request.form.to_dict()
+        achieve = data['achievements'].splitlines()
+        data['achievements'] = achieve
+        extracurricular = data['extracurricular'].splitlines()
+        data['extracurricular'] = extracurricular
+        data['studentId'] = int(data['studentId']) if data['studentId'] else ''
+        data['gpa'] = float(data['gpa']) if data['gpa'] else ''
+        data['familyIncome'] = int(data['familyIncome']) if data['familyIncome'] else ''
         save_submission_to_json('A13.html', data)
         return jsonify({
             "message": "Scholarship Application Submitted Successfully!",
