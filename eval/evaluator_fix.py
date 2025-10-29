@@ -189,7 +189,8 @@ async def main(args):
         try:
             await agent.execute_task(task)
         except Exception as e:
-            pass
+            print(f"❌ execute failed: {e}")
+
         t2 = time.time()
         run_time = t2 - t1
         data['dur'] = run_time

@@ -22,23 +22,6 @@
     </div>
 
     <script>
-        // 添加表单提交事件处理
-        document.getElementById('dynamicForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const formData = new FormData(this);
-            
-            fetch(window.location.href, {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                alert(data.message);  // 显示提交成功消息
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        });
 
         // 假设这是从后端获取的配置
         fetch('/form-config')
