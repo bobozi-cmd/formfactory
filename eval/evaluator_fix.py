@@ -97,6 +97,7 @@ class AgentRR:
         self.llm = OpenAIServer(model, api_key=api_key, base_url=base_url)
 
     async def execute_task(self, task, max_step: int = 10):
+        task += f"\n如果输入任务是英文, 你的所有输出都要是英文.\n"
         planner = CodegenPlanner(self.spec, task)
         replayer = CodegenReplayer()
 
