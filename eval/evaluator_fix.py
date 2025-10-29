@@ -96,7 +96,7 @@ class AgentRR:
         self.spec = collect_tasks_spec(exp_db)[url]
         self.llm = OpenAIServer(model, api_key=api_key, base_url=base_url)
 
-    async def execute_task(self, task):
+    async def execute_task(self, task, max_step: int = 10):
         planner = CodegenPlanner(self.spec, task)
         replayer = CodegenReplayer()
 
@@ -110,7 +110,10 @@ class AgentRR:
 
             last_snapshot = None
 
-            while True:
+            step = 0
+
+            while step < max_step:
+                step += 1
                 snapshot = await IndexWrapper.fast_screenshot(replayer.context)
                 plan = await planner.next(snapshot, last_snapshot, self.llm)
                 print(f"🤔: {plan.think}")
