@@ -159,12 +159,16 @@ def dump_json(file: Path, data):
 
 
 async def main(args):
+    start = args.start
+    end = args.end
+
     task_file = TASK_DIR / TASKS_MAPPING[args.task][0]
     gt_file = GROUND_TRUTH_DIR / TASKS_MAPPING[args.task][2]
     url = f"{args.base_url}{TASKS_MAPPING[args.task][1]}"
     submission_file: Path = args.submission / f"{args.task}.json"
-    out_file: Path = Path(f"./tmp_{args.task}_out.json")
+    out_file: Path = Path(f"./tmp_{args.task}_out_{start}_{end}.json")
     exp_db_dir: Path = args.dir
+
     
     print(f"📍 task_file: {task_file.absolute()}")
     print(f"📍 gt_file: {gt_file.absolute()}")
@@ -181,13 +185,13 @@ async def main(args):
     
     results = []
 
-    for i in range(len(task_extractor.tasks)):
+    for i in range(len(task_extractor.tasks))[start:end]:
         data = {"task": i}
         
         task = task_extractor.get_task(i)
-        q = input("> ")
-        if q.lower() == 'q':
-            break
+        # q = input("> ")
+        # if q.lower() == 'q':
+        #     break
 
         t1 = time.time()
         try:
@@ -221,6 +225,8 @@ if __name__ == "__main__":
     parser.add_argument("-u", "--base-url", default="http://127.0.0.1:5000", type=str)
     parser.add_argument("-d", "--dir", help="exp_db", type=Path, required=True)
     parser.add_argument("--submission", type=Path, default="../submission")
+    parser.add_argument("--start", type=int, default=0)
+    parser.add_argument("--end", type=int, default=50)
 
     args = parser.parse_args()
 
