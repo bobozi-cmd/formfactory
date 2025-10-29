@@ -166,6 +166,7 @@ def course_registration():
     if request.method == 'POST':
         courses = request.form.getlist('courses[]')
         data = request.form.to_dict()
+        data["student_id"] = int(data["student_id"])
         data['courses[]'] = courses
         save_submission_to_json('A15.html', data)
         return jsonify({

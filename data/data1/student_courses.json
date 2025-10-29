@@ -1,658 +1,658 @@
 [
     {
-        "Full Name": "Jessica Kennedy",
-        "Student ID": 88741153,
-        "Email": "wendy24@yahoo.com",
-        "Phone Number": "001-250-204-3652x75507",
-        "Semester": "Summer 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Jessica Kennedy",
+        "student_id": 88741153,
+        "email": "wendy24@yahoo.com",
+        "phone": "001-250-204-3652x75507",
+        "semester": "Summer 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Michael Thomas",
-        "Student ID": 60653442,
-        "Email": "knicholson@yahoo.com",
-        "Phone Number": "001-779-442-5639x3962",
-        "Semester": "Spring 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS101 - Introduction to Programming"
+        "student_name": "Michael Thomas",
+        "student_id": 60653442,
+        "email": "knicholson@yahoo.com",
+        "phone": "001-779-442-5639x3962",
+        "semester": "Spring 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS102",
+            "CS101"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Mrs. Michelle Wilkinson DDS",
-        "Student ID": 47693294,
-        "Email": "wilsoncolin@jensen.org",
-        "Phone Number": "001-399-115-6748x35525",
-        "Semester": "Fall 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Mrs. Michelle Wilkinson DDS",
+        "student_id": 47693294,
+        "email": "wilsoncolin@jensen.org",
+        "phone": "001-399-115-6748x35525",
+        "semester": "Fall 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Joe Duncan",
-        "Student ID": 27477183,
-        "Email": "gjennings@reyes.com",
-        "Phone Number": "212-612-7068x86837",
-        "Semester": "Summer 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Joe Duncan",
+        "student_id": 27477183,
+        "email": "gjennings@reyes.com",
+        "phone": "212-612-7068x86837",
+        "semester": "Summer 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "David Allen",
-        "Student ID": 37641921,
-        "Email": "andrew02@taylor-singh.info",
-        "Phone Number": "+1-352-842-2170x57946",
-        "Semester": "Summer 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "David Allen",
+        "student_id": 37641921,
+        "email": "andrew02@taylor-singh.info",
+        "phone": "+1-352-842-2170x57946",
+        "semester": "Summer 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Mary Williams",
-        "Student ID": 42066936,
-        "Email": "kempdawn@neal.com",
-        "Phone Number": "187.491.3062x07715",
-        "Semester": "Fall 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Mary Williams",
+        "student_id": 42066936,
+        "email": "kempdawn@neal.com",
+        "phone": "187.491.3062x07715",
+        "semester": "Fall 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Edgar Lucas",
-        "Student ID": 63418602,
-        "Email": "tammy24@gmail.com",
-        "Phone Number": "615-854-5197x64497",
-        "Semester": "Spring 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming"
+        "student_name": "Edgar Lucas",
+        "student_id": 63418602,
+        "email": "tammy24@gmail.com",
+        "phone": "615-854-5197x64497",
+        "semester": "Spring 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS103",
+            "CS104",
+            "CS101"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Raymond Howard",
-        "Student ID": 86654678,
-        "Email": "acox@hotmail.com",
-        "Phone Number": "869-674-5233x1064",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS104 - Web Development",
-            "CS103 - Database Systems"
+        "student_name": "Raymond Howard",
+        "student_id": 86654678,
+        "email": "acox@hotmail.com",
+        "phone": "869-674-5233x1064",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS101",
+            "CS104",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Shawn Calhoun",
-        "Student ID": 80232669,
-        "Email": "schwartzbridget@young-moore.com",
-        "Phone Number": "044.927.2632",
-        "Semester": "Spring 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "Shawn Calhoun",
+        "student_id": 80232669,
+        "email": "schwartzbridget@young-moore.com",
+        "phone": "044.927.2632",
+        "semester": "Spring 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS102",
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Mrs. Kristine Avila",
-        "Student ID": 9782114,
-        "Email": "melissale@murray-johns.net",
-        "Phone Number": "001-394-801-5738x205",
-        "Semester": "Spring 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "Mrs. Kristine Avila",
+        "student_id": 9782114,
+        "email": "melissale@murray-johns.net",
+        "phone": "001-394-801-5738x205",
+        "semester": "Spring 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Interested in research opportunities."
+        "comments": "Interested in research opportunities."
     },
     {
-        "Full Name": "Dylan Hernandez",
-        "Student ID": 55643406,
-        "Email": "lori32@gmail.com",
-        "Phone Number": "+1-821-909-8111x9887",
-        "Semester": "Summer 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "Dylan Hernandez",
+        "student_id": 55643406,
+        "email": "lori32@gmail.com",
+        "phone": "+1-821-909-8111x9887",
+        "semester": "Summer 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS101",
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Zachary Wise",
-        "Student ID": 76754139,
-        "Email": "elizabethlin@harding.org",
-        "Phone Number": "+1-658-269-9976x92991",
-        "Semester": "Summer 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS104 - Web Development",
-            "CS103 - Database Systems"
+        "student_name": "Zachary Wise",
+        "student_id": 76754139,
+        "email": "elizabethlin@harding.org",
+        "phone": "+1-658-269-9976x92991",
+        "semester": "Summer 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS104",
+            "CS103"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Timothy Rodriguez",
-        "Student ID": 41053254,
-        "Email": "robert98@gmail.com",
-        "Phone Number": "561-229-3248",
-        "Semester": "Spring 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "Timothy Rodriguez",
+        "student_id": 41053254,
+        "email": "robert98@gmail.com",
+        "phone": "561-229-3248",
+        "semester": "Spring 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS104",
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Elaine Stevenson",
-        "Student ID": 24011642,
-        "Email": "nicholsonstephanie@yahoo.com",
-        "Phone Number": "241.218.6900x3856",
-        "Semester": "Summer 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS103 - Database Systems"
+        "student_name": "Elaine Stevenson",
+        "student_id": 24011642,
+        "email": "nicholsonstephanie@yahoo.com",
+        "phone": "241.218.6900x3856",
+        "semester": "Summer 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS103"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Kimberly Blake",
-        "Student ID": 75861115,
-        "Email": "fieldskeith@yahoo.com",
-        "Phone Number": "001-012-910-9096x99816",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Kimberly Blake",
+        "student_id": 75861115,
+        "email": "fieldskeith@yahoo.com",
+        "phone": "001-012-910-9096x99816",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Elizabeth Bowen",
-        "Student ID": 86771514,
-        "Email": "clarkapril@guerra-duncan.com",
-        "Phone Number": "(039)650-6112x4771",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Elizabeth Bowen",
+        "student_id": 86771514,
+        "email": "clarkapril@guerra-duncan.com",
+        "phone": "(039)650-6112x4771",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Interested in research opportunities."
+        "comments": "Interested in research opportunities."
     },
     {
-        "Full Name": "Gail Lopez",
-        "Student ID": 86436199,
-        "Email": "aaron61@gmail.com",
-        "Phone Number": "001-079-263-7913x53942",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS104 - Web Development",
-            "CS102 - Data Structures"
+        "student_name": "Gail Lopez",
+        "student_id": 86436199,
+        "email": "aaron61@gmail.com",
+        "phone": "001-079-263-7913x53942",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS104",
+            "CS102"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Jodi Bray",
-        "Student ID": 3245204,
-        "Email": "guerratodd@yahoo.com",
-        "Phone Number": "001-550-353-5545",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "Jodi Bray",
+        "student_id": 3245204,
+        "email": "guerratodd@yahoo.com",
+        "phone": "001-550-353-5545",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104",
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Michael Burton",
-        "Student ID": 34759544,
-        "Email": "lukescott@jones.com",
-        "Phone Number": "+1-251-499-3595x32558",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS102 - Data Structures",
-            "CS103 - Database Systems"
+        "student_name": "Michael Burton",
+        "student_id": 34759544,
+        "email": "lukescott@jones.com",
+        "phone": "+1-251-499-3595x32558",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS104",
+            "CS102",
+            "CS103"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Maria Harper",
-        "Student ID": 18923505,
-        "Email": "andrerice@yahoo.com",
-        "Phone Number": "001-583-939-4786x96944",
-        "Semester": "Summer 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Maria Harper",
+        "student_id": 18923505,
+        "email": "andrerice@yahoo.com",
+        "phone": "001-583-939-4786x96944",
+        "semester": "Summer 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Andrew Hernandez",
-        "Student ID": 84056153,
-        "Email": "fernandezmichael@miller.com",
-        "Phone Number": "016.456.6553",
-        "Semester": "Spring 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "Andrew Hernandez",
+        "student_id": 84056153,
+        "email": "fernandezmichael@miller.com",
+        "phone": "016.456.6553",
+        "semester": "Spring 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Kathy Stewart",
-        "Student ID": 37817830,
-        "Email": "yortega@gmail.com",
-        "Phone Number": "(203)120-8687x323",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS102 - Data Structures",
-            "CS101 - Introduction to Programming"
+        "student_name": "Kathy Stewart",
+        "student_id": 37817830,
+        "email": "yortega@gmail.com",
+        "phone": "(203)120-8687x323",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS104",
+            "CS102",
+            "CS101"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "David Carr",
-        "Student ID": 86946968,
-        "Email": "bcallahan@gmail.com",
-        "Phone Number": "001-876-762-9214",
-        "Semester": "Summer 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS102 - Data Structures"
+        "student_name": "David Carr",
+        "student_id": 86946968,
+        "email": "bcallahan@gmail.com",
+        "phone": "001-876-762-9214",
+        "semester": "Summer 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS102"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Austin Davis",
-        "Student ID": 88051429,
-        "Email": "kevin83@hotmail.com",
-        "Phone Number": "001-759-885-9450",
-        "Semester": "Fall 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Austin Davis",
+        "student_id": 88051429,
+        "email": "kevin83@hotmail.com",
+        "phone": "001-759-885-9450",
+        "semester": "Fall 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "James Maldonado",
-        "Student ID": 86669151,
-        "Email": "oliveramanda@johnson-rodriguez.com",
-        "Phone Number": "5157271036",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS104 - Web Development",
-            "CS103 - Database Systems"
+        "student_name": "James Maldonado",
+        "student_id": 86669151,
+        "email": "oliveramanda@johnson-rodriguez.com",
+        "phone": "5157271036",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS104",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Alan Marshall",
-        "Student ID": 14293687,
-        "Email": "julie11@gmail.com",
-        "Phone Number": "+1-004-544-5551x804",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS104 - Web Development"
+        "student_name": "Alan Marshall",
+        "student_id": 14293687,
+        "email": "julie11@gmail.com",
+        "phone": "+1-004-544-5551x804",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS101",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Lori Tucker",
-        "Student ID": 67137019,
-        "Email": "hdaniels@walls.com",
-        "Phone Number": "6916458191",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS101 - Introduction to Programming",
-            "CS102 - Data Structures"
+        "student_name": "Lori Tucker",
+        "student_id": 67137019,
+        "email": "hdaniels@walls.com",
+        "phone": "6916458191",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS103",
+            "CS101",
+            "CS102"
         ],
-        "Special Requirements or Comments": "Interested in research opportunities."
+        "comments": "Interested in research opportunities."
     },
     {
-        "Full Name": "Matthew Washington",
-        "Student ID": 12576902,
-        "Email": "kskinner@gmail.com",
-        "Phone Number": "8312648060",
-        "Semester": "Summer 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS102 - Data Structures",
-            "CS103 - Database Systems"
+        "student_name": "Matthew Washington",
+        "student_id": 12576902,
+        "email": "kskinner@gmail.com",
+        "phone": "8312648060",
+        "semester": "Summer 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101",
+            "CS102",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Paul Alexander",
-        "Student ID": 66593474,
-        "Email": "louisoliver@gmail.com",
-        "Phone Number": "6164229949",
-        "Semester": "Fall 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS102 - Data Structures"
+        "student_name": "Paul Alexander",
+        "student_id": 66593474,
+        "email": "louisoliver@gmail.com",
+        "phone": "6164229949",
+        "semester": "Fall 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS103",
+            "CS102"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Samantha Davis",
-        "Student ID": 6410021,
-        "Email": "iwilson@barnes-marks.com",
-        "Phone Number": "+1-458-662-3027x68899",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS103 - Database Systems"
+        "student_name": "Samantha Davis",
+        "student_id": 6410021,
+        "email": "iwilson@barnes-marks.com",
+        "phone": "+1-458-662-3027x68899",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS102",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Jeffrey Smith",
-        "Student ID": 6831935,
-        "Email": "johnsdarrell@todd-lowe.com",
-        "Phone Number": "+1-918-330-8399x192",
-        "Semester": "Spring 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "Jeffrey Smith",
+        "student_id": 6831935,
+        "email": "johnsdarrell@todd-lowe.com",
+        "phone": "+1-918-330-8399x192",
+        "semester": "Spring 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS103",
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Kimberly Richardson",
-        "Student ID": 5097885,
-        "Email": "allisonmichelle@gmail.com",
-        "Phone Number": "(541)976-9846",
-        "Semester": "Spring 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "Kimberly Richardson",
+        "student_id": 5097885,
+        "email": "allisonmichelle@gmail.com",
+        "phone": "(541)976-9846",
+        "semester": "Spring 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS104",
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Jennifer Gray",
-        "Student ID": 50963134,
-        "Email": "georgedouglas@hess.net",
-        "Phone Number": "504.451.6059x58176",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Jennifer Gray",
+        "student_id": 50963134,
+        "email": "georgedouglas@hess.net",
+        "phone": "504.451.6059x58176",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "April Moore",
-        "Student ID": 91417254,
-        "Email": "kevinfarrell@mcgee.net",
-        "Phone Number": "+1-897-125-8749x80026",
-        "Semester": "Spring 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming",
-            "CS103 - Database Systems"
+        "student_name": "April Moore",
+        "student_id": 91417254,
+        "email": "kevinfarrell@mcgee.net",
+        "phone": "+1-897-125-8749x80026",
+        "semester": "Spring 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS101",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Andrew Clayton",
-        "Student ID": 1000197,
-        "Email": "kempjoseph@gmail.com",
-        "Phone Number": "(041)386-7751x5379",
-        "Semester": "Spring 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS103 - Database Systems",
-            "CS104 - Web Development"
+        "student_name": "Andrew Clayton",
+        "student_id": 1000197,
+        "email": "kempjoseph@gmail.com",
+        "phone": "(041)386-7751x5379",
+        "semester": "Spring 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS102",
+            "CS103",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "John Lee",
-        "Student ID": 13143013,
-        "Email": "john16@boone.com",
-        "Phone Number": "353.230.7183x13339",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming"
+        "student_name": "John Lee",
+        "student_id": 13143013,
+        "email": "john16@boone.com",
+        "phone": "353.230.7183x13339",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS101"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Troy Collins",
-        "Student ID": 61526505,
-        "Email": "douglas03@morgan.com",
-        "Phone Number": "158-766-4405",
-        "Semester": "Summer 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS104 - Web Development"
+        "student_name": "Troy Collins",
+        "student_id": 61526505,
+        "email": "douglas03@morgan.com",
+        "phone": "158-766-4405",
+        "semester": "Summer 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS103",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Interested in research opportunities."
+        "comments": "Interested in research opportunities."
     },
     {
-        "Full Name": "Robert Davis",
-        "Student ID": 79404404,
-        "Email": "christopherdominguez@hotmail.com",
-        "Phone Number": "160-035-5757x728",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "Robert Davis",
+        "student_id": 79404404,
+        "email": "christopherdominguez@hotmail.com",
+        "phone": "160-035-5757x728",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Edward Pollard",
-        "Student ID": 56936821,
-        "Email": "andreasweeney@hotmail.com",
-        "Phone Number": "+1-688-593-8917x362",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming"
+        "student_name": "Edward Pollard",
+        "student_id": 56936821,
+        "email": "andreasweeney@hotmail.com",
+        "phone": "+1-688-593-8917x362",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104",
+            "CS101"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Adam Rhodes",
-        "Student ID": 8829167,
-        "Email": "michaeljones@hotmail.com",
-        "Phone Number": "(022)566-1524",
-        "Semester": "Fall 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS103 - Database Systems"
+        "student_name": "Adam Rhodes",
+        "student_id": 8829167,
+        "email": "michaeljones@hotmail.com",
+        "phone": "(022)566-1524",
+        "semester": "Fall 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS102",
+            "CS103"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Doris Marshall",
-        "Student ID": 64576752,
-        "Email": "ronniegilbert@yahoo.com",
-        "Phone Number": "(218)704-9937x973",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS103 - Database Systems"
+        "student_name": "Doris Marshall",
+        "student_id": 64576752,
+        "email": "ronniegilbert@yahoo.com",
+        "phone": "(218)704-9937x973",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS104",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Erika Hughes",
-        "Student ID": 60675905,
-        "Email": "jacqueline00@ford.com",
-        "Phone Number": "001-988-376-4879x8169",
-        "Semester": "Spring 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming"
+        "student_name": "Erika Hughes",
+        "student_id": 60675905,
+        "email": "jacqueline00@ford.com",
+        "phone": "001-988-376-4879x8169",
+        "semester": "Spring 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS104",
+            "CS101"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Victoria Ortiz",
-        "Student ID": 58240167,
-        "Email": "baileysharon@rogers-day.com",
-        "Phone Number": "547.406.7806x8748",
-        "Semester": "Spring 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS104 - Web Development",
-            "CS103 - Database Systems"
+        "student_name": "Victoria Ortiz",
+        "student_id": 58240167,
+        "email": "baileysharon@rogers-day.com",
+        "phone": "547.406.7806x8748",
+        "semester": "Spring 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS102",
+            "CS104",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Mackenzie Moore",
-        "Student ID": 34243736,
-        "Email": "fjohnson@gmail.com",
-        "Phone Number": "+1-829-318-4927x1302",
-        "Semester": "Fall 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS102 - Data Structures",
-            "CS103 - Database Systems"
+        "student_name": "Mackenzie Moore",
+        "student_id": 34243736,
+        "email": "fjohnson@gmail.com",
+        "phone": "+1-829-318-4927x1302",
+        "semester": "Fall 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS104",
+            "CS102",
+            "CS103"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     },
     {
-        "Full Name": "Monique Daniels DDS",
-        "Student ID": 20718438,
-        "Email": "fsnyder@gmail.com",
-        "Phone Number": "722.722.3354x43020",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS103 - Database Systems",
-            "CS104 - Web Development",
-            "CS101 - Introduction to Programming"
+        "student_name": "Monique Daniels DDS",
+        "student_id": 20718438,
+        "email": "fsnyder@gmail.com",
+        "phone": "722.722.3354x43020",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS103",
+            "CS104",
+            "CS101"
         ],
-        "Special Requirements or Comments": "Interested in research opportunities."
+        "comments": "Interested in research opportunities."
     },
     {
-        "Full Name": "Madison Ferguson",
-        "Student ID": 51522369,
-        "Email": "stacey00@nichols.com",
-        "Phone Number": "183-097-3984",
-        "Semester": "Summer 2025",
-        "Program": "Information Technology",
-        "Selected Courses": [
-            "CS102 - Data Structures"
+        "student_name": "Madison Ferguson",
+        "student_id": 51522369,
+        "email": "stacey00@nichols.com",
+        "phone": "183-097-3984",
+        "semester": "Summer 2025",
+        "program": "Information Technology",
+        "courses[]": [
+            "CS102"
         ],
-        "Special Requirements or Comments": "Need additional support with coding."
+        "comments": "Need additional support with coding."
     },
     {
-        "Full Name": "Melanie Schmidt",
-        "Student ID": 32975554,
-        "Email": "jamesweaver@sosa.biz",
-        "Phone Number": "138.302.6417x005",
-        "Semester": "Summer 2025",
-        "Program": "Software Engineering",
-        "Selected Courses": [
-            "CS102 - Data Structures",
-            "CS104 - Web Development"
+        "student_name": "Melanie Schmidt",
+        "student_id": 32975554,
+        "email": "jamesweaver@sosa.biz",
+        "phone": "138.302.6417x005",
+        "semester": "Summer 2025",
+        "program": "Software Engineering",
+        "courses[]": [
+            "CS102",
+            "CS104"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Mary Tucker",
-        "Student ID": 44170163,
-        "Email": "whitelauren@carter.com",
-        "Phone Number": "001-079-734-2368",
-        "Semester": "Fall 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS101 - Introduction to Programming"
+        "student_name": "Mary Tucker",
+        "student_id": 44170163,
+        "email": "whitelauren@carter.com",
+        "phone": "001-079-734-2368",
+        "semester": "Fall 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS101"
         ],
-        "Special Requirements or Comments": "Looking forward to exploring web development."
+        "comments": "Looking forward to exploring web development."
     },
     {
-        "Full Name": "Cynthia Chase",
-        "Student ID": 83641439,
-        "Email": "elizabethlucas@yahoo.com",
-        "Phone Number": "(991)858-8899x90341",
-        "Semester": "Spring 2025",
-        "Program": "Computer Science",
-        "Selected Courses": [
-            "CS104 - Web Development",
-            "CS103 - Database Systems",
-            "CS101 - Introduction to Programming"
+        "student_name": "Cynthia Chase",
+        "student_id": 83641439,
+        "email": "elizabethlucas@yahoo.com",
+        "phone": "(991)858-8899x90341",
+        "semester": "Spring 2025",
+        "program": "Computer Science",
+        "courses[]": [
+            "CS104",
+            "CS103",
+            "CS101"
         ],
-        "Special Requirements or Comments": "No special requirements."
+        "comments": "No special requirements."
     },
     {
-        "Full Name": "Cody Harris",
-        "Student ID": 13285500,
-        "Email": "mthomas@frye.org",
-        "Phone Number": "001-508-762-4596x354",
-        "Semester": "Spring 2025",
-        "Program": "Data Science",
-        "Selected Courses": [
-            "CS104 - Web Development"
+        "student_name": "Cody Harris",
+        "student_id": 13285500,
+        "email": "mthomas@frye.org",
+        "phone": "001-508-762-4596x354",
+        "semester": "Spring 2025",
+        "program": "Data Science",
+        "courses[]": [
+            "CS104"
         ],
-        "Special Requirements or Comments": "Would appreciate flexibility in course timings."
+        "comments": "Would appreciate flexibility in course timings."
     }
 ]
