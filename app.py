@@ -170,7 +170,10 @@ def course_registration():
     if request.method == 'POST':
         courses = request.form.getlist('courses[]')
         data = request.form.to_dict()
-        data["student_id"] = int(data["student_id"]) if data["student_id"] else ""
+        try:
+            data["student_id"] = int(data["student_id"])
+        except:
+            pass
         data['courses[]'] = courses
         save_submission_to_json('A15.html', data)
         return jsonify({
@@ -187,9 +190,18 @@ def scholarship_application():
         data['achievements'] = achieve
         extracurricular = data['extracurricular'].splitlines()
         data['extracurricular'] = extracurricular
-        data['studentId'] = int(data['studentId']) if data['studentId'] else ''
-        data['gpa'] = float(data['gpa']) if data['gpa'] else ''
-        data['familyIncome'] = int(data['familyIncome']) if data['familyIncome'] else ''
+        try:
+            data['studentId'] = int(data['studentId'])
+        except Exception as e:
+            pass
+        try:
+            data['gpa'] = float(data['gpa'])
+        except Exception:
+            pass
+        try:
+            data['familyIncome'] = int(data['familyIncome'])
+        except Exception:
+            pass
         save_submission_to_json('A13.html', data)
         return jsonify({
             "message": "Scholarship Application Submitted Successfully!",
