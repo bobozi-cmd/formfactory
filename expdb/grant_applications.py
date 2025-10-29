@@ -1,8 +1,11 @@
 
+import os
 from playwright.async_api import expect, Browser, BrowserContext, Page
 import asyncio
 import re
 from datetime import datetime
+
+INTERVAL = float(os.getenv('STEP_INTERVAL', 0.1))
 
 async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) -> None:
     r"""
@@ -19,25 +22,25 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     }
     """
     await page.locator('input[name="first_name"]').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('input[name="first_name"]').fill(kwargs['first_name'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('input[name="last_name"]').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('input[name="last_name"]').fill(kwargs['last_name'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('input[name="email"]').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('input[name="email"]').fill(kwargs['email'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='YYYY/MM/DD').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='YYYY/MM/DD').fill(kwargs['birthdate'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='YYYY/MM/DD').press('Enter')
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.locator('div').filter(has_text=re.compile(f'^{kwargs['gender']}$')).get_by_role('radio').check()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
 
 async def f2(browser: Browser, context: BrowserContext, page: Page, **kwargs) -> None:
     r"""
@@ -51,7 +54,7 @@ async def f2(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     """
     if kwargs['subscribe_to_newsletter'] == 'checked':
         await page.get_by_role('checkbox').check()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
 
 async def f3(browser: Browser, context: BrowserContext, page: Page, **kwargs) -> None:
     r"""
@@ -62,7 +65,7 @@ async def f3(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     }
     """
     await page.get_by_role('button', name='Submit').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
 
 target_url = "http://127.0.0.1:5000/academic-research/grant-application"
 

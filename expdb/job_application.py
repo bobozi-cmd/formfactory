@@ -1,8 +1,11 @@
 
+import os
 from playwright.async_api import expect, Browser, BrowserContext, Page
 import asyncio
 import re
 from datetime import datetime
+
+INTERVAL = float(os.getenv('STEP_INTERVAL', 0.1))
 
 async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) -> None:
     r"""
@@ -18,23 +21,23 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     }
     """
     await page.get_by_role('textbox', name='Applicant Name').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Applicant Name').fill(kwargs['applicant_name'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Position Applied For').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Position Applied For').fill(kwargs['position_applied'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Preferred Department').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Preferred Department').fill(kwargs['preferred_department'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Cover Letter').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('textbox', name='Cover Letter').fill(kwargs['cover_letter'])
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
     await page.get_by_role('button', name='Submit Application').click()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(INTERVAL)
 
 target_url = "http://127.0.0.1:5000/academic-research/job-application"
 
