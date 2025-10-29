@@ -126,6 +126,12 @@ def job_application_form():
 def grant_application_form():
     if request.method == 'POST':
         data = request.form.to_dict()
+        if "gender" not in data:
+            data["gender"] = ""
+        if "subscribe" not in data:
+            data["subscribe"] = False
+        else:
+            data["subscribe"] = True
         save_submission_to_json('A12.html', data)
         return jsonify({
             "message": "Application Submitted Successfully!",
@@ -158,7 +164,9 @@ def paper_submission():
 @app.route('/academic-research/course-registration', methods=['GET', 'POST'])
 def course_registration():
     if request.method == 'POST':
+        courses = request.form.getlist('courses[]')
         data = request.form.to_dict()
+        data['courses[]'] = courses
         save_submission_to_json('A15.html', data)
         return jsonify({
             "message": "Course Registration Successful!",

@@ -1,402 +1,402 @@
 [
     {
-        "First Name": "Diana",
-        "Last Name": "Bridges",
-        "Email": "wmills@shields.net",
-        "Gender": "Female",
-        "Date of Birth": "1951/09/28",
-        "Subscribe to Newsletter": false
+        "first_name": "Diana",
+        "last_name": "Bridges",
+        "email": "wmills@shields.net",
+        "gender": "Female",
+        "dob": "1951/09/28",
+        "subscribe": false
     },
     {
-        "First Name": "James",
-        "Last Name": "Jones",
-        "Email": "elizabethmiles@yahoo.com",
-        "Gender": "Male",
-        "Date of Birth": "1967/02/05",
-        "Subscribe to Newsletter": false
+        "first_name": "James",
+        "last_name": "Jones",
+        "email": "elizabethmiles@yahoo.com",
+        "gender": "Male",
+        "dob": "1967/02/05",
+        "subscribe": false
     },
     {
-        "First Name": "Matthew",
-        "Last Name": "Payne",
-        "Email": "kbaxter@yahoo.com",
-        "Gender": "Male",
-        "Date of Birth": "1982/04/25",
-        "Subscribe to Newsletter": true
+        "first_name": "Matthew",
+        "last_name": "Payne",
+        "email": "kbaxter@yahoo.com",
+        "gender": "Male",
+        "dob": "1982/04/25",
+        "subscribe": true
     },
     {
-        "First Name": "Zachary",
-        "Last Name": "Ballard",
-        "Email": "lambbrittany@mitchell.com",
-        "Gender": "Female",
-        "Date of Birth": "1985/12/02",
-        "Subscribe to Newsletter": true
+        "first_name": "Zachary",
+        "last_name": "Ballard",
+        "email": "lambbrittany@mitchell.com",
+        "gender": "Female",
+        "dob": "1985/12/02",
+        "subscribe": true
     },
     {
-        "First Name": "Nathan",
-        "Last Name": "Olson",
-        "Email": "dpadilla@gmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1946/11/20",
-        "Subscribe to Newsletter": false
+        "first_name": "Nathan",
+        "last_name": "Olson",
+        "email": "dpadilla@gmail.com",
+        "gender": "Female",
+        "dob": "1946/11/20",
+        "subscribe": false
     },
     {
-        "First Name": "Nicholas",
-        "Last Name": "Pierce",
-        "Email": "beth41@smith.com",
-        "Gender": "Female",
-        "Date of Birth": "2002/04/20",
-        "Subscribe to Newsletter": false
+        "first_name": "Nicholas",
+        "last_name": "Pierce",
+        "email": "beth41@smith.com",
+        "gender": "Female",
+        "dob": "2002/04/20",
+        "subscribe": false
     },
     {
-        "First Name": "James",
-        "Last Name": "Moore",
-        "Email": "jonathanharris@price-rice.com",
-        "Gender": "Female",
-        "Date of Birth": "1949/11/19",
-        "Subscribe to Newsletter": true
+        "first_name": "James",
+        "last_name": "Moore",
+        "email": "jonathanharris@price-rice.com",
+        "gender": "Female",
+        "dob": "1949/11/19",
+        "subscribe": true
     },
     {
-        "First Name": "Briana",
-        "Last Name": "Walker",
-        "Email": "qparks@rice.com",
-        "Gender": "Female",
-        "Date of Birth": "1946/12/20",
-        "Subscribe to Newsletter": false
+        "first_name": "Briana",
+        "last_name": "Walker",
+        "email": "qparks@rice.com",
+        "gender": "Female",
+        "dob": "1946/12/20",
+        "subscribe": false
     },
     {
-        "First Name": "Christine",
-        "Last Name": "Stanley",
-        "Email": "jswanson@guzman.org",
-        "Gender": "Male",
-        "Date of Birth": "1963/06/13",
-        "Subscribe to Newsletter": false
+        "first_name": "Christine",
+        "last_name": "Stanley",
+        "email": "jswanson@guzman.org",
+        "gender": "Male",
+        "dob": "1963/06/13",
+        "subscribe": false
     },
     {
-        "First Name": "Charles",
-        "Last Name": "Bailey",
-        "Email": "heathermendez@gmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1958/10/21",
-        "Subscribe to Newsletter": false
+        "first_name": "Charles",
+        "last_name": "Bailey",
+        "email": "heathermendez@gmail.com",
+        "gender": "Male",
+        "dob": "1958/10/21",
+        "subscribe": false
     },
     {
-        "First Name": "Elizabeth",
-        "Last Name": "Harris",
-        "Email": "emma73@hotmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1973/06/24",
-        "Subscribe to Newsletter": false
+        "first_name": "Elizabeth",
+        "last_name": "Harris",
+        "email": "emma73@hotmail.com",
+        "gender": "Male",
+        "dob": "1973/06/24",
+        "subscribe": false
     },
     {
-        "First Name": "Brenda",
-        "Last Name": "Estes",
-        "Email": "rogersjessica@hodge.info",
-        "Gender": "Male",
-        "Date of Birth": "1992/12/06",
-        "Subscribe to Newsletter": true
+        "first_name": "Brenda",
+        "last_name": "Estes",
+        "email": "rogersjessica@hodge.info",
+        "gender": "Male",
+        "dob": "1992/12/06",
+        "subscribe": true
     },
     {
-        "First Name": "Timothy",
-        "Last Name": "Smith",
-        "Email": "sarahdunn@cooper.info",
-        "Gender": "Male",
-        "Date of Birth": "1997/02/07",
-        "Subscribe to Newsletter": true
+        "first_name": "Timothy",
+        "last_name": "Smith",
+        "email": "sarahdunn@cooper.info",
+        "gender": "Male",
+        "dob": "1997/02/07",
+        "subscribe": true
     },
     {
-        "First Name": "Aaron",
-        "Last Name": "Anderson",
-        "Email": "fcaldwell@gmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1996/05/01",
-        "Subscribe to Newsletter": false
+        "first_name": "Aaron",
+        "last_name": "Anderson",
+        "email": "fcaldwell@gmail.com",
+        "gender": "Female",
+        "dob": "1996/05/01",
+        "subscribe": false
     },
     {
-        "First Name": "Karen",
-        "Last Name": "Castillo",
-        "Email": "wilsonmegan@stanley-bright.com",
-        "Gender": "Female",
-        "Date of Birth": "1976/05/23",
-        "Subscribe to Newsletter": false
+        "first_name": "Karen",
+        "last_name": "Castillo",
+        "email": "wilsonmegan@stanley-bright.com",
+        "gender": "Female",
+        "dob": "1976/05/23",
+        "subscribe": false
     },
     {
-        "First Name": "Tiffany",
-        "Last Name": "Robles",
-        "Email": "jay31@hotmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1995/01/15",
-        "Subscribe to Newsletter": true
+        "first_name": "Tiffany",
+        "last_name": "Robles",
+        "email": "jay31@hotmail.com",
+        "gender": "Female",
+        "dob": "1995/01/15",
+        "subscribe": true
     },
     {
-        "First Name": "William",
-        "Last Name": "Ramos",
-        "Email": "mreyes@gmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1967/10/27",
-        "Subscribe to Newsletter": true
+        "first_name": "William",
+        "last_name": "Ramos",
+        "email": "mreyes@gmail.com",
+        "gender": "Female",
+        "dob": "1967/10/27",
+        "subscribe": true
     },
     {
-        "First Name": "Sara",
-        "Last Name": "Torres",
-        "Email": "angelakelley@hotmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1951/08/15",
-        "Subscribe to Newsletter": true
+        "first_name": "Sara",
+        "last_name": "Torres",
+        "email": "angelakelley@hotmail.com",
+        "gender": "Male",
+        "dob": "1951/08/15",
+        "subscribe": true
     },
     {
-        "First Name": "Crystal",
-        "Last Name": "Shaw",
-        "Email": "jessicahouston@simpson.org",
-        "Gender": "Female",
-        "Date of Birth": "2001/09/04",
-        "Subscribe to Newsletter": true
+        "first_name": "Crystal",
+        "last_name": "Shaw",
+        "email": "jessicahouston@simpson.org",
+        "gender": "Female",
+        "dob": "2001/09/04",
+        "subscribe": true
     },
     {
-        "First Name": "Julia",
-        "Last Name": "Day",
-        "Email": "rebeccawarren@bailey.com",
-        "Gender": "Male",
-        "Date of Birth": "2002/12/08",
-        "Subscribe to Newsletter": false
+        "first_name": "Julia",
+        "last_name": "Day",
+        "email": "rebeccawarren@bailey.com",
+        "gender": "Male",
+        "dob": "2002/12/08",
+        "subscribe": false
     },
     {
-        "First Name": "April",
-        "Last Name": "Thomas",
-        "Email": "christopherhunt@hotmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1960/12/29",
-        "Subscribe to Newsletter": false
+        "first_name": "April",
+        "last_name": "Thomas",
+        "email": "christopherhunt@hotmail.com",
+        "gender": "Male",
+        "dob": "1960/12/29",
+        "subscribe": false
     },
     {
-        "First Name": "David",
-        "Last Name": "Banks",
-        "Email": "zcochran@adams-page.org",
-        "Gender": "Male",
-        "Date of Birth": "1962/06/04",
-        "Subscribe to Newsletter": false
+        "first_name": "David",
+        "last_name": "Banks",
+        "email": "zcochran@adams-page.org",
+        "gender": "Male",
+        "dob": "1962/06/04",
+        "subscribe": false
     },
     {
-        "First Name": "Angela",
-        "Last Name": "Solis",
-        "Email": "pnguyen@gmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1975/02/20",
-        "Subscribe to Newsletter": true
+        "first_name": "Angela",
+        "last_name": "Solis",
+        "email": "pnguyen@gmail.com",
+        "gender": "Female",
+        "dob": "1975/02/20",
+        "subscribe": true
     },
     {
-        "First Name": "Jennifer",
-        "Last Name": "Lester",
-        "Email": "carlbentley@nelson-barajas.org",
-        "Gender": "Male",
-        "Date of Birth": "1963/05/14",
-        "Subscribe to Newsletter": true
+        "first_name": "Jennifer",
+        "last_name": "Lester",
+        "email": "carlbentley@nelson-barajas.org",
+        "gender": "Male",
+        "dob": "1963/05/14",
+        "subscribe": true
     },
     {
-        "First Name": "James",
-        "Last Name": "Tucker",
-        "Email": "bartonthomas@yahoo.com",
-        "Gender": "Male",
-        "Date of Birth": "1961/05/01",
-        "Subscribe to Newsletter": false
+        "first_name": "James",
+        "last_name": "Tucker",
+        "email": "bartonthomas@yahoo.com",
+        "gender": "Male",
+        "dob": "1961/05/01",
+        "subscribe": false
     },
     {
-        "First Name": "Patrick",
-        "Last Name": "Beasley",
-        "Email": "sharon73@yahoo.com",
-        "Gender": "Female",
-        "Date of Birth": "1992/11/05",
-        "Subscribe to Newsletter": true
+        "first_name": "Patrick",
+        "last_name": "Beasley",
+        "email": "sharon73@yahoo.com",
+        "gender": "Female",
+        "dob": "1992/11/05",
+        "subscribe": true
     },
     {
-        "First Name": "Michelle",
-        "Last Name": "Smith",
-        "Email": "kprince@yahoo.com",
-        "Gender": "Female",
-        "Date of Birth": "1978/06/06",
-        "Subscribe to Newsletter": false
+        "first_name": "Michelle",
+        "last_name": "Smith",
+        "email": "kprince@yahoo.com",
+        "gender": "Female",
+        "dob": "1978/06/06",
+        "subscribe": false
     },
     {
-        "First Name": "Maria",
-        "Last Name": "Ruiz",
-        "Email": "lauren74@lara.com",
-        "Gender": "Female",
-        "Date of Birth": "1990/10/03",
-        "Subscribe to Newsletter": false
+        "first_name": "Maria",
+        "last_name": "Ruiz",
+        "email": "lauren74@lara.com",
+        "gender": "Female",
+        "dob": "1990/10/03",
+        "subscribe": false
     },
     {
-        "First Name": "Joseph",
-        "Last Name": "Smith",
-        "Email": "jondennis@yahoo.com",
-        "Gender": "Male",
-        "Date of Birth": "1973/09/27",
-        "Subscribe to Newsletter": true
+        "first_name": "Joseph",
+        "last_name": "Smith",
+        "email": "jondennis@yahoo.com",
+        "gender": "Male",
+        "dob": "1973/09/27",
+        "subscribe": true
     },
     {
-        "First Name": "William",
-        "Last Name": "Davis",
-        "Email": "moorematthew@murray.com",
-        "Gender": "Male",
-        "Date of Birth": "1956/10/12",
-        "Subscribe to Newsletter": false
+        "first_name": "William",
+        "last_name": "Davis",
+        "email": "moorematthew@murray.com",
+        "gender": "Male",
+        "dob": "1956/10/12",
+        "subscribe": false
     },
     {
-        "First Name": "Paula",
-        "Last Name": "Sims",
-        "Email": "jasminediaz@kramer.net",
-        "Gender": "Female",
-        "Date of Birth": "1954/01/15",
-        "Subscribe to Newsletter": false
+        "first_name": "Paula",
+        "last_name": "Sims",
+        "email": "jasminediaz@kramer.net",
+        "gender": "Female",
+        "dob": "1954/01/15",
+        "subscribe": false
     },
     {
-        "First Name": "Michele",
-        "Last Name": "Stevens",
-        "Email": "justin87@yahoo.com",
-        "Gender": "Female",
-        "Date of Birth": "1998/09/29",
-        "Subscribe to Newsletter": false
+        "first_name": "Michele",
+        "last_name": "Stevens",
+        "email": "justin87@yahoo.com",
+        "gender": "Female",
+        "dob": "1998/09/29",
+        "subscribe": false
     },
     {
-        "First Name": "Rebecca",
-        "Last Name": "Mcdonald",
-        "Email": "hdiaz@reed-acosta.com",
-        "Gender": "Female",
-        "Date of Birth": "1969/02/28",
-        "Subscribe to Newsletter": false
+        "first_name": "Rebecca",
+        "last_name": "Mcdonald",
+        "email": "hdiaz@reed-acosta.com",
+        "gender": "Female",
+        "dob": "1969/02/28",
+        "subscribe": false
     },
     {
-        "First Name": "Dawn",
-        "Last Name": "Torres",
-        "Email": "hgreene@hotmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1945/08/30",
-        "Subscribe to Newsletter": false
+        "first_name": "Dawn",
+        "last_name": "Torres",
+        "email": "hgreene@hotmail.com",
+        "gender": "Male",
+        "dob": "1945/08/30",
+        "subscribe": false
     },
     {
-        "First Name": "Molly",
-        "Last Name": "Anderson",
-        "Email": "david88@baker.com",
-        "Gender": "Male",
-        "Date of Birth": "1989/04/26",
-        "Subscribe to Newsletter": true
+        "first_name": "Molly",
+        "last_name": "Anderson",
+        "email": "david88@baker.com",
+        "gender": "Male",
+        "dob": "1989/04/26",
+        "subscribe": true
     },
     {
-        "First Name": "John",
-        "Last Name": "Collins",
-        "Email": "zacharysanchez@hotmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1982/04/05",
-        "Subscribe to Newsletter": true
+        "first_name": "John",
+        "last_name": "Collins",
+        "email": "zacharysanchez@hotmail.com",
+        "gender": "Female",
+        "dob": "1982/04/05",
+        "subscribe": true
     },
     {
-        "First Name": "Chad",
-        "Last Name": "Ellis",
-        "Email": "biancahudson@solis.net",
-        "Gender": "Male",
-        "Date of Birth": "1975/09/24",
-        "Subscribe to Newsletter": false
+        "first_name": "Chad",
+        "last_name": "Ellis",
+        "email": "biancahudson@solis.net",
+        "gender": "Male",
+        "dob": "1975/09/24",
+        "subscribe": false
     },
     {
-        "First Name": "Brandon",
-        "Last Name": "Holmes",
-        "Email": "benjamin56@yahoo.com",
-        "Gender": "Female",
-        "Date of Birth": "1988/06/07",
-        "Subscribe to Newsletter": false
+        "first_name": "Brandon",
+        "last_name": "Holmes",
+        "email": "benjamin56@yahoo.com",
+        "gender": "Female",
+        "dob": "1988/06/07",
+        "subscribe": false
     },
     {
-        "First Name": "John",
-        "Last Name": "Gay",
-        "Email": "paula65@gmail.com",
-        "Gender": "Female",
-        "Date of Birth": "1962/10/08",
-        "Subscribe to Newsletter": true
+        "first_name": "John",
+        "last_name": "Gay",
+        "email": "paula65@gmail.com",
+        "gender": "Female",
+        "dob": "1962/10/08",
+        "subscribe": true
     },
     {
-        "First Name": "Jesse",
-        "Last Name": "Chavez",
-        "Email": "fergusonderek@williams.com",
-        "Gender": "Male",
-        "Date of Birth": "1970/05/23",
-        "Subscribe to Newsletter": false
+        "first_name": "Jesse",
+        "last_name": "Chavez",
+        "email": "fergusonderek@williams.com",
+        "gender": "Male",
+        "dob": "1970/05/23",
+        "subscribe": false
     },
     {
-        "First Name": "Amanda",
-        "Last Name": "Jacobs",
-        "Email": "tinaking@mitchell-swanson.com",
-        "Gender": "Female",
-        "Date of Birth": "1961/07/22",
-        "Subscribe to Newsletter": false
+        "first_name": "Amanda",
+        "last_name": "Jacobs",
+        "email": "tinaking@mitchell-swanson.com",
+        "gender": "Female",
+        "dob": "1961/07/22",
+        "subscribe": false
     },
     {
-        "First Name": "Steven",
-        "Last Name": "Gomez",
-        "Email": "vsnyder@mack.com",
-        "Gender": "Male",
-        "Date of Birth": "1979/05/01",
-        "Subscribe to Newsletter": true
+        "first_name": "Steven",
+        "last_name": "Gomez",
+        "email": "vsnyder@mack.com",
+        "gender": "Male",
+        "dob": "1979/05/01",
+        "subscribe": true
     },
     {
-        "First Name": "David",
-        "Last Name": "Bradley",
-        "Email": "amber93@wheeler-anderson.org",
-        "Gender": "Male",
-        "Date of Birth": "1961/08/12",
-        "Subscribe to Newsletter": true
+        "first_name": "David",
+        "last_name": "Bradley",
+        "email": "amber93@wheeler-anderson.org",
+        "gender": "Male",
+        "dob": "1961/08/12",
+        "subscribe": true
     },
     {
-        "First Name": "Matthew",
-        "Last Name": "Jones",
-        "Email": "larsenholly@hotmail.com",
-        "Gender": "Male",
-        "Date of Birth": "1971/11/03",
-        "Subscribe to Newsletter": true
+        "first_name": "Matthew",
+        "last_name": "Jones",
+        "email": "larsenholly@hotmail.com",
+        "gender": "Male",
+        "dob": "1971/11/03",
+        "subscribe": true
     },
     {
-        "First Name": "Ronald",
-        "Last Name": "Johnson",
-        "Email": "jessicamedina@garcia.com",
-        "Gender": "Male",
-        "Date of Birth": "1993/04/30",
-        "Subscribe to Newsletter": false
+        "first_name": "Ronald",
+        "last_name": "Johnson",
+        "email": "jessicamedina@garcia.com",
+        "gender": "Male",
+        "dob": "1993/04/30",
+        "subscribe": false
     },
     {
-        "First Name": "Ronald",
-        "Last Name": "Ryan",
-        "Email": "harrislisa@rich-russo.biz",
-        "Gender": "Male",
-        "Date of Birth": "1972/05/27",
-        "Subscribe to Newsletter": false
+        "first_name": "Ronald",
+        "last_name": "Ryan",
+        "email": "harrislisa@rich-russo.biz",
+        "gender": "Male",
+        "dob": "1972/05/27",
+        "subscribe": false
     },
     {
-        "First Name": "Paula",
-        "Last Name": "Williams",
-        "Email": "margaretherman@lopez-christian.com",
-        "Gender": "Male",
-        "Date of Birth": "1981/01/03",
-        "Subscribe to Newsletter": false
+        "first_name": "Paula",
+        "last_name": "Williams",
+        "email": "margaretherman@lopez-christian.com",
+        "gender": "Male",
+        "dob": "1981/01/03",
+        "subscribe": false
     },
     {
-        "First Name": "Larry",
-        "Last Name": "Young",
-        "Email": "williamoneill@yahoo.com",
-        "Gender": "Male",
-        "Date of Birth": "1981/01/19",
-        "Subscribe to Newsletter": true
+        "first_name": "Larry",
+        "last_name": "Young",
+        "email": "williamoneill@yahoo.com",
+        "gender": "Male",
+        "dob": "1981/01/19",
+        "subscribe": true
     },
     {
-        "First Name": "Noah",
-        "Last Name": "Benton",
-        "Email": "meredith49@friedman-kim.com",
-        "Gender": "Male",
-        "Date of Birth": "2004/12/03",
-        "Subscribe to Newsletter": true
+        "first_name": "Noah",
+        "last_name": "Benton",
+        "email": "meredith49@friedman-kim.com",
+        "gender": "Male",
+        "dob": "2004/12/03",
+        "subscribe": true
     },
     {
-        "First Name": "Veronica",
-        "Last Name": "Adams",
-        "Email": "joe63@patton-henderson.com",
-        "Gender": "Male",
-        "Date of Birth": "2003/07/03",
-        "Subscribe to Newsletter": false
+        "first_name": "Veronica",
+        "last_name": "Adams",
+        "email": "joe63@patton-henderson.com",
+        "gender": "Male",
+        "dob": "2003/07/03",
+        "subscribe": false
     }
 ]
