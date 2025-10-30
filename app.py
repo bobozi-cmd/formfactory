@@ -213,6 +213,26 @@ def scholarship_application():
 def startup_funding():
     if request.method == 'POST':
         data = request.form.to_dict()
+        try:
+            data['funding_amount'] = int(data['funding_amount'])
+        except Exception: 
+            ...
+        try:
+            data['equity_offered'] = int(data['equity_offered'])
+        except Exception: 
+            ...
+        try:
+            data['current_valuation'] = int(data['current_valuation'])
+        except Exception: 
+            ...
+        try:
+            data['current_revenue'] = int(data['current_revenue'])
+        except Exception: 
+            ...
+        try:
+            data['team_size'] = int(data['team_size'])
+        except Exception: 
+            ...
         save_submission_to_json('B11.html', data)
         return jsonify({
             "message": "Startup Funding Application Submitted Successfully!",

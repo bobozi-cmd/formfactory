@@ -29,12 +29,15 @@ TASKS_MAPPING = {
     "A15": ("student_courses.txt", "/academic-research/course-registration", "student_courses.json"),
     "A14": ("paper_submissions.txt", "/academic-research/paper-submission", "paper_submissions.json"),
     "A13": ("scholarship_applications.txt", "/academic-research/scholarship-application", "scholarship_applications.json"),
+    "B11": ("startup_funding_applications.txt", "/professional-business/startup-funding", "startup_funding_applications.json"),
 }
 
 FUZZY_FIELD = {
     "A11": ["cover_letter", 'department'],
     "A12": [],
-    "A15": []
+    "A15": ["comments"],
+    "A14": ["abstract"],
+    "A13": ["essay"], # TODO
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)
