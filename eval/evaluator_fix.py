@@ -143,10 +143,10 @@ class FormFieldEvaluator:
 
     def calculate_text_similarity(self, text1: str, text2: str, word_level = False) -> float:
         """Calculate similarity between two text strings."""
-        if not text1 or not text2:
-            return 0.0
         if text1 == text2:
             return 1.0
+        if not text1 or not text2:
+            return 0.0
 
         if word_level:
             embeddings = self.word_sbert.encode([text1, text2], show_progress_bar=False)
@@ -378,15 +378,16 @@ async def main(args):
             step = await agent.execute_task(task)
         except Exception as e:
             print(f"❌ execute failed: {e}")
-            t2 = time.time()
             step = -1
-            input("Please submit this table >")
 
         t2 = time.time()
         run_time = t2 - t1
         data['dur'] = run_time
         data['step'] = step
         print(f"⏱️ [{i}] Task execute in {run_time:.2f} s (in {step} steps)")
+
+        if not submission_file.exists():
+            input("Please submit this table >")
 
         if submission_file.exists():
             try:
