@@ -30,6 +30,7 @@ TASKS_MAPPING = {
     "A14": ("paper_submissions.txt", "/academic-research/paper-submission", "paper_submissions.json"),
     "A13": ("scholarship_applications.txt", "/academic-research/scholarship-application", "scholarship_applications.json"),
     "B11": ("startup_funding_applications.txt", "/professional-business/startup-funding", "startup_funding_applications.json"),
+    "B12": ("startup_funding_applications.txt", "/professional-business/startup-funding", "startup_funding_applications.json"),
 }
 
 FUZZY_FIELD = {

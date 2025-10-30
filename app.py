@@ -214,6 +214,10 @@ def startup_funding():
     if request.method == 'POST':
         data = request.form.to_dict()
         try:
+            data['founding_date'] = '/'.join(data['founding_date'].split('-'))
+        except:
+            ...
+        try:
             data['funding_amount'] = int(data['funding_amount'])
         except Exception: 
             ...
@@ -244,6 +248,27 @@ def startup_funding():
 def rental_application():
     if request.method == 'POST':
         data = request.form.to_dict()
+        try:
+            data['date_of_birth'] = '/'.join(data['date_of_birth'].split('-'))
+        except:
+            ...
+        try:
+            data['preferred_move_date'] = '/'.join(data['preferred_move_date'].split('-'))
+        except:
+            ...
+        try:
+            data['monthly_income'] = int(data['monthly_income'])
+        except:
+            ...
+        try:
+            data['max_rent'] = int(data['max_rent'])
+        except:
+            ...
+        if data['pets'].lower() == 'no':
+            data['pets'] = 'No'
+        elif data['pets'].lower() == 'yes':
+            data['pets'] = 'Yes'
+
         save_submission_to_json('B12.html', data)
         return jsonify({
             "message": "Real Estate Rental Application Submitted Successfully!",
