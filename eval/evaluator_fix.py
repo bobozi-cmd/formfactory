@@ -19,6 +19,7 @@ from agentrr.replayer.codegen_planner import CodegenPlanner
 from agentrr.expdb.loader import collect_tasks_spec
 
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+os.environ['SENTENCE_TRANSFORMERS_HOME'] = './.save'
 
 GROUND_TRUTH_DIR = Path('../data/data1')
 TASK_DIR = Path('../data/data2')
@@ -41,6 +42,10 @@ FUZZY_FIELD = {
     "A15": ["comments"],
     "A14": ["abstract"],
     "A13": ["essay"], # TODO
+    "B11": ["business_model", "target_market", "additional_comments"],
+    "B12": [],
+    "B13": [],
+    "B14": [],
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)
@@ -126,8 +131,6 @@ class FormFieldEvaluator:
         """Calculate similarity between two text strings."""
         if not text1 or not text2:
             return 0.0
-        text1 = text1.strip().lower()
-        text2 = text2.strip().lower()
         if text1 == text2:
             return 1.0
 
@@ -149,11 +152,14 @@ class FormFieldEvaluator:
         all_score = 0
         for field, val in ground_truth.items():
             if isinstance(val, str):
+                val = val.strip().lower()
+                pred = predict[field].strip().lower()
+
                 if field in FUZZY_FIELD[self.task]:
-                    if len(predict[field]) < 50:
-                        similarity = self.calculate_text_similarity(val, predict[field], word_level=True)
+                    if len(pred) < 50:
+                        similarity = self.calculate_text_similarity(val, pred, word_level=True)
                     else:
-                        similarity = self.calculate_text_similarity(val, predict[field])
+                        similarity = self.calculate_text_similarity(val, pred)
 
                     if similarity > 0.5:
                         got_score += 1
@@ -161,7 +167,7 @@ class FormFieldEvaluator:
                         print(field, "got low similarity: ", similarity)
                     all_score += 1
                 else:
-                    if field in predict and predict[field] == val:
+                    if field in predict and pred == val:
                         got_score += 1
                     all_score += 1
             elif isinstance(val, int):
