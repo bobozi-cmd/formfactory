@@ -405,7 +405,7 @@ def eval(args):
     assert args.eval_file, "For eval, must provide eval file by --eval-file"
     eval_file: Path = args.eval_file
     gt_file = GROUND_TRUTH_DIR / TASKS_MAPPING[args.task][2]
-    out_file = Path(f"./{args.task}_eval_result.json")
+    out_file = Path(f"./tmp_{args.task}_eval_result.json")
 
     print(f"📍 gt_file: {gt_file.absolute()}")
     print(f"📍 eval_file: {eval_file.absolute()}")
