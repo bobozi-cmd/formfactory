@@ -17,6 +17,11 @@ from agentrr.plugins.index_wrapper import IndexWrapper
 from agentrr.replayer.codegen_replayer import CodegenReplayer
 from agentrr.replayer.codegen_planner import CodegenPlanner
 from agentrr.expdb.loader import collect_tasks_spec
+from agentrr.chrome_tools import cdp_browser_ctx
+from browser_use.browser.context import BrowserContext
+
+from browser_use import Agent
+from langchain_openai import ChatOpenAI
 
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 os.environ['SENTENCE_TRANSFORMERS_HOME'] = './.save'
@@ -234,6 +239,8 @@ class AgentRR:
 
         result = await planner.decompose_task(self.llm)
 
+        step = 0
+
         if result is False:
             print("❌ Planning error")
         else:
@@ -241,9 +248,6 @@ class AgentRR:
             await asyncio.sleep(1)
 
             last_snapshot = None
-
-            step = 0
-
             while step < max_step:
                 step += 1
                 snapshot = await IndexWrapper.fast_screenshot(replayer.context)
@@ -274,7 +278,38 @@ class AgentRR:
                     continue
 
             await replayer.close()
-        
+        return step
+
+class AgentBU:
+
+    def __init__(self, exp_db, url):
+        self.url = url
+        self.spec = collect_tasks_spec(exp_db)[url]
+        self.llm = ChatOpenAI(model=model, base_url=base_url, api_key=api_key)
+    
+    async def execute_task(self, task, max_step: int = 50):
+        task = f"你需要按照下面的任务完成表单的填写并提交, 所有信息都是使用英文填写: {task}"
+        steps = 1
+        async with cdp_browser_ctx() as cdp_browser: 
+            context: BrowserContext = cdp_browser.context
+            agent = Agent(
+                task=task,
+                llm=self.llm,
+                browser=cdp_browser,
+                context=context
+            )
+
+            try:
+                page = await context.get_current_page()
+                await page.goto(self.url)
+                await agent.run(max_steps=max_step)
+            except Exception as e:
+                print(e)
+            
+            steps = agent.state.n_steps
+            
+        return steps
+
 
 def remove_file(file: Path):
     if file.exists():
@@ -289,9 +324,15 @@ def dump_json(file: Path, data):
         json.dump(data, fp, indent=4)
 
 
+AGENTS = {
+    AgentRR.__name__: AgentRR,
+    AgentBU.__name__: AgentBU
+}
+
 async def main(args):
     start = args.start
     end = args.end
+    agent_type = args.agent
 
     task_file = TASK_DIR / TASKS_MAPPING[args.task][0]
     url = f"{args.base_url}{TASKS_MAPPING[args.task][1]}"
@@ -305,12 +346,13 @@ async def main(args):
     print(f"📁 submission_file: {submission_file.absolute()}")
     print(f"📁 out_file: {out_file.absolute()}")
     print(f"📁 exp_db_dir: {exp_db_dir.absolute()}")
+    print(f"🤖 use agent: {agent_type}")
 
     # clear legacy submission file
     remove_file(submission_file)
 
     task_extractor = TaskExtractor(task_file)
-    agent = AgentRR(exp_db=exp_db_dir, url=url)
+    agent = AGENTS[agent_type](exp_db=exp_db_dir, url=url)
     
     results = []
 
@@ -318,20 +360,18 @@ async def main(args):
         data = {"task": i}
         
         task = task_extractor.get_task(i)
-        # q = input("> ")
-        # if q.lower() == 'q':
-        #     break
-
         t1 = time.time()
         try:
-            await agent.execute_task(task)
+            step = await agent.execute_task(task)
         except Exception as e:
             print(f"❌ execute failed: {e}")
+            step = -1
 
         t2 = time.time()
         run_time = t2 - t1
         data['dur'] = run_time
-        print(f"⏱️ [{i}] Task execute in {run_time:.2f} s")
+        data['step'] = step
+        print(f"⏱️ [{i}] Task execute in {run_time:.2f} s (in {step} steps)")
 
         if submission_file.exists():
             try:
@@ -367,6 +407,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--task", required=True, type=str, choices=list(TASKS_MAPPING.keys()))
     parser.add_argument("-d", "--dir", help="exp_db", type=Path, required=True)
+    parser.add_argument("-a", "--agent", type=str, choices=list(AGENTS.keys()), default=AgentRR.__name__)
     parser.add_argument('-e', '--eval', action='store_true')
     parser.add_argument('--eval-file', type=Path)
     parser.add_argument("-u", "--base-url", default="http://127.0.0.1:5000", type=str)
