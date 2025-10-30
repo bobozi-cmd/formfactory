@@ -5,6 +5,28 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+def to_int(data: dict, field, default = None):
+    try:
+        data[field] = int(data[field])
+    except:
+        if default is not None:
+            data[field] = default
+
+def to_float(data: dict, field, default = None):
+    try:
+        data[field] = float(data[field])
+    except:
+        if default is not None:
+            data[field] = default
+
+def to_time(data: dict, field, default = None):
+    try:
+        data[field] = '/'.join(data[field].split('-'))
+    except:
+        if default is not None:
+            data[field] = default
+
+
 @app.route('/')
 def home():
     # Home page to list links to different forms
@@ -280,6 +302,9 @@ def rental_application():
 def workshop_registration():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_time(data, 'session_date')
+        to_int(data, 'experience_years')
+
         save_submission_to_json('B13.html', data)
         return jsonify({
             "message": "Workshop Registration Submitted Successfully!",
