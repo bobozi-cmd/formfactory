@@ -17,7 +17,7 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
             "student_id": "学号, 变量类型: str",
             "email": "电子邮件地址, 变量类型: str",
             "phone_number": "电话号码, 变量类型: str",
-            "semester": "学期, 变量类型: str, 可选: 'Fall 2024', 'Spring 2025', 'Summer 2025'",
+            "semester": "学期, 变量类型: str, 可选: 'Fall 2025', 'Spring 2025', 'Summer 2025'",
             "program": "课程专业, 变量类型: str, 可选: 'Software Engineering', 'Computer Science', 'Data Science', 'Information Technology'",
             "special_requirements": "特殊要求, 变量类型: str",
             "courses": "选择的课程, 变量类型: list, 可选: 'CS101 - Introduction to', 'CS102 - Data Structures', 'CS103 - Database Systems', 'CS104 - Web Development'"

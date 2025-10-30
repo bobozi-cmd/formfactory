@@ -370,7 +370,7 @@ async def main(args):
     results = []
 
     for i in range(len(task_extractor.tasks))[start:end]:
-        data = {"task": i}
+        data = {"task": i, "model": model}
         
         task = task_extractor.get_task(i)
         t1 = time.time()
@@ -378,7 +378,9 @@ async def main(args):
             step = await agent.execute_task(task)
         except Exception as e:
             print(f"❌ execute failed: {e}")
+            t2 = time.time()
             step = -1
+            input("Please submit this table >")
 
         t2 = time.time()
         run_time = t2 - t1
