@@ -111,23 +111,32 @@ class FormFieldEvaluator:
         
         durs = []
         scores = []
+        steps = []
         all_score = 0
         for predict_item in predict_data:
+
+            step = predict_item['step'] if 'step' in predict_item else -1
+            if step != -1:
+                steps.append(step)
+
             gt_item = gt_data[predict_item['task']]
             match_data = self._evaluate_item(predict_item['result'], gt_item)
             
             durs.append(predict_item['dur'])
             scores.append(match_data['got_score']/match_data['all_score'])
             all_score += match_data['all_score']
-            print(f"🫡 [{predict_item['task']}] score: {match_data['got_score']} / {match_data['all_score']} = {scores[-1]:.3f}")
+            if match_data['got_score'] != match_data['all_score']:
+                print(f"🫡 [{predict_item['task']}] score: {match_data['got_score']} / {match_data['all_score']} = {scores[-1]:.3f}")
 
         duration_data = self.analysis(durs, 'dur')
         score_data = self.analysis(scores, 'score')
+        step_data = self.analysis(steps, 'step') if len(steps) > 0 else -1
 
         ret = {
             "task": self.task,
             "dur": duration_data,
-            "score": score_data
+            "score": score_data,
+            'step': step_data,
         }
 
         return ret
@@ -157,22 +166,26 @@ class FormFieldEvaluator:
         all_score = 0
         for field, val in ground_truth.items():
             if isinstance(val, str):
-                val = val.strip().lower()
-                pred = predict[field].strip().lower()
+                val = val.strip()
+                pred: str = predict[field].strip()
 
                 if field in FUZZY_FIELD[self.task]:
+                    # 计算相似度不能统一变成小写, 不然类似 IT 这种缩写会变成 it, 含义发生了变化
                     if len(pred) < 50:
-                        similarity = self.calculate_text_similarity(val, pred, word_level=True)
+                        # 完整的句子比单独的单词的相似度计算更准确
+                        # department: IT vs department: IT department
+                        # IT vs IT department
+                        similarity = self.calculate_text_similarity(f"{field}: {val}", f"{field}: {pred}", word_level=True)
                     else:
-                        similarity = self.calculate_text_similarity(val, pred)
+                        similarity = self.calculate_text_similarity(f"{field}: {val}", f"{field}: {pred}")
 
-                    if similarity > 0.5:
+                    if similarity > 0.6:
                         got_score += 1
                     else:
                         print(field, "got low similarity: ", similarity)
                     all_score += 1
                 else:
-                    if field in predict and pred == val:
+                    if field in predict and pred.lower() == val.lower():
                         got_score += 1
                     all_score += 1
             elif isinstance(val, int):
@@ -202,26 +215,26 @@ class FormFieldEvaluator:
     def analysis(self, datas: list, name: str):
         ret = {}
         
-        ret["mean_"] = np.mean(datas)
-        ret["median_"] = np.median(datas)
-        ret["p99_"] = np.percentile(datas, 99)
-        ret["p95_"] = np.percentile(datas, 95)
-        ret["p90_"] = np.percentile(datas, 90)
-        ret["p75_"] = np.percentile(datas, 75)
-        ret["p50_"] = np.percentile(datas, 50)
-        ret["p25_"] = np.percentile(datas, 25)
+        ret["mean_"] = float(np.mean(datas))
+        ret["median_"] = float(np.median(datas))
+        ret["p99_"] = float(np.percentile(datas, 99))
+        ret["p95_"] = float(np.percentile(datas, 95))
+        ret["p90_"] = float(np.percentile(datas, 90))
+        ret["p75_"] = float(np.percentile(datas, 75))
+        ret["p50_"] = float(np.percentile(datas, 50))
+        ret["p25_"] = float(np.percentile(datas, 25))
 
-        ret["std_"] = np.std(datas)
-        ret["var_"] = np.var(datas)
-        ret["min_"] = np.min(datas)
-        ret["max_"] = np.max(datas)
+        ret["std_"] = float(np.std(datas))
+        ret["var_"] = float(np.var(datas))
+        ret["min_"] = float(np.min(datas))
+        ret["max_"] = float(np.max(datas))
 
         print("=" * 10, f"[{name}]", "=" * 10)
-        print(f"平均值: {ret['mean_']:.2f}")
-        print(f"中位数: {ret['median_']:.2f}")
-        print(f"P99: {ret['p99_']:.2f}")
-        print(f"P95: {ret['p95_']:.2f}")
-        print(f"标准差: {ret['std_']:.2f}")
+        print(f"平均值: {ret['mean_']:.4f}")
+        print(f"中位数: {ret['median_']:.4f}")
+        print(f"P99: {ret['p99_']:.4f}")
+        print(f"P95: {ret['p95_']:.4f}")
+        print(f"标准差: {ret['std_']:.4f}")
 
         return ret
 

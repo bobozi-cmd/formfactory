@@ -7,3 +7,4 @@ remote-debug-profile/
 output/
 evaluation_results/
 submission/
+.DS_Store
