@@ -1,4 +1,5 @@
 import asyncio
+from difflib import SequenceMatcher
 import os
 import json
 import argparse
@@ -7,12 +8,17 @@ import time
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import re
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
 from agentrr.model.openai_server import OpenAIServer
 from agentrr.plugins.index_wrapper import IndexWrapper
 from agentrr.replayer.codegen_replayer import CodegenReplayer
 from agentrr.replayer.codegen_planner import CodegenPlanner
 from agentrr.expdb.loader import collect_tasks_spec
+
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 
 GROUND_TRUTH_DIR = Path('../data/data1')
 TASK_DIR = Path('../data/data2')
@@ -23,6 +29,12 @@ TASKS_MAPPING = {
     "A15": ("student_courses.txt", "/academic-research/course-registration", "student_courses.json"),
     "A14": ("paper_submissions.txt", "/academic-research/paper-submission", "paper_submissions.json"),
     "A13": ("scholarship_applications.txt", "/academic-research/scholarship-application", "scholarship_applications.json"),
+}
+
+FUZZY_FIELD = {
+    "A11": ["cover_letter", 'department'],
+    "A12": [],
+    "A15": []
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)
@@ -67,27 +79,134 @@ class TaskExtractor:
 
 
 class FormFieldEvaluator:
-    def __init__(self, 
-                 ground_truth_dir: str = "../data/data1",
-                 results_dir: str = "../submission",
-                 evaluation_output_dir: str = "evaluation_results"):
-        """
-        Initialize the evaluator.
-        
-        Args:
-            ground_truth_dir (str): Directory containing ground truth JSON files
-            results_dir (str): Directory containing model prediction results
-            evaluation_output_dir (str): Directory to save evaluation results
-        """
-        self.ground_truth_dir = Path(ground_truth_dir)
-        self.results_dir = Path(results_dir)
-        self.evaluation_output_dir = Path(evaluation_output_dir)
-        
-        # Create evaluation output directory
-        self.evaluation_output_dir.mkdir(exist_ok=True)
+    def __init__(self, task, ground_truth_file: Path, eval_file: Path, evaluation_output_file: Path, sbert_name = 'all-MiniLM-L6-v2', word_sbert_name = 'all-mpnet-base-v2'):
+        self.task = task
+        self.ground_truth_file = ground_truth_file
+        self.eval_file = eval_file
+        self.evaluation_output_file = evaluation_output_file
+        self.sbert = SentenceTransformer(sbert_name)
+        self.word_sbert = SentenceTransformer(word_sbert_name)
 
-    def evaluate_single_file(self, ground_truth_filename: str, result_file: str) -> Dict[str, Any]:
-        """Evaluate a single prediction file against ground truth."""
+    def evaluate(self):
+        gt_data = load_json(self.ground_truth_file)
+        predict_data = load_json(self.eval_file)
+        
+        print(f"All data: {len(predict_data)}")
+        
+        durs = []
+        scores = []
+        all_score = 0
+        for predict_item in predict_data:
+            gt_item = gt_data[predict_item['task']]
+            match_data = self._evaluate_item(predict_item['result'], gt_item)
+            
+            durs.append(predict_item['dur'])
+            scores.append(match_data['got_score']/match_data['all_score'])
+            all_score += match_data['all_score']
+            print(f"🫡 [{predict_item['task']}] score: {match_data['got_score']} / {match_data['all_score']} = {scores[-1]:.3f}")
+
+        duration_data = self.analysis(durs, 'dur')
+        score_data = self.analysis(scores, 'score')
+
+        ret = {
+            "task": self.task,
+            "dur": duration_data,
+            "score": score_data
+        }
+
+        return ret
+
+    def calculate_text_similarity(self, text1: str, text2: str, word_level = False) -> float:
+        """Calculate similarity between two text strings."""
+        if not text1 or not text2:
+            return 0.0
+        text1 = text1.strip().lower()
+        text2 = text2.strip().lower()
+        if text1 == text2:
+            return 1.0
+
+        if word_level:
+            embeddings = self.word_sbert.encode([text1, text2], show_progress_bar=False)
+        else:
+            embeddings = self.sbert.encode([text1, text2], show_progress_bar=False)
+
+        similarity = cosine_similarity(
+            [embeddings[0]],
+            [embeddings[1]]
+        )[0][0]
+        
+        return float(similarity)
+
+    def _evaluate_item(self, predict: dict, ground_truth: dict):
+        """Evaluate a single item against ground truth."""
+        got_score = 0
+        all_score = 0
+        for field, val in ground_truth.items():
+            if isinstance(val, str):
+                if field in FUZZY_FIELD[self.task]:
+                    if len(predict[field]) < 50:
+                        similarity = self.calculate_text_similarity(val, predict[field], word_level=True)
+                    else:
+                        similarity = self.calculate_text_similarity(val, predict[field])
+
+                    if similarity > 0.5:
+                        got_score += 1
+                    else:
+                        print(field, "got low similarity: ", similarity)
+                    all_score += 1
+                else:
+                    if field in predict and predict[field] == val:
+                        got_score += 1
+                    all_score += 1
+            elif isinstance(val, int):
+                if field in predict and predict[field] == val:
+                    got_score += 1
+                all_score += 1
+            elif isinstance(val, float):
+                if field in predict and abs(predict[field] - val) < 0.001:
+                    got_score += 1
+                all_score += 1
+            elif isinstance(val, list):
+                if field in predict:
+                    for v in val:
+                        if v in predict[field]:
+                            got_score += 1
+                all_score += len(val)
+            else:
+                print(f"Cannot handle {field}:{val} ({type(val)})")
+        
+        ret = {
+            "got_score": got_score,
+            "all_score": all_score,
+        }
+
+        return ret
+
+    def analysis(self, datas: list, name: str):
+        ret = {}
+        
+        ret["mean_"] = np.mean(datas)
+        ret["median_"] = np.median(datas)
+        ret["p99_"] = np.percentile(datas, 99)
+        ret["p95_"] = np.percentile(datas, 95)
+        ret["p90_"] = np.percentile(datas, 90)
+        ret["p75_"] = np.percentile(datas, 75)
+        ret["p50_"] = np.percentile(datas, 50)
+        ret["p25_"] = np.percentile(datas, 25)
+
+        ret["std_"] = np.std(datas)
+        ret["var_"] = np.var(datas)
+        ret["min_"] = np.min(datas)
+        ret["max_"] = np.max(datas)
+
+        print("=" * 10, f"[{name}]", "=" * 10)
+        print(f"平均值: {ret['mean_']:.2f}")
+        print(f"中位数: {ret['median_']:.2f}")
+        print(f"P99: {ret['p99_']:.2f}")
+        print(f"P95: {ret['p95_']:.2f}")
+        print(f"标准差: {ret['std_']:.2f}")
+
+        return ret
 
 
 class AgentRR:
@@ -163,7 +282,6 @@ async def main(args):
     end = args.end
 
     task_file = TASK_DIR / TASKS_MAPPING[args.task][0]
-    gt_file = GROUND_TRUTH_DIR / TASKS_MAPPING[args.task][2]
     url = f"{args.base_url}{TASKS_MAPPING[args.task][1]}"
     submission_file: Path = args.submission / f"{args.task}.json"
     out_file: Path = Path(f"./tmp_{args.task}_out_{start}_{end}.json")
@@ -171,7 +289,6 @@ async def main(args):
 
     
     print(f"📍 task_file: {task_file.absolute()}")
-    print(f"📍 gt_file: {gt_file.absolute()}")
     print(f"👉 {url = }")
     print(f"📁 submission_file: {submission_file.absolute()}")
     print(f"📁 out_file: {out_file.absolute()}")
@@ -215,19 +332,39 @@ async def main(args):
             data['result'] = {}
 
         results.append(data)
+        # 实时更新
+        dump_json(out_file, results)
 
-    dump_json(out_file, results)
+
+def eval(args):
+    assert args.eval_file, "For eval, must provide eval file by --eval-file"
+    eval_file: Path = args.eval_file
+    gt_file = GROUND_TRUTH_DIR / TASKS_MAPPING[args.task][2]
+    out_file = Path(f"./{args.task}_eval_result.json")
+
+    print(f"📍 gt_file: {gt_file.absolute()}")
+    print(f"📍 eval_file: {eval_file.absolute()}")
+    print(f"📍 out_file: {out_file.absolute()}")
+
+    evaluator = FormFieldEvaluator(args.task, gt_file, eval_file, out_file)
+    ret = evaluator.evaluate()
+    dump_json(out_file, ret)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--task", required=True, type=str, choices=list(TASKS_MAPPING.keys()))
-    parser.add_argument("-u", "--base-url", default="http://127.0.0.1:5000", type=str)
     parser.add_argument("-d", "--dir", help="exp_db", type=Path, required=True)
+    parser.add_argument('-e', '--eval', action='store_true')
+    parser.add_argument('--eval-file', type=Path)
+    parser.add_argument("-u", "--base-url", default="http://127.0.0.1:5000", type=str)
     parser.add_argument("--submission", type=Path, default="../submission")
     parser.add_argument("--start", type=int, default=0)
     parser.add_argument("--end", type=int, default=50)
 
     args = parser.parse_args()
 
-    asyncio.run(main(args))
+    if args.eval:
+        eval(args)
+    else:
+        asyncio.run(main(args))
