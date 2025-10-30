@@ -316,6 +316,8 @@ def workshop_registration():
 def membership_application():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, "years_experience")
+        to_time(data, "date_of_birth")
         save_submission_to_json('B14.html', data)
         return jsonify({
             "message": "Membership Application Submitted Successfully!",

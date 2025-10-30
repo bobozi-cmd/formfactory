@@ -32,6 +32,7 @@ TASKS_MAPPING = {
     "B11": ("startup_funding_applications.txt", "/professional-business/startup-funding", "startup_funding_applications.json"),
     "B12": ("real_estate_rental_applications.txt", "/professional-business/rental-application", "real_estate_rental_applications.json"),
     "B13": ("workshop_registrations.txt", "/professional-business/workshop-registration", "workshop_registrations.json"),
+    "B14": ("membership_application.txt", "/professional-business/membership-application", "membership_application.json"), # 后10个任务的答案有点问题
 }
 
 FUZZY_FIELD = {
