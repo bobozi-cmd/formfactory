@@ -1,6 +1,7 @@
 [
     {
         "task": 0,
+        "model": "gpt-4o",
         "dur": 26.53003692626953,
         "result": {
             "name": "Alice Zhang",
@@ -12,6 +13,7 @@
     },
     {
         "task": 1,
+        "model": "gpt-4o",
         "dur": 18.11533498764038,
         "result": {
             "name": "John Li",
@@ -23,6 +25,7 @@
     },
     {
         "task": 2,
+        "model": "gpt-4o",
         "dur": 18.539684057235718,
         "result": {
             "name": "Maria Chen",
@@ -34,6 +37,7 @@
     },
     {
         "task": 3,
+        "model": "gpt-4o",
         "dur": 15.962177991867065,
         "result": {
             "name": "David Wu",
@@ -45,6 +49,7 @@
     },
     {
         "task": 4,
+        "model": "gpt-4o",
         "dur": 20.863237857818604,
         "result": {
             "name": "Emily Zhang",
@@ -56,6 +61,7 @@
     },
     {
         "task": 5,
+        "model": "gpt-4o",
         "dur": 18.080633878707886,
         "result": {
             "name": "Kevin Li",
@@ -67,6 +73,7 @@
     },
     {
         "task": 6,
+        "model": "gpt-4o",
         "dur": 16.547487258911133,
         "result": {
             "name": "Sophia Wang",
@@ -78,6 +85,7 @@
     },
     {
         "task": 7,
+        "model": "gpt-4o",
         "dur": 19.04094910621643,
         "result": {
             "name": "Michael Zhang",
@@ -89,6 +97,7 @@
     },
     {
         "task": 8,
+        "model": "gpt-4o",
         "dur": 16.390315055847168,
         "result": {
             "name": "Olivia Liu",
@@ -100,6 +109,7 @@
     },
     {
         "task": 9,
+        "model": "gpt-4o",
         "dur": 16.19393014907837,
         "result": {
             "name": "James Li",
@@ -111,6 +121,7 @@
     },
     {
         "task": 10,
+        "model": "gpt-4o",
         "dur": 19.8677179813385,
         "result": {
             "name": "Grace Zhang",
@@ -122,6 +133,7 @@
     },
     {
         "task": 11,
+        "model": "gpt-4o",
         "dur": 18.937619924545288,
         "result": {
             "name": "Daniel Wu",
@@ -133,6 +145,7 @@
     },
     {
         "task": 12,
+        "model": "gpt-4o",
         "dur": 21.928186178207397,
         "result": {
             "name": "Chloe Wang",
@@ -144,6 +157,7 @@
     },
     {
         "task": 13,
+        "model": "gpt-4o",
         "dur": 17.21610999107361,
         "result": {
             "name": "Henry Li",
@@ -155,6 +169,7 @@
     },
     {
         "task": 14,
+        "model": "gpt-4o",
         "dur": 15.953029155731201,
         "result": {
             "name": "Isabella Chen",
@@ -166,6 +181,7 @@
     },
     {
         "task": 15,
+        "model": "gpt-4o",
         "dur": 20.17358088493347,
         "result": {
             "name": "Ethan Zhang",
@@ -177,6 +193,7 @@
     },
     {
         "task": 16,
+        "model": "gpt-4o",
         "dur": 21.56377077102661,
         "result": {
             "name": "Ava Li",
@@ -188,6 +205,7 @@
     },
     {
         "task": 17,
+        "model": "gpt-4o",
         "dur": 18.183577060699463,
         "result": {
             "name": "Lucas Wang",
@@ -199,6 +217,7 @@
     },
     {
         "task": 18,
+        "model": "gpt-4o",
         "dur": 21.27976679801941,
         "result": {
             "name": "Mia Wu",
@@ -210,6 +229,7 @@
     },
     {
         "task": 19,
+        "model": "gpt-4o",
         "dur": 16.18429708480835,
         "result": {
             "name": "Benjamin Li",
@@ -221,6 +241,7 @@
     },
     {
         "task": 20,
+        "model": "gpt-4o",
         "dur": 15.049698829650879,
         "result": {
             "name": "Liam Zhang",
@@ -232,6 +253,7 @@
     },
     {
         "task": 21,
+        "model": "gpt-4o",
         "dur": 17.205602169036865,
         "result": {
             "name": "Zoe Li",
@@ -243,6 +265,7 @@
     },
     {
         "task": 22,
+        "model": "gpt-4o",
         "dur": 15.86376404762268,
         "result": {
             "name": "Sam Wu",
@@ -254,6 +277,7 @@
     },
     {
         "task": 23,
+        "model": "gpt-4o",
         "dur": 19.097381114959717,
         "result": {
             "name": "Ella Wang",
@@ -265,6 +289,7 @@
     },
     {
         "task": 24,
+        "model": "gpt-4o",
         "dur": 17.868651866912842,
         "result": {
             "name": "Ryan Chen",
@@ -276,6 +301,7 @@
     },
     {
         "task": 25,
+        "model": "gpt-4o",
         "dur": 15.139667749404907,
         "result": {
             "name": "Sophia Wu",
@@ -287,6 +313,7 @@
     },
     {
         "task": 26,
+        "model": "gpt-4o",
         "dur": 17.533520936965942,
         "result": {
             "name": "Oscar Zhang",
@@ -298,6 +325,7 @@
     },
     {
         "task": 27,
+        "model": "gpt-4o",
         "dur": 18.260760068893433,
         "result": {
             "name": "Chloe Li",
@@ -309,6 +337,7 @@
     },
     {
         "task": 28,
+        "model": "gpt-4o",
         "dur": 21.98893690109253,
         "result": {
             "name": "Mason Zhang",
@@ -320,6 +349,7 @@
     },
     {
         "task": 29,
+        "model": "gpt-4o",
         "dur": 16.891204118728638,
         "result": {
             "name": "Amelia Li",
@@ -331,6 +361,7 @@
     },
     {
         "task": 30,
+        "model": "gpt-4o",
         "dur": 18.825861930847168,
         "result": {
             "name": "Noah Wu",
@@ -342,6 +373,7 @@
     },
     {
         "task": 31,
+        "model": "gpt-4o",
         "dur": 16.51811933517456,
         "result": {
             "name": "Charlotte Zhang",
@@ -353,6 +385,7 @@
     },
     {
         "task": 32,
+        "model": "gpt-4o",
         "dur": 24.50786304473877,
         "result": {
             "name": "William Li",
@@ -364,6 +397,7 @@
     },
     {
         "task": 33,
+        "model": "gpt-4o",
         "dur": 20.698495864868164,
         "result": {
             "name": "Lily Chen",
@@ -375,6 +409,7 @@
     },
     {
         "task": 34,
+        "model": "gpt-4o",
         "dur": 19.120051860809326,
         "result": {
             "name": "Jack Li",
@@ -386,6 +421,7 @@
     },
     {
         "task": 35,
+        "model": "gpt-4o",
         "dur": 16.343713998794556,
         "result": {
             "name": "Harper Wu",
@@ -397,6 +433,7 @@
     },
     {
         "task": 36,
+        "model": "gpt-4o",
         "dur": 17.171252250671387,
         "result": {
             "name": "Alexander Li",
@@ -408,6 +445,7 @@
     },
     {
         "task": 37,
+        "model": "gpt-4o",
         "dur": 14.84887409210205,
         "result": {
             "name": "Avery Zhang",
@@ -419,6 +457,7 @@
     },
     {
         "task": 38,
+        "model": "gpt-4o",
         "dur": 16.51441717147827,
         "result": {
             "name": "Isaac Li",
@@ -430,6 +469,7 @@
     },
     {
         "task": 39,
+        "model": "gpt-4o",
         "dur": 19.387879848480225,
         "result": {
             "name": "Victoria Chen",
@@ -441,6 +481,7 @@
     },
     {
         "task": 40,
+        "model": "gpt-4o",
         "dur": 26.500085830688477,
         "result": {
             "name": "Ethan Johnson",
@@ -452,6 +493,7 @@
     },
     {
         "task": 41,
+        "model": "gpt-4o",
         "dur": 23.103179931640625,
         "result": {
             "name": "Olivia Roberts",
@@ -463,6 +505,7 @@
     },
     {
         "task": 42,
+        "model": "gpt-4o",
         "dur": 21.65307092666626,
         "result": {
             "name": "James Anderson",
@@ -474,6 +517,7 @@
     },
     {
         "task": 43,
+        "model": "gpt-4o",
         "dur": 17.913859844207764,
         "result": {
             "name": "Sophia Martinez",
@@ -485,6 +529,7 @@
     },
     {
         "task": 44,
+        "model": "gpt-4o",
         "dur": 23.458523988723755,
         "result": {
             "name": "Daniel Wilson",
@@ -496,6 +541,7 @@
     },
     {
         "task": 45,
+        "model": "gpt-4o",
         "dur": 18.52666401863098,
         "result": {
             "name": "Emma Taylor",
@@ -507,6 +553,7 @@
     },
     {
         "task": 46,
+        "model": "gpt-4o",
         "dur": 15.663204908370972,
         "result": {
             "name": "Michael Brown",
@@ -518,6 +565,7 @@
     },
     {
         "task": 47,
+        "model": "gpt-4o",
         "dur": 24.053669929504395,
         "result": {
             "name": "Ava Davis",
@@ -529,6 +577,7 @@
     },
     {
         "task": 48,
+        "model": "gpt-4o",
         "dur": 16.40698218345642,
         "result": {
             "name": "William Harris",
@@ -540,6 +589,7 @@
     },
     {
         "task": 49,
+        "model": "gpt-4o",
         "dur": 16.853703022003174,
         "result": {
             "name": "Mia Thompson",

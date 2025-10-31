@@ -1,6 +1,7 @@
 [
     {
         "task": 0,
+        "model": "gpt-4o",
         "dur": 32.72401762008667,
         "result": {
             "page_type": "Grant Application",
@@ -15,6 +16,7 @@
     },
     {
         "task": 1,
+        "model": "gpt-4o",
         "dur": 33.63858652114868,
         "result": {
             "page_type": "Grant Application",
@@ -29,6 +31,7 @@
     },
     {
         "task": 2,
+        "model": "gpt-4o",
         "dur": 55.72023272514343,
         "result": {
             "page_type": "Grant Application",
@@ -43,6 +46,7 @@
     },
     {
         "task": 3,
+        "model": "gpt-4o",
         "dur": 40.77626061439514,
         "result": {
             "page_type": "Grant Application",
@@ -57,6 +61,7 @@
     },
     {
         "task": 4,
+        "model": "gpt-4o",
         "dur": 41.64447593688965,
         "result": {
             "page_type": "Grant Application",
@@ -71,6 +76,7 @@
     },
     {
         "task": 5,
+        "model": "gpt-4o",
         "dur": 47.01082372665405,
         "result": {
             "page_type": "Grant Application",
@@ -85,6 +91,7 @@
     },
     {
         "task": 6,
+        "model": "gpt-4o",
         "dur": 43.84683132171631,
         "result": {
             "page_type": "Grant Application",
@@ -99,6 +106,7 @@
     },
     {
         "task": 7,
+        "model": "gpt-4o",
         "dur": 32.627641439437866,
         "result": {
             "page_type": "Grant Application",
@@ -113,6 +121,7 @@
     },
     {
         "task": 8,
+        "model": "gpt-4o",
         "dur": 43.26611804962158,
         "result": {
             "page_type": "Grant Application",
@@ -127,6 +136,7 @@
     },
     {
         "task": 9,
+        "model": "gpt-4o",
         "dur": 39.74625873565674,
         "result": {
             "page_type": "Grant Application",
@@ -141,6 +151,7 @@
     },
     {
         "task": 10,
+        "model": "gpt-4o",
         "dur": 33.93625545501709,
         "result": {
             "page_type": "Grant Application",
@@ -155,6 +166,7 @@
     },
     {
         "task": 11,
+        "model": "gpt-4o",
         "dur": 46.24295783042908,
         "result": {
             "page_type": "Grant Application",
@@ -169,6 +181,7 @@
     },
     {
         "task": 12,
+        "model": "gpt-4o",
         "dur": 50.46530508995056,
         "result": {
             "page_type": "Grant Application",
@@ -183,6 +196,7 @@
     },
     {
         "task": 13,
+        "model": "gpt-4o",
         "dur": 32.59021615982056,
         "result": {
             "page_type": "Grant Application",
@@ -197,6 +211,7 @@
     },
     {
         "task": 14,
+        "model": "gpt-4o",
         "dur": 33.572853803634644,
         "result": {
             "page_type": "Grant Application",
@@ -211,6 +226,7 @@
     },
     {
         "task": 15,
+        "model": "gpt-4o",
         "dur": 43.28172254562378,
         "result": {
             "page_type": "Grant Application",
@@ -225,6 +241,7 @@
     },
     {
         "task": 16,
+        "model": "gpt-4o",
         "dur": 41.8420250415802,
         "result": {
             "page_type": "Grant Application",
@@ -239,6 +256,7 @@
     },
     {
         "task": 17,
+        "model": "gpt-4o",
         "dur": 50.95179224014282,
         "result": {
             "page_type": "Grant Application",
@@ -253,6 +271,7 @@
     },
     {
         "task": 18,
+        "model": "gpt-4o",
         "dur": 46.90234684944153,
         "result": {
             "page_type": "Grant Application",
@@ -267,6 +286,7 @@
     },
     {
         "task": 19,
+        "model": "gpt-4o",
         "dur": 35.1685893535614,
         "result": {
             "page_type": "Grant Application",
@@ -281,6 +301,7 @@
     },
     {
         "task": 20,
+        "model": "gpt-4o",
         "dur": 36.49570679664612,
         "result": {
             "page_type": "Grant Application",
@@ -295,6 +316,7 @@
     },
     {
         "task": 21,
+        "model": "gpt-4o",
         "dur": 40.317875385284424,
         "result": {
             "page_type": "Grant Application",
@@ -309,6 +331,7 @@
     },
     {
         "task": 22,
+        "model": "gpt-4o",
         "dur": 42.07223725318909,
         "result": {
             "page_type": "Grant Application",
@@ -323,6 +346,7 @@
     },
     {
         "task": 23,
+        "model": "gpt-4o",
         "dur": 43.339709997177124,
         "result": {
             "page_type": "Grant Application",
@@ -337,6 +361,7 @@
     },
     {
         "task": 24,
+        "model": "gpt-4o",
         "dur": 37.22337102890015,
         "result": {
             "page_type": "Grant Application",
@@ -351,6 +376,7 @@
     },
     {
         "task": 25,
+        "model": "gpt-4o",
         "dur": 47.468727350234985,
         "result": {
             "page_type": "Grant Application",
@@ -365,6 +391,7 @@
     },
     {
         "task": 26,
+        "model": "gpt-4o",
         "dur": 41.49455904960632,
         "result": {
             "page_type": "Grant Application",
@@ -379,6 +406,7 @@
     },
     {
         "task": 27,
+        "model": "gpt-4o",
         "dur": 40.23900532722473,
         "result": {
             "page_type": "Grant Application",
@@ -393,6 +421,7 @@
     },
     {
         "task": 28,
+        "model": "gpt-4o",
         "dur": 43.24948573112488,
         "result": {
             "page_type": "Grant Application",
@@ -407,6 +436,7 @@
     },
     {
         "task": 29,
+        "model": "gpt-4o",
         "dur": 36.51100468635559,
         "result": {
             "page_type": "Grant Application",
@@ -421,6 +451,7 @@
     },
     {
         "task": 30,
+        "model": "gpt-4o",
         "dur": 45.864428997039795,
         "result": {
             "page_type": "Grant Application",
@@ -435,6 +466,7 @@
     },
     {
         "task": 31,
+        "model": "gpt-4o",
         "dur": 31.750083923339844,
         "result": {
             "page_type": "Grant Application",
@@ -449,6 +481,7 @@
     },
     {
         "task": 32,
+        "model": "gpt-4o",
         "dur": 35.99708914756775,
         "result": {
             "page_type": "Grant Application",
@@ -463,6 +496,7 @@
     },
     {
         "task": 33,
+        "model": "gpt-4o",
         "dur": 37.925607442855835,
         "result": {
             "page_type": "Grant Application",
@@ -477,6 +511,7 @@
     },
     {
         "task": 34,
+        "model": "gpt-4o",
         "dur": 51.71744632720947,
         "result": {
             "page_type": "Grant Application",
@@ -491,6 +526,7 @@
     },
     {
         "task": 35,
+        "model": "gpt-4o",
         "dur": 47.66840314865112,
         "result": {
             "page_type": "Grant Application",
@@ -505,6 +541,7 @@
     },
     {
         "task": 36,
+        "model": "gpt-4o",
         "dur": 35.322678327560425,
         "result": {
             "page_type": "Grant Application",
@@ -519,6 +556,7 @@
     },
     {
         "task": 37,
+        "model": "gpt-4o",
         "dur": 35.020554065704346,
         "result": {
             "page_type": "Grant Application",
@@ -533,6 +571,7 @@
     },
     {
         "task": 38,
+        "model": "gpt-4o",
         "dur": 43.2574360370636,
         "result": {
             "page_type": "Grant Application",
@@ -547,6 +586,7 @@
     },
     {
         "task": 39,
+        "model": "gpt-4o",
         "dur": 41.65466117858887,
         "result": {
             "page_type": "Grant Application",
@@ -561,6 +601,7 @@
     },
     {
         "task": 40,
+        "model": "gpt-4o",
         "dur": 33.81360840797424,
         "result": {
             "page_type": "Grant Application",
@@ -575,6 +616,7 @@
     },
     {
         "task": 41,
+        "model": "gpt-4o",
         "dur": 47.459962368011475,
         "result": {
             "page_type": "Grant Application",
@@ -589,6 +631,7 @@
     },
     {
         "task": 42,
+        "model": "gpt-4o",
         "dur": 40.75430369377136,
         "result": {
             "page_type": "Grant Application",
@@ -603,6 +646,7 @@
     },
     {
         "task": 43,
+        "model": "gpt-4o",
         "dur": 45.048717975616455,
         "result": {
             "page_type": "Grant Application",
@@ -617,6 +661,7 @@
     },
     {
         "task": 44,
+        "model": "gpt-4o",
         "dur": 36.46218967437744,
         "result": {
             "page_type": "Grant Application",
@@ -631,6 +676,7 @@
     },
     {
         "task": 45,
+        "model": "gpt-4o",
         "dur": 36.456671714782715,
         "result": {
             "page_type": "Grant Application",
@@ -645,6 +691,7 @@
     },
     {
         "task": 46,
+        "model": "gpt-4o",
         "dur": 37.01195979118347,
         "result": {
             "page_type": "Grant Application",
@@ -659,6 +706,7 @@
     },
     {
         "task": 47,
+        "model": "gpt-4o",
         "dur": 42.45123815536499,
         "result": {
             "page_type": "Grant Application",
@@ -673,6 +721,7 @@
     },
     {
         "task": 48,
+        "model": "gpt-4o",
         "dur": 38.1385223865509,
         "result": {
             "page_type": "Grant Application",
@@ -687,6 +736,7 @@
     },
     {
         "task": 49,
+        "model": "gpt-4o",
         "dur": 38.97933268547058,
         "result": {
             "page_type": "Grant Application",

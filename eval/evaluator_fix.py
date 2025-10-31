@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 from agentrr.model.openai_server import OpenAIServer
-from agentrr.plugins.index_wrapper import IndexWrapper
+from agentrr.plugins.index_wrapper import IndexWrapper, B64ImageManager
 from agentrr.replayer.codegen_replayer import CodegenReplayer
 from agentrr.replayer.codegen_planner import CodegenPlanner
 from agentrr.expdb.loader import collect_tasks_spec
@@ -198,8 +198,13 @@ class FormFieldEvaluator:
                 all_score += 1
             elif isinstance(val, list):
                 if field in predict:
+                    if len(val) > 0 and isinstance(val[0], str):
+                        pred = [p.strip().lower() for p in predict[field]]
+                    else:
+                        pred = predict[field]
+                    
                     for v in val:
-                        if v in predict[field]:
+                        if v in pred:
                             got_score += 1
                 all_score += len(val)
             else:
@@ -264,6 +269,7 @@ class AgentRR:
             while step < max_step:
                 step += 1
                 snapshot = await IndexWrapper.fast_screenshot(replayer.context)
+                # B64ImageManager.save(snapshot, f'step_{step}')
                 plan = await planner.next(snapshot, last_snapshot, self.llm)
                 print(f"🤔: {plan.think}")
 
@@ -402,6 +408,8 @@ async def main(args):
         results.append(data)
         # 实时更新
         dump_json(out_file, results)
+
+        await asyncio.sleep(5)
 
 
 def eval(args):

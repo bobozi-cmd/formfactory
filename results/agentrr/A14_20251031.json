@@ -1,0 +1,952 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 18.543567180633545,
+        "step": 2,
+        "result": {
+            "author_name": "Alice Johnson",
+            "email": "alice.johnson@university.edu",
+            "paper_title": "Advancements in Deep Learning for Image Recognition",
+            "abstract": "This paper explores recent innovations in deep learning models, with a particular emphasis on their applications in image recognition and classification. It delves into cutting-edge research to highlight advancements and their practical implications, demonstrating how these developments can revolutionize image recognition technologies by making them more efficient and accurate.",
+            "keywords": [
+                "Deep Learning",
+                " Image Recognition",
+                " Neural Networks"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:44:03"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 15.445255994796753,
+        "step": 2,
+        "result": {
+            "author_name": "Mark Thompson",
+            "email": "mark.t@techinsight.com",
+            "paper_title": "Exploring the Future of Autonomous Vehicles",
+            "abstract": "This paper discusses the evolution of autonomous vehicles, from sensor technologies to machine learning algorithms enabling safe and efficient driving.",
+            "keywords": [
+                "Autonomous Vehicles",
+                " Self-driving",
+                " Machine Learning"
+            ],
+            "category": "Robotics",
+            "submission_time": "2025-10-31 11:44:23"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 12.895038366317749,
+        "step": 2,
+        "result": {
+            "author_name": "Emily Davis",
+            "email": "emily.davis@researchlab.org",
+            "paper_title": "Quantum Computing: Revolutionizing Problem Solving",
+            "abstract": "We examine the potential of quantum computing to solve complex problems that traditional computers cannot address, focusing on algorithms and hardware advancements.",
+            "keywords": [
+                "Quantum Computing",
+                " Algorithms",
+                " Quantum Physics"
+            ],
+            "category": "Quantum Computing",
+            "submission_time": "2025-10-31 11:44:43"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 15.92271900177002,
+        "step": 2,
+        "result": {
+            "author_name": "David Brown",
+            "email": "david.brown@techworld.net",
+            "paper_title": "Artificial Intelligence in Healthcare: Transforming Medicine",
+            "abstract": "This paper investigates the applications of AI in healthcare, with a particular focus on diagnostics, treatment planning, and patient care management. The study examines current methodologies and proposes prospective advancements where AI technology can significantly influence the efficacy and efficiency of healthcare delivery, thereby improving patient outcomes. The analysis is further enriched by drawing upon case studies and implementing diverse AI technologies that enhance diagnostic accuracy, streamline treatment regimens, and optimize patient management strategies.",
+            "keywords": [
+                "AI",
+                " Healthcare",
+                " Machine Learning"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:45:03"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 14.850922107696533,
+        "step": 2,
+        "result": {
+            "author_name": "Sophia Williams",
+            "email": "sophia.w@engineeringuniversity.com",
+            "paper_title": "Advanced Materials for Renewable Energy Technologies",
+            "abstract": "This paper details groundbreaking advancements in Materials Science, focusing on the transformative role of new materials in enhancing the efficiency of renewable energy systems, including solar cells and wind turbines. The integration of these materials leads to increased efficiency and promotes growth in renewable energy technologies, aligning with the goal of engineering sustainable solutions to combat climate change.",
+            "keywords": [
+                "Renewable Energy",
+                " Materials Science",
+                " Sustainability"
+            ],
+            "category": "Materials Science",
+            "submission_time": "2025-10-31 11:45:23"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 14.998074054718018,
+        "step": 2,
+        "result": {
+            "author_name": "James Miller",
+            "email": "james.miller@techgiant.com",
+            "paper_title": "Blockchain and Its Impact on Financial Systems",
+            "abstract": "We explore how blockchain technology is disrupting traditional financial systems and discuss its potential applications in banking and asset management.",
+            "keywords": [
+                "Blockchain",
+                " Financial Systems",
+                " Cryptocurrency"
+            ],
+            "category": "Blockchain Technology",
+            "submission_time": "2025-10-31 11:45:43"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 12.788784980773926,
+        "step": 2,
+        "result": {
+            "author_name": "Isabella Wilson",
+            "email": "isabella.wilson@edu.edu",
+            "paper_title": "The Evolution of Social Media in Modern Society",
+            "abstract": "This paper examines the influence of social media platforms on public opinion, communication, and political engagement in today's world.",
+            "keywords": [
+                "Social Media",
+                " Public Opinion",
+                " Communication"
+            ],
+            "category": "Social Sciences",
+            "submission_time": "2025-10-31 11:46:02"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 14.757498979568481,
+        "step": 2,
+        "result": {
+            "author_name": "Michael Harris",
+            "email": "michael.harris@university.edu",
+            "paper_title": "The Role of Artificial Intelligence in Modern Education",
+            "abstract": "This paper delves into the transformative impact that Artificial Intelligence (AI) is having on the education sector. It provides an extensive analysis through the lens of three core elements: personalized learning, grading automation, and the burgeoning presence of virtual teaching assistants. The insights offered are timely, given the accelerating pace of AI advancement, and have far-reaching implications for students, educators, and institutional leaders. The examination includes practical examples and case studies showcasing applications and theoretical advancements driven by AI.",
+            "keywords": [
+                "AI",
+                " Education",
+                " Personalized Learning"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:46:21"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 13.669676065444946,
+        "step": 2,
+        "result": {
+            "author_name": "Olivia Carter",
+            "email": "olivia.carter@researchcenter.org",
+            "paper_title": "Nanotechnology: The Future of Medicine and Health",
+            "abstract": "This paper explores the revolutionary potential of nanotechnology in medicine, from drug delivery systems to diagnostic tools.",
+            "keywords": [
+                "Nanotechnology",
+                " Medicine",
+                " Health"
+            ],
+            "category": "Nanotechnology",
+            "submission_time": "2025-10-31 11:46:40"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 13.318569898605347,
+        "step": 2,
+        "result": {
+            "author_name": "Alexander Rodriguez",
+            "email": "alexander.r@innovatorshub.com",
+            "paper_title": "Sustainable Agriculture: The Role of Technology in Food Production",
+            "abstract": "This paper investigates how technological advancements, such as precision farming and AI-driven solutions, are transforming food production methods.",
+            "keywords": [
+                "Sustainable Agriculture",
+                " Food Production",
+                " Technology"
+            ],
+            "category": "Agriculture Technology",
+            "submission_time": "2025-10-31 11:46:58"
+        }
+    },    
+    {
+        "task": 10,
+        "model": "qwen3-vl-flash",
+        "dur": 13.796355962753296,
+        "step": 2,
+        "result": {
+            "author_name": "Ava Moore",
+            "email": "ava.moore@greenenergy.com",
+            "paper_title": "Harnessing Wind Power: Technological Breakthroughs",
+            "abstract": "This paper reviews recent advancements in wind energy technology, including new turbine designs and methods to improve energy efficiency.",
+            "keywords": [
+                "Wind Power",
+                " Energy",
+                " Technology"
+            ],
+            "category": "Renewable Energy",
+            "submission_time": "2025-10-31 11:50:54"
+        }
+    },
+    {
+        "task": 11,
+        "model": "qwen3-vl-flash",
+        "dur": 14.245761156082153,
+        "step": 2,
+        "result": {
+            "author_name": "Lucas Clark",
+            "email": "lucas.c@sciencegroup.org",
+            "paper_title": "Climate Change: The Role of Carbon Emissions in Global Warming",
+            "abstract": "In this paper, I meticulously analyze the relationship between carbon emissions and climate change. As an urgent global issue, understanding this relationship and working towards viable solutions is essential. Consequently, the manuscript also explores practical approaches to reducing emissions on an international scale, providing unique insights into addressing a problem that transcends national borders.",
+            "keywords": [
+                "Climate Change",
+                " Carbon Emissions",
+                " Global Warming"
+            ],
+            "category": "Environmental Science",
+            "submission_time": "2025-10-31 11:51:13"
+        }
+    },
+    {
+        "task": 12,
+        "model": "qwen3-vl-flash",
+        "dur": 13.362052202224731,
+        "step": 2,
+        "result": {
+            "author_name": "Grace Lewis",
+            "email": "grace.l@medtech.org",
+            "paper_title": "The Role of AI in Drug Discovery and Development",
+            "abstract": "This paper explores the applications of AI in accelerating drug discovery, focusing on molecular simulations and predictive modeling. It delves into the transformative impact of artificial intelligence on the efficiency and efficacy of discovering new drugs, proposing novel methodologies that leverage technology to tackle current healthcare challenges.",
+            "keywords": [
+                "AI",
+                " Drug Discovery",
+                " Healthcare"
+            ],
+            "category": "Healthcare Technology",
+            "submission_time": "2025-10-31 11:51:32"
+        }
+    },
+    {
+        "task": 13,
+        "model": "qwen3-vl-flash",
+        "dur": 14.936516046524048,
+        "step": 2,
+        "result": {
+            "author_name": "Benjamin Scott",
+            "email": "benjamin.s@techlab.com",
+            "paper_title": "Edge Computing: The Future of Distributed Systems",
+            "abstract": "We investigate the emerging paradigm of edge computing, its benefits over traditional cloud computing, and its potential impact on the tech industry. In this study, we have undertaken a comprehensive analysis of the mechanisms and advantages of edge computing. We elucidate the critical differences and superiority of edge computing when employed alongside, or even in preference to, more conventional cloud computing models. Furthermore, we explore how this emerging technological trend holds a promising future, potentially transforming various facets of the tech industry by enhancing efficiency and responsiveness in distributed systems architecture.",
+            "keywords": [
+                "edge computing",
+                " distributed systems",
+                " cloud computing"
+            ],
+            "category": "Cloud Computing",
+            "submission_time": "2025-10-31 11:51:51"
+        }
+    },
+    {
+        "task": 14,
+        "model": "qwen3-vl-flash",
+        "dur": 12.42357611656189,
+        "step": 2,
+        "result": {
+            "author_name": "Charlotte Moore",
+            "email": "charlotte.m@academia.edu",
+            "paper_title": "The Psychology Behind Human-Computer Interaction",
+            "abstract": "This paper delves into the psychological factors that affect user experience in human-computer interaction, aiming to improve interface designs.",
+            "keywords": [
+                "Human-Computer Interaction",
+                " Psychology",
+                " User Experience"
+            ],
+            "category": "Psychology",
+            "submission_time": "2025-10-31 11:52:10"
+        }
+    },
+    {
+        "task": 15,
+        "model": "qwen3-vl-flash",
+        "dur": 15.411865949630737,
+        "step": 2,
+        "result": {
+            "author_name": "Mason Taylor",
+            "email": "mason.taylor@university.com",
+            "paper_title": "The Impact of 5G Networks on Global Connectivity",
+            "abstract": "We explore the role of 5G networks in enhancing global communication infrastructure and enabling faster data transmission. The paper delves into how these networks revolutionize connectivity and contribute to building more resilient and efficient communication systems across the globe.",
+            "keywords": [
+                "5G Networks",
+                " Connectivity",
+                " Telecommunication"
+            ],
+            "category": "Telecommunication",
+            "submission_time": "2025-10-31 11:52:30"
+        }
+    },
+    {
+        "task": 16,
+        "model": "qwen3-vl-flash",
+        "dur": 13.80191707611084,
+        "step": 2,
+        "result": {
+            "author_name": "Lily Walker",
+            "email": "lily.w@greenresearch.org",
+            "paper_title": "Carbon Capture Technology: The Future of Environmental Protection",
+            "abstract": "This paper provides an in-depth evaluation of carbon capture technology as a key mechanism in addressing environmental challenges. It delves into how carbon capture can significantly reduce atmospheric CO2 levels, a crucial step in mitigating the adverse impacts of climate change. The research aims to advance understanding and implementation of practical solutions for environmental preservation.",
+            "keywords": [
+                "Carbon Capture",
+                " Environmental Protection",
+                " Climate Change"
+            ],
+            "category": "Environmental Science",
+            "submission_time": "2025-10-31 11:52:48"
+        }
+    },
+    {
+        "task": 17,
+        "model": "qwen3-vl-flash",
+        "dur": 13.355875015258789,
+        "step": 2,
+        "result": {
+            "author_name": "Henry King",
+            "email": "henry.k@innovationlabs.com",
+            "paper_title": "Next-Generation Robotics: Improving Automation Efficiency",
+            "abstract": "This paper discusses how next-generation robotics is improving automation efficiency across industries such as manufacturing, healthcare, and logistics. The research highlights significant innovations in robotics technology and how these advancements contribute to operational efficiency, driving both productivity and value in various sectors.",
+            "keywords": [
+                "Robotics",
+                " Automation",
+                " Efficiency"
+            ],
+            "category": "Robotics",
+            "submission_time": "2025-10-31 11:53:06"
+        }
+    },
+    {
+        "task": 18,
+        "model": "qwen3-vl-flash",
+        "dur": 13.961977005004883,
+        "step": 2,
+        "result": {
+            "author_name": "Zoe Harris",
+            "email": "zoe.harris@techreview.org",
+            "paper_title": "The Role of Big Data in Predictive Analytics",
+            "abstract": "This paper explores the fundamental impact of big data analytics on the development and implementation of predictive models across various industries, including healthcare and retail. It examines how these analytical methods transform routine business processes and redefine strategic decision-making paradigms. The abstract investigates prospective insights to establish a cohesive narrative aimed at engaging the scholarly audience.",
+            "keywords": [
+                "Big Data",
+                " Predictive Analytics",
+                " Machine Learning"
+            ],
+            "category": "Data Science",
+            "submission_time": "2025-10-31 11:53:25"
+        }
+    },
+    {
+        "task": 19,
+        "model": "qwen3-vl-flash",
+        "dur": 13.778180122375488,
+        "step": 2,
+        "result": {
+            "author_name": "Matthew Adams",
+            "email": "matthew.adams@university.edu",
+            "paper_title": "Understanding Neural Networks in Deep Learning",
+            "abstract": "This paper explores the fundamental concepts of neural networks and their applications in deep learning, especially in image and speech recognition.",
+            "keywords": [
+                "Neural Networks",
+                " Deep Learning",
+                " AI"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:53:44"
+        }
+    },
+    {
+        "task": 20,
+        "model": "qwen3-vl-flash",
+        "dur": 15.890460014343262,
+        "step": 2,
+        "result": {
+            "author_name": "Isabelle Green",
+            "email": "isabelle.green@researchhub.com",
+            "paper_title": "Blockchain for Secure Digital Transactions",
+            "abstract": "This paper elucidates the pivotal role of blockchain technology in fortifying digital transactions and its potential impact on industries like banking and e-commerce. It comprehensively deliberates on how blockchain enhances security in digital exchanges and its transformative potential to mitigate risk and streamline operations across sectors. Insights are drawn from past studies and practical implementations, highlighting a future driven by robust, technology-enabled innovations.",
+            "keywords": [
+                "Blockchain",
+                " Digital Transactions",
+                " Security"
+            ],
+            "category": "Blockchain Technology",
+            "submission_time": "2025-10-31 11:54:04"
+        }
+    },
+    {
+        "task": 21,
+        "model": "qwen3-vl-flash",
+        "dur": 12.837732076644897,
+        "step": 2,
+        "result": {
+            "author_name": "Oliver Lewis",
+            "email": "oliver.lewis@engineeringedu.org",
+            "paper_title": "Energy Storage Solutions: The Future of Renewable Energy",
+            "abstract": "This paper investigates emerging energy storage technologies and their role in enabling a more sustainable and efficient renewable energy grid.",
+            "keywords": [
+                "Energy Storage",
+                " Renewable Energy",
+                " Sustainability"
+            ],
+            "category": "Renewable Energy",
+            "submission_time": "2025-10-31 11:54:23"
+        }
+    },
+    {
+        "task": 22,
+        "model": "qwen3-vl-flash",
+        "dur": 13.844058752059937,
+        "step": 2,
+        "result": {
+            "author_name": "Charlotte Harris",
+            "email": "charlotte.h@university.com",
+            "paper_title": "The Future of Artificial General Intelligence",
+            "abstract": "This paper discusses the current state of artificial general intelligence (AGI) and its potential implications for human society and the job market.",
+            "keywords": [
+                "Artificial General Intelligence",
+                " AI",
+                " Future of Work"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:54:42"
+        }
+    },
+    {
+        "task": 23,
+        "model": "qwen3-vl-flash",
+        "dur": 15.187027931213379,
+        "step": 2,
+        "result": {
+            "author_name": "Ethan Lewis",
+            "email": "ethan.lewis@techuniverse.org",
+            "paper_title": "Cloud Computing: A Paradigm Shift in IT Infrastructure",
+            "abstract": "This paper examines the evolution of cloud computing and how it has transformed IT infrastructure management for businesses of all sizes. It highlights the revolutionary changes and the adaptable solutions that cloud computing provides, catering to diverse business needs.",
+            "keywords": [
+                "Cloud Computing",
+                " IT Infrastructure",
+                " Technology"
+            ],
+            "category": "Cloud Computing",
+            "submission_time": "2025-10-31 11:55:02"
+        }
+    },
+    {
+        "task": 24,
+        "model": "qwen3-vl-flash",
+        "dur": 12.232922077178955,
+        "step": 2,
+        "result": {
+            "author_name": "Sophie Martin",
+            "email": "sophie.martin@designworld.com",
+            "paper_title": "Design Thinking in Product Development",
+            "abstract": "This paper outlines the principles of design thinking and how they are applied in product development to enhance user experience and innovation.",
+            "keywords": [
+                "Design Thinking",
+                " Product Development",
+                " Innovation"
+            ],
+            "category": "Design",
+            "submission_time": "2025-10-31 11:55:19"
+        }
+    },
+    {
+        "task": 25,
+        "model": "qwen3-vl-flash",
+        "dur": 14.040072202682495,
+        "step": 2,
+        "result": {
+            "author_name": "Daniel Clark",
+            "email": "daniel.clark@futurescientists.edu",
+            "paper_title": "Sustainable Agriculture Practices for the 21st Century",
+            "abstract": "This paper meticulously unpacks a multitude of sustainable farming techniques imperative to addressing global food demands. It focuses on innovative strategies like precision agriculture and eco-friendly practices, elucidating their role in achieving substantial food security. The goal is to bridge synergistic farming practices with environmental stewardship, yielding beneficial outcomes for agricultural productivity and future sustainability.",
+            "keywords": [
+                "Sustainable Agriculture",
+                " Farming",
+                " Food Security"
+            ],
+            "category": "Agriculture Technology",
+            "submission_time": "2025-10-31 11:55:38"
+        }
+    },
+    {
+        "task": 26,
+        "model": "qwen3-vl-flash",
+        "dur": 11.519826173782349,
+        "step": 2,
+        "result": {
+            "author_name": "Amelia Roberts",
+            "email": "amelia.roberts@techsystems.com",
+            "paper_title": "Artificial Intelligence in Cybersecurity: Enhancing Threat Detection",
+            "abstract": "The submitted paper explores the role of Artificial Intelligence in advancing cybersecurity measures, emphasizing real-time threat detection and response.",
+            "keywords": [
+                "AI",
+                " Cybersecurity",
+                " Threat Detection"
+            ],
+            "category": "Artificial Intelligence",
+            "submission_time": "2025-10-31 11:55:56"
+        }
+    },
+    {
+        "task": 27,
+        "model": "qwen3-vl-flash",
+        "dur": 17.609111070632935,
+        "step": 2,
+        "result": {
+            "author_name": "Lucas White",
+            "email": "lucas.white@dataanalytics.com",
+            "paper_title": "Data Analytics in Healthcare: Transforming Patient Care",
+            "abstract": "The paper explores the transformative potential of integrating data analytics in the health sector. In pursuit of enhanced patient outcomes, it delves into strategies for cost reduction and optimizing hospital operations. This study illustrates the profound impact that data-driven decision-making can have on the healthcare industry, promising a myriad of improvements in patient management and resource allocation.",
+            "keywords": [
+                "Data Analytics",
+                " Healthcare",
+                " Patient Care"
+            ],
+            "category": "Data Science",
+            "submission_time": "2025-10-31 11:56:17"
+        }
+    },
+    {
+        "task": 28,
+        "model": "qwen3-vl-flash",
+        "dur": 13.777472972869873,
+        "step": 2,
+        "result": {
+            "author_name": "Mia Taylor",
+            "email": "mia.taylor@eduplatform.org",
+            "paper_title": "E-Learning: The Future of Education",
+            "abstract": "This paper explores the growing role of e-learning platforms in education, particularly their effectiveness in delivering remote and personalized learning experiences.",
+            "keywords": [
+                "E-Learning",
+                " Education",
+                " Remote Learning"
+            ],
+            "category": "Education Technology",
+            "submission_time": "2025-10-31 11:56:36"
+        }
+    },
+    {
+        "task": 29,
+        "model": "qwen3-vl-flash",
+        "dur": 13.14953088760376,
+        "step": 2,
+        "result": {
+            "author_name": "James Anderson",
+            "email": "james.anderson@bigdata.com",
+            "paper_title": "Big Data and the Future of Predictive Analytics",
+            "abstract": "This paper discusses the importance of big data in predictive analytics, focusing on its applications in finance, marketing, and healthcare.",
+            "keywords": [
+                "Big Data",
+                " Predictive Analytics",
+                " Applications"
+            ],
+            "category": "Data Science",
+            "submission_time": "2025-10-31 11:56:55"
+        }
+    },
+    {
+        "task": 30,
+        "model": "qwen3-vl-flash",
+        "dur": 14.365629196166992,
+        "step": 2,
+        "result": {
+            "author_name": "Grace Miller",
+            "email": "grace.miller@biotechcompany.com",
+            "paper_title": "CRISPR Technology: Revolutionizing Genetic Engineering",
+            "abstract": "This paper examines the CRISPR-Cas9 gene editing technology and its potential applications in genetic research, disease prevention, and personalized medicine.",
+            "keywords": [
+                "CRISPR",
+                " Gene Editing",
+                " Biotechnology"
+            ],
+            "category": "Biotechnology",
+            "submission_time": "2025-10-31 11:57:13"
+        }
+    },
+    {
+        "task": 31,
+        "model": "qwen3-vl-flash",
+        "dur": 13.860782623291016,
+        "step": 2,
+        "result": {
+            "author_name": "Jack Robinson",
+            "email": "jack.robinson@techfrontier.com",
+            "paper_title": "The Role of Augmented Reality in Modern Marketing",
+            "abstract": "This paper explores how augmented reality (AR) is transforming marketing strategies, providing innovative ways for businesses to engage with customers. It delves into the various applications of AR and how it enhances consumer interaction, making it a pivotal component in the modern marketing landscape.",
+            "keywords": [
+                "Augmented Reality",
+                " Marketing",
+                " Consumer Engagement"
+            ],
+            "category": "Marketing Technology",
+            "submission_time": "2025-10-31 11:57:32"
+        }
+    },
+    {
+        "task": 32,
+        "model": "qwen3-vl-flash",
+        "dur": 13.243916034698486,
+        "step": 2,
+        "result": {
+            "author_name": "Isabel Scott",
+            "email": "isabel.scott@universe.com",
+            "paper_title": "Exploring the Use of AI in Climate Change Solutions",
+            "abstract": "The paper investigates how AI technologies are applied to combat climate change, focusing on energy optimization and predictive climate models. It highlights current advancements and future potential, emphasizing AI\u2019s transformative role in environmental conservation.",
+            "keywords": [
+                "AI",
+                " Climate Change",
+                " Energy Optimization"
+            ],
+            "category": "Environmental Science",
+            "submission_time": "2025-10-31 11:57:50"
+        }
+    },
+    {
+        "task": 33,
+        "model": "qwen3-vl-flash",
+        "dur": 14.429097890853882,
+        "step": 2,
+        "result": {
+            "author_name": "Benjamin White",
+            "email": "benjamin.white@cloudtech.com",
+            "paper_title": "The Role of Edge Computing in the Internet of Things",
+            "abstract": "This paper explores how edge computing acts as a game-changer in the Internet of Things (IoT) by enhancing data processing capabilities and reducing latency, thereby providing a more robust foundation for IoT applications.",
+            "keywords": [
+                "Edge Computing",
+                " IoT",
+                " Data Processing"
+            ],
+            "category": "Cloud Computing",
+            "submission_time": "2025-10-31 11:58:10"
+        }
+    },
+    {
+        "task": 34,
+        "model": "qwen3-vl-flash",
+        "dur": 13.005143165588379,
+        "step": 2,
+        "result": {
+            "author_name": "Sophia Brown",
+            "email": "sophia.brown@healthtech.org",
+            "paper_title": "Telemedicine: The Future of Remote Healthcare",
+            "abstract": "This paper explores the growing role of telemedicine in providing accessible and efficient healthcare, particularly in underserved regions.",
+            "keywords": [
+                "Telemedicine",
+                " Healthcare",
+                " Remote Services"
+            ],
+            "category": "Healthcare Technology",
+            "submission_time": "2025-10-31 11:58:29"
+        }
+    },
+    {
+        "task": 35,
+        "model": "qwen3-vl-flash",
+        "dur": 15.76979112625122,
+        "step": 2,
+        "result": {
+            "author_name": "Lucas Jackson",
+            "email": "lucas.jackson@researchgroup.org",
+            "paper_title": "The Impact of Smart Cities on Urban Development",
+            "abstract": "A summary of the paper discussing how smart city technologies reshape urban development and enhance citizens\u2019 daily lives.",
+            "keywords": [
+                "Smart Cities",
+                " Urban Development",
+                " Technology"
+            ],
+            "category": "Urban Studies",
+            "submission_time": "2025-10-31 11:58:48"
+        }
+    },
+    {
+        "task": 36,
+        "model": "qwen3-vl-flash",
+        "dur": 17.00187921524048,
+        "step": 2,
+        "result": {
+            "author_name": "Chloe Carter",
+            "email": "chloe.carter@greenresearch.org",
+            "paper_title": "Sustainable Energy Solutions for the Future",
+            "abstract": "The paper titled \"Sustainable Energy Solutions for the Future\" provides a thorough investigation into the latest sustainable energy technologies. With a primary focus on solar, wind, and bioenergy, it delves into their pivotal role in reducing carbon emissions. The findings discussed in this paper are crucial for advancing initiatives aimed at mitigating climate change and promoting a cleaner environment for future generations.",
+            "keywords": [
+                "Sustainable Energy",
+                " Carbon Emissions",
+                " Renewable Energy"
+            ],
+            "category": "Environmental Science",
+            "submission_time": "2025-10-31 11:59:09"
+        }
+    },
+    {
+        "task": 37,
+        "model": "qwen3-vl-flash",
+        "dur": 15.132339000701904,
+        "step": 2,
+        "result": {
+            "author_name": "Ella Moore",
+            "email": "ella.moore@innovativetech.com",
+            "paper_title": "Exploring the Use of Machine Learning in Financial Forecasting",
+            "abstract": "In this influential paper, we delve into the significant role that machine learning algorithms play within the realm of financial forecasting. Emphasizing particularly on stock market predictions and risk management, this study provides an insightful exploration into how these advanced algorithms are shaping the future of financial analysis.",
+            "keywords": [
+                "Machine Learning",
+                " Financial Forecasting",
+                " Stock Market"
+            ],
+            "category": "Data Science",
+            "submission_time": "2025-10-31 11:59:31"
+        }
+    },
+    {
+        "task": 38,
+        "model": "qwen3-vl-flash",
+        "dur": 14.189584970474243,
+        "step": 2,
+        "result": {
+            "author_name": "Jacob Turner",
+            "email": "jacob.turner@edu-tech.org",
+            "paper_title": "The Role of Gamification in Modern Education",
+            "abstract": "This paper investigates how gamification techniques are being integrated into educational systems to enhance student engagement and learning outcomes. It provides a thorough analysis of various gamification strategies and evaluates their effectiveness in different educational contexts.",
+            "keywords": [
+                "Gamification",
+                " Education",
+                " Student Engagement"
+            ],
+            "category": "Education Technology",
+            "submission_time": "2025-10-31 11:59:50"
+        }
+    },
+    {
+        "task": 39,
+        "model": "qwen3-vl-flash",
+        "dur": 15.003885984420776,
+        "step": 2,
+        "result": {
+            "author_name": "Charlotte Evans",
+            "email": "charlotte.evans@techinnovators.com",
+            "paper_title": "3D Printing in Healthcare: A Revolutionary Approach",
+            "abstract": "This paper presents an insightful exploration of how 3D printing technologies have transcended traditional manufacturing in creating customized medical applications. The core focus is on the aptitude of 3D printing to manufacture personalized medical devices, prosthetics, and, notably, the printing of organs, thereby mapping a promising future for patient-specific treatments. In essence, this comprehensive analysis is done to emphasize the convergence of 3D Printing and Healthcare and how this synergy can redefine what is achievable within medical technology.",
+            "keywords": [
+                "3D Printing",
+                " Healthcare",
+                " Medical Devices"
+            ],
+            "category": "Biotechnology",
+            "submission_time": "2025-10-31 12:00:10"
+        }
+    },
+    {
+        "task": 40,
+        "model": "qwen3-vl-flash",
+        "dur": 13.221571922302246,
+        "step": 2,
+        "result": {
+            "author_name": "Oliver Cooper",
+            "email": "oliver.cooper@fintechcorp.com",
+            "paper_title": "FinTech: The Future of Financial Services",
+            "abstract": "This paper examines the rise of financial technologies (FinTech), its impact on traditional banking, and the future role of digital currencies and blockchain.",
+            "keywords": [
+                "FinTech",
+                " Blockchain",
+                " Digital Currency"
+            ],
+            "category": "Blockchain Technology",
+            "submission_time": "2025-10-31 12:02:08"
+        }
+    },
+    {
+        "task": 41,
+        "model": "qwen3-vl-flash",
+        "dur": 14.898809909820557,
+        "step": 2,
+        "result": {
+            "author_name": "Isabel Adams",
+            "email": "isabel.adams@greenworld.org",
+            "paper_title": "Renewable Energy Technologies for a Sustainable Future",
+            "abstract": "My paper discusses the latest advancements in renewable energy technologies, particularly focusing on wind, solar, and hydropower. These developments are crucial in our fight against climate change, offering transformative potential for sustainable practices worldwide. It is vital in this period of heightened ecological consciousness to disseminate such crucial information. The abstract elucidates on the highlighted renewable energy technologies, explicating their significant impacts and offering insights into their transformational role in addressing global climate challenges. Throughout the paper, I explore key aspects of Renewable Energy, which I believe aligns seamlessly with pivotal discussions on Sustainability and Climate Change \u2013 areas that are considered high priorities on global developmental agenda.",
+            "keywords": [
+                "renewable energy",
+                " sustainability",
+                " climate change"
+            ],
+            "category": "Renewable Energy",
+            "submission_time": "2025-10-31 12:02:26"
+        }
+    },
+    {
+        "task": 42,
+        "model": "qwen3-vl-flash",
+        "dur": 18.564865112304688,
+        "step": 2,
+        "result": {
+            "author_name": "Ethan Harris",
+            "email": "ethan.harris@roboticslab.com",
+            "paper_title": "The Role of Robotics in Industrial Automation",
+            "abstract": "This paper examines how robotics is revolutionizing industrial automation, improving efficiency, and reducing human labor in manufacturing processes. As the industrial landscape continues to evolve, the integration of robotics solutions is not only enhancing production workflows but is also paving the way for safer and more sustainable practices. The potential benefits of adopting robotic systems surpass traditional methods, promising streamlined operations and new economic opportunities.",
+            "keywords": [
+                "Robotics",
+                " Industrial Automation",
+                " Efficiency"
+            ],
+            "category": "Robotics",
+            "submission_time": "2025-10-31 12:02:46"
+        }
+    },
+    {
+        "task": 43,
+        "model": "qwen3-vl-flash",
+        "dur": 15.347418069839478,
+        "step": 2,
+        "result": {
+            "author_name": "Ava Collins",
+            "email": "ava.collins@neuroscience.edu",
+            "paper_title": "The Brain-Computer Interface: Connecting Humans to Machines",
+            "abstract": "The paper investigates the latest developments in brain-computer interface (BCI) technology, emphasizing their pioneering applications within healthcare and neuroscience. It explores how these interfaces bridge the human brain with external machines, fostering possibilities beyond traditional limitations in therapeutic contexts and scientific research.",
+            "keywords": [
+                "Brain-Computer Interface",
+                " Neuroscience",
+                " Technology"
+            ],
+            "category": "Neuroscience",
+            "submission_time": "2025-10-31 12:03:11"
+        }
+    },
+    {
+        "task": 44,
+        "model": "qwen3-vl-flash",
+        "dur": 14.54590392112732,
+        "step": 2,
+        "result": {
+            "author_name": "Noah Mitchell",
+            "email": "noah.mitchell@digitalmedia.com",
+            "paper_title": "Augmented Reality and Virtual Reality: The Future of Digital Interaction",
+            "abstract": "This paper explores the burgeoning influence of augmented and virtual reality technologies, focusing on their transformative roles in digital media, gaming, and entertainment industries. It delves into how these technologies are enhancing digital interaction and examines their substantial impact on shaping future user experiences.",
+            "keywords": [
+                "Augmented Reality",
+                " Virtual Reality",
+                " Digital Interaction"
+            ],
+            "category": "Digital Media",
+            "submission_time": "2025-10-31 12:03:30"
+        }
+    },
+    {
+        "task": 45,
+        "model": "qwen3-vl-flash",
+        "dur": 18.988529205322266,
+        "step": 2,
+        "result": {
+            "author_name": "Sophia Clark",
+            "email": "sophia.clark@bioengineering.com",
+            "paper_title": "Gene Editing Technologies: Unlocking the Future of Medicine",
+            "abstract": "In my research, discussed in detail in the submitted paper, I explore current advancements in gene editing techniques, with a focus on CRISPR technology. The aim of this paper is to illuminate the groundbreaking potential these techniques hold in transforming genetic medicine. By presenting examples of how gene editing can offer cures for previously intractable genetic disorders, I hope to emphasize the future promise of these technologies in medical applications.",
+            "keywords": [
+                "Gene Editing",
+                " CRISPR",
+                " Genetic Medicine"
+            ],
+            "category": "Biotechnology",
+            "submission_time": "2025-10-31 12:03:53"
+        }
+    },
+    {
+        "task": 46,
+        "model": "qwen3-vl-flash",
+        "dur": 14.465426921844482,
+        "step": 2,
+        "result": {
+            "author_name": "Jackson Foster",
+            "email": "jackson.foster@fintechstartup.com",
+            "paper_title": "Blockchain in Financial Transactions: Enhancing Security and Transparency",
+            "abstract": "This paper explores how blockchain technology can improve the transparency and security of financial transactions, reducing fraud and increasing trust.",
+            "keywords": [
+                "Blockchain",
+                " Financial Transactions",
+                " Security"
+            ],
+            "category": "Blockchain Technology",
+            "submission_time": "2025-10-31 12:04:14"
+        }
+    },
+    {
+        "task": 47,
+        "model": "qwen3-vl-flash",
+        "dur": 16.50430989265442,
+        "step": 2,
+        "result": {
+            "author_name": "Madeline Wilson",
+            "email": "madeline.wilson@ecoinnovators.com",
+            "paper_title": "Sustainable Urban Development: Smart Cities and Green Architecture",
+            "abstract": "This paper offers an insightful exploration into the realm of sustainable urban development practices. It covers a substantial analysis that emphasizes green architecture, the emerging role of smart cities, and the importance of sustainable infrastructure in the modern urban landscape.",
+            "keywords": [
+                "Urban Development",
+                " Sustainability",
+                " Smart Cities"
+            ],
+            "category": "Urban Studies",
+            "submission_time": "2025-10-31 12:04:35"
+        }
+    },
+    {
+        "task": 48,
+        "model": "qwen3-vl-flash",
+        "dur": 14.482106924057007,
+        "step": 2,
+        "result": {
+            "author_name": "Liam James",
+            "email": "liam.james@autotech.com",
+            "paper_title": "The Future of Electric Vehicles: Technology and Market Trends",
+            "abstract": "This paper examines the latest advancements in electric vehicle technology and the growing market trends that are driving the shift towards sustainable transportation.",
+            "keywords": [
+                "Electric Vehicles",
+                " Sustainability",
+                " Transportation"
+            ],
+            "category": "Transportation Technology",
+            "submission_time": "2025-10-31 12:04:55"
+        }
+    },
+    {
+        "task": 49,
+        "model": "qwen3-vl-flash",
+        "dur": 14.297057867050171,
+        "step": 2,
+        "result": {
+            "author_name": "Zoe King",
+            "email": "zoe.king@energycorp.com",
+            "paper_title": "Solar Energy: Advancements in Efficiency and Storage",
+            "abstract": "This paper highlights recent advancements in solar energy technology, focusing on improvements in efficiency and storage solutions that enhance performance and integration of renewable energy systems. It argues that these advancements are critical for transitioning to global renewable energy reliance, exploring practical applications to make alternative energy sources viable and sustainable.",
+            "keywords": [
+                "Solar Energy",
+                " Efficiency",
+                " Energy Storage"
+            ],
+            "category": "Renewable Energy",
+            "submission_time": "2025-10-31 12:05:14"
+        }
+    }
+]
