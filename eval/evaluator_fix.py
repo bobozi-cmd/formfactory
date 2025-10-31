@@ -8,6 +8,7 @@ import time
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import re
+import requests
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
@@ -22,6 +23,9 @@ from browser_use.browser.context import BrowserContext
 
 from browser_use import Agent
 from langchain_openai import ChatOpenAI
+
+import midscene
+from midscene.web import PlaywrightWebPage
 
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 os.environ['SENTENCE_TRANSFORMERS_HOME'] = './.save'
@@ -329,6 +333,38 @@ class AgentBU:
             
         return steps
 
+class AgentMidscene:
+    def __init__(self, exp_db, url):
+        self.url = url
+        self.spec = collect_tasks_spec(exp_db)[url]
+
+    async def execute_task(self, task, max_step: int = 50):
+        task = f"你需要按照下面的任务完成表单的填写并提交, 所有信息都是使用英文填写: {task}"
+        steps = 1
+
+        async with cdp_browser_ctx() as cdp_browser: # 可以放到 ts 的部分
+            context: BrowserContext = cdp_browser.context
+            page = await context.get_current_page()
+            await page.goto(self.url)
+        
+        server_url = f"http://127.0.0.1:12345/execute"
+        payload = {"task": task, "max_step": max_step} # max_step is useless in midscene
+
+        headers = {
+            "Content-Type": "application/json",
+            "User-Agent": "Python-Client/1.0"
+        }
+
+        try:
+            resp = requests.post(server_url, json=payload, headers=headers)
+            result = resp.json()
+            steps = result['steps']
+        except Exception as e:
+            print(f"Failed to execute by midscene: {e}")
+            steps = -1
+
+        return steps
+
 
 def remove_file(file: Path):
     if file.exists():
@@ -345,7 +381,8 @@ def dump_json(file: Path, data):
 
 AGENTS = {
     AgentRR.__name__: AgentRR,
-    AgentBU.__name__: AgentBU
+    AgentBU.__name__: AgentBU,
+    AgentMidscene.__name__: AgentMidscene
 }
 
 async def main(args):
