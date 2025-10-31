@@ -122,6 +122,8 @@ class FormFieldEvaluator:
             step = predict_item['step'] if 'step' in predict_item else -1
             if step != -1:
                 steps.append(step)
+            if len(predict_item['result']) == 0:
+                continue
 
             gt_item = gt_data[predict_item['task']]
             match_data = self._evaluate_item(predict_item['result'], gt_item)
@@ -339,7 +341,7 @@ class AgentMidscene:
         self.spec = collect_tasks_spec(exp_db)[url]
 
     async def execute_task(self, task, max_step: int = 50):
-        task = f"你需要按照下面的任务完成表单的填写并提交, 所有信息都是使用英文填写: {task}"
+        task = f"You need to complete the form and submit it according to the following tasks. All information will be filled in English: {task}"
         steps = 1
 
         async with cdp_browser_ctx() as cdp_browser: # 可以放到 ts 的部分
