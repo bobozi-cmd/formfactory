@@ -24,9 +24,6 @@ from browser_use.browser.context import BrowserContext
 from browser_use import Agent
 from langchain_openai import ChatOpenAI
 
-import midscene
-from midscene.web import PlaywrightWebPage
-
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 os.environ['SENTENCE_TRANSFORMERS_HOME'] = './.save'
 
