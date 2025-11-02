@@ -44,8 +44,8 @@ TASKS_MAPPING = {
 
 FUZZY_FIELD = {
     "A11": ["cover_letter", 'department'], # ✅
-    "A12": [],
-    "A15": ["comments"],
+    "A12": [], # ✅
+    "A15": ["comments"], # ✅
     "A14": ["abstract"],
     "A13": ["essay"], # TODO
     "B11": ["business_model", "target_market", "funding_purpose", "additional_comments"], # ✅

@@ -1,0 +1,802 @@
+[
+    {
+        "task": 0,
+        "model": "gpt-4o",
+        "dur": 27.315175771713257,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Diana",
+            "last_name": "Bridges",
+            "email": "wmills@shields.net",
+            "dob": "1951/09/28",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:25:10"
+        }
+    },
+    {
+        "task": 1,
+        "model": "gpt-4o",
+        "dur": 31.833367109298706,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "James",
+            "last_name": "Jones",
+            "email": "elizabethmiles@yahoo.com",
+            "dob": "1967/02/05",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:25:46"
+        }
+    },
+    {
+        "task": 2,
+        "model": "gpt-4o",
+        "dur": 28.40977692604065,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Matthew",
+            "last_name": "Payne",
+            "email": "kbaxter@yahoo.com",
+            "dob": "1982/04/25",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:26:20"
+        }
+    },
+    {
+        "task": 3,
+        "model": "gpt-4o",
+        "dur": 30.383662939071655,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Zachary",
+            "last_name": "Ballard",
+            "email": "lambbrittany@mitchell.com",
+            "dob": "1985/12/02",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:26:55"
+        }
+    },
+    {
+        "task": 4,
+        "model": "gpt-4o",
+        "dur": 26.03753399848938,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Nathan",
+            "last_name": "Olson",
+            "email": "dpadilla@gmail.com",
+            "dob": "1946/11/20",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:27:28"
+        }
+    },
+    {
+        "task": 5,
+        "model": "gpt-4o",
+        "dur": 29.35765027999878,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Nicholas",
+            "last_name": "Pierce",
+            "email": "beth41@smith.com",
+            "dob": "2002/04/20",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:28:01"
+        }
+    },
+    {
+        "task": 6,
+        "model": "gpt-4o",
+        "dur": 25.48453712463379,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "James",
+            "last_name": "Moore",
+            "email": "jonathanharris@price-rice.com",
+            "dob": "2025/11/19",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:28:34"
+        }
+    },
+    {
+        "task": 7,
+        "model": "gpt-4o",
+        "dur": 32.71292591094971,
+        "step": 5,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Briana",
+            "last_name": "Walker",
+            "email": "qparks@rice.com",
+            "dob": "1946/12/20",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:29:10"
+        }
+    },
+    {
+        "task": 8,
+        "model": "gpt-4o",
+        "dur": 29.31407928466797,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Christine",
+            "last_name": "Stanley",
+            "email": "jswanson@guzman.org",
+            "dob": "1963/06/13",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:29:46"
+        }
+    },
+    {
+        "task": 9,
+        "model": "gpt-4o",
+        "dur": 30.496994972229004,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Charles",
+            "last_name": "Bailey",
+            "email": "heathermendez@gmail.com",
+            "dob": "1958/10/21",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:30:21"
+        }
+    },
+    {
+        "task": 10,
+        "model": "gpt-4o",
+        "dur": 26.37237787246704,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Elizabeth",
+            "last_name": "Harris",
+            "email": "emma73@hotmail.com",
+            "dob": "1973/06/24",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:32:36"
+        }
+    },
+    {
+        "task": 11,
+        "model": "gpt-4o",
+        "dur": 27.984434127807617,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Brenda",
+            "last_name": "Estes",
+            "email": "rogersjessica@hodge.info",
+            "dob": "1992/12/06",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:33:07"
+        }
+    },
+    {
+        "task": 12,
+        "model": "gpt-4o",
+        "dur": 33.19206118583679,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Timothy",
+            "last_name": "Smith",
+            "email": "sarahdunn@cooper.info",
+            "dob": "1997/02/07",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:33:44"
+        }
+    },
+    {
+        "task": 13,
+        "model": "gpt-4o",
+        "dur": 25.092869997024536,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Aaron",
+            "last_name": "Anderson",
+            "email": "fcaldwell@gmail.com",
+            "dob": "1996/05/01",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:34:17"
+        }
+    },
+    {
+        "task": 14,
+        "model": "gpt-4o",
+        "dur": 26.101397037506104,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Karen",
+            "last_name": "Castillo",
+            "email": "wilsonmegan@stanley-bright.com",
+            "dob": "1976/05/23",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-02 21:34:49"
+        }
+    },
+    {
+        "task": 15,
+        "model": "gpt-4o",
+        "dur": 28.28100824356079,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Tiffany",
+            "last_name": "Robles",
+            "email": "jay31@hotmail.com",
+            "dob": "1995/01/15",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:35:21"
+        }
+    },
+    {
+        "task": 16,
+        "model": "gpt-4o",
+        "dur": 28.451841115951538,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "William",
+            "last_name": "Ramos",
+            "email": "mreyes@gmail.com",
+            "dob": "1967/10/27",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:35:54"
+        }
+    },
+    {
+        "task": 17,
+        "model": "gpt-4o",
+        "dur": 28.32934308052063,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Sara",
+            "last_name": "Torres",
+            "email": "angelakelley@hotmail.com",
+            "dob": "1951/08/15",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-02 21:36:27"
+        }
+    },
+    {
+        "task": 18,
+        "model": "gpt-4o",
+        "dur": 29.854026079177856,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Crystal",
+            "last_name": "Shaw",
+            "email": "jessicahouston@simpson.org",
+            "dob": "2001/09/04",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:37:03"
+        }
+    },
+    {
+        "task": 19,
+        "model": "gpt-4o",
+        "dur": 25.4271879196167,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Julia",
+            "last_name": "Day",
+            "email": "rebeccawarren@bailey.com",
+            "dob": "2002/12/08",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:37:33"
+        }
+    },
+    {
+        "task": 20,
+        "model": "gpt-4o",
+        "dur": 27.14049792289734,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "April",
+            "last_name": "Thomas",
+            "email": "christopherhunt@hotmail.com",
+            "dob": "1960/12/29",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-02 21:38:06"
+        }
+    },
+    {
+        "task": 21,
+        "model": "gpt-4o",
+        "dur": 27.77863383293152,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "David",
+            "last_name": "Banks",
+            "email": "zcochran@adams-page.org",
+            "dob": "1962/06/04",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:38:37"
+        }
+    },
+    {
+        "task": 22,
+        "model": "gpt-4o",
+        "dur": 29.58521795272827,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Angela",
+            "last_name": "Solis",
+            "email": "pnguyen@gmail.com",
+            "dob": "1975/02/20",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:39:11"
+        }
+    },
+    {
+        "task": 23,
+        "model": "gpt-4o",
+        "dur": 28.406126022338867,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Jennifer",
+            "last_name": "Lester",
+            "email": "carlbentley@nelson-barajas.org",
+            "dob": "1963/05/14",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:39:46"
+        }
+    },
+    {
+        "task": 24,
+        "model": "gpt-4o",
+        "dur": 24.276108980178833,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "James",
+            "last_name": "Tucker",
+            "email": "bartonthomas@yahoo.com",
+            "dob": "1961/05/01",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:40:15"
+        }
+    },
+    {
+        "task": 25,
+        "model": "gpt-4o",
+        "dur": 57.40222382545471,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Patrick",
+            "last_name": "Beasley",
+            "email": "sharon73@yahoo.com",
+            "dob": "1992/11/05",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:41:18"
+        }
+    },
+    {
+        "task": 26,
+        "model": "gpt-4o",
+        "dur": 28.690736770629883,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Michelle",
+            "last_name": "Smith",
+            "email": "kprince@yahoo.com",
+            "dob": "1978/06/06",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:41:49"
+        }
+    },
+    {
+        "task": 27,
+        "model": "gpt-4o",
+        "dur": 28.858393907546997,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Maria",
+            "last_name": "Ruiz",
+            "email": "lauren74@lara.com",
+            "dob": "1990/10/03",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:42:25"
+        }
+    },
+    {
+        "task": 28,
+        "model": "gpt-4o",
+        "dur": 27.06245183944702,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Joseph",
+            "last_name": "Smith",
+            "email": "jondennis@yahoo.com",
+            "dob": "1973/09/27",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:42:57"
+        }
+    },
+    {
+        "task": 29,
+        "model": "gpt-4o",
+        "dur": 27.082491874694824,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "William",
+            "last_name": "Davis",
+            "email": "moorematthew@murray.com",
+            "dob": "1956/10/12",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:43:30"
+        }
+    },
+    {
+        "task": 30,
+        "model": "gpt-4o",
+        "dur": 27.43087887763977,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Paula",
+            "last_name": "Sims",
+            "email": "jasminediaz@kramer.net",
+            "dob": "1954/01/15",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:44:00"
+        }
+    },
+    {
+        "task": 31,
+        "model": "gpt-4o",
+        "dur": 31.963436126708984,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Michele",
+            "last_name": "Stevens",
+            "email": "justin87@yahoo.com",
+            "dob": "1998/09/29",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:44:38"
+        }
+    },
+    {
+        "task": 32,
+        "model": "gpt-4o",
+        "dur": 28.995596885681152,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Rebecca",
+            "last_name": "Mcdonald",
+            "email": "hdiaz@reed-acosta.com",
+            "dob": "1969/02/28",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:45:13"
+        }
+    },
+    {
+        "task": 33,
+        "model": "gpt-4o",
+        "dur": 26.226274967193604,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Dawn",
+            "last_name": "Torres",
+            "email": "hgreene@hotmail.com",
+            "dob": "1945/08/30",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:45:43"
+        }
+    },
+    {
+        "task": 34,
+        "model": "gpt-4o",
+        "dur": 29.003019094467163,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Molly",
+            "last_name": "Anderson",
+            "email": "david88@baker.com",
+            "dob": "1989/04/26",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:46:17"
+        }
+    },
+    {
+        "task": 35,
+        "model": "gpt-4o",
+        "dur": 29.304134130477905,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "John",
+            "last_name": "Collins",
+            "email": "zacharysanchez@hotmail.com",
+            "dob": "1982/04/05",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:46:52"
+        }
+    },
+    {
+        "task": 36,
+        "model": "gpt-4o",
+        "dur": 26.644262075424194,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Chad",
+            "last_name": "Ellis",
+            "email": "biancahudson@solis.net",
+            "dob": "1975/09/24",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:47:23"
+        }
+    },
+    {
+        "task": 37,
+        "model": "gpt-4o",
+        "dur": 27.778934001922607,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Brandon",
+            "last_name": "Holmes",
+            "email": "benjamin56@yahoo.com",
+            "dob": "1988/06/07",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:47:57"
+        }
+    },
+    {
+        "task": 38,
+        "model": "gpt-4o",
+        "dur": 28.566468238830566,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "John",
+            "last_name": "Gay",
+            "email": "paula65@gmail.com",
+            "dob": "1962/10/08",
+            "gender": "Female",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:48:30"
+        }
+    },
+    {
+        "task": 39,
+        "model": "gpt-4o",
+        "dur": 37.782187938690186,
+        "step": 5,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Jesse",
+            "last_name": "Chavez",
+            "email": "fergusonderek@williams.com",
+            "dob": "1970/05/23",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:49:10"
+        }
+    },
+    {
+        "task": 40,
+        "model": "gpt-4o",
+        "dur": 26.8993558883667,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Amanda",
+            "last_name": "Jacobs",
+            "email": "tinaking@mitchell-swanson.com",
+            "dob": "1961/07/22",
+            "gender": "Female",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:49:44"
+        }
+    },
+    {
+        "task": 41,
+        "model": "gpt-4o",
+        "dur": 39.71215486526489,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Steven",
+            "last_name": "Gomez",
+            "email": "vsnyder@mack.com",
+            "dob": "1979/05/01",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:55:01"
+        }
+    },
+    {
+        "task": 42,
+        "model": "gpt-4o",
+        "dur": 41.97002601623535,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "David",
+            "last_name": "Bradley",
+            "email": "amber93@wheeler-anderson.org",
+            "dob": "1961/08/12",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:55:43"
+        }
+    },
+    {
+        "task": 43,
+        "model": "gpt-4o",
+        "dur": 50.92453122138977,
+        "step": 8,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Matthew",
+            "last_name": "Jones",
+            "email": "larsenholly@hotmail.com",
+            "dob": "1971/11/03",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:56:45"
+        }
+    },
+    {
+        "task": 44,
+        "model": "gpt-4o",
+        "dur": 31.54482412338257,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Ronald",
+            "last_name": "Johnson",
+            "email": "jessicamedina@garcia.com",
+            "dob": "1993/04/30",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:57:20"
+        }
+    },
+    {
+        "task": 45,
+        "model": "gpt-4o",
+        "dur": 41.27313780784607,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Ronald",
+            "last_name": "Ryan",
+            "email": "harrislisa@rich-russo.biz",
+            "dob": "1972/05/27",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 21:58:06"
+        }
+    },
+    {
+        "task": 46,
+        "model": "gpt-4o",
+        "dur": 28.16849398612976,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Paula",
+            "last_name": "Williams",
+            "email": "margaretherman@lopez-christian.com",
+            "dob": "1981/01/03",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:58:42"
+        }
+    },
+    {
+        "task": 47,
+        "model": "gpt-4o",
+        "dur": 32.80984306335449,
+        "step": 5,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Larry",
+            "last_name": "Young",
+            "email": "williamoneill@yahoo.com",
+            "dob": "1981/01/19",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:59:18"
+        }
+    },
+    {
+        "task": 48,
+        "model": "gpt-4o",
+        "dur": 31.61593985557556,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Noah",
+            "last_name": "Benton",
+            "email": "meredith49@friedman-kim.com",
+            "dob": "2004/12/03",
+            "gender": "Male",
+            "subscribe": true,
+            "submission_time": "2025-11-02 21:59:55"
+        }
+    },
+    {
+        "task": 49,
+        "model": "gpt-4o",
+        "dur": 37.14804196357727,
+        "step": 4,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Veronica",
+            "last_name": "Adams",
+            "email": "joe63@patton-henderson.com",
+            "dob": "2003/07/03",
+            "gender": "Male",
+            "subscribe": false,
+            "submission_time": "2025-11-02 22:00:37"
+        }
+    }
+]
