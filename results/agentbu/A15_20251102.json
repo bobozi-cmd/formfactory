@@ -1,0 +1,956 @@
+[
+    {
+        "task": 0,
+        "model": "gpt-4o-mini",
+        "dur": 61.244969844818115,
+        "step": 12,
+        "result": {
+            "student_name": "Jessica Kennedy",
+            "student_id": 88741153,
+            "email": "wendy24@yahoo.com",
+            "phone": "001-250-204-3652x75507",
+            "semester": "Summer 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "No special requirements.",
+            "submission_time": "2025-11-02 13:39:16"
+        }
+    },
+    {
+        "task": 1,
+        "model": "gpt-4o-mini",
+        "dur": 137.22357988357544,
+        "step": 21,
+        "result": {
+            "student_name": "Michael Thomas",
+            "student_id": 60653442,
+            "email": "knicholson@yahoo.com",
+            "phone": "001-779-442-5639x3962",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Please consider my request for accommodating course timings.",
+            "submission_time": "2025-11-02 13:41:33"
+        }
+    },
+    {
+        "task": 2,
+        "model": "gpt-4o-mini",
+        "dur": 52.59376096725464,
+        "step": 9,
+        "result": {
+            "student_name": "Mrs. Michelle Wilkinson DDS",
+            "student_id": 47693294,
+            "email": "wilsoncolin@jensen.org",
+            "phone": "001-399-115-6748x35525",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "Need additional support with coding.",
+            "submission_time": "2025-11-02 13:42:35"
+        }
+    },
+    {
+        "task": 3,
+        "model": "gpt-4o-mini",
+        "dur": 70.24234008789062,
+        "step": 13,
+        "result": {
+            "student_name": "Joe Duncan",
+            "student_id": 27477183,
+            "email": "gjennings@reyes.com",
+            "phone": "212-612-7068x86837",
+            "semester": "Summer 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "In support of my learning journey, I would like to highlight the need for additional support with coding. I am eager to ensure a comprehensive understanding of the course material and would greatly appreciate any available assistance or resources.",
+            "submission_time": "2025-11-02 13:43:51"
+        }
+    },
+    {
+        "task": 4,
+        "model": "gpt-4o-mini",
+        "dur": 59.55600380897522,
+        "step": 10,
+        "result": {
+            "student_name": "David Allen",
+            "student_id": 37641921,
+            "email": "andrew02@taylor-singh.info",
+            "phone": "+1-352-842-2170x57946",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-02 13:44:55"
+        }
+    },
+    {
+        "task": 5,
+        "model": "gpt-4o-mini",
+        "dur": 60.74092507362366,
+        "step": 11,
+        "result": {
+            "student_name": "Mary Williams",
+            "student_id": 42066936,
+            "email": "kempdawn@neal.com",
+            "phone": "1874913062",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "comments": "Looking forward to exploring web development.",
+            "courses[]": [],
+            "submission_time": "2025-11-02 13:46:01"
+        }
+    },
+    {
+        "task": 6,
+        "model": "gpt-4o-mini",
+        "dur": 57.13695693016052,
+        "step": 9,
+        "result": {
+            "student_name": "Edgar Lucas",
+            "student_id": 63418602,
+            "email": "tammy24@gmail.com",
+            "phone": "615-854-5197x64497",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-02 13:47:02"
+        }
+    },
+    {
+        "task": 7,
+        "model": "gpt-4o-mini",
+        "dur": 65.6925277709961,
+        "step": 10,
+        "result": {
+            "student_name": "Raymond Howard",
+            "student_id": 86654678,
+            "email": "acox@hotmail.com",
+            "phone": "869-674-5233x1064",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS104"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 13:48:12"
+        }
+    },
+    {
+        "task": 8,
+        "model": "gpt-4o-mini",
+        "dur": 56.319862604141235,
+        "step": 9,
+        "result": {
+            "student_name": "Shawn Calhoun",
+            "student_id": "schwartzbridget@young-moore.com",
+            "email": "",
+            "phone": "0449272632",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "comments": "No special requirements.",
+            "courses[]": [],
+            "submission_time": "2025-11-02 13:49:15"
+        }
+    },
+    {
+        "task": 9,
+        "model": "gpt-4o-mini",
+        "dur": 67.42911005020142,
+        "step": 11,
+        "result": {
+            "student_name": "Mrs. Kristine Avila",
+            "student_id": 9782114,
+            "email": "melissale@murray-johns.net",
+            "phone": "001-394-801-5738x205",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "I am eager to explore potential avenues for involvement in research projects.",
+            "submission_time": "2025-11-02 13:50:28"
+        }
+    },
+    {
+        "task": 10,
+        "model": "gpt-4o-mini",
+        "dur": 144.95646691322327,
+        "step": 21,
+        "result": {
+            "student_name": "Dylan Hernandez",
+            "student_id": "lori32@gmail.com",
+            "email": "",
+            "phone": "+1-821-909-8111x9887",
+            "semester": "Summer 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 13:55:25"
+        }
+    },
+    {
+        "task": 11,
+        "model": "gpt-4o-mini",
+        "dur": 53.865922927856445,
+        "step": 9,
+        "result": {
+            "student_name": "Zachary Wise",
+            "student_id": 76754139,
+            "email": "elizabethlin@harding.org",
+            "phone": "+1-658-269-9976x92991",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "No special requirements",
+            "submission_time": "2025-11-02 13:56:21"
+        }
+    },
+    {
+        "task": 12,
+        "model": "gpt-4o-mini",
+        "dur": 47.261154890060425,
+        "step": 8,
+        "result": {
+            "student_name": "Timothy Rodriguez",
+            "student_id": 41053254,
+            "email": "robert98@gmail.com",
+            "phone": "561-229-3248",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Require additional support with coding.",
+            "submission_time": "2025-11-02 13:57:12"
+        }
+    },
+    {
+        "task": 13,
+        "model": "gpt-4o-mini",
+        "dur": 62.501039266586304,
+        "step": 10,
+        "result": {
+            "student_name": "Elaine Stevenson",
+            "student_id": 24011642,
+            "email": "nicholsonstephanie@yahoo.com",
+            "phone": "241.218.6900x3856",
+            "semester": "Summer 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "Dear Admissions Committee,\r\n\r\nI hope this message finds you well. I am writing to formally request enrollment for the upcoming Summer 2025 semester in the esteemed Computer Science program. As a prospective student at your institution, I am looking forward to broadening my knowledge and skills in the ever-evolving field of technology and computer science.\r\n\r\nIn anticipation of the semester, I have selected CS103 - Database Systems as a critical course for my academic trajectory. I am confident that the comprehensive curriculum offered will enhance my understanding of database architectures and administration, thereby equipping me with invaluable skills for future endeavors.\r\n\r\nI would like to highlight that my Student ID is 24011642, which corresponds to my profile with you. Please allow me to kindly request any necessary materials or guidance that might assist in the enrollment process. Furthermore, I am reachable at nicholsonstephanie@yahoo.com or via telephone at 241.218.6900x3856 for any additional information or clarification you may require.\r\n\r\nI wish to emphasize my earnest dedication to commencing studies under the Computer Science program. Additionally, I would appreciate flexibility in course timings to accommodate my ongoing engagements and ensure an efficient intersection between academia and my personal and professional commitments.\r\n\r\nThank you for considering my enrollment request. I am enthusiastic about the opportunity to contribute to and benefit from the community at [Institution's Name]. Please let me know if there are further forms or procedures I must undertake to facilitate my admission.\r\n\r\nYours sincerely,\r\n\r\nElaine Stevenson",
+            "submission_time": "2025-11-02 13:58:19"
+        }
+    },
+    {
+        "task": 14,
+        "model": "gpt-4o-mini",
+        "dur": 132.54072093963623,
+        "step": 21,
+        "result": {
+            "student_name": "Kimberly Blake",
+            "student_id": 75861115,
+            "email": "fieldskeith@yahoo.com",
+            "phone": "001-012-910-9096x99816",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "comments": "",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:00:57"
+        }
+    },
+    {
+        "task": 15,
+        "model": "gpt-4o-mini",
+        "dur": 62.06304693222046,
+        "step": 11,
+        "result": {
+            "student_name": "Elizabeth Bowen",
+            "student_id": 86771514,
+            "email": "clarkapril@guerra-duncan.com",
+            "phone": "(039)650-6112x4771",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:01:59"
+        }
+    },
+    {
+        "task": 16,
+        "model": "gpt-4o-mini",
+        "dur": 116.33978915214539,
+        "step": 19,
+        "result": {
+            "student_name": "Gail Lopez",
+            "student_id": 86436199,
+            "email": "aaron61@gmail.com",
+            "phone": "001-079-263-7913x53942",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:04:02"
+        }
+    },
+    {
+        "task": 17,
+        "model": "gpt-4o-mini",
+        "dur": 144.01585483551025,
+        "step": 21,
+        "result": {
+            "student_name": "Jodi Bray",
+            "student_id": "guerratodd@yahoo.com",
+            "email": "",
+            "phone": "(550) 353-5545",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-02 14:07:02"
+        }
+    },
+    {
+        "task": 18,
+        "model": "gpt-4o-mini",
+        "dur": 116.65542697906494,
+        "step": 21,
+        "result": {
+            "student_name": "Michael Burton",
+            "student_id": 34759544,
+            "email": "lukescott@jones.com",
+            "phone": "+1-251-499-3595x32558",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "comments": "",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:09:28"
+        }
+    },
+    {
+        "task": 19,
+        "model": "gpt-4o-mini",
+        "dur": 48.69716501235962,
+        "step": 8,
+        "result": {
+            "student_name": "Maria Harper",
+            "student_id": 18923505,
+            "email": "andrerice@yahoo.com",
+            "phone": "001-583-939-4786x96944",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:10:17"
+        }
+    },
+    {
+        "task": 20,
+        "model": "gpt-4o-mini",
+        "dur": 45.82626295089722,
+        "step": 7,
+        "result": {
+            "student_name": "Andrew Hernandez",
+            "student_id": 84056153,
+            "email": "fernandezmichael@miller.com",
+            "phone": "016.456.6553",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:11:08"
+        }
+    },
+    {
+        "task": 21,
+        "model": "gpt-4o-mini",
+        "dur": 79.37833070755005,
+        "step": 13,
+        "result": {
+            "student_name": "Kathy Stewart",
+            "student_id": 37817830,
+            "email": "yortega@gmail.com",
+            "phone": "(203) 120-8687 x323",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Need additional support with coding.",
+            "submission_time": "2025-11-02 14:12:34"
+        }
+    },
+    {
+        "task": 22,
+        "model": "gpt-4o-mini",
+        "dur": 59.014678955078125,
+        "step": 8,
+        "result": {
+            "student_name": "David Carr",
+            "student_id": 86946968,
+            "email": "bcallahan@gmail.com",
+            "phone": "001-876-762-9214",
+            "semester": "Summer 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "I would appreciate flexibility in course timings to balance my academic goals with other commitments.",
+            "submission_time": "2025-11-02 14:13:36"
+        }
+    },
+    {
+        "task": 23,
+        "model": "gpt-4o-mini",
+        "dur": 136.44898104667664,
+        "step": 21,
+        "result": {
+            "student_name": "Austin Davis",
+            "student_id": 88051429,
+            "email": "kevin83@hotmail.com",
+            "phone": "001-759-885-9450",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:16:07"
+        }
+    },
+    {
+        "task": 24,
+        "model": "gpt-4o-mini",
+        "dur": 66.67167711257935,
+        "step": 11,
+        "result": {
+            "student_name": "James Maldonado",
+            "student_id": 86669151,
+            "email": "oliveramanda@johnson-rodriguez.com",
+            "phone": "515-727-1036",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:17:13"
+        }
+    },
+    {
+        "task": 25,
+        "model": "gpt-4o-mini",
+        "dur": 103.90301012992859,
+        "step": 16,
+        "result": {
+            "student_name": "Alan Marshall",
+            "student_id": 14293687,
+            "email": "julie11@gmail.com",
+            "phone": "+1-004-544-5551x804",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "I need additional support with coding.",
+            "submission_time": "2025-11-02 14:19:03"
+        }
+    },
+    {
+        "task": 26,
+        "model": "gpt-4o-mini",
+        "dur": 73.55189609527588,
+        "step": 14,
+        "result": {
+            "student_name": "Lori Tucker",
+            "student_id": 67137019,
+            "email": "hdaniels@walls.com",
+            "phone": "6916458191",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "I am eager to engage in research opportunities during this semester.",
+            "submission_time": "2025-11-02 14:20:21"
+        }
+    },
+    {
+        "task": 27,
+        "model": "gpt-4o-mini",
+        "dur": 65.48727917671204,
+        "step": 12,
+        "result": {
+            "student_name": "Matthew Washington",
+            "student_id": "kskinner@gmail.com",
+            "email": "",
+            "phone": "+1 (831) 264-8060",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-02 14:21:32"
+        }
+    },
+    {
+        "task": 28,
+        "model": "gpt-4o-mini",
+        "dur": 134.77514386177063,
+        "step": 21,
+        "result": {
+            "student_name": "Paul Alexander",
+            "student_id": 66593474,
+            "email": "louisoliver@gmail.com",
+            "phone": "6164229949",
+            "semester": "Fall 2025",
+            "program": "Software Engineering",
+            "comments": "",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:24:08"
+        }
+    },
+    {
+        "task": 29,
+        "model": "gpt-4o-mini",
+        "dur": 63.82835507392883,
+        "step": 11,
+        "result": {
+            "student_name": "Samantha Davis",
+            "student_id": 6410021,
+            "email": "iwilson@barnes-marks.com",
+            "phone": "+1-458-662-3027x68899",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Need additional support with coding",
+            "submission_time": "2025-11-02 14:25:13"
+        }
+    },
+    {
+        "task": 30,
+        "model": "gpt-4o-mini",
+        "dur": 62.844000816345215,
+        "step": 11,
+        "result": {
+            "student_name": "Jeffrey Smith",
+            "student_id": 6831935,
+            "email": "johnsdarrell@todd-lowe.com",
+            "phone": "+1-918-330-8399x192",
+            "semester": "Spring 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101",
+                "CS102",
+                "CS103",
+                "CS104"
+            ],
+            "comments": "No special requirements.",
+            "submission_time": "2025-11-02 14:29:33"
+        }
+    },
+    {
+        "task": 31,
+        "model": "gpt-4o-mini",
+        "dur": 50.750303983688354,
+        "step": 9,
+        "result": {
+            "student_name": "Kimberly Richardson",
+            "student_id": 5097885,
+            "email": "allisonmichelle@gmail.com",
+            "phone": "(541) 976-9846",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:30:29"
+        }
+    },
+    {
+        "task": 32,
+        "model": "gpt-4o-mini",
+        "dur": 111.73357605934143,
+        "step": 21,
+        "result": {
+            "student_name": "Jennifer Gray",
+            "student_id": 50963134,
+            "email": "georgedouglas@hess.net",
+            "phone": "504.451.6059x58176",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:32:48"
+        }
+    },
+    {
+        "task": 33,
+        "model": "gpt-4o-mini",
+        "dur": 54.20273303985596,
+        "step": 8,
+        "result": {
+            "student_name": "April Moore",
+            "student_id": 91417254,
+            "email": "kevinfarrell@mcgee.net",
+            "phone": "+1-897-125-8749x80026",
+            "semester": "Spring 2025",
+            "program": "Information Technology",
+            "comments": "Additional support with coding as per my request.",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:33:44"
+        }
+    },
+    {
+        "task": 34,
+        "model": "gpt-4o-mini",
+        "dur": 53.06777501106262,
+        "step": 9,
+        "result": {
+            "student_name": "Andrew Clayton",
+            "student_id": 1000197,
+            "email": "kempjoseph@gmail.com",
+            "phone": "(041)386-7751x5379",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:34:40"
+        }
+    },
+    {
+        "task": 35,
+        "model": "gpt-4o-mini",
+        "dur": 57.25173282623291,
+        "step": 11,
+        "result": {
+            "student_name": "John Lee",
+            "student_id": "john16@boone.com",
+            "email": "",
+            "phone": "353230.7183x13339",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Need additional support with coding.",
+            "submission_time": "2025-11-02 14:35:43"
+        }
+    },
+    {
+        "task": 36,
+        "model": "gpt-4o-mini",
+        "dur": 46.050734996795654,
+        "step": 7,
+        "result": {
+            "student_name": "Troy Collins",
+            "student_id": 61526505,
+            "email": "douglas03@morgan.com",
+            "phone": "158-766-4405",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "comments": "Interested in research opportunities.",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:36:33"
+        }
+    },
+    {
+        "task": 37,
+        "model": "gpt-4o-mini",
+        "dur": 168.7081060409546,
+        "step": 21,
+        "result": {
+            "student_name": "Robert Davis",
+            "student_id": 79404404,
+            "email": "christopherdominguez@hotmail.com",
+            "phone": "160-035-5757x728",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "comments": "",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:40:49"
+        }
+    },
+    {
+        "task": 38,
+        "model": "gpt-4o-mini",
+        "dur": 52.26522088050842,
+        "step": 8,
+        "result": {
+            "student_name": "Edward Pollard",
+            "student_id": 56936821,
+            "email": "andreasweeney@hotmail.com",
+            "phone": "+1-688-593-8917x362",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:41:41"
+        }
+    },
+    {
+        "task": 39,
+        "model": "gpt-4o-mini",
+        "dur": 57.86086821556091,
+        "step": 9,
+        "result": {
+            "student_name": "Adam Rhodes",
+            "student_id": 8829167,
+            "email": "michaeljones@hotmail.com",
+            "phone": "(022)566-1524",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "comments": "No special requirements.",
+            "courses[]": [],
+            "submission_time": "2025-11-02 14:42:44"
+        }
+    },
+    {
+        "task": 40,
+        "model": "gpt-4o-mini",
+        "dur": 49.90212392807007,
+        "step": 8,
+        "result": {
+            "student_name": "Doris Marshall",
+            "student_id": 64576752,
+            "email": "ronniegilbert@yahoo.com",
+            "phone": "(218) 704-9937 x973",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:43:39"
+        }
+    },
+    {
+        "task": 41,
+        "model": "gpt-4o-mini",
+        "dur": 136.58357572555542,
+        "step": 21,
+        "result": {
+            "student_name": "Erika Hughes",
+            "student_id": 60675905,
+            "email": "jacqueline00@ford.com",
+            "phone": "001-988-376-4879x8169",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-02 14:47:05"
+        }
+    },
+    {
+        "task": 42,
+        "model": "gpt-4o-mini",
+        "dur": 62.58704209327698,
+        "step": 9,
+        "result": {
+            "student_name": "Victoria Ortiz",
+            "student_id": 58240167,
+            "email": "baileysharon@rogers-day.com",
+            "phone": "547.406.7806x8748",
+            "semester": "Spring 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Course Enrollment Request for Spring 2025\r\n\r\nI am looking forward to my courses and appreciate your attention.",
+            "submission_time": "2025-11-02 14:48:08"
+        }
+    },
+    {
+        "task": 43,
+        "model": "gpt-4o-mini",
+        "dur": 55.843798875808716,
+        "step": 7,
+        "result": {
+            "student_name": "Mackenzie Moore",
+            "student_id": 34243736,
+            "email": "fjohnson@gmail.com",
+            "phone": "+1-829-318-4927x1302",
+            "semester": "Fall 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101",
+                "CS102",
+                "CS103"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-02 14:49:10"
+        }
+    },
+    {
+        "task": 44,
+        "model": "gpt-4o-mini",
+        "dur": 45.79756021499634,
+        "step": 8,
+        "result": {
+            "student_name": "Monique Daniels DDS",
+            "student_id": 20718438,
+            "email": "fsnyder@gmail.com",
+            "phone": "7227223354",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103",
+                "CS104"
+            ],
+            "comments": "I am particularly interested in research opportunities.",
+            "submission_time": "2025-11-02 14:49:59"
+        }
+    },
+    {
+        "task": 45,
+        "model": "gpt-4o-mini",
+        "dur": 64.7961208820343,
+        "step": 8,
+        "result": {
+            "student_name": "Madison Ferguson",
+            "student_id": 51522369,
+            "email": "stacey00@nichols.com",
+            "phone": "183-097-3984",
+            "semester": "Summer 2025",
+            "program": "Information Technology",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "I need additional support with coding.",
+            "submission_time": "2025-11-02 14:50:57"
+        }
+    },
+    {
+        "task": 46,
+        "model": "gpt-4o-mini",
+        "dur": 56.87016701698303,
+        "step": 8,
+        "result": {
+            "student_name": "Melanie Schmidt",
+            "student_id": 32975554,
+            "email": "jamesweaver@sosa.biz",
+            "phone": "138.302.6417x005",
+            "semester": "Summer 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:52:06"
+        }
+    },
+    {
+        "task": 47,
+        "model": "gpt-4o-mini",
+        "dur": 65.70232200622559,
+        "step": 9,
+        "result": {
+            "student_name": "Mary Tucker",
+            "student_id": 44170163,
+            "email": "whitelauren@carter.com",
+            "phone": "001-079-734-2368",
+            "semester": "Fall 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-02 14:53:20"
+        }
+    },
+    {
+        "task": 48,
+        "model": "gpt-4o-mini",
+        "dur": 49.01754593849182,
+        "step": 9,
+        "result": {
+            "student_name": "Cynthia Chase",
+            "student_id": 83641439,
+            "email": "elizabethlucas@yahoo.com",
+            "phone": "(991) 858-8899 ext. 90341",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS103",
+                "CS104"
+            ],
+            "comments": "No special requirements at this time.",
+            "submission_time": "2025-11-02 14:54:16"
+        }
+    },
+    {
+        "task": 49,
+        "model": "gpt-4o-mini",
+        "dur": 112.94544625282288,
+        "step": 21,
+        "result": {
+            "student_name": "Cody Harris",
+            "student_id": 13285500,
+            "email": "mthomas@frye.org",
+            "phone": "001-508-762-4596x354",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101"
+            ],
+            "comments": "I would appreciate flexibility in course timings due to my academic and professional commitments.",
+            "submission_time": "2025-11-02 14:56:29"
+        }
+    }
+]
