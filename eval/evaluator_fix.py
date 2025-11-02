@@ -104,6 +104,11 @@ class FormFieldEvaluator:
         self.sbert = SentenceTransformer(sbert_name)
         self.word_sbert = SentenceTransformer(word_sbert_name)
 
+    def normalize_phone(self, phone: str):
+        phone = "".join(phone.split('-'))
+        phone = "".join(phone.split(' '))
+        return phone
+
     def evaluate(self):
         gt_data = load_json(self.ground_truth_file)
         predict_data = load_json(self.eval_file)
@@ -187,6 +192,10 @@ class FormFieldEvaluator:
                     else:
                         print(field, "got low similarity: ", similarity)
                     all_score += 1
+                elif field in ['phone']:
+                    if self.normalize_phone(val) == self.normalize_phone(pred):
+                        got_score += 1
+                    all_score += 1
                 else:
                     if field in predict and pred.lower() == val.lower():
                         got_score += 1
@@ -207,7 +216,7 @@ class FormFieldEvaluator:
                         pred = predict[field]
                     
                     for v in val:
-                        if v in pred:
+                        if v.strip().lower() in pred:
                             got_score += 1
                 all_score += len(val)
             else:
@@ -309,8 +318,8 @@ class AgentBU:
         self.spec = collect_tasks_spec(exp_db)[url]
         self.llm = ChatOpenAI(model=model, base_url=base_url, api_key=api_key)
     
-    async def execute_task(self, task, max_step: int = 50):
-        task = f"你需要按照下面的任务完成表单的填写并提交, 所有信息都是使用英文填写: {task}"
+    async def execute_task(self, task, max_step: int = 20):
+        task = f"You need to complete the form and **submit** it according to the following tasks. All information will be filled in English: {task}"
         steps = 1
         async with cdp_browser_ctx() as cdp_browser: 
             context: BrowserContext = cdp_browser.context
@@ -318,7 +327,8 @@ class AgentBU:
                 task=task,
                 llm=self.llm,
                 browser=cdp_browser,
-                context=context
+                context=context,
+                max_failures=10
             )
 
             try:

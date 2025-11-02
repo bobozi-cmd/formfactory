@@ -357,7 +357,7 @@
         "student_name": "Matthew Washington",
         "student_id": 12576902,
         "email": "kskinner@gmail.com",
-        "phone": "8312648060",
+        "phone": "+1 (831) 264-8060",
         "semester": "Summer 2025",
         "program": "Data Science",
         "courses[]": [
@@ -633,7 +633,7 @@
         "student_name": "Cynthia Chase",
         "student_id": 83641439,
         "email": "elizabethlucas@yahoo.com",
-        "phone": "(991)858-8899x90341",
+        "phone": "(991)858-8899ext.90341",
         "semester": "Spring 2025",
         "program": "Computer Science",
         "courses[]": [
