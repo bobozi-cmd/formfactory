@@ -48,8 +48,8 @@ FUZZY_FIELD = {
     "A15": ["comments"],
     "A14": ["abstract"],
     "A13": ["essay"], # TODO
-    "B11": ["business_model", "target_market", "additional_comments"],
-    "B12": [],
+    "B11": ["business_model", "target_market", "funding_purpose", "additional_comments"],
+    "B12": ["pet_details", "additional_info"],
     "B13": [],
     "B14": [],
 }
