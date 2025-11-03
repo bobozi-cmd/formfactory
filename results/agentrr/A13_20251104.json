@@ -1,0 +1,1551 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 19.136282205581665,
+        "step": 2,
+        "result": {
+            "firstName": "Nicholas",
+            "middleName": "Anne",
+            "lastName": "Collins",
+            "studentId": 22281229,
+            "gpa": 3.19,
+            "major": "Philosophy",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 80303,
+            "achievements": [
+                "Dean's List Award",
+                "State Physics Olympiad winner"
+            ],
+            "extracurricular": [
+                "Co-founder of the Campus Startup Initiative",
+                "President of the Student Council",
+                "Coordinator of the Youth Empowerment Program"
+            ],
+            "essay": "I believe that receiving this scholarship will not only help me achieve my academic and career goals but will also allow me to continue making a positive impact on my community. My ultimate goal is to become a leader in public health, and this scholarship will be instrumental in helping me realize that dream.",
+            "reference1": "Kevin Walker",
+            "reference1Email": "psolomon@yahoo.com",
+            "submission_time": "2025-11-04 00:38:09"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 16.921825170516968,
+        "step": 2,
+        "result": {
+            "firstName": "Sarah",
+            "middleName": "John",
+            "lastName": "Rubio",
+            "studentId": 39177542,
+            "gpa": 3.59,
+            "major": "Sociology",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 60273,
+            "achievements": [
+                "First place in University Math Competition",
+                "Finalist in National Robotics Championship",
+                "Published research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "Co-founder of Campus Startup Initiative",
+                "Organized charity events for Red Cross"
+            ],
+            "essay": "Expressing interest in the scholarship to support academic excellence and innovation in technology.",
+            "reference1": "Nathan Mullins",
+            "reference1Email": "danieldavis@kline-townsend.com",
+            "submission_time": "2025-11-04 00:38:34"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 20.655354022979736,
+        "step": 2,
+        "result": {
+            "firstName": "Brian",
+            "middleName": "Emily",
+            "lastName": "Morrison",
+            "studentId": 36546439,
+            "gpa": 3.58,
+            "major": "English Literature",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 38761,
+            "achievements": [
+                "published a research paper in the International Journal of Engineering",
+                "ranked in the top 5% in the International Chemistry Olympiad",
+                "winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                "co-founded the Campus Startup Initiative",
+                "coordinated the Youth Empowerment Program",
+                "organized charity events for the Red Cross"
+            ],
+            "essay": "I aim to secure the resources necessary to enrich my educational experience and further my career aspirations. With a keen interest in computer engineering and the role technology plays in our rapidly evolving society, I intend to leverage the knowledge and skills gained during my studies to innovate within the tech industry. This scholarship will be instrumental in providing the support I need to conduct research in cutting-edge technologies and pursue higher learning that directly aligns with my long-term goals.",
+            "reference1": "Victoria Weeks",
+            "reference1Email": "newmanallison@hoffman-french.com",
+            "submission_time": "2025-11-04 00:38:56"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 18.764925241470337,
+        "step": 2,
+        "result": {
+            "firstName": "Alexa",
+            "middleName": "Michelle",
+            "lastName": "Lawrence",
+            "studentId": 96009974,
+            "gpa": 3.47,
+            "major": "Economics",
+            "academicYear": "senior",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 72451,
+            "achievements": [
+                "Winning the State Physics Olympiad",
+                "Ranking in the Top 5% of the International Chemistry Olympiad",
+                "First place in the University Math Competition",
+                "Dean\u2019s List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Serving as President of the Student Council",
+                "Volunteering at the local community center",
+                "Co-founding the Campus Startup Initiative",
+                "Organizing charity events for the Red Cross"
+            ],
+            "essay": "I aspire to become a leader in public health, and this scholarship would be instrumental in helping me achieve my career goals.",
+            "reference1": "Mr. Dustin Ward",
+            "reference1Email": "shelly24@gmail.com",
+            "submission_time": "2025-11-04 00:39:23"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 21.74844789505005,
+        "step": 2,
+        "result": {
+            "firstName": "Alan",
+            "middleName": "Steve",
+            "lastName": "Padilla",
+            "studentId": 46822305,
+            "gpa": 3.85,
+            "major": "Economics",
+            "academicYear": "senior",
+            "financialAid": "Student Loans",
+            "familyIncome": 81640,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                "First place in the University Math Competition",
+                "Published research paper in the International Journal of Engineering",
+                "Winner of the State Physics Olympiad"
+            ],
+            "extracurricular": [
+                "Co-founded the Campus Startup Initiative",
+                "Active member of the Environmental Awareness Club"
+            ],
+            "essay": "Aspirations to leverage economics knowledge for sustainable development, Financial support needed due to student loan burden",
+            "reference1": "Gina Guerra",
+            "reference1Email": "owatkins@smith-davis.info",
+            "submission_time": "2025-11-04 00:39:47"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 20.31013298034668,
+        "step": 2,
+        "result": {
+            "firstName": "Mark",
+            "middleName": "Rachael",
+            "lastName": "Holloway",
+            "studentId": 8707836,
+            "gpa": 3.65,
+            "major": "Law",
+            "academicYear": "freshman",
+            "financialAid": "Grants",
+            "familyIncome": 46943,
+            "achievements": [
+                "Published a research paper in the International Journal of Engineering and Technology",
+                " Finalist in the National Robotics Championship",
+                " Winner of the State Physics Olympiad"
+            ],
+            "extracurricular": [
+                "Co-founded the Campus Startup Initiative",
+                " Volunteered at the local community center",
+                " Coordinated a Youth Empowerment Program"
+            ],
+            "essay": "Expresses passion for law as a tool for social change, desire to impact sustainable development, and gratitude for the opportunity.",
+            "reference1": "Kelly Mendoza",
+            "reference1Email": "lauren99@clark.com",
+            "submission_time": "2025-11-04 00:40:12"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 19.5449538230896,
+        "step": 2,
+        "result": {
+            "firstName": "James",
+            "middleName": "Aaron",
+            "lastName": "Brewer",
+            "studentId": 23880848,
+            "gpa": 3.14,
+            "major": "Philosophy",
+            "academicYear": "junior",
+            "financialAid": "Student Loans",
+            "familyIncome": 62058,
+            "achievements": [
+                "Top 5% in the International Chemistry Olympiad",
+                "Dean\u2019s List Award",
+                "Published a research paper in the International Journal of Engineering",
+                "Winner of the State Physics Olympiad"
+            ],
+            "extracurricular": [
+                "Coordinator of the Youth Empowerment Program",
+                "Volunteer at the local community center",
+                "Organizing charity events for the Red Cross"
+            ],
+            "essay": "I am passionately dedicated to advancing my knowledge in environmental science. This scholarship will enable me to continue my studies without the persistent pressure of financial burdens, allowing me to immerse myself fully in my academic pursuits. You have the power to help shape not only my future but also the future of sustainable development and environmental inquiry, which I aspire to impact positively.",
+            "reference1": "Troy Graham",
+            "reference1Email": "destinygraham@yahoo.com",
+            "submission_time": "2025-11-04 00:40:36"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 19.304344177246094,
+        "step": 2,
+        "result": {
+            "firstName": "Alexis",
+            "middleName": "Valerie",
+            "lastName": "Townsend",
+            "studentId": 88351132,
+            "gpa": 3.73,
+            "major": "Mechanical Engineering",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 95479,
+            "achievements": [
+                "Published a research paper in the International Journal of Engineering",
+                "On the Dean's List",
+                "Won first place in the University Math Competition",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Organized charity events for the Red Cross",
+                "Member of the University Debate Team"
+            ],
+            "essay": "I am deeply passionate about advancing my knowledge in the field of environmental science. This scholarship will enable me to continue my studies without the pressure of financial burdens, and I plan to use the knowledge gained to make an impact in sustainable development.",
+            "reference1": "Nicholas Smith",
+            "reference1Email": "carterchristy@williams-leonard.com",
+            "submission_time": "2025-11-04 00:41:02"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 16.568236112594604,
+        "step": 2,
+        "result": {
+            "firstName": "Jennifer",
+            "middleName": "Travis",
+            "lastName": "Dyer",
+            "studentId": 71094769,
+            "gpa": 2.61,
+            "major": "English Literature",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": 90530,
+            "achievements": [
+                "First place in the University Math Competition",
+                "Winner of the National Science Fair",
+                "Published research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "Member of the University Debate Team",
+                "Coordinator of the Youth Empowerment Program"
+            ],
+            "essay": "With a passion for data science, I aspire to contribute towards solving global challenges in this field. This scholarship would provide me with the necessary resources to pursue a career in data science and make a positive impact on society.",
+            "reference1": "Monica Norton",
+            "reference1Email": "qlove@taylor.net",
+            "submission_time": "2025-11-04 00:41:23"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 15.958952903747559,
+        "step": 2,
+        "result": {
+            "firstName": "Julie",
+            "middleName": "Taylor",
+            "lastName": "Powell",
+            "studentId": 69668325,
+            "gpa": 3.07,
+            "major": "Mathematics",
+            "academicYear": "freshman",
+            "financialAid": "Student Loans",
+            "familyIncome": 87788,
+            "achievements": [
+                "Dean's List Award for Outstanding Academic Performance",
+                "Top 5% in the International Chemistry Olympiad",
+                "Winner of the National Science Fair",
+                "Finalist in the National Robotics Championship"
+            ],
+            "extracurricular": [
+                "Coordinator of the Youth Empowerment Program",
+                "Organizing charity events for the Red Cross",
+                "Volunteering at the local community center"
+            ],
+            "essay": "I am deeply passionate about advancing my knowledge in the field of Mathematics. While my primary interest lies in solving complex problems through a mathematical lens, I believe in applying this knowledge to real-world environmental challenges. This scholarship would alleviate the financial burdens that accompany my education, allowing me to focus more intently on my studies without the looming stress of financial constraints. My aspiration is to utilize the knowledge gained through my studies to make meaningful contributions to sustainable development efforts, creating solutions that positively impact our world.",
+            "reference1": "Lisa Morse",
+            "reference1Email": "owashington@moore.com",
+            "submission_time": "2025-11-04 00:41:47"
+        }
+    },
+    {
+        "task": 10,
+        "model": "qwen3-vl-flash",
+        "dur": 18.508076190948486,
+        "step": 2,
+        "result": {
+            "firstName": "Melissa",
+            "middleName": "Joshua",
+            "lastName": "Leblanc",
+            "studentId": 1073052,
+            "gpa": 3.15,
+            "major": "Environmental Science",
+            "academicYear": "sophomore",
+            "financialAid": "None",
+            "familyIncome": 20557,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                "Top 5% in the International Chemistry Olympiad",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Volunteer at the local community center",
+                "Member of the University Debate Team",
+                "Organizer of charity events for the Red Cross",
+                "President of the Student Council"
+            ],
+            "essay": "A personal statement expressing interest in the scholarship, long-term goals in combining computer engineering with environmental science, and how the scholarship will alleviate financial pressure.",
+            "reference1": "Melissa Clark",
+            "reference1Email": "madams@hotmail.com",
+            "submission_time": "2025-11-04 00:43:06"
+        }
+    },
+    {
+        "task": 11,
+        "model": "qwen3-vl-flash",
+        "dur": 16.975969076156616,
+        "step": 2,
+        "result": {
+            "firstName": "Rachel",
+            "middleName": "Elizabeth",
+            "lastName": "Moore",
+            "studentId": 59711198,
+            "gpa": 3.62,
+            "major": "Environmental Science",
+            "academicYear": "sophomore",
+            "financialAid": "Grants",
+            "familyIncome": 69379,
+            "achievements": [
+                "Placing first in the University Math Competition",
+                "Winning the State Physics Olympiad"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Organizing charity events for the Red Cross",
+                "Co-founding the Campus Startup Initiative",
+                "Being a member of the University Debate Team"
+            ],
+            "essay": "My passion for public health and long-term goal to become a leader in the field drive my academic pursuits. This scholarship will enable me to focus on my studies and contribute meaningfully to my community.",
+            "reference1": "Misty Turner",
+            "reference1Email": "mark87@hotmail.com",
+            "submission_time": "2025-11-04 00:43:28"
+        }
+    },
+    {
+        "task": 12,
+        "model": "qwen3-vl-flash",
+        "dur": 16.804378986358643,
+        "step": 2,
+        "result": {
+            "firstName": "Sara",
+            "middleName": "Sarah",
+            "lastName": "Aguirre",
+            "studentId": 27811507,
+            "gpa": 3.77,
+            "major": "Business Administration",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 47631,
+            "achievements": [
+                "Dean\u2019s List Award for Outstanding Academic Performance",
+                "published research paper in the International Journal of Engineering",
+                "first place in the University Math Competition"
+            ],
+            "extracurricular": [
+                "University Debate Team",
+                "Organized charity events for the Red Cross"
+            ],
+            "essay": "I am writing to apply for the scholarship opportunity that could greatly assist me in my academic journey at [University Name]. My name is Sara Sarah Aguirre, and I am currently a freshman majoring in Business Administration with a cumulative GPA of 3.77. As a dedicated student and an active member of the university community, I believe I would be a deserving recipient of your support.",
+            "reference1": "Sophia Hale",
+            "reference1Email": "elizabeth44@hotmail.com",
+            "submission_time": "2025-11-04 00:43:52"
+        }
+    },
+    {
+        "task": 13,
+        "model": "qwen3-vl-flash",
+        "dur": 26.445645093917847,
+        "step": 2,
+        "result": {
+            "firstName": "Erica",
+            "middleName": "Danielle",
+            "lastName": "Cannon",
+            "studentId": 40406788,
+            "gpa": 2.91,
+            "major": "Biology",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 76424,
+            "achievements": [
+                "Published a research paper in the International Journal of Engineering",
+                "Finalist in the National Robotics Championship",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Active member of the Environmental Awareness Club",
+                "Participation in the University Debate Team"
+            ],
+            "essay": "I am writing to express my sincere interest in applying for your scholarship program. My name is Erica Danielle Cannon, and I am a freshman majoring in Biology at [University Name]. As I embark on my academic journey, I am keen on harnessing the resources offered by this scholarship to elevate my education and broaden my horizons in the field of science and technology.\r\n\r\nDespite the challenges associated with being a first-year student, including adjusting to college life and navigating a rigorous curriculum, I have maintained my GPA of 2.91 while actively engaging in my studies and extracurricular activities. My pursuit of academic excellence has already led me to several significant achievements. I am proud to have published a research paper in the International Journal of Engineering, a moment that reaffirms my commitment to the scientific community. Additionally, I was a finalist in the National Robotics Championship and won the National Science Fair; these experiences have not only challenged me but fueled my passion for innovation.\r\n\r\nIn tandem with my academic endeavors, I value the importance of involvement in extracurricular activities. I am an active member of the Environmental Awareness Club, where I collaborate with peers to promote sustainability on campus. Participation in the University Debate Team has further honed my critical thinking and public speaking skills, allowing me to articulate my views effectively while learning to engage with differing perspectives.\r\n\r\nMy long-term career goal is to innovate within the technology sector, focusing on cutting-edge advancements that can enhance our understanding and application of biological systems. This scholarship would serve as a vital resource, enabling me to pursue my education more fully and invest time in research that aligns with these goals. With a keen interest in computer engineering intertwined with my biology major, I am eager to explore how these disciplines can converge to drive future innovations.\r\n\r\nI am grateful for the consideration of my application, and my academic reference, Yolanda Rodriguez, can attest to my dedication and potential. Please feel free to reach out to her at callahanmelinda@gmail.com for further insights into my academic performance and character.\r\n\r\nThank you for your time and consideration. I am hopeful for the opportunity to contribute positively to the community through my academic pursuits and various contributions.",
+            "reference1": "Yolanda Rodriguez",
+            "reference1Email": "callahanmelinda@gmail.com",
+            "submission_time": "2025-11-04 00:44:16"
+        }
+    },
+    {
+        "task": 14,
+        "model": "qwen3-vl-flash",
+        "dur": 14.487367868423462,
+        "step": 2,
+        "result": {
+            "firstName": "Megan",
+            "middleName": "Juan",
+            "lastName": "Nguyen",
+            "studentId": 51063098,
+            "gpa": 3.87,
+            "major": "Business Administration",
+            "academicYear": "junior",
+            "financialAid": "None",
+            "familyIncome": 76896,
+            "achievements": [
+                "National Science Fair winner",
+                "Dean\u2019s List Award",
+                "Published research paper in the International Journal of Engineering",
+                "Finalist in the National Robotics Championship"
+            ],
+            "extracurricular": [
+                "Environmental Awareness Club member",
+                "President of Student Council",
+                "Organized charity events for the Red Cross"
+            ],
+            "essay": "I am writing to apply for the scholarship opportunity to alleviate the financial burden of my education and allow me to focus on excelling in my studies. Financial constraints have posed a challenge to fully focus on my studies and career aspirations. My family's annual income of $76,896 leaves little room for excess expenses, and I currently do not receive any financial aid. Thus, this scholarship would immensely help me alleviate the financial burden and allow me to fully dedicate myself to completing my degree and pursuing a career in data science. My ultimate goal is to contribute to solving global challenges through my expertise in data science.",
+            "reference1": "Jamie Grant",
+            "reference1Email": "longanna@walker-thomas.com",
+            "submission_time": "2025-11-04 00:44:43"
+        }
+    },
+    {
+        "task": 15,
+        "model": "qwen3-vl-flash",
+        "dur": 13.290105104446411,
+        "step": 2,
+        "result": {
+            "firstName": "Patrick",
+            "middleName": "Matthew",
+            "lastName": "Smith",
+            "studentId": 90577005,
+            "gpa": 2.66,
+            "major": "Biology",
+            "academicYear": "sophomore",
+            "financialAid": "None",
+            "familyIncome": 42061,
+            "achievements": [
+                "State Physics Olympiad",
+                "International Journal of Engineering research paper",
+                "Dean\u2019s List Award",
+                "National Robotics Championship Finalist"
+            ],
+            "extracurricular": [
+                "Student Council President",
+                "Youth Empowerment Program Coordinator",
+                "Community Center Volunteer",
+                "University Debate Team Member"
+            ],
+            "essay": "I am deeply passionate about advancing my knowledge in environmental science. My ultimate goal is to leverage the education I receive to impact sustainable development positively. Receiving this scholarship would alleviate financial burdens and enable me to focus entirely on my studies and extracurricular involvements, enhancing both my academic and personal growth.",
+            "reference1": "Zachary Schultz",
+            "reference1Email": "michaelrobertson@yahoo.com",
+            "submission_time": "2025-11-04 00:45:01"
+        }
+    },
+    {
+        "task": 16,
+        "model": "qwen3-vl-flash",
+        "dur": 13.130629062652588,
+        "step": 2,
+        "result": {
+            "firstName": "Tara",
+            "middleName": "Anthony",
+            "lastName": "Taylor",
+            "studentId": 77160892,
+            "gpa": 3.99,
+            "major": "Mathematics",
+            "academicYear": "freshman",
+            "financialAid": "Student Loans",
+            "familyIncome": 51259,
+            "achievements": [
+                "Winner of the State Physics Olympiad",
+                "First place in the University Math Competition",
+                "Published a research paper in the International Journal of Engineering",
+                "Ranked in the top 5% in the International Chemistry Olympiad"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Member of the Environmental Awareness Club",
+                "Participating in the University Debate Team"
+            ],
+            "essay": "My goal is to pursue a career in data science. The scholarship will alleviate the financial burden on my family and allow me to focus wholeheartedly on my studies, enabling me to fully immerse myself in coursework and research projects.",
+            "reference1": "Teresa Hudson",
+            "reference1Email": "kimberly60@hernandez.com",
+            "submission_time": "2025-11-04 00:45:19"
+        }
+    },
+    {
+        "task": 17,
+        "model": "qwen3-vl-flash",
+        "dur": 13.933152914047241,
+        "step": 2,
+        "result": {
+            "firstName": "Heather",
+            "middleName": "Miguel",
+            "lastName": "Carter",
+            "studentId": 4813002,
+            "gpa": 2.66,
+            "major": "Engineering",
+            "academicYear": "freshman",
+            "financialAid": "Student Loans",
+            "familyIncome": 50798,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                "Dean\u2019s List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Organizing charity events for the Red Cross",
+                "Member of the Environmental Awareness Club"
+            ],
+            "essay": "Aspirations to conduct research in cutting-edge technologies and contribute to innovation in the tech industry.",
+            "reference1": "Kaylee Ashley",
+            "reference1Email": "jill73@gmail.com",
+            "submission_time": "2025-11-04 00:45:39"
+        }
+    },
+    {
+        "task": 18,
+        "model": "qwen3-vl-flash",
+        "dur": 17.058169841766357,
+        "step": 2,
+        "result": {
+            "firstName": "Mary",
+            "middleName": "Thomas",
+            "lastName": "Miles",
+            "studentId": 54227455,
+            "gpa": 2.69,
+            "major": "Political Science",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 95400,
+            "achievements": [
+                "Winner of the National Science Fair",
+                "Published a research paper in the International Journal of Engineering",
+                "Winner of the State Physics Olympiad"
+            ],
+            "extracurricular": [
+                "Member of the Environmental Awareness Club",
+                "President of the Student Council",
+                "Co-founder of the Campus Startup Initiative"
+            ],
+            "essay": "Dear Scholarship Committee,\r\n\r\nMy name is Mary Thomas Miles, and I am currently a sophomore majoring in Political Science. My student ID is 54227455, and I am writing to express my strong interest in applying for your scholarship.\r\n\r\nI come from a background where higher education was not readily accessible, and being a first-generation college student, this scholarship is crucial for me to continue my education. My current GPA is 2.69, and I am dedicated to improving it through hard work and determination. Despite facing financial challenges, I am determined to excel academically and make a positive impact both on campus and in the community.\r\n\r\nI have been fortunate to receive Other Scholarships scholarship support but still need additional financial aid to help cover my educational expenses. With an annual family income of $95,400, this scholarship will alleviate the financial burden on my family and allow me to fully immerse myself in my studies and extracurricular activities.\r\n\r\nMy academic achievements include being the winner of the National Science Fair, publishing a research paper in the International Journal of Engineering, and winning the State Physics Olympiad. These accomplishments have fueled my passion for academic excellence and research.\r\n\r\nOutside of the classroom, I am actively involved in various extracurricular activities. I am a member of the Environmental Awareness Club, president of the Student Council, and co-founder of the Campus Startup Initiative. These experiences have helped me develop leadership skills, teamwork, and a strong commitment to making a difference in the community.\r\n\r\nMy academic reference, Scott Manning, can attest to my dedication to my studies and involvement in extracurricular activities. His email is yburnett@gmail.com in case the committee would like to reach out for further information.\r\n\r\nIn conclusion, receiving this scholarship will enable me to focus on academic excellence while continuing to engage in community service. It will help me achieve my dream of becoming a leader in public health. I am truly grateful for your consideration and would be honored to be selected as a recipient of your scholarship.\r\n\r\nThank you for your time and consideration.\r\n\r\nSincerely,\r\nMary Thomas Miles",
+            "reference1": "Scott Manning",
+            "reference1Email": "yburnett@gmail.com",
+            "submission_time": "2025-11-04 00:46:02"
+        }
+    },
+    {
+        "task": 19,
+        "model": "qwen3-vl-flash",
+        "dur": 15.546567916870117,
+        "step": 2,
+        "result": {
+            "firstName": "David",
+            "middleName": "Clifford",
+            "lastName": "Rodriguez",
+            "studentId": 13474807,
+            "gpa": 3.62,
+            "major": "Environmental Science",
+            "academicYear": "sophomore",
+            "financialAid": "Student Loans",
+            "familyIncome": 99640,
+            "achievements": [
+                "Publishing a research paper in the International Journal of Engineering",
+                "Winning the State Physics Olympiad",
+                "Being a finalist in the National Robotics Championship"
+            ],
+            "extracurricular": [
+                "Active member of the Environmental Awareness Club",
+                "Co-founder of the Campus Startup Initiative"
+            ],
+            "essay": "My ultimate goal is to become a leader in public health, combining my passion for environmental science with community service to make a positive impact on society.",
+            "reference1": "Mary Ferguson",
+            "reference1Email": "tammy98@campbell.net",
+            "submission_time": "2025-11-04 00:46:21"
+        }
+    },
+    {
+        "task": 20,
+        "model": "qwen3-vl-flash",
+        "dur": 14.474260091781616,
+        "step": 2,
+        "result": {
+            "firstName": "Dillon",
+            "middleName": "Ryan",
+            "lastName": "Duncan",
+            "studentId": 79791724,
+            "gpa": 3.93,
+            "major": "Business Administration",
+            "academicYear": "junior",
+            "financialAid": "Grants",
+            "familyIncome": 25737,
+            "achievements": [
+                "Winning the National Science Fair",
+                "Consistently named on the Dean's List for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                "Volunteer at the local community center",
+                "Member of the Environmental Awareness Club"
+            ],
+            "essay": "My intent is to leverage my educational experiences and extracurricular involvement to cultivate a career that intersects business acumen with community health initiatives. This scholarship is not merely financial support; it represents an investment in a first-generation student with a passion for learning and a commitment to service.",
+            "reference1": "Francisco Smith",
+            "reference1Email": "christopheradams@wilson.org",
+            "submission_time": "2025-11-04 00:46:40"
+        }
+    },
+    {
+        "task": 21,
+        "model": "qwen3-vl-flash",
+        "dur": 11.854165077209473,
+        "step": 2,
+        "result": {
+            "firstName": "Julie",
+            "middleName": "Lydia",
+            "lastName": "Carter",
+            "studentId": 993394,
+            "gpa": 2.97,
+            "major": "Law",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": "",
+            "achievements": [
+                "First place in University Math Competition",
+                "State Physics Olympiad winner",
+                "Dean\u2019s List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Coordinator of Youth Empowerment Program",
+                "Member of Environmental Awareness Club",
+                "Co-founder of Campus Startup Initiative"
+            ],
+            "essay": "My ultimate goal is to become a leader in public health, and this scholarship will bring me closer to realizing that dream. With your support, I will be able to continue my education, contribute to society, and work towards creating a positive impact on the world around me.",
+            "reference1": "Ms. Karina May",
+            "reference1Email": "craiggordon@long-rogers.com",
+            "submission_time": "2025-11-04 00:47:00"
+        }
+    },
+    {
+        "task": 22,
+        "model": "qwen3-vl-flash",
+        "dur": 16.11451530456543,
+        "step": 2,
+        "result": {
+            "firstName": "Manuel",
+            "middleName": "Christopher",
+            "lastName": "Moody",
+            "studentId": 45123296,
+            "gpa": 3.63,
+            "major": "Chemistry",
+            "academicYear": "senior",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 27002,
+            "achievements": [
+                "Top 5% in International Chemistry Olympiad",
+                "State Physics Olympiad winner",
+                "Dean\u2019s List Award for Outstanding Academic Performance",
+                "First place in University Math Competition"
+            ],
+            "extracurricular": [
+                "University Debate Team member",
+                "Volunteer at local community center",
+                "Member of Environmental Awareness Club",
+                "Organized charity events for Red Cross"
+            ],
+            "essay": "I aspire to leverage my education in chemistry to emerge as a leader in public health. I aim to develop innovative solutions that will advance public wellness and improve health outcomes, particularly for underrepresented populations.",
+            "reference1": "Dr. William Charles",
+            "reference1Email": "ryanfletcher@hotmail.com",
+            "submission_time": "2025-11-04 00:47:18"
+        }
+    },
+    {
+        "task": 23,
+        "model": "qwen3-vl-flash",
+        "dur": 15.36520791053772,
+        "step": 2,
+        "result": {
+            "firstName": "April",
+            "middleName": "Harold",
+            "lastName": "Kelly",
+            "studentId": 43526453,
+            "gpa": 2.76,
+            "major": "Mathematics",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": 69936,
+            "achievements": [
+                "Won first place in the University Math Competition",
+                "Published a research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "Member of the University Debate Team",
+                "Member of the Environmental Awareness Club"
+            ],
+            "essay": "I am deeply passionate about advancing my knowledge in the field of environmental science. This scholarship will enable me to continue my studies without the pressure of financial burdens, allowing me to apply the insights I gain towards making a tangible impact in sustainable development.",
+            "reference1": "Lisa Taylor",
+            "reference1Email": "wbailey@johnson.net",
+            "submission_time": "2025-11-04 00:47:39"
+        }
+    },
+    {
+        "task": 24,
+        "model": "qwen3-vl-flash",
+        "dur": 15.496479988098145,
+        "step": 2,
+        "result": {
+            "firstName": "Kimberly",
+            "middleName": "Laura",
+            "lastName": "Harmon",
+            "studentId": 16505423,
+            "gpa": 2.7,
+            "major": "Chemistry",
+            "academicYear": "sophomore",
+            "financialAid": "Student Loans",
+            "familyIncome": 64101,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                "Co-founder of the Campus Startup Initiative"
+            ],
+            "essay": "As a first-generation college student, I face financial constraints that can hinder my ability to pursue academic excellence. This scholarship is crucial for me to continue my education uninterrupted, allowing me to focus wholeheartedly on my studies and extracurricular projects. With your support, I aspire to contribute meaningfully to community service initiatives and solidify my path towards becoming a leader in public health. The significance of this scholarship extends beyond financial relief; it embodies the hope of transforming my dreams into reality. With each passing semester, I am more committed to acquiring knowledge in chemistry, which I intend to leverage in public health settings. Your consideration of my application will not only impact my academic journey but also enable me to give back to my community in profound ways.",
+            "reference1": "Samuel Rodgers",
+            "reference1Email": "clarkdonald@gmail.com",
+            "submission_time": "2025-11-04 00:47:59"
+        }
+    },
+    {
+        "task": 25,
+        "model": "qwen3-vl-flash",
+        "dur": 17.32523798942566,
+        "step": 2,
+        "result": {
+            "firstName": "Anne",
+            "middleName": "Christopher",
+            "lastName": "Curtis",
+            "studentId": 39484068,
+            "gpa": 3.72,
+            "major": "Computer Science",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 20748,
+            "achievements": [
+                "State Physics Olympiad",
+                "National Science Fair",
+                "Top 5% in International Chemistry Olympiad"
+            ],
+            "extracurricular": [
+                "Volunteer at local community center mentoring young students",
+                "Coordinator of Youth Empowerment Program",
+                "Member of Environmental Awareness Club"
+            ],
+            "essay": "Dear Scholarship Committee, I am writing to express my sincere gratitude for the opportunity to apply for this prestigious scholarship. My name is Anne Christopher Curtis, a sophomore majoring in Computer Science with a current GPA of 3.72. This scholarship represents more than just financial assistance; it is an essential stepping stone that can help catalyze my ambitions and deepen my commitment to making substantial contributions to the field of technology. Throughout my academic journey thus far, I have strived for excellence, which is evidenced by my notable achievements. I am proud to have been the recipient of the State Physics Olympiad and the National Science Fair, and to have ranked in the top 5% of the International Chemistry Olympiad. These accomplishments reflect not only my dedication to my studies but also my passion for engaging with complex scientific challenges. Moreover, my research paper published in the International Journal of Engineering highlights my commitment to advancing knowledge in our field and serves as a testimony to my readiness for future research endeavors. Despite my academic success, financial constraints have posed significant challenges. My family's annual income is $20,748, which pressures us to facilitate my education primarily through financial aid. Currently, I am supported by Other Scholarships scholarships, but the continuous pursuit of funding is critical to ensure I have the resources necessary to not only succeed but thrive academically. This scholarship would alleviate some of these financial burdens and allow me to focus more intently on my studies and research opportunities. Beyond academics, I actively engage with my community and peers through various extracurricular activities. I volunteer at the local community center, where I mentor young students, igniting their interest in science and technology. As the coordinator of the Youth Empowerment Program, I work to foster skills in young individuals, ensuring they have the necessary tools to realize their potential. Lastly, my membership in the Environmental Awareness Club allows me to advocate for sustainable practices, emphasizing the importance of technology's role in solving our environmental issues. With a profound interest in computer engineering, I am determined to make innovative strides within the tech industry. I aspire to conduct research into cutting-edge technologies that can transform lives and improve our world. This scholarship would provide me with invaluable resources that extend beyond financial relief; it is an investment in my future and a means to pursue my research ambitions fully. For your reference, I have included my academic advisor Erika Callahan, who can attest to my academic achievements and commitment to my goals. Should you require any further information, please feel free to reach out to her at morenojennifer@farmer-calderon.com. Thank you for considering my application. I look forward to the possibility of continuing my educational journey with the support of this scholarship, contributing to the future of technology, and giving back to my community. Sincerely, Anne Christopher Curtis",
+            "reference1": "Erika Callahan",
+            "reference1Email": "morenojennifer@farmer-calderon.com",
+            "submission_time": "2025-11-04 00:59:55"
+        }
+    },
+    {
+        "task": 26,
+        "model": "qwen3-vl-flash",
+        "dur": 18.143986225128174,
+        "step": 2,
+        "result": {
+            "firstName": "Tamara",
+            "middleName": "Angel",
+            "lastName": "Howe",
+            "studentId": 41008844,
+            "gpa": 2.96,
+            "major": "English Literature",
+            "academicYear": "sophomore",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 80469,
+            "achievements": [
+                "State Physics Olympiad winner",
+                "Dean\u2019s List for Outstanding Academic Performance",
+                "University Math Competition first place"
+            ],
+            "extracurricular": [
+                "Environmental Awareness Club member",
+                "President of Student Council"
+            ],
+            "essay": "I am writing to express my sincere interest in the scholarship opportunity available for motivated students such as myself. My name is Tamara Angel Howe, and I am currently a sophomore majoring in English Literature with a GPA of 2.96 at my university. As I embark on this critical phase of my academic and professional journey, I am eager to articulate how this scholarship will both alleviate financial burdens and enable me to fulfill my ambitions. Throughout my academic experience, I have demonstrated a commitment to excellence that is underscored by several notable achievements. I had the honor of being the winner of the State Physics Olympiad, an experience that not only sharpened my analytical skills but also instilled in me a deep appreciation for interdisciplinary studies. Additionally, securing a spot on the Dean\u2019s List for Outstanding Academic Performance and earning first place in the University Math Competition have further solidified my resolve to excel in both my studies and extracurricular endeavors. Outside the classroom, I am passionately involved in enriching my university community and beyond. As a member of the Environmental Awareness Club, I have participated in initiatives aimed at promoting sustainable practices among my peers, fostering a sense of responsibility towards our planet. My leadership skills have also been honed through my role as the President of the Student Council, where I actively advocate for student needs and organize events that enhance campus life. As I continue my studies in English Literature, my long-term goal is to pivot towards a career in data science. I believe that the analytical skills I have developed through interdisciplinary learning combined with a strong literary foundation will empower me to contribute effectively to tackling complex global challenges. This scholarship will be instrumental in allowing me to concentrate fully on my academic pursuits without the impending concern of financial constraints. I have great respect for the journey each student embarks upon, and I am eager to take full advantage of the opportunity this scholarship provides. It will enable me to align my academic experiences with my future career aspirations seamlessly. My academic reference, Mary McFarland, can provide further insights into my character and capabilities at her email, dmckenzie@hudson-johnson.biz.",
+            "reference1": "Mary McFarland",
+            "reference1Email": "dmckenzie@hudson-johnson.biz",
+            "submission_time": "2025-11-04 00:49:31"
+        }
+    },
+    {
+        "task": 27,
+        "model": "qwen3-vl-flash",
+        "dur": 14.129610061645508,
+        "step": 2,
+        "result": {
+            "firstName": "Joel",
+            "middleName": "Gwendolyn",
+            "lastName": "Herrera",
+            "studentId": 18498388,
+            "gpa": 3.23,
+            "major": "Computer Science",
+            "academicYear": "junior",
+            "financialAid": "Student Loans",
+            "familyIncome": 43355,
+            "achievements": [
+                "Published a research paper in the International Journal of Engineering",
+                "Finalist in the National Robotics Championship",
+                "Dean\u2019s List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Organizing charity events for the Red Cross",
+                "Co-founding the Campus Startup Initiative"
+            ],
+            "essay": "My ultimate goal is to become a leader in public health, bridging technology and health services to create a positive impact in underserved communities.",
+            "reference1": "Erik Perez",
+            "reference1Email": "vdelacruz@parker.com",
+            "submission_time": "2025-11-04 01:00:47"
+        }
+    },
+    {
+        "task": 28,
+        "model": "qwen3-vl-flash",
+        "dur": 26.849778175354004,
+        "step": 2,
+        "result": {
+            "firstName": "Cynthia",
+            "middleName": "Monica",
+            "lastName": "Jacobs",
+            "studentId": 34653885,
+            "gpa": 3.63,
+            "major": "Environmental Science",
+            "academicYear": "senior",
+            "financialAid": "Student Loans",
+            "familyIncome": 51089,
+            "achievements": [
+                "First Place in University Math Competition",
+                "Research published in International Journal of Engineering",
+                "Finalist in National Robotics Championship",
+                "State Physics Olympiad Winner"
+            ],
+            "extracurricular": [
+                "Volunteering at Local Community Center",
+                "Coordinator of Youth Empowerment Program",
+                "President of Student Council"
+            ],
+            "essay": "I am writing to express my sincere interest in applying for the scholarship opportunity that can immensely aid me in pursuing my academic and career aspirations. My name is Cynthia Monica Jacobs, and I am currently a senior majoring in Environmental Science at [Your University Name]. With a GPA of 3.63, I am dedicated to my studies and committed to making a positive impact in my community and the broader environmental field.\r\n\r\nAs a first-generation college student, financial challenges have always been a part of my journey. Currently, my academic pursuits are supported primarily through student Student Loans, and my family's annual income is $51,089. Receiving this scholarship would not only alleviate my financial burden but also enable me to concentrate fully on my academic and extracurricular engagements without the constant worry of financial constraints. This support could potentially turn my dreams into a reality, allowing me to achieve excellence in my studies while actively participating in community service initiatives.\r\n\r\nMy academic journey has been enriched by various achievements that reflect my commitment to excellence. I was honored to take first place in the University Math Competition and to have my research published in the International Journal of Engineering. Additionally, I was a finalist in the National Robotics Championship, which fostered my problem-solving skills and my ability to work collaboratively in a team environment. My winning achievement at the State Physics Olympiad not only validated my dedication to the sciences but also motivated me to use this knowledge to impact public health positively.\r\n\r\nBeyond academics, I am equally passionate about engaging with my community. I have volunteered at the local community center, where I have had the privilege of giving back and supporting those in need. In my role as the Coordinator of the Youth Empowerment Program, I strive to inspire young people by providing opportunities for personal and academic growth, aligning closely with my desire to be a leader in public health. Furthermore, as the President of the Student Council, I have learned valuable leadership skills, including teamwork, organization, and advocating for my peers' needs.\r\n\r\nIn conclusion, this scholarship represents a beacon of hope for me. It is essential not just for easing my financial pressures, but also for ensuring that I can channel my energy into my studies and community work effectively. I am determined to utilize my education in Environmental Science to develop innovative solutions that promote public health and environmental sustainability. Your support would bring me a step closer to fulfilling this ambition.\r\n\r\nI would like to express my gratitude for considering my application. I am looking forward to the possibility of contributing positively to both my field and the community. For further information or insights into my qualifications, please feel free to contact my academic reference, Robin Thomas, at rjones@hotmail.com.",
+            "reference1": "Robin Thomas",
+            "reference1Email": "rjones@hotmail.com",
+            "submission_time": "2025-11-04 00:50:33"
+        }
+    },
+    {
+        "task": 29,
+        "model": "qwen3-vl-flash",
+        "dur": 14.799607992172241,
+        "step": 2,
+        "result": {
+            "firstName": "Donna",
+            "middleName": "Christopher",
+            "lastName": "Perry",
+            "studentId": 75262573,
+            "gpa": 3.48,
+            "major": "Business Administration",
+            "academicYear": "freshman",
+            "financialAid": "None",
+            "familyIncome": 24695,
+            "achievements": [
+                "Winning the National Science Fair",
+                "Securing first place in the University Math Competition"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Co-founding the Campus Startup Initiative",
+                "Being a member of the Environmental Awareness Club"
+            ],
+            "essay": "My goal is to pursue a career in data science to address global challenges, and receiving this scholarship would allow me to focus fully on my studies without financial distraction.",
+            "reference1": "Michelle Franklin",
+            "reference1Email": "gonzalezjulia@smith.com",
+            "submission_time": "2025-11-04 00:50:58"
+        }
+    },
+    {
+        "task": 30,
+        "model": "qwen3-vl-flash",
+        "dur": 13.456160068511963,
+        "step": 2,
+        "result": {
+            "firstName": "Christine",
+            "middleName": "Danielle",
+            "lastName": "Williams",
+            "studentId": 68200283,
+            "gpa": 2.8,
+            "major": "Mechanical Engineering",
+            "academicYear": "sophomore",
+            "financialAid": "Grants",
+            "familyIncome": 50968,
+            "achievements": [
+                "Winning the National Science Fair",
+                "First place in the University Math Competition",
+                "State Physics Olympiad victory"
+            ],
+            "extracurricular": [
+                "Member of the University Debate Team",
+                "President of the Student Council"
+            ],
+            "essay": "This scholarship holds a special significance for me as it will alleviate financial burdens and allow me to fully focus on my studies without worrying about how to fund my education. With this support, I will be able to achieve my academic goals and graduate with a degree in Mechanical Engineering. My ultimate career goal is to specialize in data science, where I aim to harness my skills and knowledge to contribute towards solving pressing global challenges.",
+            "reference1": "Jimmy Bailey",
+            "reference1Email": "ejones@yahoo.com",
+            "submission_time": "2025-11-04 00:51:18"
+        }
+    },
+    {
+        "task": 31,
+        "model": "qwen3-vl-flash",
+        "dur": 15.26097583770752,
+        "step": 2,
+        "result": {
+            "firstName": "Jesus",
+            "middleName": "Tonya",
+            "lastName": "Obrien",
+            "studentId": 46036603,
+            "gpa": 3.19,
+            "major": "Biology",
+            "academicYear": "sophomore",
+            "financialAid": "Grants",
+            "familyIncome": 47600,
+            "achievements": [
+                "Winner of the National Science Fair",
+                "Dean\u2019s List Award for Outstanding Academic Performance",
+                "Ranked in the top 5% in the International Chemistry Olympiad",
+                "First place in the University Math Competition"
+            ],
+            "extracurricular": [
+                "Volunteer at the local community center",
+                "Coordinator of the Youth Empowerment Program",
+                "Participant in the University Debate Team",
+                "Member of the Environmental Awareness Club"
+            ],
+            "essay": "Deep interest in computer engineering and aspirations to conduct research in cutting-edge technologies",
+            "reference1": "Cindy Bailey",
+            "reference1Email": "tonya.obrien@email.com",
+            "submission_time": "2025-11-04 00:51:37"
+        }
+    },
+    {
+        "task": 32,
+        "model": "qwen3-vl-flash",
+        "dur": 15.269937753677368,
+        "step": 2,
+        "result": {
+            "firstName": "Alexander",
+            "middleName": "Michael",
+            "lastName": "Koch",
+            "studentId": 986084,
+            "gpa": 2.94,
+            "major": "Political Science",
+            "academicYear": "senior",
+            "financialAid": "Grants",
+            "familyIncome": 27884,
+            "achievements": [
+                "Dean's List for outstanding performance",
+                " First place in the University Math Competition"
+            ],
+            "extracurricular": [
+                "Co-founder of the Campus Startup Initiative",
+                " Member of the Environmental Awareness Club",
+                " Member of the University Debate Team",
+                " Coordinator of the Youth Empowerment Program"
+            ],
+            "essay": "As described in the letter, aiming to pursue a career in data science to solve global challenges",
+            "reference1": "Christy Jordan",
+            "reference1Email": "melissa61@gmail.com",
+            "submission_time": "2025-11-04 00:51:57"
+        }
+    },
+    {
+        "task": 33,
+        "model": "qwen3-vl-flash",
+        "dur": 14.879212141036987,
+        "step": 2,
+        "result": {
+            "firstName": "Nathaniel",
+            "middleName": "Candice",
+            "lastName": "Miller",
+            "studentId": 21775094,
+            "gpa": 3.38,
+            "major": "Chemistry",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 54075,
+            "achievements": [
+                "State Physics Olympiad winner",
+                "National Robotics Championship finalist",
+                "published research paper in the International Journal of Engineering",
+                "Dean's List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                "organized charity events for the Red Cross",
+                "member of the Environmental Awareness Club",
+                "member of the University Debate Team"
+            ],
+            "essay": "Pursuing a career in computer engineering and contributing to cutting-edge technologies",
+            "reference1": "Brittany Avila",
+            "reference1Email": "fieldssteven@gmail.com",
+            "submission_time": "2025-11-04 00:52:16"
+        }
+    },
+    {
+        "task": 34,
+        "model": "qwen3-vl-flash",
+        "dur": 13.917805671691895,
+        "step": 2,
+        "result": {
+            "firstName": "Colleen",
+            "middleName": "Grace",
+            "lastName": "Adams",
+            "studentId": 48297295,
+            "gpa": 3.6,
+            "major": "Economics",
+            "academicYear": "junior",
+            "financialAid": "Grants",
+            "familyIncome": 86024,
+            "achievements": [
+                "Winner of the National Science Fair",
+                " Dean's List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Member of the University Debate Team",
+                " Volunteer at the local community center",
+                " Coordinator of the Youth Empowerment Program",
+                " President of the Student Council"
+            ],
+            "essay": "First-generation college student seeking financial support to continue education and pursue a career in public health",
+            "reference1": "Deborah Martinez",
+            "reference1Email": "dennisjensen@barnes.com",
+            "submission_time": "2025-11-04 00:52:36"
+        }
+    },
+    {
+        "task": 35,
+        "model": "qwen3-vl-flash",
+        "dur": 17.336785793304443,
+        "step": 2,
+        "result": {
+            "firstName": "Sarah",
+            "middleName": "Angela",
+            "lastName": "Martin",
+            "studentId": 93338661,
+            "gpa": 3.0,
+            "major": "Environmental Science",
+            "academicYear": "junior",
+            "financialAid": "Grants",
+            "familyIncome": 74730,
+            "achievements": [
+                "Placed in the top 5% of the International Chemistry Olympiad",
+                " Published a research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                " Coordinator of the Youth Empowerment Program",
+                " Organized charity events for the Red Cross"
+            ],
+            "essay": "This scholarship will provide me the resources to further my education and conduct research in cutting-edge technologies, helping me achieve my long-term career goals of innovating in the tech industry.",
+            "reference1": "Teresa Thompson",
+            "reference1Email": "nancy04@peterson.com",
+            "submission_time": "2025-11-04 00:53:49"
+        }
+    },
+    {
+        "task": 36,
+        "model": "qwen3-vl-flash",
+        "dur": 14.887564182281494,
+        "step": 2,
+        "result": {
+            "firstName": "Paul",
+            "middleName": "Charles",
+            "lastName": "Perez",
+            "studentId": 40075028,
+            "gpa": 3.97,
+            "major": "Law",
+            "academicYear": "junior",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 31161,
+            "achievements": [
+                "Included on the Dean\u2019s List for Outstanding Academic Performance",
+                "Won first place in the University Math Competition",
+                "Recognized as a winner at the National Science Fair",
+                "Published a research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Member of the University Debate Team"
+            ],
+            "essay": "A detailed personal statement expressing interest in the scholarship, commitment to academic excellence, and future goals in law.",
+            "reference1": "Kenneth Novak",
+            "reference1Email": "vhurley@potts.info",
+            "submission_time": "2025-11-04 00:54:09"
+        }
+    },
+    {
+        "task": 37,
+        "model": "qwen3-vl-flash",
+        "dur": 12.7016019821167,
+        "step": 2,
+        "result": {
+            "firstName": "Michael",
+            "middleName": "Micheal",
+            "lastName": "Bean",
+            "studentId": 82014820,
+            "gpa": 3.91,
+            "major": "Chemistry",
+            "academicYear": "freshman",
+            "financialAid": "Student Loans",
+            "familyIncome": 46136,
+            "achievements": [
+                "Top 5% in International Chemistry Olympiad",
+                "First place in University Math Competition"
+            ],
+            "extracurricular": [
+                "Coordinator of the Youth Empowerment Program",
+                "Organized charity events for the Red Cross"
+            ],
+            "essay": "My passion lies in environmental science, and I am dedicated to advancing my knowledge in this field to contribute towards sustainable development. The scholarship will provide me with the opportunity to delve deeper into my studies and equip me with the necessary skills to make a tangible impact in the realm of environmental sustainability.",
+            "reference1": "Rachael Moreno",
+            "reference1Email": "ferrellrobert@rollins-hudson.com",
+            "submission_time": "2025-11-04 00:54:29"
+        }
+    },
+    {
+        "task": 38,
+        "model": "qwen3-vl-flash",
+        "dur": 15.66627812385559,
+        "step": 2,
+        "result": {
+            "firstName": "Gregory",
+            "middleName": "Laura",
+            "lastName": "White",
+            "studentId": 43067727,
+            "gpa": 2.87,
+            "major": "Sociology",
+            "academicYear": "senior",
+            "financialAid": "Grants",
+            "familyIncome": 99575,
+            "achievements": [
+                "Dean\u2019s List Award for Outstanding Academic Performance",
+                "Finalist in the National Robotics Championship",
+                "Top 5% in the International Chemistry Olympiad",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Volunteering at the community center for outreach programs",
+                "Organizing charity events for the Red Cross"
+            ],
+            "essay": "I harbor a deep passion for environmental science, and this scholarship will enable me to continue my studies without the pressure of financial burdens. With the knowledge I cultivate, I aspire to make a substantial impact in sustainable development. This vision aligns perfectly with my long-term goals of advocating for responsible social and environmental policies that prioritize community wellbeing and ecological health.",
+            "reference1": "Alexander Terry",
+            "reference1Email": "joseph77@hotmail.com",
+            "submission_time": "2025-11-04 00:54:47"
+        }
+    },
+    {
+        "task": 39,
+        "model": "qwen3-vl-flash",
+        "dur": 15.99183201789856,
+        "step": 2,
+        "result": {
+            "firstName": "Brittany",
+            "middleName": "Marie",
+            "lastName": "Valentine",
+            "studentId": 45034587,
+            "gpa": 3.18,
+            "major": "Business Administration",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 64977,
+            "achievements": [
+                "Winning the State Physics Olympiad",
+                "publishing a research paper in the International Journal of Engineering",
+                "being in the top 5% of the International Chemistry Olympiad"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "co-founding the Campus Startup Initiative",
+                "organizing charity events for the Red Cross"
+            ],
+            "essay": "To further education and career in environmental science",
+            "reference1": "Jenny Delgado",
+            "reference1Email": "fhunter@gmail.com",
+            "submission_time": "2025-11-04 00:55:09"
+        }
+    },
+    {
+        "task": 40,
+        "model": "qwen3-vl-flash",
+        "dur": 14.937483072280884,
+        "step": 2,
+        "result": {
+            "firstName": "Stephanie",
+            "middleName": "Terri",
+            "lastName": "Cervantes",
+            "studentId": 12819097,
+            "gpa": 3.51,
+            "major": "Electrical Engineering",
+            "academicYear": "freshman",
+            "financialAid": "Other Scholarships",
+            "familyIncome": 87199,
+            "achievements": [
+                "Winner of the National Science Fair",
+                " First place in the University Math Competition",
+                " Dean\u2019s List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Member of the Environmental Awareness Club",
+                " Coordinator of the Youth Empowerment Program",
+                " President of the Student Council",
+                " Co-founder of the Campus Startup Initiative"
+            ],
+            "essay": "Aspiring to become a leader in public health and contribute to community service initiatives",
+            "reference1": "Jessica Wilson",
+            "reference1Email": "debbie86@gmail.com",
+            "submission_time": "2025-11-04 01:03:45"
+        }
+    },
+    {
+        "task": 41,
+        "model": "qwen3-vl-flash",
+        "dur": 14.293129920959473,
+        "step": 2,
+        "result": {
+            "firstName": "Raymond",
+            "middleName": "Samuel",
+            "lastName": "Smith",
+            "studentId": 27522333,
+            "gpa": 3.26,
+            "major": "Electrical Engineering",
+            "academicYear": "sophomore",
+            "financialAid": "None",
+            "familyIncome": 53495,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                "First place in the University Math Competition",
+                "Published research paper in the International Journal of Engineering",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Volunteer at the local community center",
+                "Member of the University Debate Team"
+            ],
+            "essay": "I hope to utilize my education to become a leader in public health, where I can harness my engineering background to contribute positively to society.",
+            "reference1": "Joseph Fischer",
+            "reference1Email": "cobbrachel@davis.com",
+            "submission_time": "2025-11-04 00:56:19"
+        }
+    },
+    {
+        "task": 42,
+        "model": "qwen3-vl-flash",
+        "dur": 14.893139123916626,
+        "step": 2,
+        "result": {
+            "firstName": "Clifford",
+            "middleName": "Kimberly",
+            "lastName": "Davis",
+            "studentId": 72237130,
+            "gpa": 2.7,
+            "major": "Chemistry",
+            "academicYear": "freshman",
+            "financialAid": "Grants",
+            "familyIncome": 97552,
+            "achievements": [
+                "Winning the State Physics Olympiad",
+                "Being on the Dean's List",
+                "Being a finalist in the National Robotics Championship",
+                "Publishing a research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "Co-founding the Campus Startup Initiative",
+                "Member of the University Debate Team",
+                "Coordinator of the Youth Empowerment Program",
+                "Organizing charity events for the Red Cross"
+            ],
+            "essay": "My passion lies in advancing my knowledge in environmental science to make a meaningful impact in sustainable development. I am dedicated to utilizing the knowledge and skills gained from my studies to contribute positively to society.",
+            "reference1": "Professor Christopher Dalton",
+            "reference1Email": "pamela16@gmail.com",
+            "submission_time": "2025-11-04 00:56:38"
+        }
+    },
+    {
+        "task": 43,
+        "model": "qwen3-vl-flash",
+        "dur": 21.522984981536865,
+        "step": 2,
+        "result": {
+            "firstName": "Lori",
+            "middleName": "David",
+            "lastName": "Thomas",
+            "studentId": 49060860,
+            "gpa": 3.25,
+            "major": "History",
+            "academicYear": "freshman",
+            "financialAid": "None",
+            "familyIncome": 98472,
+            "achievements": [
+                "Winning first place in the University Math Competition",
+                "Being crowned winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Volunteering at the local community center",
+                "Organizing charity events for the Red Cross",
+                "Serving as coordinator of the Youth Empowerment Program"
+            ],
+            "essay": "Dear Scholarship Committee, My name is Lori David Thomas, and I am currently a freshman majoring in History with a GPA of 3.25. I am writing to express my sincere interest in applying for the Environmental Science Scholarship program. As a dedicated student with a strong passion for advancing my knowledge in environmental science, I believe that this scholarship opportunity will enable me to continue my studies without the burden of financial constraints. Growing up in a family with an annual income of $98,472 and no current financial aid, I understand the importance of financial support in pursuing higher education. Throughout my academic journey, I have been fortunate to achieve notable successes, such as winning first place in the University Math Competition and being crowned the winner of the National Science Fair. These achievements have not only reinforced my passion for science but have also demonstrated my dedication and commitment to academic excellence. In addition to my academic accomplishments, I actively engage in extracurricular activities that align with my interests and values. I volunteer at the local community center, organize charity events for the Red Cross, and serve as the coordinator of the Youth Empowerment Program. These experiences have allowed me to develop leadership skills, foster a sense of social responsibility, and make a positive impact in my community. With the support of this scholarship, I aspire to further my knowledge in environmental science and contribute to the field of sustainable development. I am confident that my academic background, coupled with my extracurricular involvement and strong work ethic, will allow me to excel in the program. I have enclosed a statement of purpose outlining my goals and aspirations in the field of environmental science. Additionally, Mr. Jerry Mason has kindly agreed to serve as my academic reference. For any further inquiries, please feel free to contact him at krodriguez@hotmail.com. I am immensely grateful for your consideration of my application and the opportunity to be considered for the Environmental Science Scholarship program. Thank you for your time and support. Sincerely, Lori David Thomas (Student ID: 49060860)",
+            "reference1": "Mr. Jerry Mason",
+            "reference1Email": "krodriguez@hotmail.com",
+            "submission_time": "2025-11-04 00:57:01"
+        }
+    },
+    {
+        "task": 44,
+        "model": "qwen3-vl-flash",
+        "dur": 13.529198169708252,
+        "step": 2,
+        "result": {
+            "firstName": "Jenny",
+            "middleName": "Christopher",
+            "lastName": "Jones",
+            "studentId": 62092463,
+            "gpa": 3.25,
+            "major": "Physics",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": 83081,
+            "achievements": [
+                "First place in the University Math Competition",
+                "Ranked in the top 5% in the International Chemistry Olympiad"
+            ],
+            "extracurricular": [
+                "Co-founder of the Campus Startup Initiative",
+                "Member of the Environmental Awareness Club"
+            ],
+            "essay": "A detailed statement outlining goals and ambitions in data science",
+            "reference1": "Lori Crawford",
+            "reference1Email": "ychase@jones-hampton.com",
+            "submission_time": "2025-11-04 00:57:24"
+        }
+    },
+    {
+        "task": 45,
+        "model": "qwen3-vl-flash",
+        "dur": 14.148739099502563,
+        "step": 2,
+        "result": {
+            "firstName": "Debra",
+            "middleName": "Lindsey",
+            "lastName": "Collier",
+            "studentId": 51082916,
+            "gpa": 3.24,
+            "major": "Economics",
+            "academicYear": "junior",
+            "financialAid": "Grants",
+            "familyIncome": 60362,
+            "achievements": [
+                "Winner of the State Physics Olympiad",
+                "Dean\u2019s List Award",
+                "Finalist in the National Robotics Championship",
+                "National Science Fair winner"
+            ],
+            "extracurricular": [
+                "Volunteered at the local community center",
+                "Coordinator of the Youth Empowerment Program",
+                "Member of the University Debate Team",
+                "President of the Student Council"
+            ],
+            "essay": "My academic reference, John Cooley, can attest to my dedication, hard work, and passion for learning. You may reach out to him via email at elizabethmunoz@yahoo.com for any recommendations about my character and academic abilities.",
+            "reference1": "John Cooley",
+            "reference1Email": "elizabethmunoz@yahoo.com",
+            "submission_time": "2025-11-04 00:57:43"
+        }
+    },
+    {
+        "task": 46,
+        "model": "qwen3-vl-flash",
+        "dur": 15.073454141616821,
+        "step": 2,
+        "result": {
+            "firstName": "William",
+            "middleName": "Sydney",
+            "lastName": "Graves",
+            "studentId": 68220555,
+            "gpa": 3.12,
+            "major": "Biology",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": 37761,
+            "achievements": [
+                "First place in the University Math Competition",
+                "Finalist in the National Robotics Championship",
+                "Winner of the National Science Fair"
+            ],
+            "extracurricular": [
+                "Coordinator of the Youth Empowerment Program",
+                "Organizing charity events for the Red Cross",
+                "Dedicated member of the University Debate Team"
+            ],
+            "essay": "Intention to pursue education and research in computer engineering with long-term ambition to innovate in the tech industry.",
+            "reference1": "Alfred Stark",
+            "reference1Email": "whenderson@ramsey-stevens.biz",
+            "submission_time": "2025-11-04 00:58:03"
+        }
+    },
+    {
+        "task": 47,
+        "model": "qwen3-vl-flash",
+        "dur": 16.68158531188965,
+        "step": 2,
+        "result": {
+            "firstName": "Bradley",
+            "middleName": "Neil",
+            "lastName": "Hill",
+            "studentId": 49532707,
+            "gpa": 3.96,
+            "major": "Education",
+            "academicYear": "senior",
+            "financialAid": "None",
+            "familyIncome": 96495,
+            "achievements": [
+                "Dean\u2019s List Award for Outstanding Academic Performance",
+                "Finalist in the National Robotics Championship",
+                "Published research paper in the International Journal of Engineering"
+            ],
+            "extracurricular": [
+                "President of the Student Council",
+                "Organized charity events in partnership with the Red Cross",
+                "Volunteer at the local community center"
+            ],
+            "essay": "Passion for advancing knowledge in environmental science and its implications for sustainable development, aiming to educate future generations on sustainability and responsible environmental stewardship.",
+            "reference1": "Richard Clay",
+            "reference1Email": "atkinsonjohn@gmail.com",
+            "submission_time": "2025-11-04 00:58:24"
+        }
+    },
+    {
+        "task": 48,
+        "model": "qwen3-vl-flash",
+        "dur": 14.270106077194214,
+        "step": 2,
+        "result": {
+            "firstName": "Ryan",
+            "middleName": "Amanda",
+            "lastName": "Miller",
+            "studentId": 19718370,
+            "gpa": 3.07,
+            "major": "Art",
+            "academicYear": "senior",
+            "financialAid": "Student Loans",
+            "familyIncome": 66896,
+            "achievements": [
+                "Winner of the National Science Fair",
+                "Finalist in the National Robotics Championship"
+            ],
+            "extracurricular": [
+                "Member of the University Debate Team",
+                "Organizing charity events for the Red Cross",
+                "Coordinator of the Youth Empowerment Program"
+            ],
+            "essay": "My ultimate goal is to become a leader in public health and make a positive impact on society. This scholarship would bring me one step closer to realizing that dream by enabling me to pursue higher education without the constant worry about financial difficulties. I am confident that with your support, I will continue to excel academically while contributing meaningfully to the community.",
+            "reference1": "Robert Hill",
+            "reference1Email": "monica01@luna.com",
+            "submission_time": "2025-11-04 00:58:44"
+        }
+    },
+    {
+        "task": 49,
+        "model": "qwen3-vl-flash",
+        "dur": 13.628106832504272,
+        "step": 2,
+        "result": {
+            "firstName": "Shelly",
+            "middleName": "Krista",
+            "lastName": "Larson",
+            "studentId": 20623406,
+            "gpa": 3.03,
+            "major": "History",
+            "academicYear": "sophomore",
+            "financialAid": "Grants",
+            "familyIncome": 34126,
+            "achievements": [
+                "Finalist in the National Robotics Championship",
+                " Published a research paper in the International Journal of Engineering",
+                " Winner of the National Science Fair",
+                " Dean's List Award for Outstanding Academic Performance"
+            ],
+            "extracurricular": [
+                "Organized charity events for the Red Cross",
+                " Member of the Environmental Awareness Club"
+            ],
+            "essay": "A personal statement expressing passion for computer engineering, academic dedication, and career goals in the tech industry",
+            "reference1": "Albert Ewing",
+            "reference1Email": "hicksjames@gmail.com",
+            "submission_time": "2025-11-04 00:59:03"
+        }
+    }
+]

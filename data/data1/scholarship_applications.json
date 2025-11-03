@@ -7,7 +7,7 @@
         "major": "Philosophy",
         "gpa": 3.19,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 80303,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -31,7 +31,7 @@
         "major": "Sociology",
         "gpa": 3.59,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 60273,
         "achievements": [
             "First place in the University Math Competition",
@@ -54,7 +54,7 @@
         "major": "English Literature",
         "gpa": 3.58,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 38761,
         "achievements": [
             "Published a research paper in the International Journal of Engineering",
@@ -79,7 +79,7 @@
         "major": "Economics",
         "gpa": 3.47,
         "academicYear": "Senior",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 72451,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -178,7 +178,7 @@
         "major": "Mechanical Engineering",
         "gpa": 3.73,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 95479,
         "achievements": [
             "Published a research paper in the International Journal of Engineering",
@@ -299,7 +299,7 @@
         "major": "Business Administration",
         "gpa": 3.77,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 47631,
         "achievements": [
             "Received the Dean\u2019s List Award for Outstanding Academic Performance",
@@ -322,7 +322,7 @@
         "major": "Biology",
         "gpa": 2.91,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 76424,
         "achievements": [
             "Published a research paper in the International Journal of Engineering",
@@ -443,7 +443,7 @@
         "major": "Political Science",
         "gpa": 2.69,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 95400,
         "achievements": [
             "Winner of the National Science Fair",
@@ -513,8 +513,8 @@
         "major": "Law",
         "gpa": 2.97,
         "academicYear": "Senior",
-        "financialAid": "Other Scholarship",
-        "familyIncome": 38625,
+        "financialAid": "Other Scholarships",
+        "familyIncome": "",
         "achievements": [
             "First place in the University Math Competition",
             "Winner of the State Physics Olympiad",
@@ -537,7 +537,7 @@
         "major": "Chemistry",
         "gpa": 3.63,
         "academicYear": "Senior",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 27002,
         "achievements": [
             "Top 5% in the International Chemistry Olympiad",
@@ -607,7 +607,7 @@
         "major": "Computer Science",
         "gpa": 3.72,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 20748,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -632,7 +632,7 @@
         "major": "English Literature",
         "gpa": 2.96,
         "academicYear": "Sophomore",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 80469,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -800,7 +800,7 @@
         "major": "Chemistry",
         "gpa": 3.38,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 54075,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -875,7 +875,7 @@
         "major": "Law",
         "gpa": 3.97,
         "academicYear": "Junior",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 31161,
         "achievements": [
             "First place in the University Math Competition",
@@ -945,7 +945,7 @@
         "major": "Business Administration",
         "gpa": 3.18,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 64977,
         "achievements": [
             "Winner of the State Physics Olympiad",
@@ -970,7 +970,7 @@
         "major": "Electrical Engineering",
         "gpa": 3.51,
         "academicYear": "Freshman",
-        "financialAid": "Other Scholarship",
+        "financialAid": "Other Scholarships",
         "familyIncome": 87199,
         "achievements": [
             "Winner of the National Science Fair",

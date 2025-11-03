@@ -47,7 +47,7 @@ FUZZY_FIELD = {
     "A12": [], # ✅
     "A15": ["comments"], # ✅
     "A14": ["abstract"], # ✅
-    "A13": ["essay"], # TODO
+    "A13": ["essay", "achievements", "extracurricular"], # TODO
     "B11": ["business_model", "target_market", "funding_purpose", "additional_comments"], # ✅
     "B12": ["pet_details", "additional_info"], # ✅
     "B13": [],
@@ -210,14 +210,26 @@ class FormFieldEvaluator:
                 all_score += 1
             elif isinstance(val, list):
                 if field in predict:
-                    if len(val) > 0 and isinstance(val[0], str):
-                        pred = [p.strip().lower() for p in predict[field]]
+                    if field in FUZZY_FIELD[self.task]:
+                        for v in val:
+                            found = False
+                            for pred_v in predict[field]:
+                                similarity = self.calculate_text_similarity(f"{field}: {v}", f"{field}: {pred_v}", word_level=True)
+                                if similarity > 0.6:
+                                    found = True
+                                    break
+                            if found:
+                                got_score += 1
+                            else:
+                                print(field, "-", v, "got low similarity")
                     else:
-                        pred = predict[field]
-                    
-                    for v in val:
-                        if v.strip().lower() in pred:
-                            got_score += 1
+                        if len(val) > 0 and isinstance(val[0], str):
+                            pred = [p.strip().lower() for p in predict[field]]
+                        else:
+                            pred = predict[field]
+                        for v in val:
+                            if v.strip().lower() in pred:
+                                got_score += 1
                 all_score += len(val)
             else:
                 print(f"Cannot handle {field}:{val} ({type(val)})")
@@ -387,6 +399,13 @@ def dump_json(file: Path, data):
     with open(file, 'w') as fp:
         json.dump(data, fp, indent=4)
 
+async def submit_html(task: str):
+    async with cdp_browser_ctx() as cdp_browser:
+        context: BrowserContext = cdp_browser.context
+        page = await context.get_current_page()
+        if task in ['A13']:
+            await page.get_by_role('button', name='Submit Application').click()
+
 
 AGENTS = {
     AgentRR.__name__: AgentRR,
@@ -437,6 +456,10 @@ async def main(args):
         data['dur'] = run_time
         data['step'] = step
         print(f"⏱️ [{i}] Task execute in {run_time:.2f} s (in {step} steps)")
+
+        if not submission_file.exists():
+            await submit_html(task)
+            await asyncio.sleep(1)
 
         if not submission_file.exists():
             input("Please submit this table >")

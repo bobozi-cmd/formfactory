@@ -166,6 +166,12 @@ def grant_application_form():
 def student_registration():
     if request.method == 'POST':
         data = request.form.to_dict()
+        t = data['familyIncome']
+        data['familyIncome'] = t.replace('$', '').replace(',', '')
+        try:
+            data['familyIncome'] = int(data['familyIncome'])
+        except:
+            ...
         save_submission_to_json('A13.html', data)
         return jsonify({
             "message": "Student Registration Submitted Successfully!",
