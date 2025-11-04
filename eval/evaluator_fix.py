@@ -458,7 +458,7 @@ async def main(args):
         print(f"⏱️ [{i}] Task execute in {run_time:.2f} s (in {step} steps)")
 
         if not submission_file.exists():
-            await submit_html(task)
+            await submit_html(args.task)
             await asyncio.sleep(1)
 
         if not submission_file.exists():
