@@ -11,7 +11,7 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     r"""
     {
         "desc": "填写奖学金申请表",
-        "experience": "首先在 'First Name' 文本框中输入名字，然后在 'Middle Name' 和 'Last Name' 文本框中逐一输入中间名和姓氏。接下来，在 'Student ID' 文本框中键入学号。在 'Current GPA' 文本框中填写当前 GPA，并在 'Major/Field of Study' 文本框中输入所学专业。对于选择框 'Academic Year'，可选项包括 'Freshman', 'Sophomore', 'Junior', 'Senior'；确保选择最符合实际情况的一项。在选择 'Current Financial Aid' 时，可选项包括 'None', 'Partial', 'Full' 等。然后，在 'Annual Family Income' 文本框中输入年家庭收入。在 'Academic Achievements' 文本框中输入学术成就，使用换行符分隔不同条目。在 'Extracurricular Activities' 文本框中输入课外活动，也使用换行符分隔。在 'Statement of Purpose (500 words max)' 文本框中输入个人陈述，注意字数限制。最后，在 'Academic Reference' 输入推荐人姓名，并在 'Reference Email' 里填写推荐人邮箱。完成后，点击 'Submit Application' 按钮提交申请。",
+        "experience": "首先在 'First Name' 文本框中输入名字，然后在 'Middle Name' 和 'Last Name' 文本框中逐一输入中间名和姓氏。接下来，在 'Student ID' 文本框中键入学号。在 'Current GPA' 文本框中填写当前 GPA，并在 'Major/Field of Study' 文本框中输入所学专业。对于选择框 'Academic Year'，可选项包括 'Freshman', 'Sophomore', 'Junior', 'Senior'；确保选择最符合实际情况的一项。在选择 'Current Financial Aid' 时，可选项包括 'None', 'Partial', 'Full' 等。然后，在 'Annual Family Income' 文本框中输入年家庭收入, 没有提到就为空。在 'Academic Achievements' 文本框中输入学术成就，使用换行符分隔不同条目。在 'Extracurricular Activities' 文本框中输入课外活动，也使用换行符分隔。在 'Statement of Purpose (500 words max)' 文本框中输入个人陈述，注意字数限制。最后，在 'Academic Reference' 输入推荐人姓名，并在 'Reference Email' 里填写推荐人邮箱。完成后，点击 'Submit Application' 按钮提交申请。",
         "parameters": {
             "first_name": "申请者的名字, 变量类型: str",
             "middle_name": "申请者的中间名, 变量类型: str",
@@ -21,7 +21,7 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
             "major": "主修专业, 变量类型: str",
             "academic_year": "学年, {'': 'Select year', 'freshman': 'Freshman', 'sophomore': 'Sophomore', 'junior': 'Junior', 'senior': 'Senior', 'graduate': 'Graduate'}, 变量类型: str",
             "financial_aid": "当前的经济资助情况, {'': 'Select option', 'none': 'None', 'loans': 'Student Loans', 'grants': 'Grants', 'other': 'Other Scholarships'}, 变量类型: str",
-            "annual_family_income": "家庭年收入, 变量类型: str",
+            "annual_family_income": "家庭年收入, 没有提到就为空, 变量类型: str",
             "academic_achievements": "学术成就, 使用换行符分隔不同条目, 变量类型: str",
             "extracurricular_activities": "课外活动, 使用换行符分隔不同条目, 变量类型: str",
             "statement_of_purpose": "Purpose 陈述, 变量类型: str",

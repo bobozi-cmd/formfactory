@@ -386,6 +386,19 @@ class AgentMidscene:
 
         return steps
 
+class AgentBUExp(AgentBU):
+    def __init__(self, exp_db, url):
+        super().__init__(exp_db, url)
+
+        self.exp = ""
+
+        for f in self.spec.register_func:
+            self.exp += json.loads(f.__doc__)['experience'] + '\n'
+    
+    async def execute_task(self, task, max_step = 20):
+        task += f"\n下面是之前填写此表格积累的经验:\n{self.exp}\n"
+        await super().execute_task(task, max_step)
+
 
 def remove_file(file: Path):
     if file.exists():
@@ -410,6 +423,7 @@ async def submit_html(task: str):
 AGENTS = {
     AgentRR.__name__: AgentRR,
     AgentBU.__name__: AgentBU,
+    AgentBUExp.__name__: AgentBUExp,
     AgentMidscene.__name__: AgentMidscene
 }
 
@@ -417,6 +431,7 @@ async def main(args):
     start = args.start
     end = args.end
     agent_type = args.agent
+    assert args.dir, f"Must provide expdb_dir by -d or --dir"
 
     task_file = TASK_DIR / TASKS_MAPPING[args.task][0]
     url = f"{args.base_url}{TASKS_MAPPING[args.task][1]}"
@@ -499,7 +514,7 @@ def eval(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--task", required=True, type=str, choices=list(TASKS_MAPPING.keys()))
-    parser.add_argument("-d", "--dir", help="exp_db", type=Path, required=True)
+    parser.add_argument("-d", "--dir", help="exp_db", type=Path)
     parser.add_argument("-a", "--agent", type=str, choices=list(AGENTS.keys()), default=AgentRR.__name__)
     parser.add_argument('-e', '--eval', action='store_true')
     parser.add_argument('--eval-file', type=Path)
