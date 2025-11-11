@@ -351,6 +351,19 @@ def exhibition_submission():
 def literary_submission():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'word_count')
+        if "previously_published" not in data:
+            data["previously_published"] = "No"
+        else:
+            data["previously_published"] = "Yes"
+        if "simultaneous_submission" not in data:
+            data["simultaneous_submission"] = "No"
+        else:
+            data["simultaneous_submission"] = "Yes"
+        if "terms" not in data:
+            data["terms"] = "No"
+        else:
+            data["terms"] = "Yes"
         save_submission_to_json('C12.html', data)
         return jsonify({
             "message": "Literary Work Submission Successful!",
