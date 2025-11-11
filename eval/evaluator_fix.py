@@ -44,6 +44,7 @@ TASKS_MAPPING = {
     "C12": ("Literary_Magazine_Submission.txt", "/arts-creative/literary-submission", "Literary_Magazine_Submission.json"),
     "C13": ("Conference_Speaker_Application.txt", "/arts-creative/speaker-application", "Conference_Speaker_Application.json"),
     "D11": ("Bug_report.txt", "/tech-software/bug-report", "Bug_report.json"),
+    "D12": ("IT_support.txt", "/tech-software/support-request", "IT_support.json"),
 }
 
 FUZZY_FIELD = {
@@ -60,6 +61,7 @@ FUZZY_FIELD = {
     "C12": ["abstract"],
     "C13": ["abstract", "learning_objectives", "bio", "speaking_experience", "tech_requirements"],
     "D11": ["title", "steps", "expected", "actual"],
+    "D12": ["subject", "description", "location"],
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)

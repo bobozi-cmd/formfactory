@@ -401,6 +401,7 @@ def bug_report():
 def support_request():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'affectedUsers')
         save_submission_to_json('D12.html', data)
         return jsonify({
             "message": "IT Support Request Submitted Successfully!",
