@@ -335,6 +335,11 @@ def membership_application():
 def exhibition_submission():
     if request.method == 'POST':
         data = request.form.to_dict()
+        if "for_sale" not in data:
+            data["for_sale"] = False
+        else:
+            data["for_sale"] = True
+        to_int(data, 'year')
         save_submission_to_json('C11.html', data)
         return jsonify({
             "message": "Art Exhibition Submission Successful!",

@@ -40,6 +40,7 @@ TASKS_MAPPING = {
     "B12": ("real_estate_rental_applications.txt", "/professional-business/rental-application", "real_estate_rental_applications.json"),
     "B13": ("workshop_registrations.txt", "/professional-business/workshop-registration", "workshop_registrations.json"),
     "B14": ("membership_application.txt", "/professional-business/membership-application", "membership_application.json"), # 后10个任务的答案有点问题
+    "C11": ("Art_Exhibition_Submission_Form.txt", "/arts-creative/exhibition-submission", "Art_Exhibition_Submission_Form.json"),
 }
 
 FUZZY_FIELD = {
@@ -52,6 +53,7 @@ FUZZY_FIELD = {
     "B12": ["pet_details", "additional_info"], # ✅
     "B13": [],
     "B14": [],
+    "C11": ["description"],
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)
