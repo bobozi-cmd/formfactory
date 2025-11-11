@@ -42,6 +42,7 @@ TASKS_MAPPING = {
     "B14": ("membership_application.txt", "/professional-business/membership-application", "membership_application.json"), # 后10个任务的答案有点问题
     "C11": ("Art_Exhibition_Submission_Form.txt", "/arts-creative/exhibition-submission", "Art_Exhibition_Submission_Form.json"),
     "C12": ("Literary_Magazine_Submission.txt", "/arts-creative/literary-submission", "Literary_Magazine_Submission.json"),
+    "C13": ("Conference_Speaker_Application.txt", "/arts-creative/speaker-application", "Conference_Speaker_Application.json"),
 }
 
 FUZZY_FIELD = {
