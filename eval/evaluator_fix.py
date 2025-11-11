@@ -56,6 +56,7 @@ FUZZY_FIELD = {
     "B14": [],
     "C11": ["description"],
     "C12": ["abstract"],
+    "C13": ["abstract", "learning_objectives", "bio", "speaking_experience", "tech_requirements"],
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)

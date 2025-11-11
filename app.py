@@ -375,6 +375,10 @@ def literary_submission():
 def speaker_application():
     if request.method == 'POST':
         data = request.form.to_dict()
+        if "terms" not in data:
+            data["terms"] = "No"
+        else:
+            data["terms"] = "Yes"
         save_submission_to_json('C13.html', data)
         return jsonify({
             "message": "Speaker Application Submitted Successfully!",
