@@ -433,6 +433,8 @@ async def submit_html(task: str):
             await page.get_by_role('button', name='Submit Application').click()
         elif task in ['B13']:
             await page.get_by_role('button', name='Register Now').click()
+        elif task in ['C11']:
+            await page.get_by_role('button', name='Submit Artwork').click()
 
 
 AGENTS = {
