@@ -1,5 +1,31 @@
 [
     {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 108.07447075843811,
+        "step": 16,
+        "result": {
+            "full_name": "Daniel Brown",
+            "email": "ahale@hotmail.com",
+            "phone": "244-169-5801x7072",
+            "organization": "Wells-Wilson",
+            "workshop_type": "Finance & Investment",
+            "session_date": "",
+            "session_time": "evening",
+            "delivery_mode": "Hybrid",
+            "education_level": "",
+            "experience_years": 20,
+            "current_role": "Armed forces training and education officer",
+            "dietary_requirements": "Halal",
+            "accessibility_needs": "",
+            "payment_method": "Company Sponsored",
+            "billing_address": "USS Gonzalez, FPO AE 24907",
+            "expectations": "",
+            "special_requests": "",
+            "submission_time": "2025-11-19 14:36:16"
+        }
+    },
+    {
         "task": 1,
         "model": "qwen3-vl-flash",
         "dur": 109.10095381736755,

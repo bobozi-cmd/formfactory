@@ -56,8 +56,8 @@ FUZZY_FIELD = {
     "A13": ["essay", "achievements", "extracurricular"], # TODO
     "B11": ["business_model", "target_market", "funding_purpose", "additional_comments"], # ✅
     "B12": ["pet_details", "additional_info"], # ✅
-    "B13": ["current_role", "billing_address", "expectations", "special_requests"],
-    "B14": [],
+    "B13": ["current_role", "billing_address", "expectations", "special_requests"], # ✅
+    "B14": ["professional_certifications", ], # ✅
     "C11": ["description"],
     "C12": ["abstract"],
     "C13": ["abstract", "learning_objectives", "bio", "speaking_experience", "tech_requirements"],
@@ -429,7 +429,7 @@ async def submit_html(task: str):
     async with cdp_browser_ctx() as cdp_browser:
         context: BrowserContext = cdp_browser.context
         page = await context.get_current_page()
-        if task in ['A13']:
+        if task in ['A13', 'B14']:
             await page.get_by_role('button', name='Submit Application').click()
         elif task in ['B13']:
             await page.get_by_role('button', name='Register Now').click()

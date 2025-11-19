@@ -14,7 +14,7 @@
         "years_experience": 0,
         "industry": "Education",
         "reference_name": "Dr. Emily Johnson",
-        "reference_email": "emily.johnson@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Professor"
     },
     {
@@ -32,7 +32,7 @@
         "years_experience": 4,
         "industry": "Technology",
         "reference_name": "Mark White",
-        "reference_email": "mark.white@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Former Manager"
     },
     {
@@ -104,7 +104,7 @@
         "years_experience": 6,
         "industry": "Design",
         "reference_name": "Tom Clark",
-        "reference_email": "tom.clark@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Supervisor"
     },
     {
@@ -122,7 +122,7 @@
         "years_experience": 0,
         "industry": "Education",
         "reference_name": "Prof. Anna Lee",
-        "reference_email": "anna.lee@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Instructor"
     },
     {
@@ -140,7 +140,7 @@
         "years_experience": 5,
         "industry": "Healthcare",
         "reference_name": "Dr. Paul Lewis",
-        "reference_email": "paul.lewis@hotmail.com",
+        "reference_email": "",
         "reference_relationship": "Supervisor"
     },
     {
@@ -176,7 +176,7 @@
         "years_experience": 12,
         "industry": "Biotechnology",
         "reference_name": "Dr. Henry King",
-        "reference_email": "henry.king@aol.com",
+        "reference_email": "",
         "reference_relationship": "Advisor"
     },
     {
@@ -212,7 +212,7 @@
         "years_experience": 0,
         "industry": "Education",
         "reference_name": "Prof. Linda Scott",
-        "reference_email": "linda.scott@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Instructor"
     },
     {
@@ -248,7 +248,7 @@
         "years_experience": 4,
         "industry": "Media",
         "reference_name": "James Carter",
-        "reference_email": "james.carter@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Editor"
     },
     {
@@ -266,7 +266,7 @@
         "years_experience": 9,
         "industry": "Education",
         "reference_name": "Dr. Alice Brown",
-        "reference_email": "alice.brown@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Colleague"
     },
     {
@@ -284,7 +284,7 @@
         "years_experience": 5,
         "industry": "Hospitality",
         "reference_name": "David Brown",
-        "reference_email": "david.brown@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Manager"
     },
     {
@@ -338,7 +338,7 @@
         "years_experience": 12,
         "industry": "Information Technology",
         "reference_name": "Nancy Brown",
-        "reference_email": "nancy.brown@hotmail.com",
+        "reference_email": "",
         "reference_relationship": "Manager"
     },
     {
@@ -356,7 +356,7 @@
         "years_experience": 10,
         "industry": "Consulting",
         "reference_name": "Dr. Robert King",
-        "reference_email": "robert.king@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Advisor"
     },
     {
@@ -446,7 +446,7 @@
         "years_experience": 6,
         "industry": "Healthcare",
         "reference_name": "Dr. Lisa Adams",
-        "reference_email": "lisa.adams@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Supervisor"
     },
     {
@@ -464,7 +464,7 @@
         "years_experience": 15,
         "industry": "Chemicals",
         "reference_name": "Dr. Michael Brown",
-        "reference_email": "michael.brown@hotmail.com",
+        "reference_email": "",
         "reference_relationship": "Colleague"
     },
     {
@@ -482,7 +482,7 @@
         "years_experience": 4,
         "industry": "Social Services",
         "reference_name": "Karen White",
-        "reference_email": "karen.white@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Supervisor"
     },
     {
@@ -518,7 +518,7 @@
         "years_experience": 12,
         "industry": "Museums",
         "reference_name": "Dr. Sarah Smith",
-        "reference_email": "sarah.smith@hotmail.com",
+        "reference_email": "",
         "reference_relationship": "Colleague"
     },
     {
@@ -536,7 +536,7 @@
         "years_experience": 0,
         "industry": "Education",
         "reference_name": "Prof. Anna Johnson",
-        "reference_email": "anna.johnson@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Instructor"
     },
     {
@@ -554,7 +554,7 @@
         "years_experience": 5,
         "industry": "Information Security",
         "reference_name": "James Lee",
-        "reference_email": "james.lee@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Colleague"
     },
     {
@@ -590,7 +590,7 @@
         "years_experience": 7,
         "industry": "Finance",
         "reference_name": "Jessica Green",
-        "reference_email": "jessica.green@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Manager"
     },
     {
@@ -662,7 +662,7 @@
         "years_experience": 2,
         "industry": "Research",
         "reference_name": "Dr. Mark Taylor",
-        "reference_email": "mark.taylor@hotmail.com",
+        "reference_email": "",
         "reference_relationship": "Advisor"
     },
     {
@@ -680,7 +680,7 @@
         "years_experience": 6,
         "industry": "Construction",
         "reference_name": "Linda White",
-        "reference_email": "linda.white@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Colleague"
     },
     {
@@ -698,7 +698,7 @@
         "years_experience": 0,
         "industry": "Education",
         "reference_name": "Prof. Karen Adams",
-        "reference_email": "karen.adams@yahoo.com",
+        "reference_email": "",
         "reference_relationship": "Instructor"
     },
     {
@@ -716,7 +716,7 @@
         "years_experience": 4,
         "industry": "IT Services",
         "reference_name": "James Brown",
-        "reference_email": "james.brown@gmail.com",
+        "reference_email": "",
         "reference_relationship": "Manager"
     },
     {
@@ -730,7 +730,7 @@
         "current_employer": "Art Director at Creative Minds",
         "membership_level": "Professional Member",
         "reference_name": "Michael Brown",
-        "reference_email": "michael.brown@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Oliver Smith",
@@ -769,7 +769,7 @@
         "current_employer": "Senior Researcher at Quantum Labs",
         "membership_level": "Fellow Member",
         "reference_name": "Dr. Emily White",
-        "reference_email": "emily.white@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Mia Davis",
@@ -795,7 +795,7 @@
         "current_employer": "Marketing Coordinator at Brand Agency",
         "membership_level": "Corporate Member",
         "reference_name": "Laura Johnson",
-        "reference_email": "laura.johnson@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Ava Martinez",
@@ -808,7 +808,7 @@
         "current_employer": "Intern at Mental Health Center",
         "membership_level": "Student Member",
         "reference_name": "Dr. Brian Taylor",
-        "reference_email": "brian.taylor@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Ethan Brown",
@@ -821,7 +821,7 @@
         "current_employer": "Project Engineer at Build Right",
         "membership_level": "Professional Member",
         "reference_name": "Jessica Clark",
-        "reference_email": "jessica.clark@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Charlotte Harris",
@@ -834,7 +834,7 @@
         "current_employer": "Community Outreach Coordinator at Social Impact",
         "membership_level": "Corporate Member",
         "reference_name": "Dr. Kevin Lewis",
-        "reference_email": "kevin.lewis@example.com"
+        "reference_email": ""
     },
     {
         "full_name": "Lucas Young",
@@ -847,6 +847,6 @@
         "current_employer": "Research Scientist at ChemLab",
         "membership_level": "Fellow Member",
         "reference_name": "Dr. Anna Wilson",
-        "reference_email": "anna.wilson@example.com"
+        "reference_email": ""
     }
 ]
