@@ -1,0 +1,192 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 89.55816388130188,
+        "step": 18,
+        "result": {
+            "author_name": "Emma Thompson",
+            "email": "emma.thompson123@gmail.com",
+            "work_title": "A Journey Through Time",
+            "genre": "Fiction",
+            "word_count": 3200,
+            "abstract": "A historical novel that delves into the life of a young woman living through wartime Europe.",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:28:16"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 64.68080115318298,
+        "step": 13,
+        "result": {
+            "author_name": "Michael Johnson",
+            "email": "michael.johnson87@yahoo.com",
+            "work_title": "The Silent Observer",
+            "genre": "Poetry",
+            "word_count": 88,
+            "abstract": "A reflective piece on the complexities of human relationships and the internal struggles we face.",
+            "issue": "Winter 2024",
+            "terms": "Yes",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "submission_time": "2025-11-19 19:29:21"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 100.78233599662781,
+        "step": 15,
+        "result": {
+            "author_name": "Sarah Williams",
+            "email": "sarah.williams78@outlook.com",
+            "work_title": "Mind Over Matter",
+            "genre": "Non-Fiction",
+            "word_count": 3500,
+            "abstract": "A deep dive into the power of the mind and its impact on physical health. This non-fiction piece explores the intricate relationship between mental processes and physical well-being, inviting readers to consider the profound influence of the mind on health. Although the manuscript file is not attached to this submission (\"Manuscript File\": \"None\"), I am enthusiastic about the potential inclusion of \"Mind Over Matter\" in the upcoming Fall 2024 issue (\"Preferred Issue\": \"Fall 2024\"). Please note that this work has been previously published (\"This work has been previously published\": \"Yes\"), and this is not a simultaneous submission (\"This is a simultaneous submission\": \"No\"). I hereby confirm that I agree to the submission guidelines and terms of publication (\"I agree to the submission guidelines and terms of publication\": \"Yes\"). For further communication, I can be reached at my email address, sarah.williams78@outlook.com.\"",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:31:07"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 89.35564422607422,
+        "step": 19,
+        "result": {
+            "author_name": "John Miller",
+            "email": "john.miller42@gmail.com",
+            "work_title": "A Summer to Remember",
+            "genre": "",
+            "word_count": "",
+            "abstract": "",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:32:48"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 43.62075710296631,
+        "step": 9,
+        "result": {
+            "author_name": "Liam Scott",
+            "email": "liam.scott92@gmail.com",
+            "work_title": "The Forgotten Path",
+            "genre": "Non-Fiction",
+            "word_count": 4200,
+            "abstract": "An exploration of forgotten histories and the significance of preserving our cultural heritage.",
+            "issue": "Winter 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:33:30"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 92.8956069946289,
+        "step": 20,
+        "result": {
+            "author_name": "Olivia Brown",
+            "email": "olivia.brown456@yahoo.com",
+            "work_title": "Whispers in the Dark",
+            "genre": "",
+            "word_count": "",
+            "abstract": "",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:35:16"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 59.99150991439819,
+        "step": 9,
+        "result": {
+            "author_name": "James Foster",
+            "email": "james.foster77@gmail.com",
+            "work_title": "The Last Voyage",
+            "genre": "Fiction",
+            "word_count": 4800,
+            "abstract": "A sailor's final journey to find peace with his past and make amends before the end.",
+            "issue": "Fall 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:36:15"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 91.50366592407227,
+        "step": 15,
+        "result": {
+            "author_name": "Sophia Harris",
+            "email": "sophia.harris21@aol.com",
+            "work_title": "Unspoken Words",
+            "genre": "",
+            "word_count": "",
+            "abstract": "",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:37:59"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 35.44406509399414,
+        "step": 7,
+        "result": {
+            "author_name": "Ethan Clark",
+            "email": "ethan.clark58@outlook.com",
+            "work_title": "In the Heart of the Storm",
+            "genre": "Non-Fiction",
+            "word_count": 5100,
+            "abstract": "A detailed look at the emotional and physical toll of natural disasters on affected communities.",
+            "issue": "Spring 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:38:36"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 70.51125288009644,
+        "step": 15,
+        "result": {
+            "author_name": "Grace Martin",
+            "email": "grace.martin45@gmail.com",
+            "work_title": "The Call of the Wild",
+            "genre": "Fiction",
+            "word_count": 3800,
+            "abstract": "Grace Martin respectfully submits her Fiction piece entitled \"The Call of the Wild\" for consideration in your esteemed literary magazine's Summer 2024 issue. Her submission, which encompasses 3800 words, unfolds the narrative of a young woman who embarks on an unexpected journey into the wilderness to find herself. Grace Martin affirms that \"The Call of the Wild\" has not been previously published. This submission is a simultaneous submission, which means it is also under consideration elsewhere. An important note is that there is no Manuscript File attached to this submission. You can reach Grace Martin at grace.martin45@gmail.com for any further queries. She agrees to the submission guidelines and terms of publication as outlined by your magazine.",
+            "issue": "Summer 2024",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "terms": "No",
+            "submission_time": "2025-11-19 19:39:52"
+        }
+    }
+]

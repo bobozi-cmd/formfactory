@@ -429,12 +429,18 @@ async def submit_html(task: str):
     async with cdp_browser_ctx() as cdp_browser:
         context: BrowserContext = cdp_browser.context
         page = await context.get_current_page()
-        if task in ['A13', 'B14']:
+        if task in ['A13', 'B14', 'C13']:
             await page.get_by_role('button', name='Submit Application').click()
         elif task in ['B13']:
             await page.get_by_role('button', name='Register Now').click()
         elif task in ['C11']:
             await page.get_by_role('button', name='Submit Artwork').click()
+        elif task in ['C12']:
+            await page.get_by_role('button', name='Submit Work').click()
+        elif task in ['D11']:
+            await page.get_by_role('button', name='Submit Bug Report').click()
+        elif task in ['D12']:
+            await page.get_by_role('button', name='Submit Support Request').click()
 
 
 AGENTS = {

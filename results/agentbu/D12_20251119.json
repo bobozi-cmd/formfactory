@@ -1,0 +1,192 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 64.42298984527588,
+        "step": 10,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Urgent-System Down",
+            "subject": "Entire office network down",
+            "description": "Hello,\r\n\r\nI am writing to report an urgent network issue affecting all departments, with all network access down across the entire office. The problem began around 10:30 AM today. As a result, employees are unable to access the internet, file servers, or any internal systems. The number of affected users is approximately 50.\r\n\r\nPlease prioritize this issue due to its critical nature, as it impacts all business operations. You may reach out to me during our preferred contact time, Mon-Fri 9AM-5PM, for any additional details or updates. Currently, there are no available screenshots to provide.\r\n\r\nFor further communication or assistance, please feel free to contact me directly at michael.johnson@company.com or via phone at +1 555-9876.\r\n\r\nThank you for your prompt attention to this urgent matter.\r\n\r\nBest regards,\r\nMichael Johnson",
+            "location": "Main Office",
+            "affectedUsers": 50,
+            "availableTime": "",
+            "requesterName": "Michael Johnson",
+            "requesterEmail": "michael.johnson@company.com",
+            "phoneNumber": "+1 555-9876",
+            "submission_time": "2025-11-19 16:50:09"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 88.95602512359619,
+        "step": 19,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "",
+            "subject": "CRM software not loading",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 16:51:48"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 92.56018996238708,
+        "step": 16,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 16:53:27"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 48.75405502319336,
+        "step": 9,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Requesting admin access to server",
+            "description": "As a senior developer in the Development department, I require admin access to the internal server to manage system configurations related to our project. Currently, I only have limited user access, which restricts my ability to make necessary changes. This issue affects only me at the moment. I am available for contact Monday through Friday from 9 AM to 6 PM. For follow-up, please reach me via email at lucas.brown@company.com or by phone at +1 555-7890.",
+            "location": "Development",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "Lucas Brown",
+            "requesterEmail": "lucas.brown@company.com",
+            "phoneNumber": "+1 555-7890",
+            "submission_time": "2025-11-19 16:54:17"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 81.51817393302917,
+        "step": 12,
+        "result": {
+            "requestType": "",
+            "priority": "High-Work Blocked",
+            "subject": "Wi-Fi not working in conference room.",
+            "description": "The Wi-Fi connection in the conference room is not working. No devices can connect to the network in the conference room, while the Wi-Fi works fine in other areas of the office. This issue is affecting 10 users in the Conference Room.",
+            "location": "Conference Room",
+            "affectedUsers": 10,
+            "availableTime": "",
+            "requesterName": "Sophia Lee",
+            "requesterEmail": "sophia.lee@company.com",
+            "phoneNumber": "+1 555-1212",
+            "submission_time": "2025-11-19 16:55:43"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 60.21551489830017,
+        "step": 14,
+        "result": {
+            "requestType": "",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Excel crashing when opening large files",
+            "description": "I am writing to report a Software Issue on behalf of the Finance department. We are experiencing a Medium - Limited Functionality problem where Excel crashes whenever opening files larger than 50MB. Whenever we try to open large Excel files, the application crashes. This has been an issue for the past week, and it\u2019s affecting multiple users in the finance team. The number of affected users is currently 7. We are seeking resolution for this issue at the earliest, as it is disrupting our operations.",
+            "location": "Finance Department",
+            "affectedUsers": 7,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Benjamin Harris",
+            "requesterEmail": "benjamin.harris@company.com",
+            "phoneNumber": "+1 555-3412",
+            "submission_time": "2025-11-19 16:56:49"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 90.78928089141846,
+        "step": 20,
+        "result": {
+            "requestType": "Other",
+            "priority": "",
+            "subject": "Missing desk chair",
+            "description": "I have noticed that my desk chair has been missing for a few days from my workstation. I\u2019ve reported it to the office admin team, but it hasn\u2019t been replaced yet. This issue is impacting only me, with 1 user affected, within the Operations department. Please reach out to me at your earliest convenience; my preferred contact time is Mon-Fri 9AM-5PM. You can contact me via email at ava.wilson@company.com or by phone at +1 555-6321.",
+            "location": "Operations",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 16:58:30"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 87.07877516746521,
+        "step": 18,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Slow internet speed in accounting department",
+            "description": "Internet speed has been very slow for the past few days in the accounting department. The internet speed has dropped significantly, and it\u2019s impacting the ability to access cloud-based tools. This issue has been ongoing for about 3 days. The location affected is the Accounting department, with 8 users experiencing this issue.",
+            "location": "Accounting department",
+            "affectedUsers": 8,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 17:00:04"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 88.5680558681488,
+        "step": 13,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "High-Work Blocked",
+            "subject": "Unable to access project repository",
+            "description": "I do not have access to the project repository to complete my tasks, but I keep getting a permission denied error when I try to access it. This is blocking my work. The problem is reported from the Development department, affecting 1 user. I would appreciate contact during my Preferred Contact Time, which is Mon-Fri 9AM-6PM. For further communication, I can be reached by email at mason.clark@company.com or by phone at +1 555-7654.",
+            "location": "Development",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Mason Clark",
+            "requesterEmail": "mason.clark@company.com",
+            "phoneNumber": "+1 555-7654",
+            "submission_time": "2025-11-19 17:01:35"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 71.19018006324768,
+        "step": 5,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "Low-Minor Issue",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 17:02:56"
+        }
+    }
+]

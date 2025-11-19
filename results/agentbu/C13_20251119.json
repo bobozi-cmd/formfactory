@@ -1,0 +1,222 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 62.994077920913696,
+        "step": 7,
+        "result": {
+            "full_name": "John Adams",
+            "email": "john.adams56@gmail.com",
+            "phone": "123-456-7890",
+            "organization": "",
+            "presentation_title": "",
+            "topic_area": "",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:07:33"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 76.57330894470215,
+        "step": 20,
+        "result": {
+            "full_name": "Emily Carter",
+            "email": "emily.carter32@aol.com",
+            "phone": "234-567-8902",
+            "organization": "New York Arts Institute",
+            "presentation_title": "The Evolution of Performing Arts in the Digital Age",
+            "topic_area": "Digital Media",
+            "abstract": "Emily Carter, a performance artist and director from the New York Arts Institute, explores the transformative intersection of technology and art through her presentation titled 'The Evolution of Performing Arts in the Digital Age.' This presentation delves into the changing landscape of performing arts in the digital era, examining virtual performances, streaming technologies, and the shift to online platforms. Emily will also investigate how digital media is reshaping live performances and audience engagement. By blending digital media with live performances, she aims to illuminate the evolving narrative of modern performance art. The presentation highlights key trends such as immersive experiences, real-time interaction, and the democratization of artistic expression through digital tools. Through case studies and practical examples, attendees will gain insights into the opportunities and challenges presented by this digital transformation.",
+            "learning_objectives": "Understand how digital technologies are influencing performing arts.\r\nExplore the challenges and opportunities in virtual performances.\r\nGain insights into the future of live performing arts in a digital world.\r\nLearn about immersive experiences and real-time interaction in digital performances.\r\nDiscover the democratization of artistic expression through digital tools.",
+            "bio": "Emily Carter is a performance artist and director from the New York Arts Institute, known for her dedication to blending digital media with live performances. She has been involved in several groundbreaking digital theater productions and has spoken at the Digital Arts Festival 2022 and the Performing Arts Conference 2021. Her work explores the transformative intersection of technology and art, aiming to illuminate the evolving narrative of modern performance art through innovative digital techniques.",
+            "speaking_experience": "Digital Arts Festival 2022, Performing Arts Conference 2021",
+            "tech_requirements": "Live streaming tools, projector, microphone",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:08:56"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 70.75014209747314,
+        "step": 18,
+        "result": {
+            "full_name": "Sophia Green",
+            "email": "sophia.green90@icloud.com",
+            "phone": "345-678-9012",
+            "organization": "",
+            "presentation_title": "Writing in the The Age of Digital Media",
+            "topic_area": "",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:10:14"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 73.69320487976074,
+        "step": 19,
+        "result": {
+            "full_name": "Michael Hughes",
+            "email": "michael.hughes82@gmail.com",
+            "phone": "456-789-0123",
+            "organization": "Art History Institute",
+            "presentation_title": "Exploring Art History Through Digital Media",
+            "topic_area": "",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:11:34"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 80.75788998603821,
+        "step": 18,
+        "result": {
+            "full_name": "Lucas Brown",
+            "email": "lucas.brown72@yahoo.com",
+            "phone": "567-890-1234",
+            "organization": "",
+            "presentation_title": "Narrative Structures in Creative Writing",
+            "topic_area": "Creative Writing",
+            "abstract": "Lucas Brown, an esteemed creative writing professor and novelist with over 10 years of experience in teaching narrative techniques, is delighted to submit an application to present at your esteemed conference. Representing the Creative Writing Workshop, Lucas is eager to deliver a workshop entitled \"Narrative Structures in Creative Writing.\" This submission falls under the topic area of Creative Writing, and the presentation will focus on different narrative structures in creative writing, including linear, non-linear, and experimental storytelling techniques. We will also discuss how to break traditional narrative forms to create more engaging and innovative stories. Participants will gain from specified learning objectives: 1. Learn about various narrative structures. 2. Discover techniques for breaking conventional storytelling rules. 3. Understand how to create compelling plots with unconventional structures. Lucas\u2019s professional biography further reflects his expertise, as he has published several short stories and is a regular contributor to literary journals. His previous speaking experience includes the role of a speaker at the Creative Writing Conference 2022 and a workshop leader at Writing Masterclass 2021. The proposed presentation format is a workshop, with special technical requirements that include a projector and writing software for demonstration. Lucas affirms his agreement to the speaker guidelines and terms of participation. Should there be any further need for information or clarification, Lucas can be reached via email at lucas.brown72@yahoo.com or by phone at 567-890-1234.",
+            "learning_objectives": "1. Learn about various narrative structures.\r\n2. Discover techniques for breaking conventional storytelling rules.\r\n3. Understand how to create compelling plots with unconventional structures.",
+            "bio": "Lucas Brown is an esteemed creative writing professor and novelist with over 10 years of experience in teaching narrative techniques. He has published several short stories and is a regular contributor to literary journals. His previous speaking experience includes the role of a speaker at the Creative Writing Conference 2022 and a workshop leader at Writing Masterclass 2021.",
+            "speaking_experience": "Lucas Brown is an esteemed creative writing professor and novelist with over 10 years of experience in teaching narrative techniques. He has published several short stories and is a regular contributor to literary journals. His previous speaking experience includes the role of a speaker at the Creative Writing Conference 2022 and a workshop leader at Writing Masterclass 2021.",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:13:02"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 74.85111498832703,
+        "step": 18,
+        "result": {
+            "full_name": "Olivia White",
+            "email": "olivia.white85@outlook.com",
+            "phone": "678-901-2345",
+            "organization": "Digital Media Institute",
+            "presentation_title": "The Role of Social Media in Shaping Contemporary Art",
+            "topic_area": "Digital Media",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:14:23"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 75.14702486991882,
+        "step": 19,
+        "result": {
+            "full_name": "James Lewis",
+            "email": "james.lewis98@gmail.com",
+            "phone": "789-012-3456",
+            "organization": "The Art Collective",
+            "presentation_title": "Exploring Abstract Expressionism in Modern Visual Arts",
+            "topic_area": "Visual Arts",
+            "abstract": "The evolution of abstract expressionism in visual arts, emphasizing the impact of key figures like Jackson Pollock and Mark Rothko. It further delves into how contemporary artists draw inspiration from these pioneers. Attendees can anticipate achieving the following Learning Objectives: 1. Understand the principles of abstract expressionism. 2. Learn about key artists and their contributions. 3. Explore how modern artists are continuing the legacy of abstract expressionism.",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "Speaker at the Abstract Art Conference 2022 and curator at the Modern Art Exhibit 2021",
+            "tech_requirements": "Projector and high-quality art prints for display",
+            "terms": "Yes",
+            "format": "",
+            "submission_time": "2025-11-19 19:15:45"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 78.03447079658508,
+        "step": 19,
+        "result": {
+            "full_name": "Grace Taylor",
+            "email": "grace.taylor@example.com",
+            "phone": "123-456-7890",
+            "organization": "Arts and Culture Society",
+            "presentation_title": "The Impact of Digital Art on Traditional Art Forms",
+            "topic_area": "Visual Arts",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:17:10"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 80.03445506095886,
+        "step": 16,
+        "result": {
+            "full_name": "Liam Roberts",
+            "email": "liam.roberts67@outlook.com",
+            "phone": "901-234-5678",
+            "organization": "City Arts Foundation",
+            "presentation_title": "The Role of Performing Arts in Social Change",
+            "topic_area": "Performing Arts",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:18:37"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 74.56133604049683,
+        "step": 14,
+        "result": {
+            "full_name": "Chloe Martin",
+            "email": "chloe.martin55@gmail.com",
+            "phone": "123-567-8909",
+            "organization": "",
+            "presentation_title": "The Power of Dialogue in Creative Writing",
+            "topic_area": "Creative Writing",
+            "abstract": "",
+            "learning_objectives": "",
+            "bio": "",
+            "speaking_experience": "",
+            "tech_requirements": "",
+            "terms": "No",
+            "format": "",
+            "submission_time": "2025-11-19 19:19:58"
+        }
+    }
+]

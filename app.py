@@ -379,6 +379,10 @@ def speaker_application():
             data["terms"] = "No"
         else:
             data["terms"] = "Yes"
+
+        if "format" not in data:
+            data['format'] = ""
+
         save_submission_to_json('C13.html', data)
         return jsonify({
             "message": "Speaker Application Submitted Successfully!",
