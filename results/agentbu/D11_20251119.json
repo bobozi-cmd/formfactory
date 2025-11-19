@@ -178,5 +178,725 @@
             "email": "james.wilson89@gmail.com",
             "submission_time": "2025-11-19 19:03:54"
         }
+    },
+    {
+        "task": 10,
+        "model": "qwen3-vl-flash",
+        "dur": 50.34460711479187,
+        "step": 8,
+        "result": {
+            "title": "Submit button does not work on the contact form",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Firefox 93.0 on macOS Monterey",
+            "steps": "1. Open the contact form.\r\n2. Fill in all fields.\r\n3. Click the submit button.\r\n4. Nothing happens.",
+            "expected": "The form should submit successfully without any issues.",
+            "actual": "The submit button does not work; nothing happens when clicked.",
+            "reporter": "Jessica Adams",
+            "email": "jessica.adams99@gmail.com",
+            "submission_time": "2025-11-19 23:38:11"
+        }
+    },
+    {
+        "task": 11,
+        "model": "qwen3-vl-flash",
+        "dur": 75.28413414955139,
+        "step": 18,
+        "result": {
+            "title": "Audio not playing on video page",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Safari 14.1, iOS 15",
+            "steps": "1. Open the video page.\r\n2. Play any video.\r\n3. The video plays, but there is no audio.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:39:37"
+        }
+    },
+    {
+        "task": 12,
+        "model": "qwen3-vl-flash",
+        "dur": 67.04352927207947,
+        "step": 11,
+        "result": {
+            "title": "Image carousel not working on homepage",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Edge 95.0, Windows 8",
+            "steps": "1. Go to the homepage.\r\n2. Try to navigate the image carousel.\r\n3. Carousel does not move or change images.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:40:51"
+        }
+    },
+    {
+        "task": 13,
+        "model": "qwen3-vl-flash",
+        "dur": 98.22342705726624,
+        "step": 19,
+        "result": {
+            "title": "Password reset link not working",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Chrome 96.0, Windows 10",
+            "steps": "1. Go to the password reset page. 2. Enter email and submit request. 3. No email is received.",
+            "expected": "Password reset email should be sent to the user.",
+            "actual": "Password reset email is not sent.",
+            "reporter": "Sophia Miller",
+            "email": "sophia.miller23@yahoo.com",
+            "submission_time": "2025-11-19 23:42:36"
+        }
+    },
+    {
+        "task": 14,
+        "model": "qwen3-vl-flash",
+        "dur": 104.7946138381958,
+        "step": 18,
+        "result": {
+            "title": "Pop-up notification not disappearing after action",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Firefox 92.0, Ubuntu 20.04",
+            "steps": "1. Trigger a pop-up notification. 2. Perform the action to dismiss it. 3. The notification stays on the screen.",
+            "expected": "Pop-up notification should disappear after the action is completed.",
+            "actual": "Pop-up notification remains on the screen after the action.",
+            "reporter": "Ethan Davis",
+            "email": "ethan.davis@aol.com",
+            "submission_time": "2025-11-19 23:44:28"
+        }
+    },
+    {
+        "task": 15,
+        "model": "qwen3-vl-flash",
+        "dur": 78.8318829536438,
+        "step": 11,
+        "result": {
+            "title": "Error loading user profile page",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Safari 14.1 on macOS Catalina",
+            "steps": "1. Login to the account.\r\n2. Go to the profile page.\r\n3. The page fails to load, showing an error message.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:45:53"
+        }
+    },
+    {
+        "task": 16,
+        "model": "qwen3-vl-flash",
+        "dur": 84.12012434005737,
+        "step": 16,
+        "result": {
+            "title": "Search bar not functioning after update",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Chrome 97.0, Windows 11",
+            "steps": "1. Open the search page.\r\n2. Try entering a search query.\r\n3. Search bar does not register input.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:47:24"
+        }
+    },
+    {
+        "task": 17,
+        "model": "qwen3-vl-flash",
+        "dur": 50.57874274253845,
+        "step": 3,
+        "result": {
+            "title": "Page layout is distorted on mobile devices",
+            "severity": "Low",
+            "environment": "Development",
+            "browser": "Android 10, Chrome 95.0",
+            "steps": "1. Open the website on a mobile device. 2. The page layout is misaligned, causing content to be unreadable.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:48:22"
+        }
+    },
+    {
+        "task": 18,
+        "model": "qwen3-vl-flash",
+        "dur": 68.54383993148804,
+        "step": 16,
+        "result": {
+            "title": "Video player controls missing on fullscreen mode",
+            "severity": "Low",
+            "environment": "Production",
+            "browser": "Firefox 94.0, macOS Big Sur",
+            "steps": "(1) Open the video page. (2) Click on the fullscreen button. (3) Video controls are no longer visible in fullscreen mode.",
+            "expected": "Video controls should remain visible when in fullscreen mode.",
+            "actual": "Video controls are no longer visible in fullscreen mode.",
+            "reporter": "Benjamin Clark",
+            "email": "benjamin.clark@icloud.com",
+            "submission_time": "2025-11-19 23:49:30"
+        }
+    },
+    {
+        "task": 19,
+        "model": "qwen3-vl-flash",
+        "dur": 46.914982080459595,
+        "step": 8,
+        "result": {
+            "title": "Form validation error not showing",
+            "severity": "High",
+            "environment": "Testing",
+            "browser": "Safari 15, iPhone 13",
+            "steps": "1. Open the contact form. 2. Leave a required field blank and submit. 3. No validation error appears.",
+            "expected": "The form should show a validation error if a required field is left blank. However, the actual behavior observed is that no validation error appears, and the form is submitted incorrectly.",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:50:23"
+        }
+    },
+    {
+        "task": 20,
+        "model": "qwen3-vl-flash",
+        "dur": 69.72548508644104,
+        "step": 12,
+        "result": {
+            "title": "Pop-up modal freezes after clicking close button",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Chrome 95.0 on macOS Mojave",
+            "steps": "1. Open the website.\r\n2. Click on any pop-up modal.\r\n3. Click the close button.\r\n4. The modal freezes and does not close.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:51:44"
+        }
+    },
+    {
+        "task": 21,
+        "model": "qwen3-vl-flash",
+        "dur": 77.14649105072021,
+        "step": 10,
+        "result": {
+            "title": "User login fails after password change",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Safari 14.0, macOS Big Sur",
+            "steps": "1. Change your password.\r\n2. Try to log in with the new password.\r\n3. Login fails.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:53:08"
+        }
+    },
+    {
+        "task": 22,
+        "model": "qwen3-vl-flash",
+        "dur": 57.81348705291748,
+        "step": 7,
+        "result": {
+            "title": "Broken link in footer section",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Firefox 94.0, Windows 10",
+            "steps": "1. Scroll down to the footer section. 2. Click on any of the links in the footer. 3. The link redirects to a 404 error page.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:54:13"
+        }
+    },
+    {
+        "task": 23,
+        "model": "qwen3-vl-flash",
+        "dur": 74.68753504753113,
+        "step": 17,
+        "result": {
+            "title": "Text alignment issue in product description",
+            "severity": "Low",
+            "environment": "Development",
+            "browser": "Edge 95.0, Windows 11",
+            "steps": "1. Go to the product page.\r\n2. Look at the product description.\r\n3. Text is misaligned.",
+            "expected": "The text should be aligned properly in the product description.",
+            "actual": "The text is misaligned and looks uneven.",
+            "reporter": "Ella Williams",
+            "email": "ella.williams21@outlook.com",
+            "submission_time": "2025-11-19 23:55:30"
+        }
+    },
+    {
+        "task": 24,
+        "model": "qwen3-vl-flash",
+        "dur": 87.20649075508118,
+        "step": 14,
+        "result": {
+            "title": "Date picker widget does not show calendar",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Chrome 96.0, Linux Ubuntu",
+            "steps": "1. Open the form with the date picker.\r\n2. Click on the date input field.\r\n3. The calendar widget does not appear.",
+            "expected": "The calendar widget should appear when clicking the date input field.",
+            "actual": "The calendar widget does not appear when clicking the date input field.",
+            "reporter": "Charlotte Green",
+            "email": "charlotte.green@live.com",
+            "submission_time": "2025-11-19 23:57:06"
+        }
+    },
+    {
+        "task": 25,
+        "model": "qwen3-vl-flash",
+        "dur": 79.01804208755493,
+        "step": 17,
+        "result": {
+            "title": "App's notification system fails to update",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "iOS 15",
+            "steps": "1. Enable notifications for the app.\r\n2. Receive a notification.\r\n3. The notification status does not update after being read.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:58:32"
+        }
+    },
+    {
+        "task": 26,
+        "model": "qwen3-vl-flash",
+        "dur": 58.350852251052856,
+        "step": 9,
+        "result": {
+            "title": "Button not clickable in modal window",
+            "severity": "Medium",
+            "environment": "Development",
+            "browser": "Safari 13, iOS 14",
+            "steps": "1. Open the modal window.\r\n2. Try to click the 'Submit' button.\r\n3. The button does not respond.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-19 23:59:37"
+        }
+    },
+    {
+        "task": 27,
+        "model": "qwen3-vl-flash",
+        "dur": 93.36606907844543,
+        "step": 8,
+        "result": {
+            "title": "Mobile menu does not open on tap",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Chrome 95.0 on Android 11",
+            "steps": "1. Open the website on a mobile device. 2. Tap the hamburger menu icon. 3. Mobile menu does not open.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:01:18"
+        }
+    },
+    {
+        "task": 28,
+        "model": "qwen3-vl-flash",
+        "dur": 71.45711588859558,
+        "step": 14,
+        "result": {
+            "title": "Icons not displaying on dashboard",
+            "severity": "Low",
+            "environment": "Production",
+            "browser": "Firefox 93.0 on macOS Mojave",
+            "steps": "1. Open the dashboard.\r\n2. Check the icons in the menu bar.\r\n3. Icons are not visible.",
+            "expected": "Icons should display properly on the dashboard.",
+            "actual": "Icons are missing or invisible in the menu bar.",
+            "reporter": "Aiden White",
+            "email": "aiden.white45@gmail.com",
+            "submission_time": "2025-11-20 00:02:36"
+        }
+    },
+    {
+        "task": 29,
+        "model": "qwen3-vl-flash",
+        "dur": 66.33786201477051,
+        "step": 11,
+        "result": {
+            "title": "Scroll bar disappears when resizing window",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Edge 94.0, Windows 7",
+            "steps": "1. Open the website.\r\n2. Resize the window.\r\n3. The scroll bar disappears when the window is resized.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:03:49"
+        }
+    },
+    {
+        "task": 30,
+        "model": "qwen3-vl-flash",
+        "dur": 58.1859769821167,
+        "step": 9,
+        "result": {
+            "title": "Pagination does not work on product list",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Chrome 97.0, Windows 10",
+            "steps": "1. Go to the product list page. 2. Click on the next page button. 3. No products load on the next page.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:04:54"
+        }
+    },
+    {
+        "task": 31,
+        "model": "qwen3-vl-flash",
+        "dur": 73.44077897071838,
+        "step": 15,
+        "result": {
+            "title": "Font size changes unexpectedly after page load",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Safari 14.0 on macOS Sierra",
+            "steps": "1. Open the homepage.\r\n2. Wait for the page to fully load.\r\n3. Font size changes for the main text.",
+            "expected": "Font size should remain consistent throughout the page load.",
+            "actual": "Font size changes unexpectedly after the page finishes loading.",
+            "reporter": "Ava Brown",
+            "email": "ava.brown31@icloud.com",
+            "submission_time": "2025-11-20 00:06:10"
+        }
+    },
+    {
+        "task": 32,
+        "model": "qwen3-vl-flash",
+        "dur": 81.02139401435852,
+        "step": 20,
+        "result": {
+            "title": "Search functionality returns incorrect results",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Firefox 92.0, Linux Ubuntu",
+            "steps": "1. Use the search bar.\r\n2. Type in a relevant keyword.\r\n3. Results are unrelated to the search term.",
+            "expected": "The search results should match the search keyword.",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:07:40"
+        }
+    },
+    {
+        "task": 33,
+        "model": "qwen3-vl-flash",
+        "dur": 78.46562004089355,
+        "step": 9,
+        "result": {
+            "title": "Login form freezes on submit",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Chrome 96.0, macOS Big Sur",
+            "steps": "1. Open the login page.\r\n2. Enter valid login credentials.\r\n3. Click the submit button.\r\n4. The page freezes after clicking submit.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:09:06"
+        }
+    },
+    {
+        "task": 34,
+        "model": "qwen3-vl-flash",
+        "dur": 73.86099195480347,
+        "step": 14,
+        "result": {
+            "title": "Checkout page not updating order summary",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Edge 95.0, Windows 8",
+            "steps": "1. Add an item to the cart. 2. Go to the checkout page. 3. The order summary does not update with the item added.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:10:27"
+        }
+    },
+    {
+        "task": 35,
+        "model": "qwen3-vl-flash",
+        "dur": 72.79512023925781,
+        "step": 11,
+        "result": {
+            "title": "Product image zoom feature broken",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Safari 13.1, macOS Mojave",
+            "steps": "1. Open the product page.\r\n2. Click on the zoom feature for product images.\r\n3. Zoom functionality does not work.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:11:46"
+        }
+    },
+    {
+        "task": 36,
+        "model": "qwen3-vl-flash",
+        "dur": 116.2963399887085,
+        "step": 18,
+        "result": {
+            "title": "Social media icons not linking to correct profiles",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Chrome 94.0 and Windows 7",
+            "steps": "1. Go to the website.\\n2. Click on any social media icon.\\n3. The icon redirects to an incorrect or non-existent profile.",
+            "expected": "Each social media icon should link to the correct profile.",
+            "actual": "The social media icons redirect to incorrect or non-existent profiles.",
+            "reporter": "Emily Davis",
+            "email": "emily.davis90@outlook.com",
+            "submission_time": "2025-11-20 00:13:49"
+        }
+    },
+    {
+        "task": 37,
+        "model": "qwen3-vl-flash",
+        "dur": 63.381057024002075,
+        "step": 8,
+        "result": {
+            "title": "App icon does not display correctly on home screen",
+            "severity": "Low",
+            "environment": "Testing",
+            "browser": "Android 11, Samsung Galaxy S21",
+            "steps": "1. Install the app. 2. Add the app icon to the home screen. 3. The app icon displays as a blank square.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:15:00"
+        }
+    },
+    {
+        "task": 38,
+        "model": "qwen3-vl-flash",
+        "dur": 70.82524800300598,
+        "step": 9,
+        "result": {
+            "title": "Audio playback issues in mobile app",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "iOS 14, iPhone 11",
+            "steps": "1. Open the app.\r\n2. Play an audio file.\r\n3. Audio stutters and cuts off unexpectedly.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:16:17"
+        }
+    },
+    {
+        "task": 39,
+        "model": "qwen3-vl-flash",
+        "dur": 85.98604798316956,
+        "step": 9,
+        "result": {
+            "title": "User profile picture not updating",
+            "severity": "Medium",
+            "environment": "Development",
+            "browser": "Firefox 93.0, Windows 10",
+            "steps": "1. Go to the user profile page.\r\n2. Upload a new profile picture.\r\n3. The picture does not update after upload.",
+            "expected": "Profile picture should update after upload.",
+            "actual": "New profile picture is not displayed after upload.",
+            "reporter": "Benjamin Lee",
+            "email": "benjamin.lee76@outlook.com",
+            "submission_time": "2025-11-20 00:17:43"
+        }
+    },
+    {
+        "task": 40,
+        "model": "qwen3-vl-flash",
+        "dur": 76.81108713150024,
+        "step": 15,
+        "result": {
+            "title": "Page title not updating after navigation",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Chrome 97.0, macOS Monterey",
+            "steps": "1. Open the website.\r\n2. Navigate to a different page.\r\n3. The page title does not update after navigation.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:19:12"
+        }
+    },
+    {
+        "task": 41,
+        "model": "qwen3-vl-flash",
+        "dur": 89.32205605506897,
+        "step": 19,
+        "result": {
+            "title": "Slider control not functioning on homepage",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Safari 14.0, iOS 14",
+            "steps": "1. Go to the homepage. 2. Try using the slider control to view different sections. 3. Slider does not move.",
+            "expected": "Slider should allow users to view different sections.",
+            "actual": "Slider control is unresponsive and does not move.",
+            "reporter": "Mason Lewis",
+            "email": "mason.lewis89@gmail.com",
+            "submission_time": "2025-11-20 00:20:48"
+        }
+    },
+    {
+        "task": 42,
+        "model": "qwen3-vl-flash",
+        "dur": 99.89575099945068,
+        "step": 19,
+        "result": {
+            "title": "Dropdown menu disappears too quickly",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Edge 96.0, Windows 10",
+            "steps": "1. Hover over the dropdown menu. 2. The menu appears for a split second, then disappears immediately.",
+            "expected": "The dropdown menu should remain open until the user clicks or moves away.",
+            "actual": "The dropdown menu appears for a split second, then disappears immediately.",
+            "reporter": "Lily Evans",
+            "email": "lily.evans22@outlook.com",
+            "submission_time": "2025-11-20 00:22:28"
+        }
+    },
+    {
+        "task": 43,
+        "model": "qwen3-vl-flash",
+        "dur": 94.79415202140808,
+        "step": 14,
+        "result": {
+            "title": "Page not responsive on iPad",
+            "severity": "Low",
+            "environment": "Development",
+            "browser": "Safari 13.0, iPad Pro",
+            "steps": "1. Open the website on an iPad. 2. Page does not scale correctly for mobile view.",
+            "expected": "Page should be responsive and adapt to the iPad screen size.",
+            "actual": "Page content is too large and does not scale properly for iPad screen.",
+            "reporter": "Elijah Carter",
+            "email": "elijah.carter44@gmail.com",
+            "submission_time": "2025-11-20 00:24:09"
+        }
+    },
+    {
+        "task": 44,
+        "model": "qwen3-vl-flash",
+        "dur": 82.90689086914062,
+        "step": 19,
+        "result": {
+            "title": "Cart item quantity not updating",
+            "severity": "",
+            "environment": "Production",
+            "browser": "Chrome 94.0, Windows 11",
+            "steps": "1. Add items to the cart.\r\n2. Change the quantity of an item in the cart.\r\n3. The quantity does not update.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:25:43"
+        }
+    },
+    {
+        "task": 45,
+        "model": "qwen3-vl-flash",
+        "dur": 91.5471601486206,
+        "step": 11,
+        "result": {
+            "title": "User settings page loading extremely slowly",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Firefox 93.0, macOS Sierra",
+            "steps": "1. Open the user settings page. 2. The page takes an unusually long time to load.",
+            "expected": "User settings page should load within a reasonable amount of time.",
+            "actual": "User settings page takes more than 10 seconds to load.",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:27:21"
+        }
+    },
+    {
+        "task": 46,
+        "model": "qwen3-vl-flash",
+        "dur": 67.46598815917969,
+        "step": 8,
+        "result": {
+            "title": "Email confirmation not being sent after registration",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Chrome 95.0, Windows 8",
+            "steps": "1. Register a new account.\r\n2. Expect an email confirmation.\r\n3. No email confirmation is sent.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:28:36"
+        }
+    },
+    {
+        "task": 47,
+        "model": "qwen3-vl-flash",
+        "dur": 87.92654776573181,
+        "step": 14,
+        "result": {
+            "title": "Video playback controls missing in embedded player",
+            "severity": "Medium",
+            "environment": "Development",
+            "browser": "Safari 15.0, macOS Catalina",
+            "steps": "1. Open a page with an embedded video.\\n2. Try to interact with video controls.\\n3. Video controls are missing.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:30:10"
+        }
+    },
+    {
+        "task": 48,
+        "model": "qwen3-vl-flash",
+        "dur": 69.62711000442505,
+        "step": 13,
+        "result": {
+            "title": "User cannot change password from account settings",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Chrome 97.0, macOS Monterey",
+            "steps": "1. Go to account settings.\r\n2. Try changing the password.\r\n3. The password change form does not submit.",
+            "expected": "Password change form should submit and update the password successfully.",
+            "actual": "Password change form does not submit, and the password is not updated.",
+            "reporter": "Jackson Lewis",
+            "email": "jackson.lewis@gmail.com",
+            "submission_time": "2025-11-20 00:31:22"
+        }
+    },
+    {
+        "task": 49,
+        "model": "qwen3-vl-flash",
+        "dur": 71.88223695755005,
+        "step": 9,
+        "result": {
+            "title": "Breadcrumb navigation not visible on product pages",
+            "severity": "Low",
+            "environment": "Production",
+            "browser": "Edge 94.0 on Windows 10",
+            "steps": "1. Go to a product page.\r\n2. Breadcrumb navigation is not displayed at the top of the page.",
+            "expected": "",
+            "actual": "",
+            "reporter": "",
+            "email": "",
+            "submission_time": "2025-11-20 00:32:44"
+        }
     }
 ]

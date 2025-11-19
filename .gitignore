@@ -8,3 +8,4 @@ output/
 evaluation_results/
 submission/
 .DS_Store
+replay.log
