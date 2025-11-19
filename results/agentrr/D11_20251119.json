@@ -1,0 +1,182 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 14.648545026779175,
+        "step": 2,
+        "result": {
+            "title": "App crashes when opening the settings menu",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "iOS 15.4, iPhone 12",
+            "steps": "1. Open the app. 2. Tap on the settings icon. 3. App crashes immediately.",
+            "expected": "Settings menu should open without crashing.",
+            "actual": "App crashes immediately when settings menu is opened.",
+            "reporter": "John Williams",
+            "email": "john.williams87@gmail.com",
+            "submission_time": "2025-11-19 16:27:53"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 13.797972917556763,
+        "step": 2,
+        "result": {
+            "title": "Text input field does not accept characters",
+            "severity": "Medium",
+            "environment": "Development",
+            "browser": "Chrome 96.0, Windows 10",
+            "steps": "1. Go to the login page. 2. Try to type in the username field. 3. Characters do not appear.",
+            "expected": "The text input field should accept characters.",
+            "actual": "No characters appear when typing in the input field.",
+            "reporter": "Sarah Lee",
+            "email": "sarah.lee28@hotmail.com",
+            "submission_time": "2025-11-19 16:28:12"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 12.805076837539673,
+        "step": 2,
+        "result": {
+            "title": "Navigation bar disappears after scrolling",
+            "severity": "Medium",
+            "environment": "Testing",
+            "browser": "Safari 14.1, macOS Big Sur",
+            "steps": "1. Open the app. 2. Scroll down on the homepage. 3. The navigation bar disappears.",
+            "expected": "The navigation bar should remain visible while scrolling.",
+            "actual": "The navigation bar disappears after scrolling.",
+            "reporter": "Emily Zhang",
+            "email": "emily.zhang96@icloud.com",
+            "submission_time": "2025-11-19 16:28:31"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 14.194503784179688,
+        "step": 2,
+        "result": {
+            "title": "Images fail to load in gallery view",
+            "severity": "High",
+            "environment": "Production",
+            "browser": "Firefox 92.0, Windows 11",
+            "steps": "1. Go to the gallery page. 2. Try to load images. 3. Images fail to load or display as broken links.",
+            "expected": "images should load correctly in gallery view",
+            "actual": "images do not load and show as broken links.",
+            "reporter": "Michael Scott",
+            "email": "michael.scott@papercompany.com",
+            "submission_time": "2025-11-19 16:28:48"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 12.889428853988647,
+        "step": 2,
+        "result": {
+            "title": "Error message appears on checkout page.",
+            "severity": "Critical",
+            "environment": "Production",
+            "browser": "Chrome 96.0, Windows 10",
+            "steps": "1. Add items to cart. 2. Proceed to checkout. 3. An error message appears during payment.",
+            "expected": "Checkout process should proceed without errors.",
+            "actual": "Error message appears during payment and prevents checkout.",
+            "reporter": "David Johnson",
+            "email": "david.johnson45@gmail.com",
+            "submission_time": "2025-11-19 16:29:07"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 16.5017192363739,
+        "step": 2,
+        "result": {
+            "title": "Dropdown menu not responsive on mobile devices",
+            "severity": "Medium",
+            "environment": "Development",
+            "browser": "iOS 14, iPhone SE",
+            "steps": "1. Open the website on mobile. 2. Try to click on the dropdown menu. 3. The dropdown menu does not respond.",
+            "expected": "Dropdown menu should be clickable and functional on mobile devices.",
+            "actual": "Dropdown menu is unresponsive on mobile devices.",
+            "reporter": "Olivia Brown",
+            "email": "olivia.brown@outlook.com",
+            "submission_time": "2025-11-19 16:29:27"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 17.496655225753784,
+        "step": 2,
+        "result": {
+            "title": "User profile picture upload fails",
+            "severity": "High",
+            "environment": "testing",
+            "browser": "Edge 95.0, Windows 10",
+            "steps": "1. Go to the user profile page. 2. Click 'Upload Picture'. 3. Upload a profile picture. 4. The image fails to upload.",
+            "expected": "The profile picture should upload successfully.",
+            "actual": "The profile picture fails to upload, and no error message appears.",
+            "reporter": "Ryan Taylor",
+            "email": "ryan.taylor88@yahoo.com",
+            "submission_time": "2025-11-19 16:29:49"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 14.670912027359009,
+        "step": 2,
+        "result": {
+            "title": "Slow loading time on search results page",
+            "severity": "Medium",
+            "environment": "Production",
+            "browser": "Chrome 96.0, Windows 7",
+            "steps": "1. Go to the search page. 2. Enter a search term. 3. The search results page takes several seconds to load.",
+            "expected": "Search results should load quickly.",
+            "actual": "Search results take a long time to load, causing delays.",
+            "reporter": "Daniel Harris",
+            "email": "daniel.harris92@gmail.com",
+            "submission_time": "2025-11-19 16:30:10"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 16.43111491203308,
+        "step": 2,
+        "result": {
+            "title": "Text formatting issue in the blog editor",
+            "severity": "Low",
+            "environment": "Development",
+            "browser": "Safari 14.1, macOS Big Sur",
+            "steps": "1. Open the blog editor. 2. Try to change the text color. 3. Text does not change color properly.",
+            "expected": "The text color should change according to selection.",
+            "actual": "The text does not change color when selected.",
+            "reporter": "Sophia Green",
+            "email": "sophia.green22@mac.com",
+            "submission_time": "2025-11-19 16:30:31"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 13.326481819152832,
+        "step": 2,
+        "result": {
+            "title": "Page layout breaks on smaller screens",
+            "severity": "Low",
+            "environment": "Production",
+            "browser": "Chrome 95.0, Android 10",
+            "steps": "1. Open the website on a mobile device. 2. Navigate to the homepage. 3. The page layout breaks and becomes unreadable.",
+            "expected": "Page layout should be responsive and readable on all screen sizes.",
+            "actual": "Page layout breaks on smaller screens, making content difficult to read.",
+            "reporter": "James Wilson",
+            "email": "james.wilson89@gmail.com",
+            "submission_time": "2025-11-19 16:30:51"
+        }
+    }
+]

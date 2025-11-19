@@ -1,0 +1,192 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 17.551361083984375,
+        "step": 2,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Urgent-System Down",
+            "subject": "Entire office network down",
+            "description": "An urgent network issue affecting all departments, with all network access down across the entire office. The problem began around 10:30 AM today. As a result, employees are unable to access the internet, file servers, or any internal systems. The number of affected users is approximately 50.",
+            "location": "",
+            "affectedUsers": 50,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Michael Johnson",
+            "requesterEmail": "michael.johnson@company.com",
+            "phoneNumber": "+1 555-9876",
+            "submission_time": "2025-11-19 16:37:33"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 29.72795009613037,
+        "step": 2,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "High-Work Blocked",
+            "subject": "CRM software not loading",
+            "description": "The CRM software is not launching for any users. When attempting to open the CRM software, users receive an error message saying \"Application Failed to Load.\" This issue is blocking all sales and customer service activities. This is a high-priority issue as it is affecting 20 users in the Sales department, and it is critical that this is resolved promptly to ensure minimal disruption to business operations. As there are no screenshots available, please contact me at the provided email or phone number during our preferred contact time for further assistance. Your prompt attention to this issue would be greatly appreciated.",
+            "location": "Sales",
+            "affectedUsers": 20,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Emma Williams",
+            "requesterEmail": "emma.williams@company.com",
+            "phoneNumber": "+1 555-7654",
+            "submission_time": "2025-11-19 16:38:03"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 15.608581066131592,
+        "step": 2,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Printer not responding.",
+            "description": "The printer was working fine yesterday but now shows an error message and produces no prints despite being powered on.",
+            "location": "HR department",
+            "affectedUsers": 5,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Olivia Davis",
+            "requesterEmail": "olivia.davis@company.com",
+            "phoneNumber": "+1 555-2345",
+            "submission_time": "2025-11-19 16:38:28"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 24.68830180168152,
+        "step": 2,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "",
+            "subject": "Requesting admin access to server",
+            "description": "As a senior developer in the Development department, I need admin access to manage system configurations related to our project. Currently, I only have limited user access, which restricts my ability to make necessary changes. This issue affects only me.",
+            "location": "Development",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Lucas Brown",
+            "requesterEmail": "lucas.brown@company.com",
+            "phoneNumber": "+1 555-7890",
+            "submission_time": "2025-11-19 16:38:57"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 16.7096688747406,
+        "step": 2,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "High-Work Blocked",
+            "subject": "Wi-Fi not working in conference room",
+            "description": "The Wi-Fi connection in the conference room is not working. No devices can connect to the network in the conference room, while Wi-Fi works fine in other areas of the office. This issue is affecting 10 users in the Conference Room.",
+            "location": "Conference Room",
+            "affectedUsers": 10,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Sophia Lee",
+            "requesterEmail": "sophia.lee@company.com",
+            "phoneNumber": "+1 555-1212",
+            "submission_time": "2025-11-19 16:39:19"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 16.295860290527344,
+        "step": 2,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Excel crashing when opening large files",
+            "description": "Excel crashes whenever opening files larger than 50MB. This issue has been occurring for the past week and affects multiple users in the finance team. Currently, 7 users are impacted.",
+            "location": "Finance department",
+            "affectedUsers": 7,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Benjamin Harris",
+            "requesterEmail": "benjamin.harris@company.com",
+            "phoneNumber": "+1 555-3412",
+            "submission_time": "2025-11-19 16:39:40"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 14.66897702217102,
+        "step": 2,
+        "result": {
+            "requestType": "Other",
+            "priority": "Low-Minor Issue",
+            "subject": "Missing desk chair",
+            "description": "My desk chair has been missing for a few days from my workstation. I\u2019ve reported it to the office admin team, but it hasn\u2019t been replaced yet. This issue is impacting only me, with 1 user affected, within the Operations department.",
+            "location": "Operations",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Ava Wilson",
+            "requesterEmail": "ava.wilson@company.com",
+            "phoneNumber": "+1 555-6321",
+            "submission_time": "2025-11-19 16:40:01"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 14.421051025390625,
+        "step": 2,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Slow internet speed in accounting department",
+            "description": "Internet speed has been very slow for the past few days in the accounting department. The internet speed has dropped significantly, and it\u2019s impacting the ability to access cloud-based tools. This issue has been ongoing for about 3 days.",
+            "location": "Accounting department",
+            "affectedUsers": 8,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "+1 555-4567",
+            "submission_time": "2025-11-19 16:40:20"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 18.22130799293518,
+        "step": 2,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "High-Work Blocked",
+            "subject": "Unable to access project repository",
+            "description": "I do not have access to the project repository. I need access to complete my tasks, but I keep getting a permission denied error when I try to access it. This is blocking my work.",
+            "location": "Development",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Mason Clark",
+            "requesterEmail": "mason.clark@company.com",
+            "phoneNumber": "+1 555-7654",
+            "submission_time": "2025-11-19 16:40:42"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 19.63768982887268,
+        "step": 2,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "Low-Minor Issue",
+            "subject": "Keyboard malfunctioning",
+            "description": "The keyboard is not responding to certain keys. Specifically, some keys on my keyboard, including the space bar and 'Enter' key, are not responding. It is making it difficult to work efficiently. This issue affects only one user.",
+            "location": "Customer Support",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Lily Johnson",
+            "requesterEmail": "lily.johnson@company.com",
+            "phoneNumber": "+1 555-8976",
+            "submission_time": "2025-11-19 16:41:05"
+        }
+    }
+]

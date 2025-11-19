@@ -1,0 +1,222 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 18.079552173614502,
+        "step": 2,
+        "result": {
+            "full_name": "John Adams",
+            "email": "john.adams56@gmail.com",
+            "phone": "123-456-7890",
+            "organization": "Tech Innovations Inc.",
+            "presentation_title": "The Future of Artificial Intelligence in Visual Arts",
+            "topic_area": "Visual Arts",
+            "abstract": "This presentation will explore how AI is being used in the creation of visual art, including generative art algorithms and AI-based design tools. We will examine the intersection of creativity and technology and discuss the ethical implications of AI in artistic expression. The learning objectives include understanding the role of AI in visual arts, exploring AI-generated artworks and their impact on the art world, and discussing ethical considerations in AI-driven creativity.",
+            "learning_objectives": "1. Understand the role of AI in visual arts.\r\n2. Explore AI-generated artworks and their impact on the art world.\r\n3. Discuss ethical considerations in AI-driven creativity.",
+            "bio": "John Adams is a renowned technologist and artist, bridging the gap between AI and visual arts. He has worked on multiple projects integrating AI with digital art, and his works have been exhibited in various international galleries. He has significant previous speaking experience, having served as a Keynote Speaker at ArtTech Symposium 2022 and as a panelist at AI and Creativity Conference 2021.",
+            "speaking_experience": "1. Keynote Speaker at ArtTech Symposium 2022\r\n2. Panelist at AI and Creativity Conference 2021",
+            "format": "Lecture",
+            "tech_requirements": "projector, internet access, AI demo tools",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:13:17"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 17.81627631187439,
+        "step": 2,
+        "result": {
+            "full_name": "Emily Carter",
+            "email": "emily.carter32@aol.com",
+            "phone": "234-567-8902",
+            "organization": "New York Arts Institute",
+            "presentation_title": "The Evolution of Performing Arts in the Digital Age",
+            "topic_area": "Performing Arts",
+            "abstract": "Emily Carter, a performance artist and director from the New York Arts Institute, explores how digital media is transforming live performances and audience engagement. Her presentation delves into virtual performances, streaming technologies, and the shift to online platforms. She examines how digital tools reshape artistic expression and audience interaction, offering insights into both challenges and opportunities. Participants will gain a deeper understanding of the evolving landscape of performing arts in the digital age, including the future of live performances amid technological advancements. This session aims to inspire artists and practitioners to embrace innovation while preserving the essence of live performance.",
+            "learning_objectives": "1. Understand how digital technologies are influencing performing arts.\r\n2. Explore the challenges and opportunities in virtual performances.\r\n3. Gain insight into the future of live performing arts in a digital world.",
+            "bio": "Emily Carter is a dedicated performance artist and director known for blending digital media with live performances. With a background in groundbreaking digital theater productions, she has spoken at the Digital Arts Festival 2022 and served as a panelist at the Performing Arts Conference 2021. Her work consistently highlights the transformative intersection of technology and art, making her a compelling voice in contemporary performance practice.",
+            "speaking_experience": "1. Digital Arts Festival 2022\r\n2. Performing Arts Conference 2021",
+            "format": "Workshop",
+            "tech_requirements": "Live streaming tools, projector, microphone",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:13:40"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 15.015082120895386,
+        "step": 2,
+        "result": {
+            "full_name": "Sophia Green",
+            "email": "sophia.green90@icloud.com",
+            "phone": "345-678-9012",
+            "organization": "Literary Society of America",
+            "presentation_title": "Writing in the Age of Digital Media",
+            "topic_area": "Literature",
+            "abstract": "Digital media has profoundly influenced modern literature, reshaping how stories are created, distributed, and consumed. This presentation explores the evolution of literature in the digital age, focusing on e-books, self-publishing platforms, and the transformative role of social media in fostering direct interactions between writers and their audiences. Attendees will gain insights into the changing landscape of literary production and consumption, understand emerging writing platforms and trends, and critically discuss how digital media is redefining storytelling and publishing paradigms.",
+            "learning_objectives": "1. Understand the evolution of literature in the digital age.\r\n2. Learn about new writing platforms and trends.\r\n3. Discuss the impact of digital media on storytelling and publishing.",
+            "bio": "Sophia Green is an esteemed author and literary scholar from the Literary Society of America, specializing in the intersection of technology and literature. She has contributed essays on the digital transformation of literary publishing and has imparted knowledge through teaching courses on digital literature. Her research and writings explore how evolving technologies reshape narrative forms and reader engagement.",
+            "speaking_experience": "1. Digital Literature Symposium 2023\r\n2. Writer\u2019s Conference 2021",
+            "format": "Lecture",
+            "tech_requirements": "computer, projector, internet access",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:14:00"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 18.1361300945282,
+        "step": 2,
+        "result": {
+            "full_name": "Michael Hughes",
+            "email": "michael.hughes82@gmail.com",
+            "phone": "456-789-0123",
+            "organization": "Art History Institute",
+            "presentation_title": "Exploring Art History Through Digital Media",
+            "topic_area": "Art History",
+            "abstract": "This presentation explores how digital media has revolutionized the study and presentation of art history. It examines virtual museum tours, digitized collections, and the use of augmented reality in art exhibitions. These tools not only make art more accessible but also enhance educational experiences by allowing users to interact with historical artifacts in immersive environments. The session will highlight case studies from major museums that have successfully implemented these technologies, demonstrating their impact on both academic research and public engagement. Attendees will gain practical insights into leveraging digital platforms to preserve, present, and teach art history in innovative ways.",
+            "learning_objectives": "1. Understand how digital tools enhance art history education. 2. Explore virtual and augmented reality applications in art history. 3. Learn about the future of art history in the digital age.",
+            "bio": "Michael Hughes is an art historian and digital media expert with extensive experience in digital archiving and virtual exhibitions. He has collaborated with several museums to develop interactive online art exhibitions and digital catalogs. His work bridges traditional art historical methodologies with cutting-edge technological tools, making cultural heritage more accessible to global audiences. Michael has presented at the Virtual Art History Symposium 2022 and the Digital Humanities Conference 2021, showcasing his ability to engage diverse audiences on evolving topics in art history.",
+            "speaking_experience": "Virtual Art History Symposium 2022, Digital Humanities Conference 2021",
+            "format": "Lecture",
+            "tech_requirements": "virtual reality setup, projector, internet access",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:14:22"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 15.529376983642578,
+        "step": 2,
+        "result": {
+            "full_name": "Lucas Brown",
+            "email": "lucas.brown72@yahoo.com",
+            "phone": "567-890-1234",
+            "organization": "Creative Writing Workshop",
+            "presentation_title": "Narrative Structures in Creative Writing",
+            "topic_area": "Creative Writing",
+            "abstract": "This workshop will explore various narrative structures in creative writing, including linear, non-linear, and experimental storytelling techniques. Participants will learn how to break traditional narrative forms to create more engaging and innovative stories. By examining real-world examples and practical exercises, attendees will gain insight into crafting compelling plots that defy conventional storytelling norms. The session will encourage creativity and experimentation while maintaining narrative coherence and emotional resonance.",
+            "learning_objectives": "1. Learn about various narrative structures.\r\n2. Discover techniques for breaking conventional storytelling rules.\r\n3. Understand how to create compelling plots with unconventional structures.",
+            "bio": "Lucas Brown is an esteemed creative writing professor and novelist with over 10 years of experience. He has published several short stories and is a regular contributor to literary journals. His previous speaking roles include presenting at the Creative Writing Conference 2022 and leading a workshop at Writing Masterclass 2021.",
+            "speaking_experience": "1. Creative Writing Conference 2022 - Speaker\r\n2. Writing Masterclass 2021 - Workshop Leader",
+            "format": "Workshop",
+            "tech_requirements": "Projector, Writing Software",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:14:44"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 14.81552505493164,
+        "step": 2,
+        "result": {
+            "full_name": "Olivia White",
+            "email": "olivia.white85@outlook.com",
+            "phone": "678-901-2345",
+            "organization": "Digital Media Institute",
+            "presentation_title": "The Role of Social Media in Shaping Contemporary Art",
+            "topic_area": "Digital Media",
+            "abstract": "A 250-500 word summary explaining how social media platforms like Instagram, TikTok, and YouTube have transformed contemporary art creation and distribution, including opportunities for exposure and digital challenges;",
+            "learning_objectives": "1. Understand the impact of social media on contemporary art creation and distribution.\r\n2. Learn how artists can leverage social media platforms for career growth and exposure.\r\n3. Explore the challenges of creating and maintaining artistic identity in a digital-first world.",
+            "bio": "Olivia White is a digital media consultant specializing in social media strategies for artists. She has worked with several contemporary artists to build their digital presence and expand their online reach. Her expertise lies in helping artists navigate the evolving digital landscape to maximize visibility and engagement.",
+            "speaking_experience": "1. Digital Art Forum 2023\r\n2. Social Media and Art Conference 2022",
+            "format": "Panel Discussion",
+            "tech_requirements": "Projector, Internet Access, Social Media Accounts for Demonstration",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:15:03"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 17.526782989501953,
+        "step": 2,
+        "result": {
+            "full_name": "James Lewis",
+            "email": "james.lewis98@gmail.com",
+            "phone": "789-012-3456",
+            "organization": "The Art Collective",
+            "presentation_title": "Exploring Abstract Expressionism in Modern Visual Arts",
+            "topic_area": "Visual Arts",
+            "abstract": "The evolution of abstract expressionism in visual arts, emphasizing the impact of key figures like Jackson Pollock and Mark Rothko. It further delves into how contemporary artists draw inspiration from these pioneers.",
+            "learning_objectives": "1. Understand the principles of abstract expressionism. 2. Learn about key artists and their contributions. 3. Explore how modern artists are continuing the legacy of abstract expressionism.",
+            "bio": "James Lewis is an art curator and historian specializing in abstract art. He has curated exhibitions showcasing abstract expressionist works and maintains an extensive written portfolio on the subject.",
+            "speaking_experience": "1. Speaker at the Abstract Art Conference 2022. 2. Curator at the Modern Art Exhibit 2021.",
+            "format": "Lecture",
+            "tech_requirements": "Projector, high-quality art prints",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:15:23"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 22.07175302505493,
+        "step": 3,
+        "result": {
+            "full_name": "Grace Taylor",
+            "email": "grace.taylor@example.com",
+            "phone": "555-123-4567",
+            "organization": "Arts and Culture Society",
+            "presentation_title": "The Impact of Digital Art on Traditional Art Forms",
+            "topic_area": "Visual Arts",
+            "abstract": "Grace Taylor\u2019s proposed workshop explores how digital tools\u2014integrating into classic practices like painting, sculpture, and printmaking\u2014challenge and redefine established art forms. Through this session, participants will gain insights into the convergence of technology with historical artistic methods, fostering an understanding of digital integration in traditional art. The workshop aims to propel attendees into exploring the evolving definition of art in the digital age and reveal practical methods artists employ to balance tradition and innovation in their work.",
+            "learning_objectives": "1. Foster an understanding of the integration of digital tools in traditional art forms. 2. Propel attendees into exploring the evolving definition of art in the digital age. 3. Reveal methods artists employ to balance tradition and innovation in their work.",
+            "bio": "Grace Taylor is an accomplished visual artist with global exhibitions and a role as an educator at various esteemed art schools. Her work highlights a dual focus on digital media and traditional art, bridging technological innovation with classical techniques to reshape the art landscape.",
+            "speaking_experience": "1. Digital Art Symposium 2023. 2. International Art Conference 2021.",
+            "format": "Workshop",
+            "tech_requirements": "computer, digital drawing tablet, projector",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:17:51"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 13.918827056884766,
+        "step": 2,
+        "result": {
+            "full_name": "Liam Roberts",
+            "email": "liam.roberts67@outlook.com",
+            "phone": "901-234-5678",
+            "organization": "City Arts Foundation",
+            "presentation_title": "The Role of Performing Arts in Social Change",
+            "topic_area": "Performing Arts",
+            "abstract": "This lecture will delve into how performing arts can function as a catalyst for social change, utilizing examples from theater, dance, and music to illustrate how artists can leverage their platforms to tackle pressing issues such as inequality, climate change, and human rights. By attending this session, participants will gain a comprehensive understanding of the intersection of art and activism, explore various case studies where performance art has served as a medium for social commentary, and learn how performing artists are actively shaping public discourse through their work.",
+            "learning_objectives": "1. Understand the historical and contemporary role of performing arts in driving social change.\r\n2. Analyze case studies of performance art used as tools for social commentary.\r\n3. Explore strategies for artists to utilize their platforms to influence public discourse on critical global issues.",
+            "bio": "Liam Roberts is a director and performer with extensive experience in socially engaged theater productions, which have been featured at international festivals. He has been a speaker at the Global Arts and Social Change Conference 2023 and a workshop leader at Theatre for Change 2022. His work centers on the powerful relationship between art and social transformation, making him a compelling voice in the field.",
+            "speaking_experience": "1. Speaker at the Global Arts and Social Change Conference 2023.\r\n2. Workshop Leader at Theatre for Change 2022.\r\n3. Featured performer in socially engaged theater productions showcased at international festivals.",
+            "format": "Lecture",
+            "tech_requirements": "microphone, projector, sound system",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:16:30"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 15.265527963638306,
+        "step": 2,
+        "result": {
+            "full_name": "Chloe Martin",
+            "email": "chloe.martin55@gmail.com",
+            "phone": "123-567-8909",
+            "organization": "Creative Writers Guild",
+            "presentation_title": "The Power of Dialogue in Creative Writing",
+            "topic_area": "Creative Writing",
+            "abstract": "Chloe Martin will explore the dual function of dialogue in creative writing\u2014both as a storytelling device and a tool for character development during this workshop. She will share techniques for crafting authentic, engaging dialogue and analyze how dialogue deepens narrative impact, reveals character, and advances plot. Attendees will learn the importance of dialogue in storytelling, master methods for writing realistic dialogue, and understand its role in driving narrative progression.",
+            "learning_objectives": "1. A 2. B 3.C",
+            "bio": "Chloe Martin is an award-winning author and writing instructor specializing in character development and dialogue. With over ten years of teaching experience in creative writing, she has published numerous short stories and novels. Her previous speaking engagements include guest speaker at the Creative Writing Conference 2022 and workshop leader at the Dialogue Writing Masterclass 2021.",
+            "speaking_experience": "1. Guest speaker at Creative Writing Conference 2022\r\n2. Workshop leader at Dialogue Writing Masterclass 2021",
+            "format": "Workshop",
+            "tech_requirements": "computer, projector, handouts",
+            "terms": "Yes",
+            "submission_time": "2025-11-19 16:16:49"
+        }
+    }
+]

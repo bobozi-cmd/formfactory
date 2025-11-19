@@ -1,0 +1,192 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 15.085371017456055,
+        "step": 2,
+        "result": {
+            "author_name": "Emma Thompson",
+            "email": "emma.thompson123@gmail.com",
+            "work_title": "A Journey Through Time",
+            "genre": "Fiction",
+            "word_count": 3200,
+            "abstract": "A historical novel that delves into the life of a young woman living through wartime Europe.",
+            "issue": "Spring 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:02:19"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 12.84629225730896,
+        "step": 2,
+        "result": {
+            "author_name": "Michael Johnson",
+            "email": "michael.johnson87@yahoo.com",
+            "work_title": "The Silent Observer",
+            "genre": "Poetry",
+            "word_count": 88,
+            "abstract": "A reflective piece on the complexities of human relationships and the internal struggles we face.",
+            "issue": "Winter 2024",
+            "terms": "Yes",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "submission_time": "2025-11-19 16:02:38"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 12.287257671356201,
+        "step": 2,
+        "result": {
+            "author_name": "Sarah Williams",
+            "email": "sarah.williams78@outlook.com",
+            "work_title": "Mind Over Matter",
+            "genre": "Non-Fiction",
+            "word_count": 3500,
+            "abstract": "A deep dive into the power of the mind and its impact on physical health.",
+            "issue": "Fall 2024",
+            "previously_published": "Yes",
+            "terms": "Yes",
+            "simultaneous_submission": "No",
+            "submission_time": "2025-11-19 16:02:55"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 13.359086036682129,
+        "step": 2,
+        "result": {
+            "author_name": "John Miller",
+            "email": "john.miller42@gmail.com",
+            "work_title": "A Summer to Remember",
+            "genre": "Fiction",
+            "word_count": 5000,
+            "abstract": "",
+            "issue": "Summer 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:03:13"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 12.001142024993896,
+        "step": 2,
+        "result": {
+            "author_name": "Liam Scott",
+            "email": "liam.scott92@gmail.com",
+            "work_title": "The Forgotten Path",
+            "genre": "Non-Fiction",
+            "word_count": 4200,
+            "abstract": "An exploration of forgotten histories and the significance of preserving our cultural heritage.",
+            "issue": "Winter 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:03:30"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 17.723957777023315,
+        "step": 2,
+        "result": {
+            "author_name": "Olivia Brown",
+            "email": "olivia.brown456@yahoo.com",
+            "work_title": "Whispers in the Dark",
+            "genre": "Fiction",
+            "word_count": 6500,
+            "abstract": "A thriller about a small town with dark secrets that start to unravel when a new resident arrives.",
+            "issue": "Spring 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:03:53"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 12.613861799240112,
+        "step": 2,
+        "result": {
+            "author_name": "James Foster",
+            "email": "james.foster77@gmail.com",
+            "work_title": "The Last Voyage",
+            "genre": "Fiction",
+            "word_count": 4800,
+            "abstract": "A sailor's final journey to find peace with his past and make amends before the end.",
+            "issue": "Fall 2024",
+            "previously_published": "Yes",
+            "terms": "Yes",
+            "simultaneous_submission": "No",
+            "submission_time": "2025-11-19 16:04:11"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 12.391172885894775,
+        "step": 2,
+        "result": {
+            "author_name": "Sophia Harris",
+            "email": "sophia.harris21@aol.com",
+            "work_title": "Unspoken Words",
+            "genre": "Poetry",
+            "word_count": 100,
+            "abstract": "This manuscript is a collection of poems about unexpressed emotions and the silence that accompanies them.",
+            "issue": "Winter 2024",
+            "terms": "Yes",
+            "previously_published": "No",
+            "simultaneous_submission": "No",
+            "submission_time": "2025-11-19 16:04:28"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 19.350008726119995,
+        "step": 2,
+        "result": {
+            "author_name": "Ethan Clark",
+            "email": "ethan.clark58@outlook.com",
+            "work_title": "In the Heart of the Storm",
+            "genre": "Non-Fiction",
+            "word_count": 5100,
+            "abstract": "A detailed look at the emotional and physical toll of natural disasters on affected communities.",
+            "issue": "Spring 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:04:52"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 12.429456233978271,
+        "step": 2,
+        "result": {
+            "author_name": "Grace Martin",
+            "email": "grace.martin45@gmail.com",
+            "work_title": "The Call of the Wild",
+            "genre": "Fiction",
+            "word_count": 3800,
+            "abstract": "A young woman unexpectedly embarks on a journey into the wilderness to find herself.",
+            "issue": "Summer 2024",
+            "simultaneous_submission": "Yes",
+            "terms": "Yes",
+            "previously_published": "No",
+            "submission_time": "2025-11-19 16:05:10"
+        }
+    }
+]
