@@ -188,5 +188,765 @@
             "phoneNumber": "",
             "submission_time": "2025-11-19 17:02:56"
         }
+    },
+    {
+        "task": 10,
+        "model": "qwen3-vl-flash",
+        "dur": 69.68473291397095,
+        "step": 17,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:19:03"
+        }
+    },
+    {
+        "task": 11,
+        "model": "qwen3-vl-flash",
+        "dur": 95.59885311126709,
+        "step": 10,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Access request for project files.",
+            "description": "Isabella Moore from the Project Management department is unable to access certain project files due to permission restrictions. She requires access to specific shared project files to perform her duties as a project manager, but her current access level does not allow her to view or edit them. This issue affects only one user.",
+            "location": "Project Management",
+            "affectedUsers": 1,
+            "availableTime": "Monday to Friday, 9 AM to 6 PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:20:45"
+        }
+    },
+    {
+        "task": 12,
+        "model": "qwen3-vl-flash",
+        "dur": 55.70813298225403,
+        "step": 8,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Network latency affecting work",
+            "description": "Hello IT Support Team,\r\n\r\nMy name is Ethan Williams, and I am writing to report a network issue that is currently affecting all departments. The problem is categorized as High- Work Blocked due to its impact on work productivity. The subject of this request is Network latency affecting work. High latency on the network is slowing down all work processes. Specifically, the network latency has been unusually high for the last two hours, making it difficult to work on cloud-based tools or access shared drives. This issue is impacting approximately 50 users across various departments.\r\n\r\nTo address this matter urgently, please note that the preferred contact time for this issue is Mon-Fri 9AM-5PM. Unfortunately, I do not have any screenshots to provide at this time. However, for any further communication or clarification, you can reach me via email at ethan.williams@company.com or contact my phone number at +1 555-8765.\r\n\r\nThank you for your prompt attention to this matter.\r\n\r\nBest regards,\r\n\r\nEthan Williams",
+            "location": "All Departments",
+            "affectedUsers": 50,
+            "availableTime": "",
+            "requesterName": "Ethan Williams",
+            "requesterEmail": "ethan.williams@company.com",
+            "phoneNumber": "+1 555-8765",
+            "submission_time": "2025-11-19 21:21:41"
+        }
+    },
+    {
+        "task": 13,
+        "model": "qwen3-vl-flash",
+        "dur": 92.95941996574402,
+        "step": 19,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "",
+            "subject": "Mouse not functioning properly",
+            "description": "The mouse stops responding randomly, and it requires unplugging and plugging back in to start working again. This is causing minor interruptions in my workflow.",
+            "location": "Marketing",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:23:26"
+        }
+    },
+    {
+        "task": 14,
+        "model": "qwen3-vl-flash",
+        "dur": 80.37637877464294,
+        "step": 14,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:24:53"
+        }
+    },
+    {
+        "task": 15,
+        "model": "qwen3-vl-flash",
+        "dur": 91.5764319896698,
+        "step": 19,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:26:31"
+        }
+    },
+    {
+        "task": 16,
+        "model": "qwen3-vl-flash",
+        "dur": 103.76581382751465,
+        "step": 20,
+        "result": {
+            "requestType": "Other",
+            "priority": "",
+            "subject": "Desk lamp not working",
+            "description": "Hello IT Support,\r\n\r\nI am writing to submit a support request categorized under \"Other\" with a \"Low - Minor Issue\" priority level. The subject of the request is a desk lamp not working. The desk lamp on my workstation is not turning on. I\u2019ve checked the power supply, but the lamp is still not working. I would appreciate it if it could be replaced. This issue is located in the Operations department, and currently, only one user is affected. I am available for contact Monday through Friday from 9AM to 5PM. You can reach me via email at liam.adams@company.com or by phone at +1 555-4321.\r\n\r\nThank you for your assistance.\r\n\r\nBest regards,\r\nLiam Adams",
+            "location": "Operations",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:28:22"
+        }
+    },
+    {
+        "task": 17,
+        "model": "qwen3-vl-flash",
+        "dur": 56.581642866134644,
+        "step": 12,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Laptop screen cracked",
+            "description": "The screen of my laptop is cracked and not usable. My laptop screen was cracked during an accidental fall, and now it's difficult to work. I need a replacement screen or a new laptop. This issue is affecting one user and is categorized under the priority level of High- Work Blocked, as it is significantly impacting my daily tasks. I am located in the Customer Support department. For further communication, I am available for contact during Mon-Fri 9AM-5PM. Although I do not have any screenshots to include, I am reachable via email at noah.thompson@company.com or by phone at +1 555-3456. Thank you for your prompt attention to this matter.",
+            "location": "Customer Support",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Noah Thompson",
+            "requesterEmail": "noah.thompson@company.com",
+            "phoneNumber": "+1 555-3456",
+            "submission_time": "2025-11-19 21:29:19"
+        }
+    },
+    {
+        "task": 18,
+        "model": "qwen3-vl-flash",
+        "dur": 94.61879205703735,
+        "step": 15,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:31:05"
+        }
+    },
+    {
+        "task": 19,
+        "model": "qwen3-vl-flash",
+        "dur": 100.08745002746582,
+        "step": 18,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Low-Minor Issue",
+            "subject": "Slow internet speed during video calls",
+            "description": "The internet speed during video calls is slower than usual. The video calls are lagging and breaking up intermittently. This issue seems to only affect video calls, not regular internet browsing.",
+            "location": "All departments",
+            "affectedUsers": 25,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Harper Green",
+            "requesterEmail": "harper.green@company.com",
+            "phoneNumber": "+1 555-9087",
+            "submission_time": "2025-11-19 21:32:52"
+        }
+    },
+    {
+        "task": 20,
+        "model": "qwen3-vl-flash",
+        "dur": 88.06430006027222,
+        "step": 19,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Urgent-System Down",
+            "subject": "VPN is not working",
+            "description": "The VPN is not allowing employees to connect remotely. When trying to connect to the company VPN, users are getting an authentication error. This issue has blocked all remote access. The problem is affecting the IT department, with a total of 50 users unable to connect remotely. Given the high priority of this issue, as it deals with remote access for numerous employees, immediate assistance is required.",
+            "location": "IT Department",
+            "affectedUsers": 50,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:34:27"
+        }
+    },
+    {
+        "task": 21,
+        "model": "qwen3-vl-flash",
+        "dur": 46.36804389953613,
+        "step": 9,
+        "result": {
+            "requestType": "",
+            "priority": "High-Work Blocked",
+            "subject": "Monitor flickering",
+            "description": "Isabel Turner from the Sales department is experiencing a high-priority hardware issue where her monitor is continuously flickering and distorting the display, making it unusable for work. This issue is work-blocking and affects only Isabel. She can be reached via email at isabel.turner@xpertsales.com or by phone at +1 555-8790. Availability: Monday to Friday, 9 AM to 5 PM.",
+            "location": "Sales",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "Isabel Turner",
+            "requesterEmail": "isabel.turner@xpertsales.com",
+            "phoneNumber": "+1 555-8790",
+            "submission_time": "2025-11-19 21:35:15"
+        }
+    },
+    {
+        "task": 22,
+        "model": "qwen3-vl-flash",
+        "dur": 71.2338969707489,
+        "step": 4,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:36:36"
+        }
+    },
+    {
+        "task": 23,
+        "model": "qwen3-vl-flash",
+        "dur": 88.73392915725708,
+        "step": 17,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "",
+            "subject": "No access to HR document repository",
+            "description": "I am writing to request assistance with an access issue. I am currently unable to access HR documents due to permission restrictions. I need access to the HR document repository to view employee files, but my permissions do not allow me to open or download documents. This issue is affecting only myself at this time. Please note that there are no screenshots available to demonstrate the issue. I am available for contact from Monday to Friday between 9 AM and 5 PM. For further communication, please reach out to me, Hannah Perez, at hannah.perez@corporatesolutions.com or via my contact phone number +1 555-3257. Thank you for your attention to this matter.",
+            "location": "HR",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:38:12"
+        }
+    },
+    {
+        "task": 24,
+        "model": "qwen3-vl-flash",
+        "dur": 83.33228325843811,
+        "step": 8,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "",
+            "subject": "Word document is corrupt",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:39:42"
+        }
+    },
+    {
+        "task": 25,
+        "model": "qwen3-vl-flash",
+        "dur": 47.58537983894348,
+        "step": 13,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Headset audio issues",
+            "description": "Emily Reed from the Customer Support department is experiencing a hardware issue with her headset, which has led to medium priority due to limited functionality. The audio quality on her headset is very poor, with static present and the sound cutting in and out during calls. Only one user is affected by this issue.",
+            "location": "Customer Support",
+            "affectedUsers": 1,
+            "availableTime": "Monday to Friday, 9 AM to 5 PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:40:32"
+        }
+    },
+    {
+        "task": 26,
+        "model": "qwen3-vl-flash",
+        "dur": 85.12067604064941,
+        "step": 20,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "Low-Minor Issue",
+            "subject": "Cannot update project permissions",
+            "description": "I am trying to update the permissions of my team members in the project management tool, but the 'Save' button is not working. This issue has delayed some of our project progress.",
+            "location": "Development",
+            "affectedUsers": 3,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:42:06"
+        }
+    },
+    {
+        "task": 27,
+        "model": "qwen3-vl-flash",
+        "dur": 68.22780418395996,
+        "step": 13,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "Low-Minor Issue",
+            "subject": "Outlook email notifications delayed",
+            "description": "My name is Sophia Mitchell from the Operations department, and I am writing to report a software issue with our Outlook email system. The brief description of the issue is that Outlook notifications are delayed by 5-10 minutes. I am currently experiencing a problem where I am receiving email notifications in Outlook with a significant delay. It is causing issues in responding to time-sensitive emails, and this affects just myself, accounting for 1 affected user. I am available for contact during our usual business hours, Mon-Fri 9AM-5PM, and can be reached via email at sophia.mitchell@operations.com or by phone at +1 555-6872. There are no screenshots available for this request. Your assistance in resolving this matter promptly is greatly appreciated.",
+            "location": "Operations",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "Sophia Mitchell",
+            "requesterEmail": "sophia.mitchell@operations.com",
+            "phoneNumber": "+1 555-6872",
+            "submission_time": "2025-11-19 21:43:15"
+        }
+    },
+    {
+        "task": 28,
+        "model": "qwen3-vl-flash",
+        "dur": 72.50295615196228,
+        "step": 20,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "",
+            "subject": "Laptop charging port broken",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:44:39"
+        }
+    },
+    {
+        "task": 29,
+        "model": "qwen3-vl-flash",
+        "dur": 50.50059700012207,
+        "step": 10,
+        "result": {
+            "requestType": "",
+            "priority": "High-Work Blocked",
+            "subject": "Wi-Fi dropping intermittently",
+            "description": "The Wi-Fi connection keeps dropping intermittently in certain areas of the office, specifically in the conference rooms. This is affecting meeting productivity as users experience frequent disconnections during video calls and presentations. Approximately 10 users are impacted by this issue. There are no screenshots available for this problem.",
+            "location": "Conference Rooms",
+            "affectedUsers": 10,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Liam Evans",
+            "requesterEmail": "liam.evans@networksolutions.com",
+            "phoneNumber": "+1 555-6543",
+            "submission_time": "2025-11-19 21:45:30"
+        }
+    },
+    {
+        "task": 30,
+        "model": "qwen3-vl-flash",
+        "dur": 90.05983424186707,
+        "step": 20,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "Critical",
+            "subject": "Server down due to hardware failure",
+            "description": "The main server has crashed due to a critical hardware issue, and it\u2019s affecting all connected services. This issue has impacted 150 users, necessitating urgent resolution. Immediate action is required to restore the server's functionality and resume normal operations.",
+            "location": "IT Department",
+            "affectedUsers": 150,
+            "availableTime": "24/7",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:47:11"
+        }
+    },
+    {
+        "task": 31,
+        "model": "qwen3-vl-flash",
+        "dur": 88.27806282043457,
+        "step": 17,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "High-Work Blocked",
+            "subject": "CRM System Not Syncing Customer Data Across Devices",
+            "description": "The CRM system is not syncing customer data across devices following the last update, which is affecting 5 users. This prevents access to updated customer information across all devices and is blocking work for the Sales department.",
+            "location": "Sales",
+            "affectedUsers": 5,
+            "availableTime": "Monday through Friday from 8 AM to 4 PM",
+            "requesterName": "Noah Richards",
+            "requesterEmail": "noah.richards@salesteam.com",
+            "phoneNumber": "+1 415-987-6543",
+            "submission_time": "2025-11-19 21:48:41"
+        }
+    },
+    {
+        "task": 32,
+        "model": "qwen3-vl-flash",
+        "dur": 81.08994603157043,
+        "step": 19,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:50:13"
+        }
+    },
+    {
+        "task": 33,
+        "model": "qwen3-vl-flash",
+        "dur": 74.78275895118713,
+        "step": 8,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:51:34"
+        }
+    },
+    {
+        "task": 34,
+        "model": "qwen3-vl-flash",
+        "dur": 88.65873217582703,
+        "step": 20,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Permission to access restricted files",
+            "description": "I\u2019ve been assigned to a project that requires me to access certain files on the shared drive, but I do not have the necessary permissions. This is currently affecting only myself, and no other users are impacted at this time. Please contact me during my preferred hours, which are Monday through Friday, 9 AM to 5 PM, should you require further details. Your prompt assistance in granting me access will be highly appreciated.",
+            "location": "Project Management",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:53:10"
+        }
+    },
+    {
+        "task": 35,
+        "model": "qwen3-vl-flash",
+        "dur": 50.926764726638794,
+        "step": 12,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Laptop keyboard malfunction",
+            "description": "The laptop keyboard is malfunctioning; certain keys are not responding, which is hindering my ability to work efficiently. This issue affects only Zoe Parker from the Development department. Zoe prefers to be contacted between Mon-Fri 9AM-6PM via email at zoe.parker@devteam.com or by phone at +1 617-234-8765.",
+            "location": "Development",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "Zoe Parker",
+            "requesterEmail": "zoe.parker@devteam.com",
+            "phoneNumber": "+1 617-234-8765",
+            "submission_time": "2025-11-19 21:54:01"
+        }
+    },
+    {
+        "task": 36,
+        "model": "qwen3-vl-flash",
+        "dur": 81.84546709060669,
+        "step": 12,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Issues with calendar syncing",
+            "description": "My calendar events are not syncing across devices. Upon further elaboration, the detailed description reads: 'My calendar events are not showing up on my mobile device, even though they are visible on my desktop application.'",
+            "location": "HR Department",
+            "affectedUsers": 2,
+            "availableTime": "Monday to Friday, 9 AM to 5 PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:55:34"
+        }
+    },
+    {
+        "task": 37,
+        "model": "qwen3-vl-flash",
+        "dur": 88.66342902183533,
+        "step": 20,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "Intermittent Wi-Fi Signal Issue",
+            "description": "The Wi-Fi signal drops intermittently, making it hard to stay connected. Connectivity is inconsistent, especially in the kitchen and lounge areas, causing minor disruptions for 10 users. This issue needs attention during Mon-Fri 9AM-5PM.",
+            "location": "All departments",
+            "affectedUsers": 10,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Liam Anderson",
+            "requesterEmail": "liam.anderson@networkteam.com",
+            "phoneNumber": "+1 631-555-2356",
+            "submission_time": "2025-11-19 21:57:10"
+        }
+    },
+    {
+        "task": 38,
+        "model": "qwen3-vl-flash",
+        "dur": 82.63260793685913,
+        "step": 19,
+        "result": {
+            "requestType": "Other",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 21:58:39"
+        }
+    },
+    {
+        "task": 39,
+        "model": "qwen3-vl-flash",
+        "dur": 63.810133934020996,
+        "step": 14,
+        "result": {
+            "requestType": "",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Access to the new project folder",
+            "description": "Aiden has been assigned to the new project but does not have the permissions to access the shared project folder where the initial files are stored. This issue affects 2 users.",
+            "location": "R&D department",
+            "affectedUsers": 2,
+            "availableTime": "Mon-Fri 9AM-5PM",
+            "requesterName": "Aiden Collins",
+            "requesterEmail": "aiden.collins@rndteam.com",
+            "phoneNumber": "+1 702-555-6734",
+            "submission_time": "2025-11-19 21:59:44"
+        }
+    },
+    {
+        "task": 40,
+        "model": "qwen3-vl-flash",
+        "dur": 84.86980199813843,
+        "step": 15,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Urgent-System Down",
+            "subject": "Complete network outage in the office",
+            "description": "There is a complete network outage affecting all departments. No one can access the internet or internal systems. This impacts all users in the office, preventing access to shared files and internet resources. Approximately 100 users are affected. Preferred contact time is 24/7. Contact Rachel Green at rachel.green@techcorp.com or +1 917-555-0912 for further communication.",
+            "location": "Office",
+            "affectedUsers": 100,
+            "availableTime": "24/7",
+            "requesterName": "Rachel Green",
+            "requesterEmail": "rachel.green@techcorp.com",
+            "phoneNumber": "+1 917-555-0912",
+            "submission_time": "2025-11-19 22:01:12"
+        }
+    },
+    {
+        "task": 41,
+        "model": "qwen3-vl-flash",
+        "dur": 85.70001006126404,
+        "step": 16,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:02:51"
+        }
+    },
+    {
+        "task": 42,
+        "model": "qwen3-vl-flash",
+        "dur": 92.48515582084656,
+        "step": 20,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "",
+            "subject": "Broken mouse",
+            "description": "The mouse is not responding properly. It is intermittently unresponsive, causing delays when working on the computer. I need a replacement. The issue is currently affecting only myself within the Engineering department. For further communication, please feel free to reach out during the preferred contact time, which is Mon-Fri 9AM-6PM. You can contact me, Oliver Scott, at oliver.scott@engcorp.com or via phone at +1 514-555-8372. Your prompt assistance in this matter would be appreciated. Thank you.",
+            "location": "Engineering Department",
+            "affectedUsers": 1,
+            "availableTime": "Mon-Fri 9AM-6PM",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:04:30"
+        }
+    },
+    {
+        "task": 43,
+        "model": "qwen3-vl-flash",
+        "dur": 79.66059875488281,
+        "step": 15,
+        "result": {
+            "requestType": "Access/Permission Request",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Permission to access shared project folder",
+            "description": "My name is Sophia Mitchell, and I am from the Project Management department. I am experiencing an issue where I am unable to access the shared folder for the new project. Specifically, I need access to the shared folder for our current project, but I am unable to open it due to permission issues. This issue affects 3 users within my department. For any follow-up, I am available for contact from Monday to Friday between 9 AM and 5 PM. You can reach me at +1 760-555-2356 or via email at sophia.mitchell@pmgroup.com. No screenshots are available for this issue.",
+            "location": "Project Management",
+            "affectedUsers": 3,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:05:49"
+        }
+    },
+    {
+        "task": 44,
+        "model": "qwen3-vl-flash",
+        "dur": 97.28911590576172,
+        "step": 14,
+        "result": {
+            "requestType": "",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:07:39"
+        }
+    },
+    {
+        "task": 45,
+        "model": "qwen3-vl-flash",
+        "dur": 82.49778270721436,
+        "step": 19,
+        "result": {
+            "requestType": "Other",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:09:08"
+        }
+    },
+    {
+        "task": 46,
+        "model": "qwen3-vl-flash",
+        "dur": 48.544975996017456,
+        "step": 10,
+        "result": {
+            "requestType": "",
+            "priority": "High-Work Blocked",
+            "subject": "Wi-Fi signal very weak in certain areas",
+            "description": "The Wi-Fi signal is very weak in certain areas of the office, leading to slow internet speeds and constant disconnections. This issue affects all departments and impacts 10 users. Work is being blocked due to the poor connectivity. I am available for contact from Monday to Friday, between 9 AM and 6 PM. Contact details: email mia.foster@networksolutions.com or phone +1 905-555-2378.",
+            "location": "Office Building - Main Floor",
+            "affectedUsers": 10,
+            "availableTime": "",
+            "requesterName": "Mia Foster",
+            "requesterEmail": "mia.foster@networksolutions.com",
+            "phoneNumber": "+1 905-555-2378",
+            "submission_time": "2025-11-19 22:09:58"
+        }
+    },
+    {
+        "task": 47,
+        "model": "qwen3-vl-flash",
+        "dur": 45.17069888114929,
+        "step": 10,
+        "result": {
+            "requestType": "Software Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Unable to save progress in Google Docs",
+            "description": "Changes in Google Docs aren\u2019t being saved properly. After making edits in Google Docs, the document doesn\u2019t save the changes. This is preventing me from completing my work. The issue is occurring in the Legal department and affects 1 user. I am available for contact from Mon-Fri 9AM-6PM with no screenshots provided at this time. For further communication, please contact Daniel Harris via email at daniel.harris@legalsolutions.com or by phone at +1 808-555-9099.",
+            "location": "Legal department",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:10:49"
+        }
+    },
+    {
+        "task": 48,
+        "model": "qwen3-vl-flash",
+        "dur": 79.3785171508789,
+        "step": 16,
+        "result": {
+            "requestType": "Hardware Issue",
+            "priority": "",
+            "subject": "",
+            "description": "",
+            "location": "",
+            "affectedUsers": 1,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:12:18"
+        }
+    },
+    {
+        "task": 49,
+        "model": "qwen3-vl-flash",
+        "dur": 59.64868688583374,
+        "step": 9,
+        "result": {
+            "requestType": "Network Issue",
+            "priority": "Medium-Limited Functionality",
+            "subject": "Slow connection to external servers",
+            "description": "Slow connection to external servers\\n\\nI am writing to request assistance with a network issue my team is experiencing. The connection to external servers is very slow. When connecting to external servers, the speed is abysmally slow, which is delaying the data transfer and project timelines. This issue is affecting the Data Management department, with 2 users impacted by the slow connection. We would appreciate it if you could look into this matter and reach out during our preferred contact hours of Mon-Fri 9AM-6PM. Please contact me, Evan Scott, at +1 321-555-6789 or via email at evan.scott@datateam.com for any further information you may require. Unfortunately, I do not have any screenshots to provide at this time. Thank you for your prompt attention to this matter.",
+            "location": "Data Management",
+            "affectedUsers": 2,
+            "availableTime": "",
+            "requesterName": "",
+            "requesterEmail": "",
+            "phoneNumber": "",
+            "submission_time": "2025-11-19 22:13:18"
+        }
     }
 ]
