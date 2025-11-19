@@ -5,6 +5,7 @@ import json
 import argparse
 from pathlib import Path
 import time
+import traceback
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import re
@@ -55,7 +56,7 @@ FUZZY_FIELD = {
     "A13": ["essay", "achievements", "extracurricular"], # TODO
     "B11": ["business_model", "target_market", "funding_purpose", "additional_comments"], # ✅
     "B12": ["pet_details", "additional_info"], # ✅
-    "B13": [],
+    "B13": ["current_role", "billing_address", "expectations", "special_requests"],
     "B14": [],
     "C11": ["description"],
     "C12": ["abstract"],
@@ -285,7 +286,7 @@ class AgentRR:
         self.llm = OpenAIServer(model, api_key=api_key, base_url=base_url)
 
     async def execute_task(self, task, max_step: int = 10):
-        task += f"\n如果输入任务是英文, 你的所有输出都要是英文.\n"
+        task += f"\n如果输入任务是英文, 你的所有输出都要是英文. 对于要调用的函数, 你需要一次性将所有参数都提供. 对于提供选项的参数, **你必须从参数描述的可选项中进行选择最匹配的选择**. \n"
         planner = CodegenPlanner(self.spec, task)
         replayer = CodegenReplayer()
 
@@ -316,6 +317,8 @@ class AgentRR:
                             success_call = True
                         except Exception as e:
                             print(f"❌ {level}-level replay failed: {e}")
+                            planner.history[planner.stage][-1].success = False
+                            planner.history[planner.stage][-1].error_msg = traceback.format_exc()
                     
                         if success_call:
                             break
@@ -428,6 +431,8 @@ async def submit_html(task: str):
         page = await context.get_current_page()
         if task in ['A13']:
             await page.get_by_role('button', name='Submit Application').click()
+        elif task in ['B13']:
+            await page.get_by_role('button', name='Register Now').click()
 
 
 AGENTS = {
