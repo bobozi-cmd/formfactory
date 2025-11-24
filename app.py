@@ -430,6 +430,12 @@ def personal_loan():
 def account_opening():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'idNumber')
+        to_time(data, 'dateOfBirth')
+        if 'accountType' not in data:
+            data['accountType'] = ''
+        if 'idType' not in data:
+            data['idType'] = ''
         save_submission_to_json('E12.html', data)
         return jsonify({
             "message": "Account Opening Application Submitted Successfully!",
