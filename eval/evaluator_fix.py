@@ -81,6 +81,10 @@ FUZZY_FIELD = {
     "F12": [''], # ✅
     "F13": ['diagnosis'], # ✅
     "G11": ['purpose'], # ✅
+    "G12": ['state', 'streetAddress'], # ✅
+    "G13": ['businessName', 'serviceDescription'], # ✅
+    "H11": ['workDescription', 'projectName', 'contactName'], # ✅
+    "H12": ['productDescription', 'material', 'specifications', 'qualityStandards'], # ✅
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)

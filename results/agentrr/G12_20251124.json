@@ -1,0 +1,202 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 14.270665884017944,
+        "step": 2,
+        "result": {
+            "firstName": "John",
+            "middleName": "Michael",
+            "lastName": "Doe",
+            "ssn": "123-45-6789",
+            "dob": "1985-04-15",
+            "streetAddress": "123 Elm St",
+            "city": "Springfield",
+            "state": "Illinois",
+            "zipCode": "62704",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:33:21"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 12.098544836044312,
+        "step": 2,
+        "result": {
+            "firstName": "Jane",
+            "middleName": "Anne",
+            "lastName": "Smith",
+            "ssn": "987-65-4321",
+            "dob": "1990-08-22",
+            "streetAddress": "456 Oak St",
+            "city": "Shelbyville",
+            "state": "IL",
+            "zipCode": "62702",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:33:38"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 13.441788911819458,
+        "step": 2,
+        "result": {
+            "firstName": "Alice",
+            "middleName": "Marie",
+            "lastName": "Johnson",
+            "ssn": "456-78-9123",
+            "dob": "1975-12-30",
+            "streetAddress": "789 Pine St",
+            "city": "Capital City",
+            "state": "IL",
+            "zipCode": "62701",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:39:41"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 23.54344081878662,
+        "step": 4,
+        "result": {
+            "firstName": "Bob",
+            "middleName": "",
+            "lastName": "Lee Brown",
+            "ssn": "321-54-9876",
+            "dob": "1982-06-18",
+            "streetAddress": "321 Maple St",
+            "city": "Ogdenville",
+            "state": "IL",
+            "zipCode": "62703",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:35:23"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 13.690460205078125,
+        "step": 2,
+        "result": {
+            "firstName": "Carol",
+            "middleName": "Sue",
+            "lastName": "Davis",
+            "ssn": "654-32-1897",
+            "dob": "1995-03-25",
+            "streetAddress": "654 Birch St",
+            "city": "North Haverbrook",
+            "state": "IL",
+            "zipCode": "62705",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:41:39"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 12.433461904525757,
+        "step": 2,
+        "result": {
+            "firstName": "David",
+            "middleName": "Paul",
+            "lastName": "Wilson",
+            "ssn": "789-12-3456",
+            "dob": "1988-11-11",
+            "streetAddress": "987 Cedar St",
+            "city": "Springfield",
+            "state": "IL",
+            "zipCode": "62704",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:36:02"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 27.495557069778442,
+        "step": 4,
+        "result": {
+            "firstName": "Eva",
+            "middleName": "Grace",
+            "lastName": "Martinez",
+            "ssn": "234-56-7891",
+            "dob": "1980-07-09",
+            "streetAddress": "234 Walnut St",
+            "city": "Shelbyville",
+            "state": "IL",
+            "zipCode": "62702",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:36:32"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 13.01270604133606,
+        "step": 2,
+        "result": {
+            "firstName": "Frank",
+            "middleName": "Joseph",
+            "lastName": "Garcia",
+            "ssn": "567-89-1234",
+            "dob": "1970-05-20",
+            "streetAddress": "567 Spruce St",
+            "city": "Capital City",
+            "state": "IL",
+            "zipCode": "62701",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:36:52"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 13.37053108215332,
+        "step": 2,
+        "result": {
+            "firstName": "Grace",
+            "middleName": "",
+            "lastName": "Rodriguez",
+            "ssn": "890-12-3457",
+            "dob": "1992-09-14",
+            "streetAddress": "890 Fir St",
+            "city": "Ogdenville",
+            "state": "IL",
+            "zipCode": "62703",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:42:25"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 12.534512996673584,
+        "step": 2,
+        "result": {
+            "firstName": "Henry",
+            "middleName": "Thomas",
+            "lastName": "Lopez",
+            "ssn": "432-10-9876",
+            "dob": "1987-02-28",
+            "streetAddress": "432 Ash St",
+            "city": "North Haverbrook",
+            "state": "IL",
+            "zipCode": "62705",
+            "authorization": true,
+            "truthfulness": true,
+            "submission_time": "2025-11-24 20:37:33"
+        }
+    }
+]

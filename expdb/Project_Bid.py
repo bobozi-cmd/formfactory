@@ -16,7 +16,7 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
             "company_name": "公司名称, 文本格式, 变量类型: str",
             "license_number": "承包商许可证号码, 文本格式, 变量类型: str",
             "project_name": "项目名称, 文本格式, 变量类型: str",
-            "bid_amount": "投标金额, 以美元计, 正数, 变量类型: float",
+            "bid_amount": "投标金额, 以美元计, 正数, 变量类型: int",
             "project_duration": "预计工期, 周数, 正整数, 变量类型: int",
             "start_date": "拟开工日期, 格式 YYYY-MM-DD, 变量类型: str",
             "completion_date": "预计完成日期, 格式 YYYY-MM-DD, 变量类型: str",

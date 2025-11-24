@@ -14,13 +14,13 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
         "experience": "",
         "parameters": {
             "first_name": "First Name, 变量类型: str",
-            "middle_name": "Middle Name; allowed to be empty, 变量类型: str",
+            "middle_name": "Middle Name, 变量类型: str",
             "last_name": "Last Name, 变量类型: str",
             "social_security_number": "Social Security Number, 变量类型: str",
             "date_of_birth": "Date of Birth in 'YYYY-MM-DD' format, 变量类型: str",
             "street_address": "Street Address, 变量类型: str",
             "city": "City, 变量类型: str",
-            "state": "State; allowed to be empty, 变量类型: str",
+            "state": "State, 变量类型: str",
             "zip_code": "ZIP Code, 变量类型: str"
         }
     }
