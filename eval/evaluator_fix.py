@@ -50,6 +50,7 @@ TASKS_MAPPING = {
     "E12": ("bank_account_applications.txt", "/finance-banking/account-opening", "bank_account_applications.json"),
     "E13": ("financial_planning.txt", "/finance-banking/financial-planning", "financial_planning.json"),
     "F11": ("Patient_Consent.txt", "/healthcare-medical/patient-consent", "Patient_Consent.json"),
+    "F12": ("Patient_Consent.txt", "/healthcare-medical/research-enrollment", "Patient_Consent.json"),
 }
 
 FUZZY_FIELD = {

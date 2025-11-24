@@ -483,6 +483,11 @@ def patient_consent():
 def research_enrollment():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'age')
+        if data['existingConditions'].strip() == '':
+            data["existingConditions"] = 'None'
+        if data['medications'].strip() == '':
+            data['medications'] = 'None'
         save_submission_to_json('F12.html', data)
         return jsonify({
             "message": "Research Study Enrollment Submitted Successfully!",
