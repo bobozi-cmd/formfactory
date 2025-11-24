@@ -1,0 +1,202 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 88.0827248096466,
+        "step": 20,
+        "result": {
+            "fullName": "Abigail Lewis",
+            "businessName": "Abigail's Digital Marketing Solutions",
+            "email": "abigail.lewis.digital@outlook.com",
+            "phone": "555-111-2222",
+            "taxId": "12-1111111",
+            "businessType": "Sole Proprietorship",
+            "serviceDescription": "   ",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:36:17"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 99.78485107421875,
+        "step": 18,
+        "result": {
+            "fullName": "Benjamin Clark",
+            "businessName": "Clark's IT Infrastructure Services",
+            "email": "benjamin.clark.it@hotmail.com",
+            "phone": "555-333-4444",
+            "taxId": "23-2222222",
+            "businessType": "LLC",
+            "serviceDescription": "Designing and installing robust IT infrastructure solutions for businesses, including setup and configuration of networks (wired and wireless), installation and maintenance of servers, implementation of data storage and backup solutions, advanced cybersecurity measures (firewall implementation, intrusion detection and prevention systems), and IT support services for troubleshooting hardware and software issues.",
+            "startDate": "202404/02/01",
+            "endDate": "202504/02/01",
+            "termsAgreed": "Yes",
+            "confidentialityAgreed": "Yes",
+            "submission_time": "2025-11-24 22:38:04"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 88.61117696762085,
+        "step": 20,
+        "result": {
+            "fullName": "Camila Moore",
+            "businessName": "",
+            "email": "camila.moore.event@yahoo.com",
+            "phone": "555-555-6666",
+            "taxId": "34-3333333",
+            "businessType": "Corporation",
+            "serviceDescription": "   ",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:39:46"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 91.21625804901123,
+        "step": 20,
+        "result": {
+            "fullName": "David Kim",
+            "businessName": "Kim & Partners Legal Consultancy",
+            "email": "david.kim.legal@gmail.com",
+            "phone": "555-777-8888",
+            "taxId": "45-4444444",
+            "businessType": "Partnership",
+            "serviceDescription": "Kim & Partners Legal Consultancy will provide a broad range of legal services beginning June 1, 2024, with an anticipated duration through June 1, 2025. Their expertise encompasses offering legal advice and consultation services in various areas such as corporate law, including business formation, contract drafting and review, and corporate governance. Additionally, they will provide legal assistance in employment law matters like employee contracts, workplace disputes, and compliance with labor regulations. They will also handle intellectual property law cases related to trademarks, copyrights, and patents, and provide litigation support when necessary.",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:41:24"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 106.43759083747864,
+        "step": 20,
+        "result": {
+            "fullName": "Ella Thompson",
+            "businessName": "Ella's Interior Design and Renovation",
+            "email": "ella.thompson.design@icloud.com",
+            "phone": "555-999-0000",
+            "taxId": "56-5555555",
+            "businessType": "Sole Proprietorship",
+            "serviceDescription": "Ella Thompson will provide expert services including conducting in-depth consultations with clients to understand their design preferences, lifestyle, and budget for residential and commercial interior design projects. She will also create detailed design plans encompassing space planning, furniture selection, color schemes, and lighting design. Additionally, she will oversee the renovation process by coordinating with contractors, suppliers, and artisans to ensure successful execution of the design vision, from demolition and construction to final installation of fixtures and decor elements.",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "Yes",
+            "confidentialityAgreed": "Yes",
+            "submission_time": "2025-11-24 22:43:32"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 60.12745237350464,
+        "step": 5,
+        "result": {
+            "fullName": "Franklin Taylor",
+            "businessName": "",
+            "email": "franklin.taylor.landscape@msn.com",
+            "phone": "555-222-3333",
+            "taxId": "67-6666666",
+            "businessType": "",
+            "serviceDescription": "   ",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:45:19"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 101.47026705741882,
+        "step": 21,
+        "result": {
+            "fullName": "Grace Hernandez",
+            "businessName": "Hernandez's Photography and Videography",
+            "email": "grace.hernandez.media@aol.com",
+            "phone": "555-444-5555",
+            "taxId": "78-7777777",
+            "businessType": "Corporation",
+            "serviceDescription": "Professional photography and videography services for various occasions, including weddings, corporate events, product launches, and portrait sessions. Services involve using high-quality equipment and techniques to capture stunning images and videos, as well as providing post-production services such as photo editing, color correction, and video editing to enhance the final output. Clients will receive the final media in various formats as per their requirements, including digital files, prints, and DVDs.",
+            "startDate": "202409/02/01",
+            "endDate": "202509/02/01",
+            "termsAgreed": "Yes",
+            "confidentialityAgreed": "Yes",
+            "submission_time": "2025-11-24 22:47:03"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 86.73568081855774,
+        "step": 18,
+        "result": {
+            "fullName": "Henry Wilson",
+            "businessName": "",
+            "email": "henry.wilson.accounting@protonmail.com",
+            "phone": "555-666-7777",
+            "taxId": "89-8888888",
+            "businessType": "LLC",
+            "serviceDescription": "Comprehensive bookkeeping services including maintaining accurate financial records, recording daily transactions, reconciling bank accounts, and managing accounts payable and receivable. Expertise in accounting will also be utilized through preparing financial statements, conducting financial analysis, and offering tax preparation and planning services to ensure clients' compliance with tax laws and optimize their tax liabilities.",
+            "startDate": "202410/02/05",
+            "endDate": "202510/02/05",
+            "termsAgreed": "Yes",
+            "confidentialityAgreed": "Yes",
+            "submission_time": "2025-11-24 22:48:39"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 88.8507342338562,
+        "step": 21,
+        "result": {
+            "fullName": "Isabella Garcia",
+            "businessName": "Isabella's Fitness Training and Nutrition",
+            "email": "isabella.garcia.fitness@zoho.com",
+            "phone": "555-888-9999",
+            "taxId": "90-9999999",
+            "businessType": "Sole Proprietorship",
+            "serviceDescription": "   ",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:50:30"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 83.66116213798523,
+        "step": 19,
+        "result": {
+            "fullName": "Jack Murphy",
+            "businessName": "Murphy's Software Development",
+            "email": "jack.murphy.software@yandex.com",
+            "phone": "555-112-2233",
+            "taxId": "12-1212121",
+            "businessType": "LLC",
+            "serviceDescription": "   ",
+            "startDate": "",
+            "endDate": "",
+            "termsAgreed": "",
+            "confidentialityAgreed": "",
+            "submission_time": "2025-11-24 22:52:07"
+        }
+    }
+]

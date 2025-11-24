@@ -1,0 +1,171 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 92.40836095809937,
+        "step": 16,
+        "result": {
+            "partyName": "John Doe",
+            "partyType": "individual",
+            "purpose": "To protect intellectual property related to a new software development project, including source code, architecture, and design.",
+            "startDate": "",
+            "duration": 5,
+            "repName": "John Doe",
+            "repTitle": "Founder",
+            "termsAgreed": "Yes",
+            "authorityConfirm": "Yes",
+            "submission_time": "2025-11-24 23:21:09"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 80.70733618736267,
+        "step": 19,
+        "result": {
+            "partyName": "Tech Innovations LLC",
+            "partyType": "company",
+            "purpose": "This Non-Disclosure Agreement submission is made by Tech Innovations LLC, a Company, for the purpose of ensuring confidentiality during a merger, specifically to safeguard proprietary business strategies, client lists, and financial data.",
+            "startDate": "",
+            "duration": 3,
+            "repName": "Sarah Green",
+            "repTitle": "CEO",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:23:06"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 79.97866606712341,
+        "step": 18,
+        "result": {
+            "partyName": "Creative Solutions Partners",
+            "partyType": "partnership",
+            "purpose": "To protect trade secrets, marketing strategies, and the development of new business technologies for joint ventures.",
+            "startDate": "",
+            "duration": 2,
+            "repName": "Mark Taylor",
+            "repTitle": "Managing Partner",
+            "termsAgreed": "Yes",
+            "authorityConfirm": "Yes",
+            "submission_time": "2025-11-24 23:25:20"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 82.92177295684814,
+        "step": 17,
+        "result": {
+            "partyName": "Maria Johnson Consulting",
+            "partyType": "individual",
+            "purpose": "To maintain confidentiality regarding client project details, including strategies, timelines, and financial arrangements.",
+            "startDate": "",
+            "duration": 4,
+            "repName": "Maria Johnson",
+            "repTitle": "Owner",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:27:15"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 76.74292206764221,
+        "step": 15,
+        "result": {}
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 78.14206409454346,
+        "step": 18,
+        "result": {
+            "partyName": "Future Enterprises",
+            "partyType": "company",
+            "purpose": "To protect sensitive financial data and reports during investment discussions and negotiations.",
+            "startDate": "202408/02/05",
+            "duration": 3,
+            "repName": "David O'Connor",
+            "repTitle": "CFO",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:30:29"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 89.94938802719116,
+        "step": 10,
+        "result": {
+            "partyName": "Sarah Lee Design Studio",
+            "partyType": "individual",
+            "purpose": "To ensure confidentiality regarding new design concepts, prototypes, and client projects in the fashion industry.",
+            "startDate": "",
+            "duration": 2,
+            "repName": "Sarah Lee",
+            "repTitle": "Lead Designer",
+            "termsAgreed": "Yes",
+            "authorityConfirm": "Yes",
+            "submission_time": "2025-11-24 23:32:27"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 81.3159658908844,
+        "step": 17,
+        "result": {
+            "partyName": "Innovative Solutions Partners",
+            "partyType": "partnership",
+            "purpose": "To protect proprietary AI technology, algorithms, and models developed during joint projects with other organizations.",
+            "startDate": "202410/03/01",
+            "duration": 3,
+            "repName": "Lucas Moore",
+            "repTitle": "Senior Partner",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:39:18"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 72.8906102180481,
+        "step": 19,
+        "result": {
+            "partyName": "Financial Advisors Group",
+            "partyType": "company",
+            "purpose": "To maintain confidentiality of clients' financial portfolios, investment strategies, and retirement planning details.",
+            "startDate": "202407/02/01",
+            "duration": 4,
+            "repName": "William Roberts",
+            "repTitle": "   ",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:35:44"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 82.72305583953857,
+        "step": 19,
+        "result": {
+            "partyName": "Pioneers Consulting",
+            "partyType": "individual",
+            "purpose": "To ensure the privacy and confidentiality of consulting strategies, business models, and high-profile client information",
+            "startDate": "",
+            "duration": 3,
+            "repName": "Paul Edwards",
+            "repTitle": "Founder & CEO",
+            "termsAgreed": "",
+            "authorityConfirm": "",
+            "submission_time": "2025-11-24 23:37:30"
+        }
+    }
+]

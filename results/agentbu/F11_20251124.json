@@ -1,0 +1,192 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 110.88742685317993,
+        "step": 20,
+        "result": {
+            "patientName": "James Anderson",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN123456789",
+            "procedureName": "Knee Arthroscopy",
+            "surgeon": "Dr. Robert Smith",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "Emily Anderson",
+            "emergencyPhone": "+1 555-987-6543",
+            "submission_time": "2025-11-25 00:26:57"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 88.95906281471252,
+        "step": 18,
+        "result": {
+            "patientName": "Lily Harris",
+            "dateOfBirth": "199212/02/05",
+            "medicalRecordNumber": "MRN987654321",
+            "procedureName": "appendectomy",
+            "surgeon": "Dr. Sarah Lee",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "  ",
+            "submission_time": "2025-11-25 00:28:52"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 95.02012181282043,
+        "step": 17,
+        "result": {
+            "patientName": "David Clark",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN654321987",
+            "procedureName": "Cataract Surgery",
+            "surgeon": "Dr. Michael Johnson",
+            "procedureConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "  ",
+            "questionConsent": false,
+            "alternativesConsent": false,
+            "submission_time": "2025-11-25 00:30:52"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 81.1940176486969,
+        "step": 18,
+        "result": {
+            "patientName": "Sophia Brown",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN112233445",
+            "procedureName": "Tonsillectomy",
+            "surgeon": "Dr. Olivia White",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "George Brown",
+            "emergencyPhone": "+1 555-123-4567",
+            "submission_time": "2025-11-25 00:32:28"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 79.69359493255615,
+        "step": 20,
+        "result": {
+            "patientName": "Benjamin Mitchell",
+            "dateOfBirth": "199504/02/02",
+            "medicalRecordNumber": "MRN223344556",
+            "procedureName": "Hernia Repair Surgery",
+            "surgeon": "Dr. Joseph Harris",
+            "alternativesConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "   ",
+            "procedureConsent": false,
+            "questionConsent": false,
+            "submission_time": "2025-11-25 00:34:03"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 80.81641793251038,
+        "step": 20,
+        "result": {
+            "patientName": "Chloe Lewis",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN556677889",
+            "procedureName": "Spinal Fusion Surgery",
+            "surgeon": "Dr. Andrew Davis",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "  ",
+            "submission_time": "2025-11-25 00:35:51"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 86.55477929115295,
+        "step": 19,
+        "result": {
+            "patientName": "Matthew Walker",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN998877665",
+            "procedureName": "Knee Replacement",
+            "surgeon": "Dr. Emma Thompson",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "  ",
+            "alternativesConsent": false,
+            "submission_time": "2025-11-25 00:37:53"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 85.81487894058228,
+        "step": 20,
+        "result": {
+            "patientName": "Aiden Young",
+            "dateOfBirth": "",
+            "medicalRecordNumber": "MRN334455667",
+            "procedureName": "Gallbladder Removal Surgery",
+            "surgeon": "Dr. Brian Wilson",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "  ",
+            "emergencyPhone": "  ",
+            "submission_time": "2025-11-25 00:39:50"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 97.72935795783997,
+        "step": 19,
+        "result": {
+            "patientName": "Ella Perez",
+            "dateOfBirth": "199801/03/01",
+            "medicalRecordNumber": "MRN778899001",
+            "procedureName": "Hip Replacement",
+            "surgeon": "Dr. William Clark",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": " ",
+            "emergencyPhone": " ",
+            "submission_time": "2025-11-25 00:41:42"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 38.92471408843994,
+        "step": 7,
+        "result": {
+            "patientName": "Olivia Turner",
+            "dateOfBirth": "199603/02/05",
+            "medicalRecordNumber": "MRN445566778",
+            "procedureName": "Breast Biopsy",
+            "surgeon": "Dr. Clara Morgan",
+            "procedureConsent": true,
+            "questionConsent": true,
+            "alternativesConsent": true,
+            "emergencyName": "Diana Turner",
+            "emergencyPhone": "+1 555-654-1234",
+            "submission_time": "2025-11-25 00:42:21"
+        }
+    }
+]

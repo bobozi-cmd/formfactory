@@ -1,0 +1,142 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 86.43702006340027,
+        "step": 17,
+        "result": {
+            "fullName": "George Dawson",
+            "dateOfBirth": "",
+            "accountType": "Business Account",
+            "idType": "State ID",
+            "idNumber": 2868883095,
+            "submission_time": "2025-11-25 01:03:22"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 88.52308917045593,
+        "step": 19,
+        "result": {
+            "fullName": "Rebecca Moore",
+            "dateOfBirth": "",
+            "accountType": "Saving Account",
+            "idType": "Passport",
+            "idNumber": 769415459,
+            "submission_time": "2025-11-25 01:05:05"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 21.69711995124817,
+        "step": 6,
+        "result": {
+            "fullName": "Jill Conley",
+            "dateOfBirth": "197903/02/02",
+            "accountType": "Business Account",
+            "idType": "",
+            "idNumber": 4796737061,
+            "submission_time": "2025-11-25 01:05:31"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 82.46124005317688,
+        "step": 17,
+        "result": {
+            "fullName": "Phillip Diaz",
+            "dateOfBirth": "",
+            "accountType": "Business Account",
+            "idType": "Driver's License",
+            "idNumber": 3290817421,
+            "submission_time": "2025-11-25 01:07:10"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 88.06900215148926,
+        "step": 19,
+        "result": {
+            "fullName": "Lindsay Haley",
+            "dateOfBirth": "",
+            "accountType": "Student Account",
+            "idType": "Driver's License",
+            "idNumber": 9404290563,
+            "submission_time": "2025-11-25 01:08:58"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 31.633615255355835,
+        "step": 8,
+        "result": {
+            "fullName": "Zachary Shaw",
+            "dateOfBirth": "198308/02/02",
+            "accountType": "Student Account",
+            "idType": "Driver's License",
+            "idNumber": 4336201907,
+            "submission_time": "2025-11-25 01:09:33"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 75.70498585700989,
+        "step": 18,
+        "result": {
+            "fullName": "Michael James",
+            "dateOfBirth": "",
+            "accountType": "Student Account",
+            "idType": "Passport",
+            "idNumber": 5459030790,
+            "submission_time": "2025-11-25 01:11:08"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 38.11494994163513,
+        "step": 7,
+        "result": {
+            "fullName": "Andrew Anderson",
+            "dateOfBirth": "199305/02/06",
+            "accountType": "Business Account",
+            "idType": "Driver's License",
+            "idNumber": 9487208724,
+            "submission_time": "2025-11-25 01:11:49"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 74.27838325500488,
+        "step": 19,
+        "result": {
+            "fullName": "Adam McKenzie",
+            "dateOfBirth": "",
+            "accountType": "Saving Account",
+            "idType": "State ID",
+            "idNumber": 445577559,
+            "submission_time": "2025-11-25 01:13:39"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 81.9917938709259,
+        "step": 18,
+        "result": {
+            "fullName": "Manuel Franco",
+            "dateOfBirth": "",
+            "accountType": "Business Account",
+            "idType": "Passport",
+            "idNumber": 1331810809,
+            "submission_time": "2025-11-25 01:15:20"
+        }
+    }
+]
