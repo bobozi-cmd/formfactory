@@ -55,6 +55,7 @@ TASKS_MAPPING = {
     "G11": ("NDA.txt", "/legal-compliance/nda-submission", "NDA.json"),
     "G12": ("Background_check.txt", "/legal-compliance/background-check", "Background_check.json"),
     "G13": ("Contrator_onboard.txt", "/legal-compliance/contractor-onboarding", "Contrator_onboard.json"),
+    "H11": ("Project_Bid.txt", "/construction-manufacturing/project-bid", "Project_Bid.json"),
 }
 
 FUZZY_FIELD = {

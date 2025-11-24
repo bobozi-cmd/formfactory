@@ -573,6 +573,10 @@ def contractor_onboarding():
 def project_bid():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'bidAmount')
+        to_int(data, 'projectDuration')
+        to_time(data, 'startDate', '')
+        to_time(data, 'completionDate', '')
         save_submission_to_json('H11.html', data)
         return jsonify({
             "message": "Project Bid Submitted Successfully!",
