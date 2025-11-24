@@ -447,6 +447,7 @@ def account_opening():
 def financial_planning():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_time(data, 'preferredDate')
         save_submission_to_json('E13.html', data)
         return jsonify({
             "message": "Financial Planning Consultation Request Submitted Successfully!",
