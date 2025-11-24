@@ -46,6 +46,7 @@ TASKS_MAPPING = {
     "C13": ("Conference_Speaker_Application.txt", "/arts-creative/speaker-application", "Conference_Speaker_Application.json"),
     "D11": ("Bug_report.txt", "/tech-software/bug-report", "Bug_report.json"),
     "D12": ("IT_support.txt", "/tech-software/support-request", "IT_support.json"),
+    "E11": ("person_loan_applications.txt", "/finance-banking/personal-loan", "person_loan_applications.json"),
 }
 
 FUZZY_FIELD = {
@@ -63,6 +64,8 @@ FUZZY_FIELD = {
     "C13": ["abstract", "learning_objectives", "bio", "speaking_experience", "tech_requirements"], # ✅
     "D11": ["title", "steps", "expected", "actual"], # ✅
     "D12": ["subject", "description", "location"], # ✅
+    "E11": [],
+    
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)

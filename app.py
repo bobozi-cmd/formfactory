@@ -417,6 +417,8 @@ def support_request():
 def personal_loan():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'monthlyIncome')
+        to_int(data, 'loanAmount')
         save_submission_to_json('E11.html', data)
         return jsonify({
             "message": "Personal Loan Application Submitted Successfully!",
