@@ -588,6 +588,9 @@ def project_bid():
 def order_request():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_time(data, 'requiredDate', '')
+        to_int(data, 'quantity')
+        data['dimensions'] = data['dimensions'].replace(' x ', 'x')
         save_submission_to_json('H12.html', data)
         return jsonify({
             "message": "Manufacturing Order Request Submitted Successfully!",
