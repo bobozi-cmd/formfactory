@@ -533,6 +533,14 @@ def nda_submission():
 def background_check():
     if request.method == 'POST':
         data = request.form.to_dict()
+        if 'authorization' not in data:
+            data['authorization'] = False
+        else:
+            data['authorization'] = True
+        if 'truthfulness' not in data:
+            data['truthfulness'] = False
+        else:
+            data['truthfulness'] = True
         save_submission_to_json('G12.html', data)
         return jsonify({
             "message": "Background Check Authorization Submitted Successfully!",
