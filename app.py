@@ -512,6 +512,16 @@ def insurance_claim():
 def nda_submission():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_int(data, 'duration')
+        to_time(data, 'startDate')
+        if 'termsAgreed' not in data:
+            data['termsAgreed'] = ''
+        else:
+            data['termsAgreed'] = 'Yes'
+        if 'authorityConfirm' not in data:
+            data['authorityConfirm'] = ''
+        else:
+            data['authorityConfirm'] = 'Yes'    
         save_submission_to_json('G11.html', data)
         return jsonify({
             "message": "NDA Submitted Successfully!",
