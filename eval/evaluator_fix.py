@@ -49,6 +49,7 @@ TASKS_MAPPING = {
     "E11": ("person_loan_applications.txt", "/finance-banking/personal-loan", "person_loan_applications.json"),
     "E12": ("bank_account_applications.txt", "/finance-banking/account-opening", "bank_account_applications.json"),
     "E13": ("financial_planning.txt", "/finance-banking/financial-planning", "financial_planning.json"),
+    "F11": ("Patient_Consent.txt", "/healthcare-medical/patient-consent", "Patient_Consent.json"),
 }
 
 FUZZY_FIELD = {
@@ -69,6 +70,7 @@ FUZZY_FIELD = {
     "E11": [],
     "E12": [],
     "E13": ['comments'],
+    # "F11": [''],
 }
 
 api_key = os.getenv("OPENAI_API_KEY", None)

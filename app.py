@@ -459,6 +459,19 @@ def financial_planning():
 def patient_consent():
     if request.method == 'POST':
         data = request.form.to_dict()
+        if "procedureConsent" not in data:
+            data["procedureConsent"] = False
+        else:
+            data["procedureConsent"] = True
+        if "questionConsent" not in data:
+            data["questionConsent"] = False
+        else:
+            data["questionConsent"] = True
+        if "alternativesConsent" not in data:
+            data["alternativesConsent"] = False
+        else:
+            data["alternativesConsent"] = True
+        to_time(data, 'dateOfBirth')
         save_submission_to_json('F11.html', data)
         return jsonify({
             "message": "Patient Consent Form Submitted Successfully!",
