@@ -50,7 +50,7 @@ TASKS_MAPPING = {
     "E12": ("bank_account_applications.txt", "/finance-banking/account-opening", "bank_account_applications.json"),
     "E13": ("financial_planning.txt", "/finance-banking/financial-planning", "financial_planning.json"),
     "F11": ("Patient_Consent.txt", "/healthcare-medical/patient-consent", "Patient_Consent.json"),
-    "F12": ("Patient_Consent.txt", "/healthcare-medical/research-enrollment", "Patient_Consent.json"),
+    "F12": ("Medical_study_Form.txt", "/healthcare-medical/research-enrollment", "Medical_study_Form.json"),
     "F13": ("Health_Insurance.txt", "/healthcare-medical/insurance-claim", "Health_Insurance.json"), # 只有40个测试集
     "G11": ("NDA.txt", "/legal-compliance/nda-submission", "NDA.json"),
     "G12": ("Background_check.txt", "/legal-compliance/background-check", "Background_check.json"),
