@@ -1,0 +1,172 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 11.148895025253296,
+        "step": 2,
+        "result": {
+            "fullName": "Lily Chen",
+            "age": 32,
+            "existingConditions": "Hypertension",
+            "medications": "Lisinopril",
+            "studyType": "Clinical Trial",
+            "availability": "Weekdays",
+            "email": "lily.chen123@gmail.com",
+            "phone": "(+86) 138 1234 5678",
+            "submission_time": "2025-11-24 20:05:39"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 11.352989196777344,
+        "step": 2,
+        "result": {
+            "fullName": "James Wang",
+            "age": 45,
+            "existingConditions": "Diabetes",
+            "medications": "Metformin",
+            "studyType": "Survey-based Research",
+            "availability": "Weekends",
+            "email": "james.wang456@yahoo.com",
+            "phone": "(+86) 139 8765 4321",
+            "submission_time": "2025-11-24 20:05:55"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 9.898103952407837,
+        "step": 2,
+        "result": {
+            "fullName": "Sophia Liu",
+            "age": 28,
+            "existingConditions": "None",
+            "medications": "None",
+            "studyType": "Observational Study",
+            "availability": "Both",
+            "email": "sophia.liu789@hotmail.com",
+            "phone": "(+86) 150 9876 5432",
+            "submission_time": "2025-11-24 20:06:11"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 10.3036789894104,
+        "step": 2,
+        "result": {
+            "fullName": "Michael Zhang",
+            "age": 50,
+            "existingConditions": "Asthma",
+            "medications": "Albuterol",
+            "studyType": "Clinical Trial",
+            "availability": "Weekdays",
+            "email": "michael.zhang321@gmail.com",
+            "phone": "(+86) 138 5678 9101",
+            "submission_time": "2025-11-24 20:06:26"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 11.134358882904053,
+        "step": 2,
+        "result": {
+            "fullName": "Emily Zhang",
+            "age": 33,
+            "existingConditions": "Anxiety",
+            "medications": "Sertraline",
+            "studyType": "Survey-based Research",
+            "availability": "Both",
+            "email": "emily.zhang2020@gmail.com",
+            "phone": "(+86) 137 6543 2101",
+            "submission_time": "2025-11-24 20:06:41"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 10.049294710159302,
+        "step": 2,
+        "result": {
+            "fullName": "Oliver Liu",
+            "age": 38,
+            "existingConditions": "None",
+            "medications": "None",
+            "studyType": "Observational Study",
+            "availability": "Weekends",
+            "email": "oliver.liu321@yahoo.com",
+            "phone": "(+86) 151 2345 6789",
+            "submission_time": "2025-11-24 20:06:57"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 11.021336078643799,
+        "step": 2,
+        "result": {
+            "fullName": "Grace Wu",
+            "age": 40,
+            "existingConditions": "Hyperthyroidism",
+            "medications": "Methimazole",
+            "studyType": "Clinical Trial",
+            "availability": "Weekdays",
+            "email": "grace.wu987@gmail.com",
+            "phone": "(+86) 139 2468 1357",
+            "submission_time": "2025-11-24 20:07:13"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 10.375346899032593,
+        "step": 2,
+        "result": {
+            "fullName": "Henry Li",
+            "age": 60,
+            "existingConditions": "Heart disease",
+            "medications": "Aspirin",
+            "studyType": "Survey-based Research",
+            "availability": "Weekends",
+            "email": "henry.li2021@hotmail.com",
+            "phone": "(+86) 138 9513 2468",
+            "submission_time": "2025-11-24 20:07:29"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 9.73088812828064,
+        "step": 2,
+        "result": {
+            "fullName": "Anna Xu",
+            "age": 27,
+            "existingConditions": "none",
+            "medications": "none",
+            "studyType": "Observational Study",
+            "availability": "Both",
+            "email": "anna.xu76@gmail.com",
+            "phone": "(+86) 136 6421 3587",
+            "submission_time": "2025-11-24 20:07:44"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 11.077688932418823,
+        "step": 2,
+        "result": {
+            "fullName": "Leo Zhang",
+            "age": 35,
+            "existingConditions": "Chronic back pain",
+            "medications": "Ibuprofen",
+            "studyType": "Clinical Trial",
+            "availability": "Weekdays",
+            "email": "leo.zhang555@outlook.com",
+            "phone": "(+86) 137 8547 6294",
+            "submission_time": "2025-11-24 20:07:59"
+        }
+    }
+]

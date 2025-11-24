@@ -1,0 +1,172 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 11.181754112243652,
+        "step": 2,
+        "result": {
+            "policyNumber": "A1234567890",
+            "policyHolder": "Emily Turner",
+            "serviceDate": "2024/01/15",
+            "claimAmount": 250.0,
+            "serviceType": "Doctor Consultation",
+            "diagnosis": "General Checkup, Mild Fatigue",
+            "providerName": "Dr. Alice Green",
+            "providerNumber": "D12345",
+            "submission_time": "2025-11-24 20:11:49"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 16.39777708053589,
+        "step": 3,
+        "result": {
+            "policyNumber": "B0987654321",
+            "policyHolder": "James Lee",
+            "serviceDate": "2024/02/02",
+            "claimAmount": 1500.0,
+            "serviceType": "Medical Procedure",
+            "diagnosis": "   ",
+            "providerName": "Dr. David Miller",
+            "providerNumber": "M67890",
+            "submission_time": "2025-11-24 20:12:28"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 10.59453010559082,
+        "step": 2,
+        "result": {
+            "policyNumber": "C5647382910",
+            "policyHolder": "Sarah Harris",
+            "serviceDate": "2024/03/10",
+            "claimAmount": 120.0,
+            "serviceType": "Prescription Medication",
+            "diagnosis": "asthma",
+            "providerName": "Pharmacy RX Care",
+            "providerNumber": "P111223",
+            "submission_time": "2025-11-24 20:12:43"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 10.473469018936157,
+        "step": 2,
+        "result": {
+            "policyNumber": "D9021847364",
+            "policyHolder": "Michael Davis",
+            "serviceDate": "2024/04/20",
+            "claimAmount": 980.0,
+            "serviceType": "Laboratory Tests",
+            "diagnosis": "Blood Test, Cholesterol Levels",
+            "providerName": "LabCorp Diagnostics",
+            "providerNumber": "L34567",
+            "submission_time": "2025-11-24 20:12:58"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 10.996064901351929,
+        "step": 2,
+        "result": {
+            "policyNumber": "E1289037465",
+            "policyHolder": "Olivia Johnson",
+            "serviceDate": "2024/02/25",
+            "claimAmount": 1800.0,
+            "serviceType": "Emergency Care",
+            "diagnosis": "Fractured leg resulting from a car accident",
+            "providerName": "St. John's Hospital",
+            "providerNumber": "SJH09876",
+            "submission_time": "2025-11-24 20:13:15"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 12.075500011444092,
+        "step": 2,
+        "result": {
+            "policyNumber": "F2039485762",
+            "policyHolder": "Jack Brown",
+            "serviceDate": "2024/01/22",
+            "claimAmount": 430.0,
+            "serviceType": "Doctor Consultation",
+            "diagnosis": "Back Pain, Muscle Strain",
+            "providerName": "Dr. John Smith",
+            "providerNumber": "J23456",
+            "submission_time": "2025-11-24 20:13:32"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 10.973950147628784,
+        "step": 2,
+        "result": {
+            "policyNumber": "G9876543210",
+            "policyHolder": "Sophia White",
+            "serviceDate": "2024/03/15",
+            "claimAmount": 850.0,
+            "serviceType": "Medical Procedure",
+            "diagnosis": "Appendectomy (emergency)",
+            "providerName": "Dr. Michael Brown",
+            "providerNumber": "MB12345",
+            "submission_time": "2025-11-24 20:13:47"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 12.456812858581543,
+        "step": 2,
+        "result": {
+            "policyNumber": "H9988776655",
+            "policyHolder": "Daniel Lee",
+            "serviceDate": "2024/04/05",
+            "claimAmount": 120.0,
+            "serviceType": "Prescription Medication",
+            "diagnosis": "Seasonal Allergies",
+            "providerName": "Cedar Pharmacy",
+            "providerNumber": "CP23456",
+            "submission_time": "2025-11-24 20:14:05"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 11.216631174087524,
+        "step": 2,
+        "result": {
+            "policyNumber": "I3124567890",
+            "policyHolder": "Rachel Wilson",
+            "serviceDate": "2024/03/18",
+            "claimAmount": 250.0,
+            "serviceType": "Laboratory Tests",
+            "diagnosis": "Urine Test, Kidney Function",
+            "providerName": "Quest Diagnostics",
+            "providerNumber": "QD78901",
+            "submission_time": "2025-11-24 20:14:21"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 10.879885911941528,
+        "step": 2,
+        "result": {
+            "policyNumber": "J4567839012",
+            "policyHolder": "Lucas White",
+            "serviceDate": "2024/02/10",
+            "claimAmount": 2000.0,
+            "serviceType": "Emergency Care",
+            "diagnosis": "Severe Asthma Attack",
+            "providerName": "New Hope Medical Center",
+            "providerNumber": "NHMC23456",
+            "submission_time": "2025-11-24 20:14:37"
+        }
+    }
+]

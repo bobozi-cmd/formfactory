@@ -1,0 +1,162 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 12.07762098312378,
+        "step": 2,
+        "result": {
+            "firstName": "John",
+            "middleName": "Stephen",
+            "lastName": "Tran",
+            "loanAmount": 28521,
+            "loanTerm": "60 months",
+            "employmentStatus": "partTime",
+            "monthlyIncome": 4569,
+            "submission_time": "2025-11-24 19:39:28"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 12.633349895477295,
+        "step": 2,
+        "result": {
+            "firstName": "Christopher",
+            "middleName": "Lori",
+            "lastName": "Lowe",
+            "loanAmount": 30011,
+            "loanTerm": "60 months",
+            "employmentStatus": "selfEmployed",
+            "monthlyIncome": 4706,
+            "submission_time": "2025-11-24 19:39:45"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 10.700577974319458,
+        "step": 2,
+        "result": {
+            "firstName": "Felicia",
+            "middleName": "Andrea",
+            "lastName": "Andrade",
+            "loanAmount": 21098,
+            "loanTerm": "12 months",
+            "employmentStatus": "partTime",
+            "monthlyIncome": 3260,
+            "submission_time": "2025-11-24 19:40:01"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 12.754081964492798,
+        "step": 2,
+        "result": {
+            "firstName": "Stephanie",
+            "middleName": "Allison",
+            "lastName": "Manning",
+            "loanAmount": 29739,
+            "loanTerm": "36 months",
+            "employmentStatus": "selfEmployed",
+            "monthlyIncome": 7263,
+            "submission_time": "2025-11-24 19:40:19"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 12.407771110534668,
+        "step": 2,
+        "result": {
+            "firstName": "Kyle",
+            "middleName": "Sean",
+            "lastName": "Scott",
+            "loanAmount": 23725,
+            "loanTerm": "48 months",
+            "employmentStatus": "partTime",
+            "monthlyIncome": 5443,
+            "submission_time": "2025-11-24 19:40:36"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 13.019449234008789,
+        "step": 2,
+        "result": {
+            "firstName": "Raymond",
+            "middleName": "Richard",
+            "lastName": "Morales",
+            "loanAmount": 21839,
+            "loanTerm": "60 months",
+            "employmentStatus": "partTime",
+            "monthlyIncome": 5972,
+            "submission_time": "2025-11-24 19:40:55"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 11.443922996520996,
+        "step": 2,
+        "result": {
+            "firstName": "Nicole",
+            "middleName": "Kevin",
+            "lastName": "Hendricks",
+            "loanAmount": 5348,
+            "loanTerm": "60 months",
+            "employmentStatus": "selfEmployed",
+            "monthlyIncome": 7412,
+            "submission_time": "2025-11-24 19:41:11"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 12.305150032043457,
+        "step": 2,
+        "result": {
+            "firstName": "Jessica",
+            "middleName": "Jason",
+            "lastName": "Peters",
+            "loanAmount": 10342,
+            "loanTerm": "24 months",
+            "employmentStatus": "retired",
+            "monthlyIncome": 8546,
+            "submission_time": "2025-11-24 19:41:28"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 11.31760311126709,
+        "step": 2,
+        "result": {
+            "firstName": "Jimmy",
+            "middleName": "Kyle",
+            "lastName": "Williams",
+            "loanAmount": 22525,
+            "loanTerm": "48 months",
+            "employmentStatus": "fullTime",
+            "monthlyIncome": 4407,
+            "submission_time": "2025-11-24 19:41:44"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 11.159363031387329,
+        "step": 2,
+        "result": {
+            "firstName": "John",
+            "middleName": "Erika",
+            "lastName": "Middleton",
+            "loanAmount": 8312,
+            "loanTerm": "36 months",
+            "employmentStatus": "fullTime",
+            "monthlyIncome": 9809,
+            "submission_time": "2025-11-24 19:42:01"
+        }
+    }
+]

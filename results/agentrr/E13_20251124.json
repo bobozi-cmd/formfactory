@@ -1,0 +1,152 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 11.340514898300171,
+        "step": 2,
+        "result": {
+            "name": "Benjamin Scott",
+            "email": "ben.scott24@gmail.com",
+            "consultationType": "Estate Planning",
+            "preferredDate": "2024/11/30",
+            "preferredTime": "Evening (4:00 PM -6:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:50:21"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 11.787617683410645,
+        "step": 2,
+        "result": {
+            "name": "Charlotte Harris",
+            "email": "charlotte.h_1985@yahoo.com",
+            "consultationType": "Retirement Planning",
+            "preferredDate": "2024/12/10",
+            "preferredTime": "Morning (9:00 AM-12:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:50:37"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 10.379568099975586,
+        "step": 2,
+        "result": {
+            "name": "Zachary Lee",
+            "email": "zach.lee96@outlook.com",
+            "consultationType": "Tax Planning",
+            "preferredDate": "2024/11/22",
+            "preferredTime": "Afternoon (1:00 PM-4:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:58:16"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 10.697541236877441,
+        "step": 2,
+        "result": {
+            "name": "Isabella Moore",
+            "email": "bella.moore@icloud.com",
+            "consultationType": "Investment Planning",
+            "preferredDate": "2024/12/02",
+            "preferredTime": "Evening (4:00 PM -6:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:57:11"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 10.662051916122437,
+        "step": 2,
+        "result": {
+            "name": "Oliver Walker",
+            "email": "oliver.walker88@gmail.com",
+            "consultationType": "General Financial Planning",
+            "preferredDate": "2024/11/14",
+            "preferredTime": "Morning (9:00 AM-12:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:52:10"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 11.736003875732422,
+        "step": 2,
+        "result": {
+            "name": "Amelia Robinson",
+            "email": "amelia.r@outlook.com",
+            "consultationType": "Retirement Planning",
+            "preferredDate": "2024/11/18",
+            "preferredTime": "Afternoon (1:00 PM-4:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:52:26"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 13.00143575668335,
+        "step": 2,
+        "result": {
+            "name": "Henry Thompson",
+            "email": "henry.thompson45@yahoo.com",
+            "consultationType": "Estate Planning",
+            "preferredDate": "2024/12/06",
+            "preferredTime": "Evening (4:00 PM -6:00 PM)",
+            "comments": "Setting up an estate plan for his children and distributing assets after retirement.",
+            "submission_time": "2025-11-24 19:52:44"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 10.627383947372437,
+        "step": 2,
+        "result": {
+            "name": "Emily Anderson",
+            "email": "emily_anderson21@icloud.com",
+            "consultationType": "Investment Planning",
+            "preferredDate": "2024/12/13",
+            "preferredTime": "Morning (9:00 AM-12:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:53:00"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 11.434230089187622,
+        "step": 2,
+        "result": {
+            "name": "Jackson Evans",
+            "email": "jackson.evans@aol.com",
+            "consultationType": "Tax Planning",
+            "preferredDate": "2024/11/28",
+            "preferredTime": "Afternoon (1:00 PM-4:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:53:16"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 10.104081869125366,
+        "step": 2,
+        "result": {
+            "name": "Mia Clark",
+            "email": "miac@outlook.com",
+            "consultationType": "General Financial Planning",
+            "preferredDate": "2024/12/04",
+            "preferredTime": "Evening (4:00 PM -6:00 PM)",
+            "comments": "",
+            "submission_time": "2025-11-24 19:56:07"
+        }
+    }
+]

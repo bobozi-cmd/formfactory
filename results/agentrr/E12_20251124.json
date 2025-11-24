@@ -1,0 +1,142 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 10.826586961746216,
+        "step": 2,
+        "result": {
+            "fullName": "George Dawson",
+            "dateOfBirth": "1957/08/01",
+            "accountType": "Business Account",
+            "idType": "State ID",
+            "idNumber": 2868883095,
+            "submission_time": "2025-11-24 19:46:27"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 11.520570039749146,
+        "step": 2,
+        "result": {
+            "fullName": "Rebecca Moore",
+            "dateOfBirth": "1992/05/05",
+            "accountType": "Saving Account",
+            "idType": "Passport",
+            "idNumber": 769415459,
+            "submission_time": "2025-11-24 19:46:43"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 10.673243045806885,
+        "step": 2,
+        "result": {
+            "fullName": "Jill Conley",
+            "dateOfBirth": "1979/03/22",
+            "accountType": "Business Account",
+            "idType": "Passport",
+            "idNumber": 4796737061,
+            "submission_time": "2025-11-24 19:46:59"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 12.601912021636963,
+        "step": 2,
+        "result": {
+            "fullName": "Phillip Diaz",
+            "dateOfBirth": "1983/05/05",
+            "accountType": "Business Account",
+            "idType": "Driver's License",
+            "idNumber": 3290817421,
+            "submission_time": "2025-11-24 19:47:16"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 10.662350177764893,
+        "step": 2,
+        "result": {
+            "fullName": "Lindsay Haley",
+            "dateOfBirth": "1986/05/17",
+            "accountType": "Student Account",
+            "idType": "Driver's License",
+            "idNumber": 9404290563,
+            "submission_time": "2025-11-24 19:47:32"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 10.671212911605835,
+        "step": 2,
+        "result": {
+            "fullName": "Zachary Shaw",
+            "dateOfBirth": "1983/08/22",
+            "accountType": "Student Account",
+            "idType": "Driver's License",
+            "idNumber": 4336201907,
+            "submission_time": "2025-11-24 19:47:48"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 10.56141996383667,
+        "step": 2,
+        "result": {
+            "fullName": "Michael James",
+            "dateOfBirth": "1983/10/10",
+            "accountType": "Student Account",
+            "idType": "Passport",
+            "idNumber": 5459030790,
+            "submission_time": "2025-11-24 19:48:03"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 11.760987997055054,
+        "step": 2,
+        "result": {
+            "fullName": "Andrew Anderson",
+            "dateOfBirth": "1993/05/26",
+            "accountType": "Business Account",
+            "idType": "Driver's License",
+            "idNumber": 9487208724,
+            "submission_time": "2025-11-24 19:48:20"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 10.300333023071289,
+        "step": 2,
+        "result": {
+            "fullName": "Adam McKenzie",
+            "dateOfBirth": "1977/10/12",
+            "accountType": "Saving Account",
+            "idType": "State ID",
+            "idNumber": 445577559,
+            "submission_time": "2025-11-24 19:48:36"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 10.625802993774414,
+        "step": 2,
+        "result": {
+            "fullName": "Manuel Franco",
+            "dateOfBirth": "1960/02/17",
+            "accountType": "Business Account",
+            "idType": "Passport",
+            "idNumber": 1331810809,
+            "submission_time": "2025-11-24 19:48:51"
+        }
+    }
+]
