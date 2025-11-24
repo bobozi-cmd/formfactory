@@ -499,6 +499,8 @@ def research_enrollment():
 def insurance_claim():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_time(data, 'serviceDate')
+        to_float(data, 'claimAmount')
         save_submission_to_json('F13.html', data)
         return jsonify({
             "message": "Insurance Claim Form Submitted Successfully!",

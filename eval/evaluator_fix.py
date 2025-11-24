@@ -51,6 +51,7 @@ TASKS_MAPPING = {
     "E13": ("financial_planning.txt", "/finance-banking/financial-planning", "financial_planning.json"),
     "F11": ("Patient_Consent.txt", "/healthcare-medical/patient-consent", "Patient_Consent.json"),
     "F12": ("Patient_Consent.txt", "/healthcare-medical/research-enrollment", "Patient_Consent.json"),
+    "F13": ("Health_Insurance.txt", "/healthcare-medical/insurance-claim", "Health_Insurance.json"), # 只有40个测试集
 }
 
 FUZZY_FIELD = {
