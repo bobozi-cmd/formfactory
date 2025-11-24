@@ -451,7 +451,7 @@ async def submit_html(task: str):
     async with cdp_browser_ctx() as cdp_browser:
         context: BrowserContext = cdp_browser.context
         page = await context.get_current_page()
-        if task in ['A13', 'B14', 'C13']:
+        if task in ['A13', 'B14', 'C13', 'E11', 'E12']:
             await page.get_by_role('button', name='Submit Application').click()
         elif task in ['B13']:
             await page.get_by_role('button', name='Register Now').click()
@@ -463,7 +463,24 @@ async def submit_html(task: str):
             await page.get_by_role('button', name='Submit Bug Report').click()
         elif task in ['D12']:
             await page.get_by_role('button', name='Submit Support Request').click()
-
+        elif task in ['E13']:
+            await page.get_by_role('button', name='Schedule Consultation').click()
+        elif task in ['F11']:
+            await page.get_by_role('button', name='Submit Consent Form').click()
+        elif task in ['F12']:
+            await page.get_by_role('button', name='Submit Enrollment').click()
+        elif task in ['F13']:
+            await page.get_by_role('button', name='Submit Claim').click()
+        elif task in ['G11']:
+            await page.get_by_role('button', name='Submit NDA').click()
+        elif task in ['G12']:
+            await page.get_by_role('button', name='Submit Authorization').click()
+        elif task in ['G13']:
+            await page.get_by_role('button', name='Submit Onboarding Form').click()
+        elif task in ['H11']:
+            await page.get_by_role('button', name='Submit Bid').click()
+        elif task in ['H12']:
+            await page.get_by_role('button', name='Submit Order Request').click()
 
 AGENTS = {
     AgentRR.__name__: AgentRR,
