@@ -54,6 +54,7 @@ TASKS_MAPPING = {
     "F13": ("Health_Insurance.txt", "/healthcare-medical/insurance-claim", "Health_Insurance.json"), # 只有40个测试集
     "G11": ("NDA.txt", "/legal-compliance/nda-submission", "NDA.json"),
     "G12": ("Background_check.txt", "/legal-compliance/background-check", "Background_check.json"),
+    "G13": ("Contrator_onboard.txt", "/legal-compliance/contractor-onboarding", "Contrator_onboard.json"),
 }
 
 FUZZY_FIELD = {

@@ -552,6 +552,16 @@ def background_check():
 def contractor_onboarding():
     if request.method == 'POST':
         data = request.form.to_dict()
+        to_time(data, 'startDate')
+        to_time(data, 'endDate')
+        if 'termsAgreed' not in data:
+            data['termsAgreed'] = ''
+        else:
+            data['termsAgreed'] = 'Yes'
+        if 'confidentialityAgreed' not in data:
+            data['confidentialityAgreed'] = ''
+        else:
+            data['confidentialityAgreed'] = 'Yes'  
         save_submission_to_json('G13.html', data)
         return jsonify({
             "message": "Contractor Onboarding Form Submitted Successfully!",
