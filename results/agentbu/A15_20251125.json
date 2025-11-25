@@ -1,0 +1,197 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 100.1769289970398,
+        "step": 18,
+        "result": {
+            "student_name": "Jessica Kennedy",
+            "student_id": 88741153,
+            "email": "wendy24@yahoo.com",
+            "phone": "001-250-204-3652x75507",
+            "semester": "Summer 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101",
+                "CS104"
+            ],
+            "comments": "I hope this message finds you well. My name is Jessica Kennedy, currently enrolled in the Software Engineering program, and I am writing to formally request enrollment in the upcoming Summer 2025 semester. I am particularly eager to advance my studies through participation in the course CS104 - Web Development, as it aligns perfectly with my academic and professional goals within the field of Software Engineering. This course reflects a vital step towards my aspiration to excel in web development and programming. In connection with my application, I would like to emphasize that I have no special requirements and thus align with the standard registration criteria. I am looking forward to the opportunity to undertake this course under your auspices and am available to provide any further information you might require in order to process this request promptly. Thank you very much for considering my application. Looking forward to your positive response.",
+            "submission_time": "2025-11-25 15:26:51"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 99.08539080619812,
+        "step": 20,
+        "result": {
+            "student_name": "Michael Thomas",
+            "student_id": 60653442,
+            "email": "knicholson@yahoo.com",
+            "phone": "001-779-442-5639x3962",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-25 15:28:37"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 106.77303314208984,
+        "step": 19,
+        "result": {
+            "student_name": "Mrs. Michelle Wilkinson DDS",
+            "student_id": 47693294,
+            "email": "wilsoncolin@jensen.org",
+            "phone": "001-399-115-6748x35525",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "Need additional support with coding.",
+            "submission_time": "2025-11-25 15:30:30"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 84.0295479297638,
+        "step": 16,
+        "result": {
+            "student_name": "Joe Duncan",
+            "student_id": 27477183,
+            "email": "gjennings@reyes.com",
+            "phone": "212-612-7068x86837",
+            "semester": "Summer 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "I am eager to enhance my expertise in web technologies and would greatly appreciate any available assistance or resources to ensure a comprehensive understanding of the course material.",
+            "submission_time": "2025-11-25 15:32:01"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 108.729238986969,
+        "step": 20,
+        "result": {
+            "student_name": "David Allen",
+            "student_id": 37641921,
+            "email": "andrew02@taylor-singh.info",
+            "phone": "+1-352-842-2170x57946",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS104"
+            ],
+            "comments": "I am particularly interested in enrolling in the following courses for the Summer 2025 semester: 1. CS101 - Introduction to Programming 2. CS102 - Data Structures 3. CS104 - Web Development The comprehensive curriculum outlined in these courses aligns perfectly with my academic objectives and aspirations for my career in data science. It is my firm belief that these selected courses will provide me with the foundational skills necessary to excel in this dynamic field. Moreover, I would like to kindly bring to your attention a specific request: *Would appreciate flexibility in course timings.* This consideration is crucial for accommodating certain personal commitments, and I trust that your team can facilitate this where possible.",
+            "submission_time": "2025-11-25 15:33:57"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 75.4958221912384,
+        "step": 16,
+        "result": {
+            "student_name": "Mary Williams",
+            "student_id": 42066936,
+            "email": "kempdawn@neal.com",
+            "phone": "187.491.3062x07715",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-25 15:35:19"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 52.958571672439575,
+        "step": 9,
+        "result": {
+            "student_name": "Edgar Lucas",
+            "student_id": 63418602,
+            "email": "tammy24@gmail.com",
+            "phone": "615-854-5197x64497",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-25 15:36:13"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 117.06105899810791,
+        "step": 19,
+        "result": {
+            "student_name": "Raymond Howard",
+            "student_id": 86654678,
+            "email": "acox@hotmail.com",
+            "phone": "869-674-5233x1064",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-25 15:38:21"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 87.75616979598999,
+        "step": 16,
+        "result": {
+            "student_name": "Shawn Calhoun",
+            "student_id": 80232669,
+            "email": "schwartzbridget@young-moore.com",
+            "phone": "044.927.2632",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS102"
+            ],
+            "comments": "No special requirements.",
+            "submission_time": "2025-11-25 15:39:50"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 67.77171301841736,
+        "step": 8,
+        "result": {
+            "student_name": "Mrs. Kristine Avila",
+            "student_id": 9782114,
+            "email": "melissale@murray-johns.net",
+            "phone": "001-394-801-5738x205",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103"
+            ],
+            "comments": "Dear Enrollment Office,\r\n\r\nI hope this message finds you well. I am writing to formally request enrollment into my chosen courses for the upcoming Spring 2025 semester. Below, I have provided the necessary details pertaining to my registration.\r\n\r\nTo commence, my name is Mrs. Kristine Avila, and I am an enthusiastic participant in the Data Science program, identified by Student ID 9782114. I have a fervent interest in expanding my knowledge and skillset through the courses offered in the upcoming semester.\r\n\r\nFor the Spring 2025 term, I wish to enroll in the following courses:\r\n\r\n1. **CS102 - Data Structures**\r\n2. **CS104 - Web Development**\r\n\r\nThese courses align with my academic goals and are integral to the progression of my studies within the Data Science program.\r\n\r\nYou can contact me at your convenience through my email, melissale@murray-johns.net, or by phone at 001-394-801-5738x205 should further information be required.\r\n\r\nAdditionally, I would like to emphasize my interest in research opportunities. This is an essential aspect of my academic journey, and I am eager to explore potential avenues for involvement in research projects.\r\n\r\nThank you for considering my enrollment request. I look forward to your positive response and am excited about the prospect of advancing my learning this coming semester.\r\n\r\nWarm regards,\r\n\r\nMrs. Kristine Avila",
+            "submission_time": "2025-11-25 15:41:02"
+        }
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 34.585991859436035,
+        "step": 8,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Diana",
+            "last_name": "Bridges",
+            "email": "wmills@shields.net",
+            "dob": "1951/09/28",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:42:08"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 33.193248987197876,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "James",
+            "last_name": "Jones",
+            "email": "elizabethmiles@yahoo.com",
+            "dob": "1967/02/05",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:42:45"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 37.85558485984802,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Matthew",
+            "last_name": "Payne",
+            "email": "kbaxter@yahoo.com",
+            "dob": "1982/04/25",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-25 15:43:30"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 33.26800584793091,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Zachary",
+            "last_name": "Ballard",
+            "email": "lambbrittany@mitchell.com",
+            "dob": "1985/12/02",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-25 15:44:08"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 30.01952290534973,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Nathan",
+            "last_name": "Olson",
+            "email": "dpadilla@gmail.com",
+            "dob": "1946/11/20",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:44:42"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 62.60998296737671,
+        "step": 8,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Nicholas",
+            "last_name": "Pierce",
+            "email": "beth41@smith.com",
+            "dob": "2002/04/20",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:45:51"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 26.551570177078247,
+        "step": 6,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "James",
+            "last_name": "Moore",
+            "email": "jonathanharris@price-rice.com",
+            "dob": "1949/11/19",
+            "subscribe": true,
+            "gender": "",
+            "submission_time": "2025-11-25 15:46:22"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 31.294370889663696,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Briana",
+            "last_name": "Walker",
+            "email": "qparks@rice.com",
+            "dob": "1946/12/20",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:46:59"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 33.08283996582031,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Christine",
+            "last_name": "Stanley",
+            "email": "jswanson@guzman.org",
+            "dob": "1963/01/01",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:47:37"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 27.521365880966187,
+        "step": 7,
+        "result": {
+            "page_type": "Grant Application",
+            "first_name": "Charles",
+            "last_name": "Bailey",
+            "email": "heathermendez@gmail.com",
+            "dob": "1958/10/21",
+            "gender": "",
+            "subscribe": false,
+            "submission_time": "2025-11-25 15:48:09"
+        }
+    }
+]
