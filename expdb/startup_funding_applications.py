@@ -65,7 +65,7 @@ async def f1(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
     await asyncio.sleep(INTERVAL)
     await page.get_by_role('spinbutton', name='Current Team Size').fill(str(kwargs['team_size']))
     await asyncio.sleep(INTERVAL)
-    await page.get_by_role('textbox', name='Additional Comments').fill(kwargs['additional_comments'])
+    await page.get_by_role('textbox', name='Additional Comments').fill(kwargs.get('additional_comments', ''))
     await asyncio.sleep(INTERVAL)
     await page.get_by_role('button', name='Submit Application').click()
     await asyncio.sleep(INTERVAL)

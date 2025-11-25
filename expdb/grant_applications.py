@@ -48,7 +48,7 @@ async def f2(browser: Browser, context: BrowserContext, page: Page, **kwargs) ->
         "desc": "选择'Subscribe to Newsletter'",
         "experience": "在'Grant Application'表单中，需要选择'订阅新闻通讯'选项。找到'Subscribe to Newsletter'文本旁边的复选框，并点击该复选框以选中它。确保复选框被成功选中以表示您的订阅意图。",
         "parameters": {
-            "subscribe_to_newsletter": "选择是否订阅新闻通讯, {'checked': '订阅'}, 变量类型: str"
+            "subscribe_to_newsletter": "选择是否订阅新闻通讯, {'checked': '订阅', 'unchecked': '不订阅'}, 变量类型: str"
         }
     }
     """

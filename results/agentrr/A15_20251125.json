@@ -1,0 +1,202 @@
+[
+    {
+        "task": 0,
+        "model": "qwen3-vl-flash",
+        "dur": 17.757701873779297,
+        "step": 2,
+        "result": {
+            "student_name": "Jessica Kennedy",
+            "student_id": 88741153,
+            "email": "wendy24@yahoo.com",
+            "phone": "001-250-204-3652x75507",
+            "semester": "Summer 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "",
+            "submission_time": "2025-11-25 13:50:54"
+        }
+    },
+    {
+        "task": 1,
+        "model": "qwen3-vl-flash",
+        "dur": 14.90955114364624,
+        "step": 2,
+        "result": {
+            "student_name": "Michael Thomas",
+            "student_id": 60653442,
+            "email": "knicholson@yahoo.com",
+            "phone": "001-779-442-5639x3962",
+            "semester": "Spring 2025",
+            "program": "Software Engineering",
+            "courses[]": [
+                "CS101",
+                "CS102"
+            ],
+            "comments": "Request flexible course timing as outlined in the enrollment form under 'Special Requirements or Comments.'",
+            "submission_time": "2025-11-25 13:51:15"
+        }
+    },
+    {
+        "task": 2,
+        "model": "qwen3-vl-flash",
+        "dur": 12.810809135437012,
+        "step": 2,
+        "result": {
+            "student_name": "Mrs. Michelle Wilkinson DDS",
+            "student_id": 47693294,
+            "email": "wilsoncolin@jensen.org",
+            "phone": "001-399-115-6748x35525",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "Need additional support with coding",
+            "submission_time": "2025-11-25 13:51:32"
+        }
+    },
+    {
+        "task": 3,
+        "model": "qwen3-vl-flash",
+        "dur": 13.359593868255615,
+        "step": 2,
+        "result": {
+            "student_name": "Joe Duncan",
+            "student_id": 27477183,
+            "email": "gjennings@reyes.com",
+            "phone": "212-612-7068x86837",
+            "semester": "Summer 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "Requesting additional coding support",
+            "submission_time": "2025-11-25 13:51:51"
+        }
+    },
+    {
+        "task": 4,
+        "model": "qwen3-vl-flash",
+        "dur": 17.933123111724854,
+        "step": 2,
+        "result": {
+            "student_name": "David Allen",
+            "student_id": 37641921,
+            "email": "andrew02@taylor-singh.info",
+            "phone": "+1-352-842-2170x57946",
+            "semester": "Summer 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS102",
+                "CS104"
+            ],
+            "comments": "Would appreciate flexibility in course timings.",
+            "submission_time": "2025-11-25 13:52:14"
+        }
+    },
+    {
+        "task": 5,
+        "model": "qwen3-vl-flash",
+        "dur": 11.997608184814453,
+        "step": 2,
+        "result": {
+            "student_name": "Mary Williams",
+            "student_id": 42066936,
+            "email": "kempdawn@neal.com",
+            "phone": "187.491.3062x07715",
+            "semester": "Fall 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS104"
+            ],
+            "comments": "Looking forward to exploring web development",
+            "submission_time": "2025-11-25 13:52:31"
+        }
+    },
+    {
+        "task": 6,
+        "model": "qwen3-vl-flash",
+        "dur": 14.187609195709229,
+        "step": 2,
+        "result": {
+            "student_name": "Edgar Lucas",
+            "student_id": 63418602,
+            "email": "tammy24@gmail.com",
+            "phone": "615-854-5197x64497",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS103",
+                "CS104"
+            ],
+            "comments": "Would appreciate flexibility in course timings",
+            "submission_time": "2025-11-25 13:55:08"
+        }
+    },
+    {
+        "task": 7,
+        "model": "qwen3-vl-flash",
+        "dur": 13.8158860206604,
+        "step": 2,
+        "result": {
+            "student_name": "Raymond Howard",
+            "student_id": 86654678,
+            "email": "acox@hotmail.com",
+            "phone": "869-674-5233x1064",
+            "semester": "Spring 2025",
+            "program": "Computer Science",
+            "courses[]": [
+                "CS101",
+                "CS103",
+                "CS104"
+            ],
+            "comments": "Looking forward to exploring web development.",
+            "submission_time": "2025-11-25 13:55:26"
+        }
+    },
+    {
+        "task": 8,
+        "model": "qwen3-vl-flash",
+        "dur": 16.11364984512329,
+        "step": 2,
+        "result": {
+            "student_name": "Shawn Calhoun",
+            "student_id": 80232669,
+            "email": "schwartzbridget@young-moore.com",
+            "phone": "044.927.2632",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS101",
+                "CS102",
+                "CS103"
+            ],
+            "comments": "No special requirements.",
+            "submission_time": "2025-11-25 13:55:45"
+        }
+    },
+    {
+        "task": 9,
+        "model": "qwen3-vl-flash",
+        "dur": 13.85495901107788,
+        "step": 2,
+        "result": {
+            "student_name": "Mrs. Kristine Avila",
+            "student_id": 9782114,
+            "email": "melissale@murray-johns.net",
+            "phone": "001-394-801-5738x205",
+            "semester": "Spring 2025",
+            "program": "Data Science",
+            "courses[]": [
+                "CS102",
+                "CS104"
+            ],
+            "comments": "Interest in research opportunities",
+            "submission_time": "2025-11-25 13:56:06"
+        }
+    }
+]
